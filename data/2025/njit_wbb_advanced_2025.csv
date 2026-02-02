@@ -1,0 +1,18 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/alejandra-zuniga-1.html,Alejandra Zuniga,njit,2024-25,G,30,29,897,21.4,.513,.305,.358,469,1.9,7.7,4.9,28.5,1.6,0.1,15.7,31.5,2.6,0.4,3.1,.138,1.4,-4.0,-2.6
+https://www.sports-reference.com/cbb/players/enya-maguire-1.html,Enya Maguire,njit,2024-25,G,30,22,789,15.8,.483,.782,.045,228,2.8,13.8,8.5,19.1,3.5,0.7,17.9,17.6,1.0,1.0,2.1,.105,0.1,-0.5,-0.4
+https://www.sports-reference.com/cbb/players/olivia-kulyk-1.html,Olivia Kulyk,njit,2024-25,G,27,25,769,15.5,.555,.584,.154,231,2.7,14.5,8.8,6.0,1.2,1.8,15.7,18.6,1.4,0.7,2.0,.107,0.2,-2.8,-2.6
+https://www.sports-reference.com/cbb/players/marissa-gingrich-1.html,Marissa Gingrich,njit,2024-25,G,27,19,735,11.0,.445,.459,.163,175,3.6,10.4,7.2,12.8,1.8,0.5,17.0,15.4,0.5,0.5,1.0,.057,-2.1,-2.5,-4.6
+https://www.sports-reference.com/cbb/players/madilyn-dogs-1.html,Madilyn Dogs,njit,2024-25,G,27,20,551,14.4,.482,.140,.211,136,9.2,12.9,11.1,9.7,2.8,3.2,20.8,14.6,0.6,0.7,1.3,.092,-2.3,-0.5,-2.8
+https://www.sports-reference.com/cbb/players/aria-myers-1.html,Aria Myers,njit,2024-25,G,29,2,520,8.0,.461,.683,.179,116,3.3,8.9,6.2,5.2,2.2,1.1,18.9,16.1,0.1,0.4,0.5,.042,-3.7,-2.3,-6.0
+https://www.sports-reference.com/cbb/players/trinity-williams-1.html,Trinity Williams,njit,2024-25,F,21,15,462,24.3,.549,.049,.344,196,9.4,16.6,13.2,10.0,1.6,6.5,17.1,25.2,1.2,0.6,1.8,.156,0.0,-1.1,-1.0
+https://www.sports-reference.com/cbb/players/allison-cannon-1.html,Allison Cannon,njit,2024-25,G,25,6,330,10.6,.451,.187,.176,94,5.9,6.0,6.0,13.8,2.8,0.8,23.9,20.0,0.0,0.2,0.3,.032,-3.8,-2.3,-6.1
+https://www.sports-reference.com/cbb/players/olivia-omeally-1.html,Olivia O'Meally,njit,2024-25,F,25,0,210,4.0,.360,.473,.182,44,3.8,23.0,13.8,6.4,1.1,3.1,28.7,20.3,-0.5,0.3,-0.2,-0.032,-8.0,-2.5,-10.5
+https://www.sports-reference.com/cbb/players/audrey-kormann-1.html,Audrey Kormann,njit,2024-25,F,19,3,178,17.0,.579,.118,.353,50,9.7,14.1,12.0,12.7,2.3,6.2,26.1,15.3,0.3,0.2,0.5,.118,-2.1,0.8,-1.3
+https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,Kyleigh Welsh,njit,2024-25,F,20,4,153,8.9,.576,.040,.160,32,9.0,13.7,11.5,2.6,1.1,4.2,32.6,13.3,0.1,0.2,0.2,.057,-6.2,-1.8,-8.0
+https://www.sports-reference.com/cbb/players/mackenzie-wright-rawls-1.html,Mackenzie Wright-Rawls,njit,2024-25,F,15,4,131,17.8,.526,.053,.368,44,3.5,10.4,7.1,11.8,3.1,7.0,22.5,22.4,0.1,0.2,0.3,.094,-2.4,0.7,-1.7
+https://www.sports-reference.com/cbb/players/avery-oroke-1.html,Avery O'Roke,njit,2024-25,G,20,0,114,14.3,.575,.345,.483,39,8.1,2.8,5.3,5.4,1.5,0.8,25.2,21.3,0.2,0.0,0.2,.069,0.8,-3.7,-2.9
+https://www.sports-reference.com/cbb/players/reese-vaughan-1.html,Reese Vaughan,njit,2024-25,G,18,1,84,1.2,.346,.615,.000,10,1.4,5.0,3.3,8.6,1.4,1.1,35.0,12.1,-0.1,0.0,-0.1,-0.052,-5.8,-2.7,-8.5
+https://www.sports-reference.com/cbb/players/piper-engelby-1.html,Piper Engelby,njit,2024-25,G,17,0,73,5.2,.446,.412,.118,16,7.9,8.6,8.3,2.6,0.8,3.8,30.8,18.1,-0.1,0.0,0.0,-0.016,-4.9,-3.6,-8.5
+https://www.sports-reference.com/cbb/players/angelina-banas-1.html,Angelina Banas,njit,2024-25,F,10,0,19,4.4,.452,.333,1.000,4,12.1,0.0,5.8,0.0,0.0,0.0,18.4,14.5,0.0,0.0,0.0,-0.010,-6.3,-6.2,-12.5
+https://www.sports-reference.com/cbb/players/maya-alford-1.html,Maya Alford,njit,2024-25,G,10,0,11,33.0,.714,.000,1.333,4,0.0,28.6,14.9,0.0,5.3,8.3,29.0,31.9,0.0,0.0,0.0,.097,4.4,7.6,12.0
