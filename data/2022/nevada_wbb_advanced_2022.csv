@@ -1,0 +1,19 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/kylie-jimenez-1.html,Kylie Jimenez,nevada,2021-22,G,33,33,1071,17.0,.473,.404,.196,279,2.9,12.9,7.7,20.4,3.6,0.9,12.1,14.1,2.4,1.1,3.6,.133,0.2,1.9,2.2
+https://www.sports-reference.com/cbb/players/daja-hamilton-1.html,Da'Ja Hamilton,nevada,2021-22,G,33,32,934,18.4,.474,.342,.222,441,1.5,13.0,7.0,18.3,1.7,0.1,14.9,31.8,2.3,0.5,2.9,.122,1.8,-1.3,0.5
+https://www.sports-reference.com/cbb/players/amaya-west-1.html,Amaya West,nevada,2021-22,G,33,23,802,13.3,.498,.317,.185,215,6.2,13.4,9.6,6.7,2.2,0.9,17.4,17.1,1.2,0.6,1.9,.092,-1.3,-0.1,-1.4
+https://www.sports-reference.com/cbb/players/alyssa-jimenez-1.html,Alyssa Jimenez,nevada,2021-22,G,33,31,797,14.8,.446,.366,.194,204,6.1,10.2,8.0,13.6,3.5,0.9,12.2,15.1,1.4,0.7,2.2,.110,-0.1,1.3,1.1
+https://www.sports-reference.com/cbb/players/lexie-givens-1.html,Lexie Givens,nevada,2021-22,F,33,25,754,20.0,.549,.156,.391,255,11.6,19.7,15.5,8.4,2.5,1.3,15.9,18.2,2.3,0.8,3.1,.165,-0.6,0.2,-0.3
+https://www.sports-reference.com/cbb/players/nia-alexander-1.html,Nia Alexander,nevada,2021-22,G,32,14,646,23.7,.513,.175,.190,281,9.3,18.8,13.8,9.9,2.7,0.2,12.5,26.4,2.2,0.6,2.8,.174,1.7,-0.7,1.1
+https://www.sports-reference.com/cbb/players/audrey-roden-1.html,Audrey Roden,nevada,2021-22,G,32,0,544,24.3,.501,.476,.150,268,5.0,22.3,13.3,10.4,3.6,3.5,14.3,33.4,1.5,0.8,2.4,.173,2.4,0.7,3.2
+https://www.sports-reference.com/cbb/players/kenna-holt-1.html,Kenna Holt,nevada,2021-22,G,30,1,532,9.1,.446,.263,.421,89,7.8,9.9,8.8,14.2,3.8,0.0,33.2,9.8,0.3,0.5,0.8,.061,-4.6,2.3,-2.4
+https://www.sports-reference.com/cbb/players/natalie-lathrop-1.html,Natalie Lathrop,nevada,2021-22,F,22,0,265,11.1,.654,.000,.308,45,10.8,17.8,14.2,4.1,0.2,3.2,34.9,8.8,0.3,0.1,0.5,.071,-1.6,-1.0,-2.6
+https://www.sports-reference.com/cbb/players/kaylee-borden-1.html,Kaylee Borden,nevada,2021-22,G,19,0,114,9.3,.593,.556,.000,27,1.1,8.8,4.8,6.9,1.6,0.0,25.0,16.0,0.1,0.0,0.2,.063,-1.4,-1.0,-2.3
+https://www.sports-reference.com/cbb/players/megan-ormiston-1.html,Megan Ormiston,nevada,2021-22,F,7,5,91,11.3,.374,.032,.258,30,21.5,18.8,20.2,2.2,1.3,5.3,22.3,25.0,0.0,0.1,0.1,.031,-5.2,-1.9,-7.1
+https://www.sports-reference.com/cbb/players/gabby-rones-1.html,Gabby Rones,nevada,2021-22,G,10,0,66,17.6,.588,.765,.000,19,2.0,8.7,5.2,15.0,2.7,0.0,15.0,15.4,0.2,0.0,0.2,.140,2.1,2.5,4.6
+https://www.sports-reference.com/cbb/players/eliska-stebetakova-1.html,Eliska Stebetakova,nevada,2021-22,F,8,1,53,10.2,.442,.125,.125,15,9.8,5.4,7.7,3.8,0.0,2.3,10.6,18.2,0.1,0.0,0.1,.070,-4.4,-2.8,-7.2
+https://www.sports-reference.com/cbb/players/bethany-carstens-1.html,Bethany Carstens,nevada,2021-22,G,5,0,16,40.6,.523,.364,.091,9,8.2,26.8,17.0,0.0,3.7,0.0,0.0,36.4,0.1,0.0,0.1,.280,4.3,-2.4,1.9
+https://www.sports-reference.com/cbb/players/alexis-elquist-1.html,Alexis Elquist,nevada,2021-22,F,4,0,11,30.6,.506,.333,.667,5,11.9,51.9,31.0,17.5,0.0,0.0,0.0,18.2,0.1,0.0,0.1,.279,2.9,4.3,7.2
+https://www.sports-reference.com/cbb/players/tiffany-siu-1.html,Tiffany Siu,nevada,2021-22,G,4,0,9,10.0,.000,.000,.000,1,0.0,0.0,0.0,36.4,13.3,0.0,0.0,16.9,0.0,0.0,0.0,-0.023,3.2,18.8,21.9
+https://www.sports-reference.com/cbb/players/andrea-jovicevic-1.html,Andrea Jovicevic,nevada,2021-22,G,3,0,7,-7.7,.000,.500,1.000,1,37.3,40.8,39.0,0.0,0.0,0.0,0.0,21.4,0.0,0.0,0.0,-0.151,-3.3,-2.9,-6.3
+https://www.sports-reference.com/cbb/players/hannah-hartley-1.html,Hannah Hartley,nevada,2021-22,F,3,0,6,35.9,1.026,.000,2.000,4,21.7,0.0,11.4,0.0,0.0,0.0,33.9,25.0,0.0,0.0,0.0,.321,-25.5,-9.9,-35.4

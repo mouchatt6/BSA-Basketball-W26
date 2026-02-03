@@ -1,0 +1,17 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/miya-crump-1.html,Miya Crump,jackson-state,2023-24,F,33,33,879,22.2,.514,.278,.425,362,8.7,15.7,12.2,11.4,3.0,1.2,14.8,22.4,2.7,2.3,5.0,.226,3.3,1.9,5.2
+https://www.sports-reference.com/cbb/players/tilan-boler-1.html,TI'lan Boler,jackson-state,2023-24,G,32,30,839,17.9,.478,.395,.218,342,4.7,10.4,7.6,7.1,1.5,1.0,10.2,24.5,2.4,1.6,4.0,.189,2.2,-0.5,1.6
+https://www.sports-reference.com/cbb/players/angel-jackson-1.html,Angel Jackson,jackson-state,2023-24,C,33,33,831,26.6,.544,.024,.472,315,9.3,18.4,13.9,7.5,2.0,11.2,12.7,19.1,2.9,2.5,5.4,.258,3.1,4.6,7.7
+https://www.sports-reference.com/cbb/players/keshuna-luckett-1.html,Keshuna Luckett,jackson-state,2023-24,G,33,28,764,11.5,.440,.285,.575,263,2.7,8.3,5.6,31.4,2.0,0.5,28.2,21.2,0.6,1.4,2.0,.104,-1.8,-0.7,-2.6
+https://www.sports-reference.com/cbb/players/zakiya-mahoney-1.html,Zakiya Mahoney,jackson-state,2023-24,G,31,25,563,12.3,.459,.092,.447,168,11.1,11.9,11.5,8.3,1.4,0.2,20.1,17.3,0.8,1.1,1.9,.134,-1.5,-0.3,-1.9
+https://www.sports-reference.com/cbb/players/andriana-avent-1.html,Andriana Avent,jackson-state,2023-24,G,24,2,438,26.2,.532,.681,.419,245,3.3,13.9,8.7,6.7,2.5,1.3,11.6,32.3,2.0,1.0,3.0,.273,6.4,0.8,7.2
+https://www.sports-reference.com/cbb/players/areyanna-hunter-1.html,Areyanna Hunter,jackson-state,2023-24,G,29,3,415,12.4,.436,.299,.506,112,2.3,10.5,6.4,26.9,2.6,0.0,24.0,15.6,0.4,0.9,1.3,.125,-2.9,0.3,-2.6
+https://www.sports-reference.com/cbb/players/hayleigh-breland-1.html,Hayleigh Breland,jackson-state,2023-24,G,31,3,391,16.2,.441,.430,.223,127,4.8,5.7,5.3,23.0,4.4,0.2,16.3,18.6,0.7,0.9,1.6,.165,-0.4,2.3,1.9
+https://www.sports-reference.com/cbb/players/jaleah-hickmon-1.html,Ja'Leah Hickmon,jackson-state,2023-24,F,33,5,337,9.6,.374,.077,.923,47,13.0,12.3,12.6,7.7,3.1,1.7,33.7,7.6,0.0,0.8,0.9,.104,-2.5,2.6,0.1
+https://www.sports-reference.com/cbb/players/laila-walker-1.html,Laila Walker,jackson-state,2023-24,G,31,0,330,18.5,.591,.000,.644,91,15.5,17.8,16.7,0.6,1.0,5.5,17.2,12.9,0.8,0.8,1.6,.200,-1.1,1.3,0.2
+https://www.sports-reference.com/cbb/players/madison-roshelle-1.html,Madison Roshelle,jackson-state,2023-24,G,25,0,204,6.1,.440,.364,.212,58,5.1,10.9,8.1,5.1,0.3,0.9,22.4,20.9,0.0,0.3,0.3,.063,-4.1,-0.9,-5.0
+https://www.sports-reference.com/cbb/players/taylor-woodhouse-1.html,Taylor Woodhouse,jackson-state,2023-24,G,20,0,178,9.3,.459,.737,.228,52,0.6,4.5,2.6,7.7,2.5,0.0,18.1,19.8,0.2,0.3,0.5,.110,-1.1,-0.1,-1.3
+https://www.sports-reference.com/cbb/players/daphane-white-1.html,Daphane White,jackson-state,2023-24,C,9,3,147,27.5,.599,.000,.600,67,13.5,14.5,14.0,5.2,0.4,5.9,16.8,24.0,0.5,0.3,0.8,.227,3.1,2.1,5.2
+https://www.sports-reference.com/cbb/players/mya-pratcher-1.html,Mya Pratcher,jackson-state,2023-24,F,17,0,114,12.2,.585,.000,.533,22,11.9,12.4,12.2,0.0,2.4,0.8,27.1,10.3,0.1,0.3,0.4,.133,-3.8,0.6,-3.2
+https://www.sports-reference.com/cbb/players/mikayla-woods-1.html,Mikayla Woods,jackson-state,2023-24,G,15,0,102,12.2,.338,.400,.700,21,10.2,13.9,12.1,5.3,3.3,0.9,10.1,13.3,0.1,0.3,0.3,.125,-0.1,2.4,2.3
+https://www.sports-reference.com/cbb/players/alexis-roberts-1.html,Alexis Roberts,jackson-state,2023-24,G,17,0,69,12.1,.476,.000,.235,18,10.6,13.2,11.9,5.9,0.8,4.2,13.7,14.5,0.1,0.1,0.3,.154,-5.1,1.8,-3.4

@@ -1,0 +1,17 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/tierra-hodges-1.html,Tierra Hodges,furman,2020-21,G-F,25,25,911,23.3,.542,.237,.251,371,10.3,26.6,19.1,10.7,2.2,0.4,17.8,25.5,2.8,1.5,4.3,.190,2.2,-0.3,1.9
+https://www.sports-reference.com/cbb/players/tate-walters-1.html,Tate Lash,furman,2020-21,G,21,20,661,8.5,.392,.519,.160,216,1.8,13.6,8.2,30.7,2.5,0.3,24.3,25.4,-0.1,0.8,0.7,.043,-4.3,-0.7,-5.0
+https://www.sports-reference.com/cbb/players/sydney-james-1.html,Sydney James,furman,2020-21,G-F,23,4,646,12.7,.455,.600,.260,202,5.9,12.9,9.7,7.1,1.4,1.2,14.5,22.3,1.0,0.6,1.6,.099,-0.6,-1.3,-2.0
+https://www.sports-reference.com/cbb/players/greyson-boone-1.html,Greyson Boone,furman,2020-21,G,25,16,571,10.7,.524,.896,.094,112,5.1,6.5,5.9,9.5,1.3,0.4,14.6,11.6,1.0,0.3,1.3,.093,-0.8,-0.5,-1.3
+https://www.sports-reference.com/cbb/players/celena-taborn-1.html,Celena Taborn,furman,2020-21,F,25,23,536,23.2,.638,.049,.403,195,14.0,13.0,13.4,7.8,0.8,4.2,18.9,20.2,2.0,0.5,2.5,.186,0.7,-0.2,0.4
+https://www.sports-reference.com/cbb/players/tyah-hunter-1.html,Tyah Hunter,furman,2020-21,G,19,18,439,10.6,.533,.027,.240,96,4.3,8.8,6.7,18.7,2.1,1.3,36.0,15.2,0.1,0.4,0.5,.045,-3.5,-0.4,-3.9
+https://www.sports-reference.com/cbb/players/grace-van-rij-1.html,Grace van Rij,furman,2020-21,F,25,2,342,15.1,.524,.053,.408,87,9.9,10.9,10.4,4.7,1.5,2.7,13.4,15.6,0.7,0.3,1.0,.120,-2.7,-1.0,-3.7
+https://www.sports-reference.com/cbb/players/paraskevi-koilia-1.html,Paraskevi Koilia,furman,2020-21,G,11,11,259,3.5,.391,.040,.480,48,1.7,12.5,7.5,39.3,2.9,0.4,60.5,15.3,-0.6,0.3,-0.3,-0.040,-9.4,-0.9,-10.2
+https://www.sports-reference.com/cbb/players/jarya-outten-1.html,Jarya Outten,furman,2020-21,G,6,6,131,8.3,.460,.176,.588,26,3.4,8.5,6.2,21.2,1.4,0.0,35.6,13.2,0.0,0.1,0.1,.034,-2.6,-0.3,-2.9
+https://www.sports-reference.com/cbb/players/maddie-griffon-1.html,Maddie Griffon,furman,2020-21,G,12,0,122,4.2,.355,.250,.857,35,1.2,7.1,4.4,32.2,3.6,0.9,32.5,24.4,-0.2,0.1,-0.1,-0.023,-8.5,-1.1,-9.6
+https://www.sports-reference.com/cbb/players/evie-depetro-1.html,Evie DePetro,furman,2020-21,G,19,0,116,9.3,.503,.720,.320,28,5.1,7.5,6.4,9.1,2.7,0.0,29.4,18.0,0.0,0.1,0.1,.046,-4.0,-0.7,-4.6
+https://www.sports-reference.com/cbb/players/aaliyah-irizarry-perez-1.html,Aaliyah Irizarry-Perez,furman,2020-21,F,15,0,95,9.2,.347,.474,.053,30,20.1,17.0,18.4,11.9,2.6,1.2,17.0,25.2,0.0,0.1,0.1,.059,-9.1,-4.0,-13.1
+https://www.sports-reference.com/cbb/players/kennedy-grier-1.html,Kennedy Grier,furman,2020-21,G,6,0,69,-8.8,.101,.611,.222,7,2.1,9.0,5.9,15.8,1.8,0.0,23.2,19.2,-0.3,0.1,-0.2,-0.143,-14.6,-0.5,-15.1
+https://www.sports-reference.com/cbb/players/natalie-wilson-1.html,Natalie Wilson,furman,2020-21,F,15,0,65,3.2,.361,.000,.545,12,15.8,17.2,16.6,3.1,2.9,1.8,41.9,18.7,-0.2,0.1,-0.1,-0.042,-6.4,-1.2,-7.6
+https://www.sports-reference.com/cbb/players/jaeyden-hill-mims-1.html,Jaeyden Hill-Mims,furman,2020-21,F,8,0,31,25.9,.643,.000,1.167,11,33.1,12.0,21.7,0.0,4.1,0.0,24.3,20.3,0.1,0.0,0.1,.153,-2.7,12.1,9.4
+https://www.sports-reference.com/cbb/players/cyan-dyke-1.html,Cyan Dyke,furman,2020-21,G-F,4,0,22,7.8,.077,.000,.167,3,33.4,33.9,33.7,8.3,0.0,0.0,0.0,15.0,0.0,0.0,0.0,.010,39.3,-6.8,32.5

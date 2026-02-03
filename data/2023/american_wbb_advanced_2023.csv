@@ -1,0 +1,14 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/lauren-stack-1.html,Lauren Stack,american,2022-23,F,31,31,1008,13.7,.512,.032,.390,291,7.3,12.5,9.9,7.8,2.8,1.3,21.1,18.6,0.9,1.1,1.9,.076,-1.9,-0.8,-2.7
+https://www.sports-reference.com/cbb/players/ivy-bales-1.html,Ivy Bales,american,2022-23,G,31,31,898,11.6,.454,.184,.130,240,3.6,20.7,12.2,25.8,3.2,1.1,31.7,19.3,-0.6,1.4,0.8,.036,-3.4,0.3,-3.1
+https://www.sports-reference.com/cbb/players/emily-johns-1.html,Emily Johns,american,2022-23,F,30,30,818,17.0,.513,.160,.229,334,5.3,12.4,8.8,10.1,1.5,0.8,14.6,26.4,1.4,0.6,2.0,.099,-0.5,-2.5,-3.0
+https://www.sports-reference.com/cbb/players/kayla-henning-1.html,Kayla Henning,american,2022-23,G,30,25,807,11.0,.484,.100,.232,231,0.9,7.9,4.4,23.8,1.6,0.4,22.2,18.7,0.5,0.4,0.9,.044,-2.4,-2.1,-4.5
+https://www.sports-reference.com/cbb/players/sadie-stetson-1.html,Sadie Stetson,american,2022-23,G,28,17,625,8.8,.439,.481,.092,121,2.6,6.6,4.6,11.7,2.9,1.0,18.0,13.3,0.1,0.5,0.6,.039,-2.4,0.0,-2.4
+https://www.sports-reference.com/cbb/players/molly-lavin-1.html,Molly Lavin,american,2022-23,F,31,1,462,11.4,.489,.380,.299,146,9.1,21.2,15.2,4.9,1.0,1.6,23.5,22.1,0.1,0.5,0.6,.052,-2.7,-2.4,-5.2
+https://www.sports-reference.com/cbb/players/anna-lemaster-1.html,Anna Lemaster,american,2022-23,G,28,4,364,6.2,.371,.639,.252,97,3.8,10.1,7.0,9.4,1.8,0.3,14.2,21.3,-0.2,0.2,0.0,.003,-4.1,-2.5,-6.6
+https://www.sports-reference.com/cbb/players/riley-derubbo-1.html,Riley DeRubbo,american,2022-23,G,14,14,340,11.0,.429,.581,.210,113,2.1,9.5,5.8,17.3,2.6,0.0,15.5,23.7,0.1,0.3,0.4,.046,-1.3,-1.2,-2.5
+https://www.sports-reference.com/cbb/players/laura-nogues-1.html,Laura Nogues,american,2022-23,G,30,0,332,-0.8,.440,.374,.154,91,1.8,8.0,4.9,25.9,1.4,0.0,42.4,25.6,-1.1,0.2,-0.9,-0.110,-9.2,-4.1,-13.3
+https://www.sports-reference.com/cbb/players/bailey-garbee-1.html,Bailey Garbee,american,2022-23,G,28,1,264,5.7,.476,.282,.615,51,3.5,8.7,6.1,9.1,1.7,1.2,29.4,13.5,0.0,0.2,0.1,.021,-4.7,-1.0,-5.7
+https://www.sports-reference.com/cbb/players/anna-rescifina-1.html,Anna Rescifina,american,2022-23,G,26,1,201,6.2,.396,.302,.488,47,5.2,7.5,6.3,13.2,2.2,0.5,26.4,17.9,-0.1,0.1,0.0,-0.004,-4.8,-1.2,-6.0
+https://www.sports-reference.com/cbb/players/marisa-lee-1.html,Marisa Lee,american,2022-23,F,20,0,91,8.7,.399,.111,.389,16,3.8,10.1,7.0,2.3,3.1,3.5,12.3,13.4,0.0,0.1,0.1,.040,-2.6,0.9,-1.6
+https://www.sports-reference.com/cbb/players/laura-graytok-1.html,Laura Graytok,american,2022-23,G,8,0,31,4.6,.169,.500,1.000,2,0.0,7.4,3.7,17.6,7.2,0.0,50.4,9.6,-0.1,0.1,0.0,-0.025,-6.8,3.3,-3.5
