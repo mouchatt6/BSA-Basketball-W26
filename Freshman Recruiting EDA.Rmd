@@ -1,0 +1,541 @@
+---
+title: "Freshman Recruiting EDA"
+author: "BSA Basketball Group 25-25"
+date: "`r format(Sys.Date(), '%m/%d/%y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Plot 1: Conference Distribution
+```{r}
+library(tidyverse)
+
+# Read Data
+recruits <- read_csv("2019_to_2024_Rankings.csv") # Change file name (if necessary)
+
+# Conference Mapping
+recruits <- recruits %>%
+  mutate(conference = case_when(
+    # SEC
+    COLLEGE == "Alabama" ~ "SEC",
+    COLLEGE == "Arkansas" ~ "SEC",
+    COLLEGE == "Auburn" ~ "SEC",
+    COLLEGE == "Florida" ~ "SEC",
+    COLLEGE == "Georgia" ~ "SEC",
+    COLLEGE == "Kentucky" ~ "SEC",
+    COLLEGE == "LSU" ~ "SEC",
+    COLLEGE == "Mississippi State" ~ "SEC",
+    COLLEGE == "Ole Miss" ~ "SEC",
+    COLLEGE == "Missouri" ~ "SEC",
+    COLLEGE == "South Carolina" ~ "SEC",
+    COLLEGE == "Tennessee" ~ "SEC",
+    COLLEGE == "Texas" ~ "SEC",
+    COLLEGE == "Texas A&M" ~ "SEC",
+    COLLEGE == "Vanderbilt" ~ "SEC",
+    COLLEGE == "Oklahoma" ~ "SEC",
+    
+    # Big Ten
+    COLLEGE == "Illinois" ~ "Big Ten",
+    COLLEGE == "Indiana" ~ "Big Ten",
+    COLLEGE == "Iowa" ~ "Big Ten",
+    COLLEGE == "Maryland" ~ "Big Ten",
+    COLLEGE == "Michigan" ~ "Big Ten",
+    COLLEGE == "Michigan State" ~ "Big Ten",
+    COLLEGE == "Minnesota" ~ "Big Ten",
+    COLLEGE == "Nebraska" ~ "Big Ten",
+    COLLEGE == "Northwestern" ~ "Big Ten",
+    COLLEGE == "Ohio State" ~ "Big Ten",
+    COLLEGE == "Penn State" ~ "Big Ten",
+    COLLEGE == "Purdue" ~ "Big Ten",
+    COLLEGE == "Rutgers" ~ "Big Ten",
+    COLLEGE == "UCLA" ~ "Big Ten",
+    COLLEGE == "USC" ~ "Big Ten",
+    COLLEGE == "Oregon" ~ "Big Ten",
+    COLLEGE == "Washington" ~ "Big Ten",
+    COLLEGE == "Wisconsin" ~ "Big Ten",
+    
+    # ACC
+    COLLEGE == "Boston College" ~ "ACC",
+    COLLEGE == "Clemson" ~ "ACC",
+    COLLEGE == "Duke" ~ "ACC",
+    COLLEGE == "Florida State" ~ "ACC",
+    COLLEGE == "Georgia Tech" ~ "ACC",
+    COLLEGE == "Louisville" ~ "ACC",
+    COLLEGE == "Miami" ~ "ACC",
+    COLLEGE == "NC State" ~ "ACC",
+    COLLEGE == "North Carolina" ~ "ACC",
+    COLLEGE == "Notre Dame" ~ "ACC",
+    COLLEGE == "Pittsburgh" ~ "ACC",
+    COLLEGE == "Syracuse" ~ "ACC",
+    COLLEGE == "Virginia" ~ "ACC",
+    COLLEGE == "Virginia Tech" ~ "ACC",
+    COLLEGE == "Wake Forest" ~ "ACC",
+    COLLEGE == "California" ~ "ACC",
+    COLLEGE == "Stanford" ~ "ACC",
+    COLLEGE == "SMU" ~ "ACC",
+    
+    # Big 12
+    COLLEGE == "Arizona" ~ "Big 12",
+    COLLEGE == "Arizona State" ~ "Big 12",
+    COLLEGE == "Baylor" ~ "Big 12",
+    COLLEGE == "BYU" ~ "Big 12",
+    COLLEGE == "Cincinnati" ~ "Big 12",
+    COLLEGE == "Colorado" ~ "Big 12",
+    COLLEGE == "Houston" ~ "Big 12",
+    COLLEGE == "Iowa State" ~ "Big 12",
+    COLLEGE == "Kansas" ~ "Big 12",
+    COLLEGE == "Kansas State" ~ "Big 12",
+    COLLEGE == "Oklahoma State" ~ "Big 12",
+    COLLEGE == "TCU" ~ "Big 12",
+    COLLEGE == "Texas Tech" ~ "Big 12",
+    COLLEGE == "UCF" ~ "Big 12",
+    COLLEGE == "Utah" ~ "Big 12",
+    COLLEGE == "West Virginia" ~ "Big 12",
+    
+    # Everything else
+    TRUE ~ "Other"
+  ))
+
+# Categorize into Power 4 vs. Others
+recruits <- recruits %>%
+  mutate(conf_group = case_when(
+    conference %in% c("SEC", "Big Ten", "Big 12", "ACC") ~ conference,
+    TRUE ~ "Other"
+  ))
+
+# Count recruits by conference
+conf_distribution <- recruits %>%
+  count(conf_group, name = "n_recruits") %>%
+  mutate(percentage = (n_recruits / sum(n_recruits)) * 100) %>%
+  arrange(desc(percentage))
+
+# Colors of each conference
+conf_colors <- c(
+  "Big Ten" = "#0088CE",
+  "ACC" = "#013CA6",
+  "SEC" = "#FFD24F",
+  "Big 12" = "#C41230",
+  "Other" = "#808080"
+)
+
+# Plot
+ggplot(conf_distribution, aes(x = reorder(conf_group, percentage), 
+                               y = percentage,
+                               fill = conf_group)) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = conf_colors) +
+  coord_flip() +
+  labs(title = "Conference Distribution of Top 100 Recruits (Class of 2019-2024)",
+       x = "Conference",
+       y = "Percentage of Recruits (%)") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none") +  # Remove legend since x-axis shows conferences
+  geom_text(aes(label = paste0(round(percentage, 1), "%")), 
+            hjust = -0.2, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)),
+                     breaks = seq(0, 100, by = 10))
+```
+
+
+## Plot 2
+
+```{r}
+# Read the recruiting rankings data
+rankings <- read_csv("class_of_2022.csv") # Change file name (if necessary)
+
+# Create a mapping between ESPN college names and CSV file names
+school_mapping <- c(
+  # Schools of Class of 2022 recruits
+  "Stanford" = "stanford",
+  "UCLA" = "ucla",
+  "Texas A&M" = "texas-am",
+  "UConn" = "connecticut",
+  "South Carolina" = "south-carolina",
+  "USC" = "southern-california",
+  "Notre Dame" = "notre-dame",
+  "Duke" = "duke",
+  "Texas" = "texas",
+  "LSU" = "louisiana-state",
+  "Ohio State" = "ohio-state",
+  "Baylor" = "baylor",
+  "Maryland" = "maryland",
+  "Tennessee" = "tennessee",
+  "Iowa" = "iowa",
+  "Oregon" = "oregon",
+  "Louisville" = "louisville",
+  "Indiana" = "indiana",
+  "Michigan" = "michigan",
+  "NC State" = "north-carolina-state",
+  "North Carolina" = "north-carolina",
+  "Virginia Tech" = "virginia-tech",
+  "Gonzaga" = "gonzaga",
+  "Arizona" = "arizona",
+  "Ole Miss" = "mississippi",
+  "Mississippi State" = "mississippi-state",
+  "Kentucky" = "kentucky",
+  "Florida State" = "florida-state",
+  "Arkansas" = "arkansas",
+  "Oklahoma" = "oklahoma",
+  "Kansas" = "kansas",
+  "Creighton" = "creighton",
+  "Georgia" = "georgia",
+  "Clemson" = "clemson",
+  "Florida" = "florida",
+  "Auburn" = "auburn",
+  "Missouri" = "missouri",
+  "Alabama" = "alabama",
+  "Virginia" = "virginia",
+  "Nebraska" = "nebraska",
+  "Iowa State" = "iowa-state",
+  "TCU" = "texas-christian",
+  "West Virginia" = "west-virginia",
+  "Michigan State" = "michigan-state",
+  "Oklahoma State" = "oklahoma-state",
+  "Vanderbilt" = "vanderbilt",
+  "Georgia Tech" = "georgia-tech",
+  "Rutgers" = "rutgers",
+  "Northwestern" = "northwestern",
+  "Washington" = "washington",
+  "Syracuse" = "syracuse",
+  "Pittsburgh" = "pittsburgh",
+  "Colorado" = "colorado",
+  "Penn State" = "penn-state",
+  "Illinois" = "illinois",
+  "Purdue" = "purdue",
+  "Minnesota" = "minnesota",
+  "Wisconsin" = "wisconsin",
+  "BYU" = "brigham-young",
+  "St. John's" = "st-johns-ny",
+  "Oregon State" = "oregon-state",
+  "DePaul" = "depaul",
+  "Marquette" = "marquette",
+  "California" = "california",
+  "Boston College" = "boston-college",
+  "Utah" = "utah",
+  "Wake Forest" = "wake-forest",
+  "Miami" = "miami-fl",
+  "UCF" = "central-florida",
+  "Kansas State" = "kansas-state",
+  "Seton Hall" = "seton-hall",
+  "Villanova" = "villanova",
+  "Houston" = "houston",
+  "Cincinnati" = "cincinnati",
+  "Texas Tech" = "texas-tech",
+  "Arizona State" = "arizona-state",
+  "Washington State" = "washington-state",
+  "SMU" = "southern-methodist"
+)
+
+# Apply school mapping and create tier variable
+rankings <- rankings %>%
+  mutate(
+    school_file = school_mapping[COLLEGE],
+    school_file = if_else(is.na(school_file), 
+                          str_to_lower(str_replace_all(COLLEGE, " ", "-")), 
+                          school_file),
+    tier = case_when(
+      RK >= 1 & RK <= 25 ~ "1-25",
+      RK >= 26 & RK <= 50 ~ "26-50",
+      RK >= 51 & RK <= 75 ~ "51-75",
+      RK >= 76 & RK <= 100 ~ "76-100",
+      TRUE ~ NA_character_
+    ),
+    player_clean = str_to_lower(str_trim(NAME))
+  )
+
+# Get list of all team stats CSV files
+file_list <- list.files(path = "C:/Users/joshu/OneDrive/Documents/UCLA/Clubs/BSA/Freshman Recruiting/2023_advanced_data",  # Change file path 
+                        pattern = "_wbb_advanced_2023\\.csv$",
+                        full.names = TRUE)
+
+# Combine all stats files into one dataset
+all_stats <- map_df(file_list, ~{
+  df <- read_csv(.x, show_col_types = FALSE)
+  df %>% mutate(across(everything(), as.character))  # Handle type mismatches
+}) %>%
+  mutate(
+    player_clean = str_to_lower(str_trim(player_name)),
+    school_clean = str_to_lower(str_trim(school)),
+    usg_pct = as.numeric(usg_pct)
+  )
+
+# Join rankings with stats data (match player name AND school)
+combined_data <- rankings %>%
+  left_join(all_stats, 
+            by = c("player_clean" = "player_clean", 
+                   "school_file" = "school_clean"))
+
+# Calculate usage rate statistics by tier
+usage_by_tier <- combined_data %>%
+  filter(!is.na(usg_pct)) %>%  # Only include players with stats
+  mutate(high_usage = usg_pct > 20) %>%
+  group_by(tier) %>%
+  summarise(
+    total_players = n(),
+    high_usage_count = sum(high_usage, na.rm = TRUE),
+    pct_high_usage = (high_usage_count / total_players) * 100,
+    .groups = "drop"
+  ) %>%
+  filter(!is.na(tier)) %>%
+  mutate(tier = factor(tier, levels = c("1-25", "26-50", "51-75", "76-100")))
+
+# Plot
+ggplot(usage_by_tier, aes(x = tier, y = pct_high_usage, fill = tier)) +
+  geom_col(width = 0.7) +
+  scale_fill_brewer(palette = "Greens", direction = -1) +
+  labs(title = "Usage Rate >20% by Recruit Tier (Class of 2022)",
+       subtitle = "Percentage of players with usage rate above 20% in freshman season",
+       x = "Recruit Tier",
+       y = "Percentage with Usage Rate >20% (%)") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none") +
+  geom_text(aes(label = paste0(round(pct_high_usage, 1), "%")), 
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)),
+                     breaks = seq(0, 100, by = 10))
+
+# Summary
+print(usage_by_tier)
+
+# Which players were matched vs not matched
+matched_players <- combined_data %>%
+  select(RK, NAME, COLLEGE, tier, player_name, usg_pct) %>%
+  mutate(matched = !is.na(usg_pct))
+
+print(paste("Matched:", sum(matched_players$matched), 
+            "out of", nrow(matched_players), "recruits"))
+
+# View unmatched players to debug
+unmatched <- matched_players %>% 
+  filter(!matched) %>%
+  select(RK, NAME, COLLEGE)
+print(unmatched)
+
+```
+
+
+## Plot 3
+
+```{r}
+rankings <- read_csv("class_of_2022.csv")
+
+school_mapping <- c(
+  "Stanford" = "stanford",
+  "UCLA" = "ucla",
+  "Texas A&M" = "texas-am",
+  "UConn" = "connecticut",
+  "South Carolina" = "south-carolina",
+  "USC" = "southern-california",
+  "Notre Dame" = "notre-dame",
+  "Duke" = "duke",
+  "Texas" = "texas",
+  "LSU" = "louisiana-state",
+  "Ohio State" = "ohio-state",
+  "Baylor" = "baylor",
+  "Maryland" = "maryland",
+  "Tennessee" = "tennessee",
+  "Iowa" = "iowa",
+  "Oregon" = "oregon",
+  "Louisville" = "louisville",
+  "Indiana" = "indiana",
+  "Michigan" = "michigan",
+  "NC State" = "north-carolina-state",
+  "North Carolina" = "north-carolina",
+  "Virginia Tech" = "virginia-tech",
+  "Gonzaga" = "gonzaga",
+  "Arizona" = "arizona",
+  "Ole Miss" = "mississippi",
+  "Mississippi State" = "mississippi-state",
+  "Kentucky" = "kentucky",
+  "Florida State" = "florida-state",
+  "Arkansas" = "arkansas",
+  "Oklahoma" = "oklahoma",
+  "Kansas" = "kansas",
+  "Creighton" = "creighton",
+  "Georgia" = "georgia",
+  "Clemson" = "clemson",
+  "Florida" = "florida",
+  "Auburn" = "auburn",
+  "Missouri" = "missouri",
+  "Alabama" = "alabama",
+  "Virginia" = "virginia",
+  "Nebraska" = "nebraska",
+  "Iowa State" = "iowa-state",
+  "TCU" = "texas-christian",
+  "West Virginia" = "west-virginia",
+  "Michigan State" = "michigan-state",
+  "Oklahoma State" = "oklahoma-state",
+  "Vanderbilt" = "vanderbilt",
+  "Georgia Tech" = "georgia-tech",
+  "Rutgers" = "rutgers",
+  "Northwestern" = "northwestern",
+  "Washington" = "washington",
+  "Syracuse" = "syracuse",
+  "Pittsburgh" = "pittsburgh",
+  "Colorado" = "colorado",
+  "Penn State" = "penn-state",
+  "Illinois" = "illinois",
+  "Purdue" = "purdue",
+  "Minnesota" = "minnesota",
+  "Wisconsin" = "wisconsin",
+  "BYU" = "brigham-young",
+  "St. John's" = "st-johns-ny",
+  "Oregon State" = "oregon-state",
+  "DePaul" = "depaul",
+  "Marquette" = "marquette",
+  "California" = "california",
+  "Boston College" = "boston-college",
+  "Utah" = "utah",
+  "Wake Forest" = "wake-forest",
+  "Miami" = "miami-fl",
+  "UCF" = "central-florida",
+  "Kansas State" = "kansas-state",
+  "Seton Hall" = "seton-hall",
+  "Villanova" = "villanova",
+  "Houston" = "houston",
+  "Cincinnati" = "cincinnati",
+  "Texas Tech" = "texas-tech",
+  "Arizona State" = "arizona-state",
+  "Washington State" = "washington-state",
+  "SMU" = "southern-methodist"
+)
+
+rankings <- rankings %>%
+  mutate(
+    original_school = school_mapping[COLLEGE],
+    original_school = if_else(is.na(original_school), 
+                              str_to_lower(str_replace_all(COLLEGE, " ", "-")), 
+                              original_school),
+    tier = case_when(
+      RK >= 1 & RK <= 25 ~ "1-25",
+      RK >= 26 & RK <= 50 ~ "26-50",
+      RK >= 51 & RK <= 75 ~ "51-75",
+      RK >= 76 & RK <= 100 ~ "76-100",
+      TRUE ~ NA_character_
+    ),
+    player_clean = str_to_lower(str_trim(NAME))
+  )
+
+# Load 2023 data
+file_list_2023 <- list.files(
+  path = "C:/Users/joshu/OneDrive/Documents/UCLA/Clubs/BSA/Freshman Recruiting/2023_advanced_data",
+  pattern = "_wbb_advanced_2023\\.csv$",
+  full.names = TRUE
+)
+
+stats_2023 <- map_df(file_list_2023, ~{
+  df <- read_csv(.x, show_col_types = FALSE)
+  df %>% mutate(across(everything(), as.character))
+}) %>%
+  mutate(
+    player_clean = str_to_lower(str_trim(player_name)),
+    school_2023 = str_to_lower(str_trim(school)),
+    season = "2022-23"
+  ) %>%
+  select(player_clean, school_2023, season)
+
+# Load 2024 data
+file_list_2024 <- list.files(
+  path = "C:/Users/joshu/OneDrive/Documents/UCLA/Clubs/BSA/Freshman Recruiting/2024_advanced_data",
+  pattern = "_wbb_advanced_2024\\.csv$",
+  full.names = TRUE
+)
+
+stats_2024 <- map_df(file_list_2024, ~{
+  df <- read_csv(.x, show_col_types = FALSE)
+  df %>% mutate(across(everything(), as.character))
+}) %>%
+  mutate(
+    player_clean = str_to_lower(str_trim(player_name)),
+    school_2024 = str_to_lower(str_trim(school)),
+    season = "2023-24"
+  ) %>%
+  select(player_clean, school_2024, season)
+
+# Load 2025 data
+file_list_2025 <- list.files(
+  path = "C:/Users/joshu/OneDrive/Documents/UCLA/Clubs/BSA/Freshman Recruiting/2025_advanced_data",
+  pattern = "_wbb_advanced_2025\\.csv$",
+  full.names = TRUE
+)
+
+stats_2025 <- map_df(file_list_2025, ~{
+  df <- read_csv(.x, show_col_types = FALSE)
+  df %>% mutate(across(everything(), as.character))
+}) %>%
+  mutate(
+    player_clean = str_to_lower(str_trim(player_name)),
+    school_2025 = str_to_lower(str_trim(school)),
+    season = "2024-25"
+  ) %>%
+  select(player_clean, school_2025, season)
+
+# Merge all years together
+all_years <- rankings %>%
+  left_join(stats_2023, by = "player_clean") %>%
+  left_join(stats_2024, by = "player_clean") %>%
+  left_join(stats_2025, by = "player_clean")
+
+# Determine transfer status
+transfer_data <- all_years %>%
+  mutate(
+    # Check if they transferred after year 1 or year 2
+    transferred = case_when(
+      # Transferred after year 1 (school changed between 2023 and 2024)
+      !is.na(school_2023) & !is.na(school_2024) & school_2023 != school_2024 ~ TRUE,
+      # Transferred after year 2 (school changed between 2024 and 2025)
+      !is.na(school_2024) & !is.na(school_2025) & school_2024 != school_2025 ~ TRUE,
+      # Stayed at same school
+      !is.na(school_2023) ~ FALSE,
+      # No data available
+      TRUE ~ NA
+    )
+  ) %>%
+  filter(!is.na(tier), !is.na(transferred))  # Only include players with data
+
+# Calculate transfer rate by tier
+transfer_by_tier <- transfer_data %>%
+  group_by(tier) %>%
+  summarise(
+    total_players = n(),
+    transferred_count = sum(transferred, na.rm = TRUE),
+    pct_transferred = (transferred_count / total_players) * 100,
+    .groups = "drop"
+  ) %>%
+  mutate(tier = factor(tier, levels = c("1-25", "26-50", "51-75", "76-100")))
+
+# Plot
+ggplot(transfer_by_tier, aes(x = tier, y = pct_transferred, fill = tier)) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = c(
+    "1-25" = "#a62c2a",
+    "26-50" = "#bb595f", 
+    "51-75" = "#af3c3f",
+    "76-100" = "#90151c"
+  )) +
+  labs(title = "Transfer Rate by Recruit Tier (Class of 2022)",
+       subtitle = "Percentage who transferred within first 2 years",
+       x = "Recruit Tier",
+       y = "Transfer Rate (%)") +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none") +
+  geom_text(aes(label = paste0(round(pct_transferred, 1), "%")), 
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)),
+                     breaks = seq(0, 100, by = 10))
+
+
+# Summary 
+print(transfer_by_tier)
+
+# View transfer cases
+transfers <- transfer_data %>%
+  filter(transferred == TRUE) %>%
+  select(RK, NAME, COLLEGE, tier, school_2023, school_2024, school_2025)
+print(transfers)
+
+```
+
