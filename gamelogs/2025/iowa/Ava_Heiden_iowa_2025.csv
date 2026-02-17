@@ -1,0 +1,29 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-06,Iowa,,Northern Illinois,REG (Non-Conf),W 91-73,,16,2,7,.286,0,0,2,7,.286,.286,0,0,,1,3,4,0,1,1,1,2,4,1.4,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+2,2,2,2024-11-10,Iowa,N,Virginia Tech,REG (Non-Conf),W 71-52,,4,0,0,,0,0,0,0,,,0,0,,1,0,1,0,1,0,1,1,0,0.3,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+3,3,3,2024-11-13,Iowa,,Toledo,REG (Non-Conf),W 94-57,,11,2,4,.500,0,0,2,4,.500,.500,2,4,.500,0,3,3,0,0,1,0,2,6,4.0,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+4,4,4,2024-11-17,Iowa,@,Drake,REG (Non-Conf),W 86-73,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+5,5,5,2024-11-20,Iowa,N,Kansas,REG (Non-Conf),W 71-58,,10,2,5,.400,0,0,2,5,.400,.400,0,0,,0,1,1,0,0,1,0,0,4,2.3,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+6,6,6,2024-11-24,Iowa,,Washington State,REG (Non-Conf),W 72-43,,8,2,3,.667,0,0,2,3,.667,.667,0,0,,0,1,1,0,0,3,1,1,4,3.7,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+7,7,7,2024-11-28,Iowa,N,Rhode Island,REG (Non-Conf),W 69-62,,9,1,1,1.000,0,0,1,1,1.000,1.000,2,2,1.000,1,1,2,1,0,0,1,1,4,4.0,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+8,8,8,2024-11-29,Iowa,N,Brigham Young,REG (Non-Conf),W 68-48,,13,1,4,.250,0,0,1,4,.250,.250,3,4,.750,0,2,2,0,2,1,0,1,5,5.1,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+9,9,9,2024-12-07,Iowa,N,Tennessee,REG (Non-Conf),L 68-78,,7,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,0,3,3,0,0,0,0,3,4,3.1,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+10,10,10,2024-12-11,Iowa,,Iowa State,REG (Non-Conf),W 75-69,,8,0,0,,0,0,0,0,,,0,0,,1,0,1,2,0,2,0,3,0,2.3,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+11,11,11,2024-12-15,Iowa,@,Michigan State,REG (Conf),L 66-68,,12,1,2,.500,0,0,1,2,.500,.500,3,6,.500,1,3,4,1,1,0,2,1,5,3.7,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+12,12,12,2024-12-20,Iowa,,Northern Iowa,REG (Non-Conf),W 92-86,,2,0,2,.000,0,0,0,2,.000,.000,0,0,,1,0,1,0,0,0,0,2,0,-1.5,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+13,13,13,2024-12-29,Iowa,,Purdue,REG (Conf),W 84-63,,15,4,4,1.000,0,0,4,4,1.000,1.000,1,4,.250,1,7,8,0,0,2,0,1,9,10.4,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+14,14,14,2025-01-01,Iowa,@,Penn State,REG (Conf),W 80-68,,12,4,6,.667,0,0,4,6,.667,.667,0,0,,0,3,3,0,0,1,1,3,8,4.8,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+15,15,15,2025-01-05,Iowa,,Maryland,REG (Conf),L 66-74,,7,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,1,1,2,0,0,0,0,3,4,3.2,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+16,16,16,2025-01-09,Iowa,@,Illinois,REG (Conf),L 57-62,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+17,17,17,2025-01-12,Iowa,,Indiana,REG (Conf),L 67-74,,17,2,7,.286,0,0,2,7,.286,.286,4,4,1.000,2,3,5,0,0,3,0,0,8,8.3,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+18,18,19,2025-01-19,Iowa,@,Oregon,REG (Conf),L 49-50,,17,2,7,.286,0,0,2,7,.286,.286,4,4,1.000,4,1,5,0,1,2,1,0,8,8.4,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+19,19,20,2025-01-22,Iowa,@,Washington,REG (Conf),W 85-61,,15,0,1,.000,0,0,0,1,.000,.000,4,4,1.000,1,5,6,2,2,2,2,1,4,7.9,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+20,20,24,2025-02-10,Iowa,@,Nebraska,REG (Conf),W 81-66,,13,3,4,.750,0,0,3,4,.750,.750,0,0,,0,1,1,0,0,0,0,2,6,3.9,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+21,21,25,2025-02-13,Iowa,,Rutgers,REG (Conf),W 55-43,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,2,2,0.9,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+22,22,28,2025-02-26,Iowa,@,Michigan,REG (Conf),W 79-66,,6,3,5,.600,0,0,3,5,.600,.600,0,0,,0,0,0,0,0,0,0,1,6,3.3,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+23,23,29,2025-03-02,Iowa,,Wisconsin,REG (Conf),W 81-66,,3,1,2,.500,0,0,1,2,.500,.500,2,2,1.000,0,1,1,0,0,0,0,2,4,2.5,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+24,24,30,2025-03-05,Iowa,N,Wisconsin,CTOURN,W 81-54,,8,3,4,.750,0,0,3,4,.750,.750,0,0,,1,2,3,0,1,0,1,1,6,5.3,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+25,25,31,2025-03-06,Iowa,N,Michigan State,CTOURN,W 74-61,,12,4,4,1.000,0,0,4,4,1.000,1.000,3,5,.600,2,2,4,0,2,0,0,2,11,12.2,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+26,26,32,2025-03-07,Iowa,N,Ohio State,CTOURN,L 59-60,,14,4,6,.667,0,0,4,6,.667,.667,2,4,.500,0,4,4,1,0,1,1,2,10,7.4,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+27,27,33,2025-03-22,Iowa,N,Murray State,ROUND-64,W 92-57,,17,7,11,.636,0,0,7,11,.636,.636,1,1,1.000,4,3,7,0,0,0,1,3,15,11.6,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25
+28,28,34,2025-03-24,Iowa,@,Oklahoma,ROUND-32,L 62-96,,11,2,4,.500,0,0,2,4,.500,.500,0,0,,0,0,0,0,1,0,1,3,4,0.8,Ava Heiden,https://www.sports-reference.com/cbb/players/ava-heiden-1.html,iowa,2024-25

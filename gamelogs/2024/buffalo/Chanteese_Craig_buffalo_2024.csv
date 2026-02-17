@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Buffalo,,Canisius,REG (Non-Conf),W 69-60,,3,0,3,.000,0,0,0,3,.000,.000,0,0,,1,0,1,0,0,0,2,1,0,-3.8,Chanteese Craig,https://www.sports-reference.com/cbb/players/chanteese-craig-1.html,buffalo,2023-24
+2,2,2,2023-11-11,Buffalo,@,Old Dominion,REG (Non-Conf),L 48-59,,9,0,4,.000,0,0,0,4,.000,.000,0,1,.000,2,2,4,0,0,3,1,3,0,-1.3,Chanteese Craig,https://www.sports-reference.com/cbb/players/chanteese-craig-1.html,buffalo,2023-24
+3,3,4,2023-11-17,Buffalo,,Stonehill,REG (Non-Conf),W 60-39,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,2,2,0,-2.8,Chanteese Craig,https://www.sports-reference.com/cbb/players/chanteese-craig-1.html,buffalo,2023-24
+4,4,8,2023-12-09,Buffalo,@,Drexel,REG (Non-Conf),L 57-65,,17,3,4,.750,0,0,3,4,.750,.750,0,0,,0,1,1,0,0,1,4,3,6,0.2,Chanteese Craig,https://www.sports-reference.com/cbb/players/chanteese-craig-1.html,buffalo,2023-24
+5,5,9,2023-12-16,Buffalo,,Le Moyne,REG (Non-Conf),L 61-66,*,5,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,2,1,0,-2.4,Chanteese Craig,https://www.sports-reference.com/cbb/players/chanteese-craig-1.html,buffalo,2023-24

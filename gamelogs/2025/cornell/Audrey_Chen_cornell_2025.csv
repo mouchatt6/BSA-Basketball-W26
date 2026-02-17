@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2024-11-14,Cornell,,Binghamton,REG (Non-Conf),W 68-51,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+2,2,8,2024-11-27,Cornell,,Mercyhurst,REG (Non-Conf),W 64-63 (OT),,4,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,1,0,0,-0.7,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+3,3,11,2024-12-08,Cornell,,Lehigh,REG (Non-Conf),L 51-73,,19,0,3,.000,0,1,.000,0,2,.000,.000,2,2,1.000,0,3,3,2,1,0,2,1,2,0.8,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+4,4,12,2024-12-22,Cornell,@,Stony Brook,REG (Non-Conf),L 40-54,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,2,0,-1.8,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+5,5,14,2025-01-04,Cornell,@,Princeton,REG (Conf),L 39-72,,4,2,2,1.000,0,0,,2,2,1.000,1.000,0,0,,0,1,1,0,0,0,1,0,4,2.7,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+6,6,15,2025-01-11,Cornell,,Columbia,REG (Conf),L 44-69,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+7,7,18,2025-01-25,Cornell,,Princeton,REG (Conf),L 54-62,,8,1,4,.250,1,2,.500,0,2,.000,.375,0,0,,0,0,0,0,0,0,0,2,3,-0.2,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+8,8,19,2025-01-31,Cornell,@,Dartmouth,REG (Conf),W 60-48,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+9,9,20,2025-02-01,Cornell,@,Harvard,REG (Conf),L 60-72,,6,2,3,.667,1,1,1.000,1,2,.500,.833,0,0,,0,1,1,0,0,0,0,0,5,4.0,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+10,10,21,2025-02-08,Cornell,@,Yale,REG (Conf),W 57-40,,5,1,2,.500,1,2,.500,0,0,,.750,0,0,,0,0,0,0,0,0,0,0,3,2.0,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+11,11,22,2025-02-14,Cornell,,Harvard,REG (Conf),L 29-66,,6,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25
+12,12,27,2025-03-08,Cornell,@,Columbia,REG (Conf),L 58-91,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Audrey Chen,https://www.sports-reference.com/cbb/players/audrey-chen-1.html,cornell,2024-25

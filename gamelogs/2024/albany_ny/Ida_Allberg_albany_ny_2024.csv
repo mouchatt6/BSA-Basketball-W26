@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,3,2023-11-13,Albany (NY),,Sarah Lawrence,REG (Non-Conf),W 118-27,,15,4,10,.400,2,7,.286,2,3,.667,.500,0,0,1,2,3,1,3,0,1,0,10,8.6,Ida Allberg,https://www.sports-reference.com/cbb/players/ida-allberg-1.html,albany-ny,2023-24
+2,2,5,2023-11-22,Albany (NY),@,Cornell,REG (Non-Conf),W 57-45,,2,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Ida Allberg,https://www.sports-reference.com/cbb/players/ida-allberg-1.html,albany-ny,2023-24
+3,3,6,2023-11-26,Albany (NY),@,Stanford,REG (Non-Conf),L 35-79,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ida Allberg,https://www.sports-reference.com/cbb/players/ida-allberg-1.html,albany-ny,2023-24

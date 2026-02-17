@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,4,14,2022-01-08,Bucknell,,Loyola (MD),REG (Conf),W 62-42,,1,0,1,.000,0,0,0,1,.000,.000,0,0,,0,1,1,0,0,0,0,1,0,-0.8,Nicole Davis,https://www.sports-reference.com/cbb/players/nicole-davis-1.html,bucknell,2021-22
+2,5,22,2022-02-06,Bucknell,,Lafayette,REG (Conf),W 68-40,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Nicole Davis,https://www.sports-reference.com/cbb/players/nicole-davis-1.html,bucknell,2021-22
+3,6,24,2022-02-12,Bucknell,@,Holy Cross,REG (Conf),W 66-49,,1,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Nicole Davis,https://www.sports-reference.com/cbb/players/nicole-davis-1.html,bucknell,2021-22
+4,7,27,2022-02-23,Bucknell,,Army,REG (Conf),W 79-51,,4,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.8,Nicole Davis,https://www.sports-reference.com/cbb/players/nicole-davis-1.html,bucknell,2021-22
+5,8,28,2022-02-26,Bucknell,@,Boston University,REG (Conf),L 51-69,,1,0,0,,0,0,0,0,,,2,2,1.000,0,1,1,0,0,0,0,0,2,2.3,Nicole Davis,https://www.sports-reference.com/cbb/players/nicole-davis-1.html,bucknell,2021-22

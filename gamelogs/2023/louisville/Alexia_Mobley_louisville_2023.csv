@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,13,2022-12-18,Louisville,@,Pittsburgh,REG (Conf),W 77-53,,3,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23
+2,2,15,2022-12-29,Louisville,,Syracuse,REG (Conf),W 86-77,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23
+3,3,24,2023-01-29,Louisville,@,Syracuse,REG (Conf),W 79-67,,1,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23
+4,4,31,2023-02-26,Louisville,,Notre Dame,REG (Conf),L 65-68,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23
+5,5,32,2023-03-03,Louisville,N,Wake Forest,CTOURN,W 74-48,,3,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,1,1,2,0.3,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23
+6,6,33,2023-03-04,Louisville,N,Notre Dame,CTOURN,W 64-38,,4,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,1,0,0,0,0.7,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23
+7,7,38,2023-03-26,Louisville,N,Iowa,ROUND-8,L 83-97,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Alexia Mobley,https://www.sports-reference.com/cbb/players/alexia-mobley-1.html,louisville,2022-23

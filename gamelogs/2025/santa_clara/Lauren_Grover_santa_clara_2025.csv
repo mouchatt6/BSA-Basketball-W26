@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,9,2024-12-07,Santa Clara,,Cal Poly Maritime,REG (Non-Conf),W 86-27,,11,2,7,.286,0,0,2,7,.286,.286,0,1,.000,4,2,6,0,0,0,1,2,4,1.1,Lauren Grover,https://www.sports-reference.com/cbb/players/lauren-grover-1.html,santa-clara,2024-25
+2,2,13,2024-12-28,Santa Clara,,Portland,REG (Conf),L 54-81,,3,0,0,,0,0,0,0,,,0,0,,1,2,3,0,0,0,0,1,0,0.9,Lauren Grover,https://www.sports-reference.com/cbb/players/lauren-grover-1.html,santa-clara,2024-25
+3,3,16,2025-01-04,Santa Clara,@,Gonzaga,REG (Conf),L 56-82,,2,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Lauren Grover,https://www.sports-reference.com/cbb/players/lauren-grover-1.html,santa-clara,2024-25
+4,4,20,2025-01-18,Santa Clara,,Washington State,REG (Conf),L 47-74,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,1,1,0,1,0,0,0,0,0.6,Lauren Grover,https://www.sports-reference.com/cbb/players/lauren-grover-1.html,santa-clara,2024-25
+5,5,28,2025-02-20,Santa Clara,@,Oregon State,REG (Conf),L 51-68,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lauren Grover,https://www.sports-reference.com/cbb/players/lauren-grover-1.html,santa-clara,2024-25

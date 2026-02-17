@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,52,2,2021-11-12,Columbia,@,Davidson,REG (Non-Conf),W 87-78,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22
+2,53,3,2021-11-14,Columbia,@,Clemson,REG (Non-Conf),W 82-78,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,1,0,0,0,1,0,0.3,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22
+3,54,9,2021-12-02,Columbia,,Delaware,REG (Non-Conf),W 73-67,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22
+4,55,12,2021-12-13,Columbia,,LIU,REG (Non-Conf),W 65-55,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22
+5,56,23,2022-02-19,Columbia,,Dartmouth,REG (Conf),W 66-42,,2,0,0,,0,0,0,0,,,1,2,.500,0,0,0,0,0,0,0,0,1,0.6,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22
+6,57,25,2022-02-26,Columbia,,Brown,REG (Conf),W 85-56,,4,1,2,.500,0,0,1,2,.500,.500,0,0,,0,0,0,0,0,0,0,0,2,1.0,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22
+7,58,27,2022-03-11,Columbia,,Yale,CTOURN,W 67-38,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Lilian Kennedy,https://www.sports-reference.com/cbb/players/lilian-kennedy-1.html,columbia,2021-22

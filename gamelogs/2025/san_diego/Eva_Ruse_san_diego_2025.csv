@@ -1,0 +1,10 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-06,San Diego,,Biola,REG (Non-Conf),W 75-30,,8,1,1,1.000,0,0,1,1,1.000,1.000,1,2,.500,1,3,4,0,0,1,1,2,3,2.8,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+2,2,3,2024-11-19,San Diego,@,UNLV,REG (Non-Conf),L 54-88,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+3,3,7,2024-12-05,San Diego,,La Sierra,REG (Non-Conf),W 76-37,,8,1,1,1.000,0,0,1,1,1.000,1.000,0,2,.000,0,3,3,1,1,0,1,2,2,1.7,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+4,4,9,2024-12-14,San Diego,,Cal State Northridge,REG (Non-Conf),W 74-52,,4,0,0,,0,0,0,0,,,1,2,.500,0,1,1,0,0,0,0,0,1,0.9,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+5,5,10,2024-12-19,San Diego,,Washington State,REG (Conf),L 42-65,,0,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+6,6,11,2024-12-21,San Diego,,Gonzaga,REG (Conf),L 59-66,,6,0,0,,0,0,0,0,,,0,0,,1,2,3,0,0,0,2,1,0,-1.1,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+7,7,13,2025-01-02,San Diego,@,Pepperdine,REG (Conf),L 49-63,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+8,8,15,2025-01-11,San Diego,@,Santa Clara,REG (Conf),L 59-67,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25
+9,9,16,2025-01-18,San Diego,,Pepperdine,REG (Conf),L 66-68,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,1,0,1,1,0,0,0,0,2,3.1,Eva Ruse,https://www.sports-reference.com/cbb/players/eva-ruse-1.html,san-diego,2024-25

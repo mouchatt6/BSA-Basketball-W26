@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2022-11-11,Saint Francis (PA),@,Michigan,REG (Non-Conf),L 36-91,,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,-3.0,Marissa Shelton,https://www.sports-reference.com/cbb/players/marissa-shelton-1.html,saint-francis-pa,2022-23
+2,2,3,2022-11-13,Saint Francis (PA),@,Xavier,REG (Non-Conf),L 52-78,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Marissa Shelton,https://www.sports-reference.com/cbb/players/marissa-shelton-1.html,saint-francis-pa,2022-23
+3,3,23,2023-02-09,Saint Francis (PA),@,Sacred Heart,REG (Conf),L 34-68,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Marissa Shelton,https://www.sports-reference.com/cbb/players/marissa-shelton-1.html,saint-francis-pa,2022-23
+4,4,24,2023-02-11,Saint Francis (PA),@,Merrimack,REG (Conf),L 62-80,,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.7,Marissa Shelton,https://www.sports-reference.com/cbb/players/marissa-shelton-1.html,saint-francis-pa,2022-23
+5,5,27,2023-02-23,Saint Francis (PA),@,Fairleigh Dickinson,REG (Conf),L 39-63,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Marissa Shelton,https://www.sports-reference.com/cbb/players/marissa-shelton-1.html,saint-francis-pa,2022-23

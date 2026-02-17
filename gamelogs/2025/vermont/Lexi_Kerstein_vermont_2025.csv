@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,8,2024-11-28,Vermont,N,Idaho State,REG (Non-Conf),W 64-44,,3,0,0,,0,0,,0,0,,,0,0,,0,3,3,1,0,0,1,0,0,0.6,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25
+2,2,9,2024-11-29,Vermont,N,Rice,REG (Non-Conf),L 57-79,,4,0,0,,0,0,,0,0,,,2,2,1.000,0,0,0,0,0,0,1,0,2,1.0,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25
+3,3,11,2024-12-07,Vermont,,Manhattan,REG (Non-Conf),W 74-57,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25
+4,4,16,2025-01-04,Vermont,,New Hampshire,REG (Conf),W 72-52,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25
+5,5,20,2025-01-23,Vermont,@,NJIT,REG (Conf),W 60-38,,5,0,2,.000,0,0,,0,2,.000,.000,0,0,,0,1,1,0,0,0,0,2,0,-1.9,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25
+6,6,21,2025-01-25,Vermont,@,UMBC,REG (Conf),W 67-44,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,2,2,0,0,0,1,0,0,-1.1,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25
+7,7,22,2025-01-30,Vermont,,Binghamton,REG (Conf),W 53-40,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexi Kerstein,https://www.sports-reference.com/cbb/players/lexi-kerstein-1.html,vermont,2024-25

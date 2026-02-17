@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,15,9,2021-12-12,Richmond,,William & Mary,REG (Non-Conf),W 90-52,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+2,16,11,2021-12-19,Richmond,@,Florida Atlantic,REG (Non-Conf),W 81-63,,1,0,0,,0,0,,0,0,,,0,0,,0,1,1,1,0,0,0,1,0,0.6,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+3,17,13,2021-12-29,Richmond,,Coppin State,REG (Non-Conf),W 90-50,,5,1,2,.500,0,1,.000,1,1,1.000,.500,2,2,1.000,1,1,2,1,0,1,2,1,4,3.0,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+4,18,18,2022-01-19,Richmond,@,George Mason,REG (Conf),W 78-64,,2,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+5,19,20,2022-01-26,Richmond,,Dayton,REG (Conf),L 57-80,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+6,20,27,2022-02-19,Richmond,,Rhode Island,REG (Conf),L 66-69,,7,0,0,,0,0,,0,0,,,0,0,,0,1,1,1,0,0,0,0,0,1.0,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+7,21,29,2022-02-26,Richmond,@,VCU,REG (Conf),W 59-57,,6,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,1,0,0,0,0.7,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22
+8,22,30,2022-03-03,Richmond,,Davidson,CTOURN,L 62-66,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,0,0,0,1,0,0.3,Maya Ettle,https://www.sports-reference.com/cbb/players/maya-ettle-1.html,richmond,2021-22

@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-05,Wright State,@,Wisconsin,REG (Non-Conf),L 68-95,,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Anna Azzara,https://www.sports-reference.com/cbb/players/anna-azzara-1.html,wright-state,2024-25
+2,2,3,2024-11-12,Wright State,,Indiana State,REG (Non-Conf),L 51-68,,7,0,1,.000,0,1,.000,0,0,.000,0,0,,0,0,0,0,0,0,1,2,0,-2.5,Anna Azzara,https://www.sports-reference.com/cbb/players/anna-azzara-1.html,wright-state,2024-25
+3,3,4,2024-11-15,Wright State,,Tennessee State,REG (Non-Conf),W 77-65,,5,0,1,.000,0,1,.000,0,0,.000,1,2,.500,0,1,1,0,0,0,1,0,1,-0.8,Anna Azzara,https://www.sports-reference.com/cbb/players/anna-azzara-1.html,wright-state,2024-25
+4,4,8,2024-12-04,Wright State,@,Detroit Mercy,REG (Conf),L 56-67,,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,2,0,-1.8,Anna Azzara,https://www.sports-reference.com/cbb/players/anna-azzara-1.html,wright-state,2024-25

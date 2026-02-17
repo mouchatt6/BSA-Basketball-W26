@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,42,1,2023-11-06,TCU,,Oral Roberts,REG (Non-Conf),W 76-56,,5,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24
+2,43,2,2023-11-08,TCU,,Tx AM-Kingsvil,REG (Non-Conf),W 86-48,,10,2,3,.667,0,0,2,3,.667,.667,0,0,0,1,1,1,1,0,0,1,4,4.3,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24
+3,44,3,2023-11-12,TCU,,Rice,REG (Non-Conf),W 67-42,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24
+4,45,4,2023-11-15,TCU,,Incarnate Word,REG (Non-Conf),W 61-55,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24
+5,46,5,2023-11-19,TCU,,Army,REG (Non-Conf),W 88-51,,5,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,0,0,0,1,1,0,-1.8,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24
+6,47,6,2023-11-23,TCU,N,UTEP,REG (Non-Conf),W 85-56,,6,0,2,.000,0,0,0,2,.000,.000,0,0,0,0,0,1,1,0,0,0,0,0.3,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24
+7,48,8,2023-12-01,TCU,,Tulsa,REG (Non-Conf),W 82-50,,4,0,0,,0,0,0,0,,,0,0,0,0,0,0,1,0,0,0,0,1.0,Bre'Yon White,https://www.sports-reference.com/cbb/players/breyon-white-1.html,texas-christian,2023-24

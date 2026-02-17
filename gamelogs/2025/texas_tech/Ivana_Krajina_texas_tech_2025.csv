@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Texas Tech,,Incarnate Word,REG (Non-Conf),W 78-48,,5,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Ivana Krajina,https://www.sports-reference.com/cbb/players/ivana-krajina-1.html,texas-tech,2024-25
+2,2,2,2024-11-07,Texas Tech,,Houston Christian,REG (Non-Conf),W 63-40,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ivana Krajina,https://www.sports-reference.com/cbb/players/ivana-krajina-1.html,texas-tech,2024-25
+3,3,8,2024-11-29,Texas Tech,N,Gonzaga,REG (Non-Conf),W 67-49,,3,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Ivana Krajina,https://www.sports-reference.com/cbb/players/ivana-krajina-1.html,texas-tech,2024-25
+4,4,10,2024-12-03,Texas Tech,,Stephen F. Austin,REG (Non-Conf),W 78-68,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,2,0,0,-2.0,Ivana Krajina,https://www.sports-reference.com/cbb/players/ivana-krajina-1.html,texas-tech,2024-25

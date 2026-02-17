@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,45,8,2022-12-07,North Carolina,,UNC Wilmington,REG (Non-Conf),W 64-42,,6,0,3,.000,0,2,.000,0,1,.000,.000,0,0,0,0,0,0,0,0,1,1,0,-3.5,Ariel Young,https://www.sports-reference.com/cbb/players/ariel-young-1.html,north-carolina,2022-23
+2,46,9,2022-12-11,North Carolina,,Wofford,REG (Non-Conf),W 99-67,,4,0,0,,0,0,,0,0,,,0,0,0,1,1,0,2,0,1,1,0,0.9,Ariel Young,https://www.sports-reference.com/cbb/players/ariel-young-1.html,north-carolina,2022-23
+3,47,10,2022-12-16,North Carolina,,USC Upstate,REG (Non-Conf),W 89-47,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ariel Young,https://www.sports-reference.com/cbb/players/ariel-young-1.html,north-carolina,2022-23

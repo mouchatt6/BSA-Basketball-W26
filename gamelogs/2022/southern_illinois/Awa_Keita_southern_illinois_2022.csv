@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,34,1,2021-11-10,Southern Illinois,@,Tennessee,REG (Non-Conf),L 49-59,*,8,1,2,.500,0,0,1,2,.500,.500,0,0,1,1,2,0,0,0,3,3,2,-2.2,Awa Keita,https://www.sports-reference.com/cbb/players/awa-keita-1.html,southern-illinois,2021-22
+2,35,2,2021-11-14,Southern Illinois,@,Kansas City,REG (Non-Conf),L 46-67,*,8,0,2,.000,0,0,0,2,.000,.000,0,0,0,1,1,0,0,0,0,1,0,-1.5,Awa Keita,https://www.sports-reference.com/cbb/players/awa-keita-1.html,southern-illinois,2021-22
+3,36,18,2022-02-04,Southern Illinois,,Missouri State,REG (Conf),W 65-49,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Awa Keita,https://www.sports-reference.com/cbb/players/awa-keita-1.html,southern-illinois,2021-22
+4,37,19,2022-02-06,Southern Illinois,@,Missouri State,REG (Conf),L 52-53,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Awa Keita,https://www.sports-reference.com/cbb/players/awa-keita-1.html,southern-illinois,2021-22

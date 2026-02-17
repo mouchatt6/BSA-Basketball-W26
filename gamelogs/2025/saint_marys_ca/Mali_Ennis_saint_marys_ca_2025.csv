@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,St. Mary's (CA),@,California,REG (Non-Conf),L 58-90,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Mali Ennis,https://www.sports-reference.com/cbb/players/mali-ennis-1.html,saint-marys-ca,2024-25
+2,2,16,2025-01-11,St. Mary's (CA),,Pacific,REG (Conf),W 64-44,,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.7,Mali Ennis,https://www.sports-reference.com/cbb/players/mali-ennis-1.html,saint-marys-ca,2024-25
+3,3,17,2025-01-16,St. Mary's (CA),,Pepperdine,REG (Conf),W 56-41,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Mali Ennis,https://www.sports-reference.com/cbb/players/mali-ennis-1.html,saint-marys-ca,2024-25
+4,4,25,2025-02-15,St. Mary's (CA),@,Pepperdine,REG (Conf),W 68-54,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Mali Ennis,https://www.sports-reference.com/cbb/players/mali-ennis-1.html,saint-marys-ca,2024-25
+5,5,27,2025-02-22,St. Mary's (CA),@,Washington State,REG (Conf),L 62-72,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Mali Ennis,https://www.sports-reference.com/cbb/players/mali-ennis-1.html,saint-marys-ca,2024-25
+6,6,31,2025-03-20,St. Mary's (CA),@,Texas Southern,WNIT,L 50-54,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Mali Ennis,https://www.sports-reference.com/cbb/players/mali-ennis-1.html,saint-marys-ca,2024-25

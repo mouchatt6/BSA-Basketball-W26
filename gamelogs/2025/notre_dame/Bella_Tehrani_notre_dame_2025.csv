@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,12,2024-12-22,Notre Dame,,Loyola (MD),REG (Non-Conf),W 97-54,,3,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,1,0,1,0,-0.4,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+2,2,13,2024-12-29,Notre Dame,,Virginia,REG (Conf),W 95-54,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+3,3,22,2025-02-06,Notre Dame,,Stanford,REG (Conf),W 96-47,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+4,4,23,2025-02-09,Notre Dame,,California,REG (Conf),W 91-52,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+5,5,26,2025-02-20,Notre Dame,@,Miami (FL),REG (Conf),W 82-42,,1,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,1,1,0,0,0,0,0,2,2.0,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+6,6,29,2025-03-02,Notre Dame,,Louisville,REG (Conf),W 72-59,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+7,7,32,2025-03-21,Notre Dame,,Stephen F. Austin,ROUND-64,W 106-54,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25
+8,8,33,2025-03-23,Notre Dame,,Michigan,ROUND-32,W 76-55,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Bella Tehrani,https://www.sports-reference.com/cbb/players/bella-tehrani-1.html,notre-dame,2024-25

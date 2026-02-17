@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,24,1,2022-11-07,Oklahoma,,Oral Roberts,REG (Non-Conf),W 105-94,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emma Svoboda,https://www.sports-reference.com/cbb/players/emma-svoboda-1.html,oklahoma,2022-23
+2,25,4,2022-11-16,Oklahoma,@,Utah,REG (Non-Conf),L 78-124,,2,0,0,,0,0,0,0,,,1,2,.500,1,0,1,0,0,0,1,1,1,-0.1,Emma Svoboda,https://www.sports-reference.com/cbb/players/emma-svoboda-1.html,oklahoma,2022-23
+3,26,7,2022-11-30,Oklahoma,,Northwestern State,REG (Non-Conf),W 88-45,,6,1,1,1.000,0,0,1,1,1.000,1.000,1,1,1.000,0,1,1,0,0,0,0,0,3,3.0,Emma Svoboda,https://www.sports-reference.com/cbb/players/emma-svoboda-1.html,oklahoma,2022-23
+4,27,29,2023-03-04,Oklahoma,@,Oklahoma State,REG (Conf),W 80-71,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Emma Svoboda,https://www.sports-reference.com/cbb/players/emma-svoboda-1.html,oklahoma,2022-23
+5,28,32,2023-03-18,Oklahoma,N,Portland,ROUND-64,W 85-63,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emma Svoboda,https://www.sports-reference.com/cbb/players/emma-svoboda-1.html,oklahoma,2022-23

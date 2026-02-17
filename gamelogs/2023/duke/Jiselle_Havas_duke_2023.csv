@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,65,2,2022-11-10,Duke,,Charleston Southern,REG (Non-Conf),W 111-50,,5,0,1,.000,0,1,.000,0,0,,.000,0,0,1,1,2,1,0,0,0,0,0,1.0,Jiselle Havas,https://www.sports-reference.com/cbb/players/jiselle-havas-1.html,duke,2022-23
+2,66,9,2022-12-04,Duke,@,Richmond,REG (Non-Conf),W 100-49,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Jiselle Havas,https://www.sports-reference.com/cbb/players/jiselle-havas-1.html,duke,2022-23
+3,67,32,2023-03-18,Duke,,Iona,ROUND-64,W 89-49,,2,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,1,0,0,1,1,2,1.0,Jiselle Havas,https://www.sports-reference.com/cbb/players/jiselle-havas-1.html,duke,2022-23

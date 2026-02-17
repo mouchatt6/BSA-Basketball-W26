@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,6,1,2023-11-06,Lehigh,,East Stroudsburg St.,REG (Non-Conf),W 78-42,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,1,1,0,0,0,0,0,2,2.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2023-24
+2,7,5,2023-11-22,Lehigh,N,Marist,REG (Non-Conf),W 82-64,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2023-24
+3,8,9,2023-12-07,Lehigh,,La Salle,REG (Non-Conf),W 106-60,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2023-24

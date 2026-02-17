@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,48,20,2023-01-28,Columbia,,Dartmouth,REG (Conf),W 79-50,,1,0,2,.000,0,2,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-1.4,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23
+2,49,21,2023-02-03,Columbia,,Pennsylvania,REG (Conf),W 72-50,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23
+3,50,22,2023-02-04,Columbia,,Princeton,REG (Conf),L 56-74,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23
+4,51,23,2023-02-11,Columbia,,Yale,REG (Conf),W 74-46,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23
+5,52,25,2023-02-18,Columbia,@,Dartmouth,REG (Conf),W 80-37,,6,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23
+6,53,26,2023-02-25,Columbia,@,Brown,REG (Conf),W 83-55,,3,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,1,0,0,-0.7,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23
+7,54,29,2023-03-17,Columbia,,Fairleigh Dickinson,WNIT,W 69-53,,6,0,3,.000,0,2,.000,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-2.1,Madison Hardy,https://www.sports-reference.com/cbb/players/madison-hardy-1.html,columbia,2022-23

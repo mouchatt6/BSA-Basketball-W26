@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Rice,,Houston Christian,REG (Non-Conf),W 70-38,,3,0,2,.000,0,0,0,2,.000,.000,1,2,.500,1,0,1,1,0,0,0,1,1,0.2,Pace Rickard,https://www.sports-reference.com/cbb/players/pace-rickard-1.html,rice,2023-24
+2,2,7,2023-11-29,Rice,,Texas Southern,REG (Non-Conf),W 74-44,,1,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Pace Rickard,https://www.sports-reference.com/cbb/players/pace-rickard-1.html,rice,2023-24
+3,3,8,2023-12-02,Rice,@,Texas A&M–Corpus Christi,REG (Non-Conf),W 84-56,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Pace Rickard,https://www.sports-reference.com/cbb/players/pace-rickard-1.html,rice,2023-24
+4,4,24,2024-02-14,Rice,,East Carolina,REG (Conf),W 75-57,,1,0,0,,0,0,0,0,,,0,0,,1,0,1,0,0,0,0,0,0,0.7,Pace Rickard,https://www.sports-reference.com/cbb/players/pace-rickard-1.html,rice,2023-24
+5,5,33,2024-03-13,Rice,N,East Carolina,CTOURN,W 61-41,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Pace Rickard,https://www.sports-reference.com/cbb/players/pace-rickard-1.html,rice,2023-24

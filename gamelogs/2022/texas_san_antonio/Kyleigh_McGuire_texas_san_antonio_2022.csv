@@ -1,0 +1,3 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,20,1,2021-11-09,UTSA,,Stephen F. Austin,REG (Non-Conf),L 50-77,,10,0,3,.000,0,0,0,3,.000,.000,0,2,.000,1,3,4,0,0,0,3,5,0,-6.3,Kyleigh McGuire,https://www.sports-reference.com/cbb/players/kyleigh-mcguire-1.html,texas-san-antonio,2021-22
+2,21,2,2021-11-13,UTSA,@,Abilene Christian,REG (Non-Conf),L 53-72,*,12,0,2,.000,0,0,0,2,.000,.000,0,2,.000,1,0,1,0,0,0,1,1,0,-2.9,Kyleigh McGuire,https://www.sports-reference.com/cbb/players/kyleigh-mcguire-1.html,texas-san-antonio,2021-22

@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,12,7,2021-12-12,Miami (OH),,Eastern Kentucky,REG (Non-Conf),W 80-62,,3,0,2,.000,0,2,.000,0,0,,.000,0,0,1,0,1,0,0,0,0,1,0,-1.1,Taylor Boruff,https://www.sports-reference.com/cbb/players/taylor-boruff-1.html,miami-oh,2021-22
+2,13,21,2022-02-09,Miami (OH),,Toledo,REG (Conf),L 63-86,,4,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Taylor Boruff,https://www.sports-reference.com/cbb/players/taylor-boruff-1.html,miami-oh,2021-22
+3,14,22,2022-02-12,Miami (OH),,Central Michigan,REG (Conf),W 90-77,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,0,1,0,0,0,0,1.0,Taylor Boruff,https://www.sports-reference.com/cbb/players/taylor-boruff-1.html,miami-oh,2021-22
+4,15,23,2022-02-14,Miami (OH),@,Bowling Green,REG (Conf),L 61-94,,2,0,2,.000,0,2,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-1.4,Taylor Boruff,https://www.sports-reference.com/cbb/players/taylor-boruff-1.html,miami-oh,2021-22

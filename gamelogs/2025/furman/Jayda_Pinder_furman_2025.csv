@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,11,2,2024-11-07,Furman,,Erskine,REG (Non-Conf),W 100-31,,7,0,4,.000,0,2,.000,0,2,.000,.000,0,0,,1,0,1,1,1,0,1,1,0,-1.8,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2024-25
+2,12,6,2024-11-23,Furman,,Bob Jones,REG (Non-Conf),W 101-47,,11,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,2,2,3,1,1,1,0,0,2.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2024-25
+3,13,12,2024-12-11,Furman,@,UNC Asheville,REG (Non-Conf),W 68-50,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2024-25
+4,14,16,2025-01-01,Furman,,S Wesleyan,REG (Non-Conf),W 107-51,,8,1,5,.200,1,4,.250,0,1,.000,.300,1,2,.500,0,1,1,0,1,0,0,0,4,1.8,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2024-25
+5,15,32,2025-03-07,Furman,N,Chattanooga,CTOURN,L 55-63,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2024-25

@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,15,2022-01-12,George Washington,,Rhode Island,REG (Conf),L 42-73,*,26,2,5,.400,2,5,.400,0,0,.600,0,0,0,3,3,1,0,0,0,0,6,4.9,Leila Patel,https://www.sports-reference.com/cbb/players/leila-patel-1.html,george-washington,2021-22
+2,2,24,2022-02-14,George Washington,,Saint Louis,REG (Conf),W 63-41,,2,0,0,,0,0,,0,0,,0,0,0,1,1,0,0,0,0,0,0,0.3,Leila Patel,https://www.sports-reference.com/cbb/players/leila-patel-1.html,george-washington,2021-22
+3,3,26,2022-02-20,George Washington,@,Saint Joseph's,REG (Conf),L 34-57,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Leila Patel,https://www.sports-reference.com/cbb/players/leila-patel-1.html,george-washington,2021-22

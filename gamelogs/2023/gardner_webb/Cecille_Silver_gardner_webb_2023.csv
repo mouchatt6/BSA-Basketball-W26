@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,13,2022-12-29,Gardner-Webb,@,Charleston Southern,REG (Conf),W 86-65,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Cecille Silver,https://www.sports-reference.com/cbb/players/cecille-silver-1.html,gardner-webb,2022-23
+2,2,18,2023-01-14,Gardner-Webb,@,UNC Asheville,REG (Conf),W 76-45,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Cecille Silver,https://www.sports-reference.com/cbb/players/cecille-silver-1.html,gardner-webb,2022-23
+3,3,23,2023-02-01,Gardner-Webb,,Charleston Southern,REG (Conf),W 97-63,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Cecille Silver,https://www.sports-reference.com/cbb/players/cecille-silver-1.html,gardner-webb,2022-23
+4,4,25,2023-02-08,Gardner-Webb,,Radford,REG (Conf),W 70-49,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1.0,Cecille Silver,https://www.sports-reference.com/cbb/players/cecille-silver-1.html,gardner-webb,2022-23

@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Jackson State,@,Clemson,REG (Non-Conf),L 44-78,,2,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Joy Dau,https://www.sports-reference.com/cbb/players/joy-dau-1.html,jackson-state,2024-25
+2,2,5,2024-11-24,Jackson State,@,Tulane,REG (Non-Conf),L 37-77,,1,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Joy Dau,https://www.sports-reference.com/cbb/players/joy-dau-1.html,jackson-state,2024-25
+3,3,7,2024-11-30,Jackson State,N,Morehead State,REG (Non-Conf),L 57-87,,2,0,0,0,0,0,0,1,2,.500,0,1,1,0,0,1,1,0,1,0.6,Joy Dau,https://www.sports-reference.com/cbb/players/joy-dau-1.html,jackson-state,2024-25
+4,4,9,2024-12-11,Jackson State,@,Minnesota,REG (Non-Conf),L 43-81,,1,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Joy Dau,https://www.sports-reference.com/cbb/players/joy-dau-1.html,jackson-state,2024-25
+5,5,11,2024-12-29,Jackson State,@,Missouri,REG (Non-Conf),L 51-90,,2,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Joy Dau,https://www.sports-reference.com/cbb/players/joy-dau-1.html,jackson-state,2024-25
+6,6,14,2025-01-11,Jackson State,,Alabama State,REG (Conf),W 74-44,,3,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Joy Dau,https://www.sports-reference.com/cbb/players/joy-dau-1.html,jackson-state,2024-25

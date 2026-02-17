@@ -1,0 +1,31 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,76,1,2024-11-08,Albany (NY),,Rhode Island,REG (Non-Conf),W 67-57,,5,0,0,,0,0,,0,0,,,0,0,,1,1,2,0,0,0,0,1,0,0.6,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+2,77,2,2024-11-13,Albany (NY),@,Dartmouth,REG (Non-Conf),W 58-53,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+3,78,3,2024-11-16,Albany (NY),,Sacred Heart,REG (Non-Conf),W 61-49,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+4,79,5,2024-11-23,Albany (NY),,Cornell,REG (Non-Conf),W 54-47,,5,0,0,,0,0,,0,0,,,0,0,,2,1,3,0,1,0,1,1,0,1.3,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+5,80,6,2024-11-27,Albany (NY),,Rensselaer,REG (Non-Conf),W 90-42,,15,2,3,.667,0,0,,2,3,.667,.667,2,2,1.000,6,2,8,6,1,0,0,2,6,13.9,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+6,81,7,2024-12-01,Albany (NY),@,Stonehill,REG (Non-Conf),W 80-59,,6,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+7,82,8,2024-12-07,Albany (NY),@,Siena,REG (Non-Conf),L 65-70,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+8,83,9,2024-12-10,Albany (NY),@,Boston University,REG (Non-Conf),W 72-36,,11,0,3,.000,0,0,,0,3,.000,.000,0,0,,1,3,4,0,3,0,1,0,0,1.5,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+9,84,10,2024-12-14,Albany (NY),,St. Bonaventure,REG (Non-Conf),W 64-48,,7,0,0,,0,0,,0,0,,,0,0,,1,1,2,2,0,0,1,0,0,1.4,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+10,85,11,2024-12-16,Albany (NY),,Merrimack,REG (Non-Conf),W 79-64,,5,0,1,.000,0,0,,0,1,.000,.000,0,0,,2,0,2,0,1,0,1,1,0,0.3,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+11,86,12,2024-12-20,Albany (NY),@,Wisconsin,REG (Non-Conf),L 59-69,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+12,87,13,2024-12-29,Albany (NY),@,Louisiana State,REG (Non-Conf),L 61-83,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+13,88,15,2025-01-04,Albany (NY),@,UMass Lowell,REG (Conf),W 53-39,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+14,89,16,2025-01-09,Albany (NY),,New Hampshire,REG (Conf),W 59-32,,11,0,1,.000,0,0,,0,1,.000,.000,0,0,,2,0,2,0,1,0,0,0,0,1.7,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+15,90,17,2025-01-11,Albany (NY),,Maine,REG (Conf),W 60-55,,2,0,0,,0,0,,0,0,,,0,0,,1,0,1,0,0,0,0,1,0,0.3,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+16,91,18,2025-01-16,Albany (NY),@,Bryant,REG (Conf),W 55-40,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+17,92,19,2025-01-18,Albany (NY),,Binghamton,REG (Conf),W 79-55,,3,0,0,,0,0,,0,0,,,0,0,,0,2,2,1,0,0,0,0,0,1.3,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+18,93,20,2025-01-23,Albany (NY),@,UMBC,REG (Conf),L 59-71,,2,0,0,,0,0,,0,0,,,0,0,,1,0,1,0,0,0,0,3,0,-0.5,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+19,94,21,2025-01-25,Albany (NY),@,NJIT,REG (Conf),W 75-59,,7,2,2,1.000,0,0,,2,2,1.000,1.000,0,0,,0,1,1,0,1,0,0,1,4,4.3,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+20,95,22,2025-02-01,Albany (NY),@,Binghamton,REG (Conf),W 65-54,,3,0,0,,0,0,,0,0,,,0,0,,0,2,2,0,1,0,0,0,0,1.6,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+21,96,23,2025-02-06,Albany (NY),,Bryant,REG (Conf),W 48-43,,3,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+22,97,24,2025-02-08,Albany (NY),@,Vermont,REG (Conf),L 50-59,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+23,98,26,2025-02-20,Albany (NY),@,Maine,REG (Conf),W 56-40,,14,0,0,,0,0,,0,0,,,0,0,,0,1,1,1,0,0,1,0,0,0.0,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+24,99,27,2025-02-22,Albany (NY),@,New Hampshire,REG (Conf),W 67-49,,11,1,3,.333,0,0,,1,3,.333,.333,0,1,.000,0,1,1,1,0,0,0,2,2,0.1,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+25,100,28,2025-02-27,Albany (NY),,UMBC,REG (Conf),W 68-60,,4,0,0,,0,0,,0,0,,,0,0,,1,2,3,0,1,0,0,1,0,1.9,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+26,101,29,2025-03-01,Albany (NY),,NJIT,REG (Conf),W 73-52,*,12,1,2,.500,0,0,,1,2,.500,.500,0,0,,2,5,7,0,0,0,1,0,2,2.9,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+27,102,30,2025-03-06,Albany (NY),,New Hampshire,CTOURN,W 66-44,,3,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+28,103,31,2025-03-10,Albany (NY),,Maine,CTOURN,W 49-41,,6,0,0,,0,0,,0,0,,,0,0,,3,0,3,0,0,0,0,0,0,2.1,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+29,104,32,2025-03-14,Albany (NY),,Vermont,CTOURN,L 55-62,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,3,0,-1.2,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25
+30,105,33,2025-03-20,Albany (NY),@,Saint Joseph's,WBIT,L 40-69,,15,1,3,.333,0,1,.000,1,2,.500,.333,0,0,,0,2,2,1,2,0,1,0,2,2.6,Abby Ray,https://www.sports-reference.com/cbb/players/abby-ray-1.html,albany-ny,2024-25

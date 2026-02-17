@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,13,1,2021-11-09,St. Bonaventure,,Robert Morris,REG (Non-Conf),W 61-53,,3,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Mackenzie Smith,https://www.sports-reference.com/cbb/players/mackenzie-smith-1.html,st-bonaventure,2021-22
+2,14,2,2021-11-11,St. Bonaventure,,Siena,REG (Non-Conf),W 50-42,,13,0,0,0,0,0,0,0,0,,1,2,3,1,1,0,2,1,0,0.6,Mackenzie Smith,https://www.sports-reference.com/cbb/players/mackenzie-smith-1.html,st-bonaventure,2021-22
+3,15,3,2021-11-13,St. Bonaventure,@,Cleveland State,REG (Non-Conf),L 49-58,,7,0,0,0,0,0,0,0,0,,0,1,1,0,0,0,1,2,0,-1.5,Mackenzie Smith,https://www.sports-reference.com/cbb/players/mackenzie-smith-1.html,st-bonaventure,2021-22
+4,16,5,2021-11-20,St. Bonaventure,@,Binghamton,REG (Non-Conf),W 63-55,,12,0,0,0,0,0,0,1,2,.500,0,2,2,1,1,0,3,1,1,-0.5,Mackenzie Smith,https://www.sports-reference.com/cbb/players/mackenzie-smith-1.html,st-bonaventure,2021-22

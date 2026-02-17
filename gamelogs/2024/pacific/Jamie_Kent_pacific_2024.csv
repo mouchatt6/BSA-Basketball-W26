@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,12,2023-12-20,Pacific,,Cal Poly Maritime,REG (Non-Conf),W 108-45,,6,2,6,.333,0,2,.000,2,4,.500,.333,0,0,0,2,2,0,0,0,0,0,4,1.2,Jamie Kent,https://www.sports-reference.com/cbb/players/jamie-kent-1.html,pacific,2023-24
+2,2,16,2024-01-11,Pacific,,Loyola Marymount,REG (Conf),W 75-54,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Jamie Kent,https://www.sports-reference.com/cbb/players/jamie-kent-1.html,pacific,2023-24
+3,3,25,2024-02-17,Pacific,,Gonzaga,REG (Conf),L 78-91,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jamie Kent,https://www.sports-reference.com/cbb/players/jamie-kent-1.html,pacific,2023-24
+4,4,28,2024-02-29,Pacific,,San Diego,REG (Conf),W 82-62,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jamie Kent,https://www.sports-reference.com/cbb/players/jamie-kent-1.html,pacific,2023-24

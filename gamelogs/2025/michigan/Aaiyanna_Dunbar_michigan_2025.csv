@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2024-11-08,Michigan,,Lehigh,REG (Non-Conf),W 86-55,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+2,2,3,2024-11-14,Michigan,,Central Michigan,REG (Non-Conf),W 99-62,,5,0,0,,0,0,0,0,,,0,0,,1,0,1,0,1,1,0,0,0,2.4,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+3,3,4,2024-11-17,Michigan,,Oakland,REG (Non-Conf),W 88-42,,3,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+4,4,5,2024-11-20,Michigan,,LIU,REG (Non-Conf),W 96-31,,6,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,0,0,0,0,0,1,0,0,4,4.1,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+5,5,6,2024-11-24,Michigan,,Long Beach State,REG (Non-Conf),W 111-56,,7,0,0,,0,0,0,0,,,2,2,1.000,1,0,1,0,0,1,0,2,2,2.6,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+6,6,10,2024-12-14,Michigan,,Detroit Mercy,REG (Non-Conf),W 100-54,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,1,0,0,1,0,0,-0.3,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+7,7,12,2024-12-20,Michigan,@,Akron,REG (Non-Conf),W 96-55,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,1,0,0,0,0,0,0.7,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+8,8,16,2025-01-11,Michigan,@,Purdue,REG (Conf),W 87-60,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+9,9,22,2025-02-02,Michigan,,Oregon,REG (Conf),W 80-48,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25
+10,10,31,2025-03-07,Michigan,N,Maryland,CTOURN,W 98-71,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Aaiyanna Dunbar,https://www.sports-reference.com/cbb/players/aaiyanna-dunbar-1.html,michigan,2024-25

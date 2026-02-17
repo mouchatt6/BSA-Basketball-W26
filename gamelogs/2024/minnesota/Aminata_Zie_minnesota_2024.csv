@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,27,2024-02-24,Minnesota,@,Nebraska,REG (Conf),L 51-70,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Aminata Zie,https://www.sports-reference.com/cbb/players/aminata-zie-1.html,minnesota,2023-24
+2,11,28,2024-02-28,Minnesota,,Iowa,REG (Conf),L 60-108,,1,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Aminata Zie,https://www.sports-reference.com/cbb/players/aminata-zie-1.html,minnesota,2023-24
+3,12,29,2024-03-03,Minnesota,@,Penn State,REG (Conf),L 34-90,,4,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Aminata Zie,https://www.sports-reference.com/cbb/players/aminata-zie-1.html,minnesota,2023-24
+4,13,31,2024-03-07,Minnesota,N,Michigan,CTOURN,L 57-76,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Aminata Zie,https://www.sports-reference.com/cbb/players/aminata-zie-1.html,minnesota,2023-24
+5,14,32,2024-03-26,Minnesota,,Pacific,WNIT,W 77-62,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Aminata Zie,https://www.sports-reference.com/cbb/players/aminata-zie-1.html,minnesota,2023-24
+6,15,36,2024-04-06,Minnesota,@,Saint Louis,WNIT,L 50-69,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Aminata Zie,https://www.sports-reference.com/cbb/players/aminata-zie-1.html,minnesota,2023-24

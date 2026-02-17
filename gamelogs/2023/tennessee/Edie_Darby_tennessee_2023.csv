@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2022-11-19,Tennessee,N,Rutgers,REG (Non-Conf),W 94-54,,7,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+2,2,8,2022-11-27,Tennessee,,Eastern Kentucky,REG (Non-Conf),W 105-71,,6,0,2,.000,0,2,.000,0,0,,.000,0,0,,0,0,0,1,0,0,0,2,0,-1.5,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+3,3,10,2022-12-06,Tennessee,,Chattanooga,REG (Non-Conf),W 69-39,,5,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+4,4,11,2022-12-11,Tennessee,,Wright State,REG (Non-Conf),W 96-57,,3,1,2,.500,0,0,,1,2,.500,.500,0,0,,0,0,0,0,0,0,0,1,2,0.6,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+5,5,12,2022-12-14,Tennessee,,UCF,REG (Non-Conf),W 99-64,,5,0,0,,0,0,,0,0,,,1,2,.500,0,0,0,0,0,0,0,3,1,-0.6,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+6,6,14,2022-12-27,Tennessee,,Wofford,REG (Non-Conf),W 92-53,,6,0,4,.000,0,3,.000,0,1,.000,.000,0,0,,0,3,3,1,1,0,1,0,0,-1.2,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+7,7,21,2023-01-19,Tennessee,,Florida,REG (Conf),W 74-56,,1,0,0,,0,0,,0,0,,,0,0,,1,0,1,0,0,0,0,0,0,0.7,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+8,8,27,2023-02-12,Tennessee,,Vanderbilt,REG (Conf),W 86-59,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+9,9,35,2023-03-18,Tennessee,,Saint Louis,ROUND-64,W 95-50,,3,1,1,1.000,0,0,,1,1,1.000,1.000,2,2,1.000,0,0,0,0,0,0,0,0,4,3.7,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23
+10,10,36,2023-03-20,Tennessee,,Toledo,ROUND-32,W 94-47,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2022-23

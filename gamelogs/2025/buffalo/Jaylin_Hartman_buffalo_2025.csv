@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,8,2,2024-11-08,Buffalo,,Buffalo St.,REG (Non-Conf),W 123-44,,6,2,2,1.000,0,0,2,2,1.000,1.000,4,6,.667,2,0,2,0,1,0,1,4,8,6.4,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+2,9,4,2024-11-18,Buffalo,,Cedarville,REG (Non-Conf),W 77-57,,3,0,0,,0,0,0,0,,,1,2,.500,0,0,0,0,0,0,0,0,1,0.6,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+3,10,6,2024-11-26,Buffalo,@,Niagara,REG (Non-Conf),W 86-53,,4,0,1,.000,0,0,0,1,.000,.000,2,2,1.000,1,0,1,0,1,0,1,1,2,1.6,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+4,11,8,2024-12-04,Buffalo,,Binghamton,REG (Non-Conf),W 74-51,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,1,0,1,0,0,0.0,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+5,12,11,2024-12-28,Buffalo,@,Le Moyne,REG (Non-Conf),W 107-59,,2,0,0,,0,0,0,0,,,0,0,,0,2,2,0,0,0,1,1,0,-0.8,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+6,13,12,2025-01-01,Buffalo,,Central Michigan,REG (Conf),W 81-55,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+7,14,16,2025-01-15,Buffalo,@,Eastern Michigan,REG (Conf),W 77-55,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25
+8,15,18,2025-01-22,Buffalo,,Ohio,REG (Conf),W 72-55,,1,0,0,,0,0,0,0,,,1,2,.500,0,0,0,0,0,0,0,0,1,0.6,Jaylin Hartman,https://www.sports-reference.com/cbb/players/jaylin-hartman-1.html,buffalo,2024-25

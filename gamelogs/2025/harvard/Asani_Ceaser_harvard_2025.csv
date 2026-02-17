@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2024-11-17,Harvard,@,Maine,REG (Non-Conf),W 83-41,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,2,2,0.9,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+2,2,6,2024-11-19,Harvard,,Northeastern,REG (Non-Conf),W 89-37,,4,0,0,,0,0,0,0,,,0,0,1,0,1,0,2,0,0,0,0,2.7,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+3,3,12,2024-12-21,Harvard,,Boston University,REG (Non-Conf),W 86-26,,7,0,1,.000,0,0,0,1,.000,.000,0,0,1,6,7,0,0,0,0,0,0,1.8,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+4,4,13,2025-01-04,Harvard,@,Yale,REG (Conf),W 61-43,,4,0,1,.000,0,0,0,1,.000,.000,0,0,2,2,4,0,0,0,0,1,0,0.9,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+5,5,15,2025-01-18,Harvard,,Brown,REG (Conf),W 83-53,,4,0,0,,0,0,0,0,,,0,0,1,0,1,0,0,0,1,0,0,-0.3,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+6,6,16,2025-01-20,Harvard,@,Pennsylvania,REG (Conf),W 73-44,,5,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,1,1,0,1,0,0,0,2,3.0,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+7,7,17,2025-01-25,Harvard,,Yale,REG (Conf),W 91-35,,3,0,1,.000,0,0,0,1,.000,.000,0,0,0,2,2,0,0,0,0,1,0,-0.5,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+8,8,19,2025-02-01,Harvard,,Cornell,REG (Conf),W 72-60,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+9,9,20,2025-02-08,Harvard,,Dartmouth,REG (Conf),W 66-31,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+10,10,21,2025-02-14,Harvard,@,Cornell,REG (Conf),W 66-29,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+11,11,25,2025-03-01,Harvard,,Pennsylvania,REG (Conf),W 62-44,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25
+12,12,26,2025-03-08,Harvard,@,Dartmouth,REG (Conf),W 74-40,,3,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,0,0,0,0,0,0,0.0,Asani Ceaser,https://www.sports-reference.com/cbb/players/asani-ceaser-1.html,harvard,2024-25

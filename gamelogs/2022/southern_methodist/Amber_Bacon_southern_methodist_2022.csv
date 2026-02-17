@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,52,1,2021-11-09,SMU,,Kansas City,REG (Non-Conf),W 75-63,,4,0,0,,0,0,0,0,,,1,2,.500,0,0,0,1,0,0,0,0,1,1.3,Amber Bacon,https://www.sports-reference.com/cbb/players/amber-bacon-2.html,southern-methodist,2021-22
+2,53,2,2021-11-14,SMU,,Oklahoma State,REG (Non-Conf),L 50-67,,5,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,1,1,0,0,0,0,1.0,Amber Bacon,https://www.sports-reference.com/cbb/players/amber-bacon-2.html,southern-methodist,2021-22
+3,54,3,2021-11-17,SMU,,Oral Roberts,REG (Non-Conf),W 81-44,,15,1,2,.500,0,0,1,2,.500,.500,5,8,.625,0,2,2,2,1,0,1,2,7,6.0,Amber Bacon,https://www.sports-reference.com/cbb/players/amber-bacon-2.html,southern-methodist,2021-22

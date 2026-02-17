@@ -1,0 +1,25 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,28,1,2022-11-10,Iona,,Wagner,REG (Non-Conf),W 87-62,,14,2,3,.667,1,1,1.000,1,2,.500,.833,0,0,,0,3,3,3,0,0,1,1,5,5.3,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+2,29,2,2022-11-14,Iona,@,Stony Brook,REG (Non-Conf),L 71-73,,7,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,,0,0,0,1,0,0,2,1,3,1.0,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+3,30,3,2022-11-17,Iona,,Providence,REG (Non-Conf),L 50-53,,9,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,2,0,-1.5,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+4,31,4,2022-11-20,Iona,@,Sacred Heart,REG (Non-Conf),W 65-56,,4,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,1,0,0,-0.7,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+5,32,5,2022-11-22,Iona,@,Bucknell,REG (Non-Conf),L 52-55,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+6,33,7,2022-12-05,Iona,@,LIU,REG (Non-Conf),W 64-55,,22,0,1,.000,0,0,,0,1,.000,.000,1,2,.500,0,3,3,2,1,0,0,4,1,1.6,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+7,34,8,2022-12-08,Iona,@,St. John's (NY),REG (Non-Conf),L 51-77,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+8,35,9,2022-12-13,Iona,,Bethune-Cookman,REG (Non-Conf),W 60-57,,18,0,1,.000,0,0,,0,1,.000,.000,0,0,,1,1,2,2,1,0,2,0,0,0.7,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+9,36,11,2022-12-19,Iona,@,Fairfield,REG (Conf),L 43-49,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+10,37,12,2022-12-31,Iona,@,Marist,REG (Conf),W 76-55,,15,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,1,1,0,0,0,0,2,0,-1.2,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+11,38,13,2023-01-02,Iona,,Niagara,REG (Conf),W 63-53,,14,1,2,.500,0,1,.000,1,1,1.000,.500,1,1,1.000,0,2,2,0,2,0,1,1,3,3.2,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+12,39,14,2023-01-05,Iona,@,Rider,REG (Conf),W 68-44,,6,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+13,40,15,2023-01-12,Iona,,Mount St. Mary's,REG (Conf),W 63-44,,14,0,0,,0,0,,0,0,,,0,0,,0,3,3,2,1,0,0,1,0,2.9,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+14,41,16,2023-01-14,Iona,@,Quinnipiac,REG (Conf),W 47-42,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+15,42,17,2023-01-19,Iona,,Rider,REG (Conf),W 90-62,,9,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,1,1,0,0,0,1,2,0,-2.2,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+16,43,20,2023-01-28,Iona,,Manhattan,REG (Conf),W 63-49,,5,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+17,44,21,2023-02-02,Iona,@,Niagara,REG (Conf),W 61-54,,29,3,5,.600,1,1,1.000,2,4,.500,.700,0,0,,0,2,2,2,1,0,5,2,7,1.9,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+18,45,22,2023-02-04,Iona,@,Canisius,REG (Conf),W 68-58,,8,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,3,1,0,-4.1,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+19,46,24,2023-02-16,Iona,,Siena,REG (Conf),W 91-64,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+20,47,25,2023-02-18,Iona,@,Mount St. Mary's,REG (Conf),W 50-37,,1,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,1,1,0,0,0,0,0,2,2.0,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+21,48,26,2023-02-23,Iona,@,Manhattan,REG (Conf),W 59-53,,19,1,2,.500,0,0,,1,2,.500,.500,0,0,,0,3,3,2,0,0,2,0,2,1.3,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+22,49,27,2023-02-25,Iona,,Canisius,REG (Conf),W 67-43,,11,0,2,.000,0,0,,0,2,.000,.000,0,0,,1,0,1,1,2,0,1,1,0,0.6,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+23,50,32,2023-03-11,Iona,N,Manhattan,CTOURN,W 73-60,,13,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,2,2,0,3,0,2,2.1,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23
+24,51,33,2023-03-18,Iona,@,Duke,ROUND-64,L 49-89,,7,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Marina Cenis,https://www.sports-reference.com/cbb/players/marina-cenis-1.html,iona,2022-23

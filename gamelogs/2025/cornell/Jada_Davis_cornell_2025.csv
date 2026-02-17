@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,37,11,2024-12-08,Cornell,,Lehigh,REG (Non-Conf),L 51-73,,2,1,1,1.000,0,0,1,1,1.000,1.000,1,1,1.000,1,0,1,0,0,0,1,0,3,2.4,Jada Davis,https://www.sports-reference.com/cbb/players/jada-davis-1.html,cornell,2024-25
+2,38,14,2025-01-04,Cornell,@,Princeton,REG (Conf),L 39-72,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jada Davis,https://www.sports-reference.com/cbb/players/jada-davis-1.html,cornell,2024-25
+3,39,21,2025-02-08,Cornell,@,Yale,REG (Conf),W 57-40,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jada Davis,https://www.sports-reference.com/cbb/players/jada-davis-1.html,cornell,2024-25
+4,40,22,2025-02-14,Cornell,,Harvard,REG (Conf),L 29-66,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,1,1,0,-2.1,Jada Davis,https://www.sports-reference.com/cbb/players/jada-davis-1.html,cornell,2024-25
+5,41,26,2025-03-01,Cornell,,Brown,REG (Conf),L 36-38,*,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,1,0,2,0,-0.1,Jada Davis,https://www.sports-reference.com/cbb/players/jada-davis-1.html,cornell,2024-25
+6,42,27,2025-03-08,Cornell,@,Columbia,REG (Conf),L 58-91,,3,0,0,,0,0,0,0,,,0,2,.000,0,0,0,0,0,0,1,1,0,-2.2,Jada Davis,https://www.sports-reference.com/cbb/players/jada-davis-1.html,cornell,2024-25

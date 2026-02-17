@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,6,2024-11-26,Xavier,,Youngstown State,REG (Non-Conf),W 61-43,,5,0,1,.000,0,1,.000,0,0,.000,0,0,0,1,1,0,1,0,1,2,0,-1.2,Olivia Borsutzki,https://www.sports-reference.com/cbb/players/olivia-borsutzki-1.html,xavier,2024-25
+2,2,8,2024-12-04,Xavier,,Creighton,REG (Conf),L 54-82,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Olivia Borsutzki,https://www.sports-reference.com/cbb/players/olivia-borsutzki-1.html,xavier,2024-25
+3,3,28,2025-02-27,Xavier,@,Marquette,REG (Conf),L 37-62,,3,0,2,.000,0,2,.000,0,0,.000,0,0,0,0,0,0,0,0,1,0,0,-2.4,Olivia Borsutzki,https://www.sports-reference.com/cbb/players/olivia-borsutzki-1.html,xavier,2024-25

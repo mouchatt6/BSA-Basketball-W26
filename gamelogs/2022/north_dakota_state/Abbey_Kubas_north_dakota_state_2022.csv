@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2021-11-23,North Dakota State,,Dickinson St,REG (Non-Conf),W 95-42,,4,0,0,,0,0,,0,0,,0,0,0,1,1,1,0,0,1,1,0,-0.4,Abbey Kubas,https://www.sports-reference.com/cbb/players/abbey-kubas-1.html,north-dakota-state,2021-22
+2,2,8,2021-12-09,North Dakota State,@,Arizona,REG (Non-Conf),L 47-59,,1,0,0,,0,0,,0,0,,0,0,1,0,1,0,0,0,0,0,0,0.7,Abbey Kubas,https://www.sports-reference.com/cbb/players/abbey-kubas-1.html,north-dakota-state,2021-22
+3,3,10,2021-12-19,North Dakota State,,Jamestown,REG (Non-Conf),W 82-36,,4,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Abbey Kubas,https://www.sports-reference.com/cbb/players/abbey-kubas-1.html,north-dakota-state,2021-22
+4,4,12,2021-12-30,North Dakota State,@,South Dakota State,REG (Conf),L 60-77,,0,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Abbey Kubas,https://www.sports-reference.com/cbb/players/abbey-kubas-1.html,north-dakota-state,2021-22

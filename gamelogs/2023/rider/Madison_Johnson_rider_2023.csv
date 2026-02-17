@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2022-11-10,Rider,@,Drexel,REG (Non-Conf),L 58-84,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+2,2,5,2022-11-19,Rider,N,Eastern Kentucky,REG (Non-Conf),L 64-85,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,1,0,0,0.0,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+3,3,9,2022-12-09,Rider,@,Seton Hall,REG (Non-Conf),L 40-78,,4,0,0,,0,0,,0,0,,,0,0,,1,0,1,0,0,0,0,0,0,0.7,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+4,4,12,2022-12-29,Rider,,Siena,REG (Conf),L 44-68,,3,0,0,,0,0,,0,0,,,1,2,.500,0,0,0,0,0,0,0,0,1,0.6,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+5,5,13,2022-12-31,Rider,@,Saint Peter's,REG (Conf),W 87-52,,7,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,2,2,1,0,0,0,2,0,-0.9,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+6,6,14,2023-01-05,Rider,,Iona,REG (Conf),L 44-68,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+7,7,18,2023-01-19,Rider,@,Iona,REG (Conf),L 62-90,,5,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,0,0,0,0,0,0.7,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+8,8,20,2023-01-26,Rider,@,Siena,REG (Conf),L 63-94,,2,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,0,2,1.7,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+9,9,21,2023-02-02,Rider,@,Quinnipiac,REG (Conf),L 42-59,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+10,10,22,2023-02-04,Rider,@,Fairfield,REG (Conf),L 49-62,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,1,0,0,0,0,1.7,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+11,11,28,2023-03-02,Rider,@,Manhattan,REG (Conf),L 52-69,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23
+12,12,30,2023-03-07,Rider,N,Marist,CTOURN,W 63-50,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Madison Johnson,https://www.sports-reference.com/cbb/players/madison-johnson-2.html,rider,2022-23

@@ -1,0 +1,14 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,45,1,2024-11-04,Stonehill,@,Rhode Island,REG (Non-Conf),L 45-68,,7,0,0,,0,0,0,0,,,0,0,,0,2,2,0,0,0,1,1,0,-0.8,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+2,46,2,2024-11-07,Stonehill,,Emmanuel (MA),REG (Non-Conf),W 79-36,,10,2,2,1.000,0,0,2,2,1.000,1.000,2,2,1.000,0,0,0,1,0,1,1,0,6,5.8,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+3,47,4,2024-11-15,Stonehill,@,UNLV,REG (Non-Conf),L 57-93,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+4,48,8,2024-12-05,Stonehill,@,Brown,REG (Non-Conf),L 45-78,,3,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,0,0,1,0,1,0,-1.1,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+5,49,9,2024-12-10,Stonehill,,Dartmouth,REG (Non-Conf),W 75-43,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+6,50,12,2024-12-21,Stonehill,@,Marquette,REG (Non-Conf),L 42-87,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+7,51,15,2025-01-04,Stonehill,,Saint Francis (PA),REG (Conf),W 73-59,,3,0,0,,0,0,0,0,,,0,2,.000,1,0,1,0,0,0,0,1,0,-0.5,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+8,52,27,2025-02-27,Stonehill,@,FDU,REG (Conf),L 57-74,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+9,53,29,2025-03-06,Stonehill,@,Wagner,REG (Conf),W 68-60,,5,0,1,.000,0,0,0,1,.000,.000,0,0,,1,1,2,0,0,0,0,0,0,0.3,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+10,54,30,2025-03-10,Stonehill,,Wagner,CTOURN,W 72-50,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+11,55,31,2025-03-13,Stonehill,,Le Moyne,CTOURN,W 60-41,,2,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,2,0,0,0,1.7,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+12,56,32,2025-03-16,Stonehill,@,FDU,CTOURN,L 49-66,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25
+13,57,33,2025-03-20,Stonehill,@,Massachusetts,WNIT,L 40-86,,3,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,1,0,0,-0.7,Paige Martin,https://www.sports-reference.com/cbb/players/paige-martin-1.html,stonehill,2024-25

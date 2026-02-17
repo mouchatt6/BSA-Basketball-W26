@@ -1,0 +1,2 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Sacramento State,@,Washington,REG (Non-Conf),L 28-76,*,24,0,4,.000,0,0,0,4,.000,.000,0,2,.000,1,2,3,1,1,0,5,0,0,-5.6,Sofia Alonso,https://www.sports-reference.com/cbb/players/sofia-alonso-1.html,sacramento-state,2023-24

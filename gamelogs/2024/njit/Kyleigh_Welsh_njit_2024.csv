@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,18,2024-01-20,NJIT,@,Maine,REG (Conf),L 39-81,,6,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,1,2,0,-2.5,Kyleigh Welsh,https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,njit,2023-24
+2,2,22,2024-02-08,NJIT,@,Vermont,REG (Conf),L 51-76,,2,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Kyleigh Welsh,https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,njit,2023-24
+3,3,25,2024-02-17,NJIT,@,Binghamton,REG (Conf),L 48-68,,1,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Kyleigh Welsh,https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,njit,2023-24
+4,4,27,2024-02-24,NJIT,,Maine,REG (Conf),L 46-72,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Kyleigh Welsh,https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,njit,2023-24
+5,5,29,2024-03-02,NJIT,,Bryant,REG (Conf),W 64-38,,2,0,1,.000,0,0,0,1,.000,.000,0,2,.000,1,1,2,0,0,0,0,0,0,-0.5,Kyleigh Welsh,https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,njit,2023-24
+6,6,30,2024-03-08,NJIT,@,Albany (NY),CTOURN,L 42-57,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kyleigh Welsh,https://www.sports-reference.com/cbb/players/kyleigh-welsh-1.html,njit,2023-24

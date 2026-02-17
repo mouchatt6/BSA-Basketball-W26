@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,22,1,2024-11-06,Northwestern,,Illinois State,REG (Non-Conf),L 77-81,,11,0,3,.000,0,1,.000,0,2,.000,.000,0,0,0,0,0,0,1,0,1,2,0,-2.9,Crystal Wang,https://www.sports-reference.com/cbb/players/crystal-wang-1.html,northwestern,2024-25
+2,23,2,2024-11-10,Northwestern,,Lehigh,REG (Non-Conf),L 68-85,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,2,0,-0.5,Crystal Wang,https://www.sports-reference.com/cbb/players/crystal-wang-1.html,northwestern,2024-25
+3,24,4,2024-11-23,Northwestern,,Harvard,REG (Non-Conf),L 50-75,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Crystal Wang,https://www.sports-reference.com/cbb/players/crystal-wang-1.html,northwestern,2024-25

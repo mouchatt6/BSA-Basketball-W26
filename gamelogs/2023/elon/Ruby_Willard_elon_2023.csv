@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-07,Elon,@,Wake Forest,REG (Non-Conf),L 56-76,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+2,2,2,2022-11-10,Elon,@,NC State,REG (Non-Conf),L 55-89,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,2,0,0,-2.7,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+3,3,4,2022-11-19,Elon,,UNC Greensboro,REG (Non-Conf),W 75-58,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+4,4,6,2022-11-27,Elon,@,North Carolina Central,REG (Non-Conf),W 77-68,,5,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+5,5,9,2022-12-18,Elon,@,Davidson,REG (Non-Conf),L 72-74,,7,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,2,0,0,-2.7,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+6,6,10,2022-12-20,Elon,N,Loyola Chicago,REG (Non-Conf),L 46-72,,8,0,3,.000,0,0,,0,3,.000,.000,0,0,0,2,2,0,0,0,0,0,0,-1.5,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+7,7,15,2023-01-08,Elon,@,Monmouth,REG (Conf),L 56-64,,3,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+8,8,16,2023-01-13,Elon,,Delaware,REG (Conf),L 65-71,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,1,0,1,0,-0.4,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+9,9,23,2023-02-05,Elon,@,College of Charleston,REG (Conf),W 62-49,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,1,0,1,0,0.3,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+10,10,25,2023-02-17,Elon,,Monmouth,REG (Conf),W 57-48,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+11,11,29,2023-03-04,Elon,@,Towson,REG (Conf),L 63-70,,11,0,1,.000,0,0,,0,1,.000,.000,0,0,1,1,2,1,1,0,2,0,0,0.0,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23
+12,12,30,2023-03-09,Elon,N,Stony Brook,CTOURN,L 51-54,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Ruby Willard,https://www.sports-reference.com/cbb/players/ruby-willard-1.html,elon,2022-23

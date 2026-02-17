@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,19,1,2023-11-06,Maryland,,Harvard,REG (Non-Conf),W 98-75,,15,5,5,1.000,0,0,5,5,1.000,1.000,0,0,,0,1,1,1,0,0,1,2,10,7.7,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+2,20,2,2023-11-12,Maryland,@,South Carolina,REG (Non-Conf),L 76-114,,6,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,1,0,0,0,0,0,0.0,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+3,21,3,2023-11-16,Maryland,@,Connecticut,REG (Non-Conf),L 48-80,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+4,22,4,2023-11-19,Maryland,,Syracuse,REG (Non-Conf),W 83-81,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+5,23,5,2023-11-23,Maryland,N,Washington State,REG (Non-Conf),L 67-87,,6,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+6,24,6,2023-11-24,Maryland,N,Green Bay,REG (Non-Conf),W 68-59,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+7,25,7,2023-11-25,Maryland,N,Massachusetts,REG (Non-Conf),W 92-63,,14,0,0,,0,0,0,0,,,0,0,,1,1,2,0,0,0,2,3,0,-2.2,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24
+8,26,8,2023-11-29,Maryland,,Niagara,REG (Non-Conf),W 114-44,,8,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Emma Chardon,https://www.sports-reference.com/cbb/players/emma-chardon-1.html,maryland,2023-24

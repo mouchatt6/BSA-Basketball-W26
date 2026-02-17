@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2022-11-10,Prairie View A&M,,Wiley,REG (Non-Conf),W 95-64,,2,0,3,.000,0,0,0,3,.000,.000,0,2,.000,3,0,3,0,0,0,0,0,0,-0.8,Amaya Moss,https://www.sports-reference.com/cbb/players/amaya-moss-1.html,prairie-view,2022-23
+2,2,6,2022-11-21,Prairie View A&M,,Jarvis Christian,REG (Non-Conf),W 100-66,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,1,1,0,0,0,0,0,0,-0.4,Amaya Moss,https://www.sports-reference.com/cbb/players/amaya-moss-1.html,prairie-view,2022-23
+3,3,26,2023-02-20,Prairie View A&M,,Mississippi Valley State,REG (Conf),W 72-51,,3,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.8,Amaya Moss,https://www.sports-reference.com/cbb/players/amaya-moss-1.html,prairie-view,2022-23

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,28,3,2022-11-15,Delaware,,VCU,REG (Non-Conf),W 63-50,,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jadaia Reid,https://www.sports-reference.com/cbb/players/jadaia-reid-1.html,delaware,2022-23
+2,29,7,2022-11-30,Delaware,,Delaware State,REG (Non-Conf),W 74-52,,5,0,2,.000,0,2,.000,0,0,.000,0,1,.000,1,1,2,0,0,0,0,0,0,-0.8,Jadaia Reid,https://www.sports-reference.com/cbb/players/jadaia-reid-1.html,delaware,2022-23
+3,30,10,2022-12-18,Delaware,@,Lehigh,REG (Non-Conf),W 79-67,,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jadaia Reid,https://www.sports-reference.com/cbb/players/jadaia-reid-1.html,delaware,2022-23
+4,31,11,2022-12-21,Delaware,,American,REG (Non-Conf),W 66-50,,4,0,0,,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Jadaia Reid,https://www.sports-reference.com/cbb/players/jadaia-reid-1.html,delaware,2022-23
+5,32,16,2023-01-15,Delaware,@,North Carolina A&T,REG (Conf),W 69-52,,3,0,0,,0,0,,0,0,,0,0,,1,0,1,0,0,0,0,0,0,0.7,Jadaia Reid,https://www.sports-reference.com/cbb/players/jadaia-reid-1.html,delaware,2022-23

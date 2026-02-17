@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,9,2023-12-10,Northwestern,@,Maryland,REG (Conf),L 58-71,,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.3,Rachel Mutombo,https://www.sports-reference.com/cbb/players/rachel-mutombo-1.html,northwestern,2023-24
+2,2,11,2023-12-17,Northwestern,,Bradley,REG (Non-Conf),W 86-66,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Rachel Mutombo,https://www.sports-reference.com/cbb/players/rachel-mutombo-1.html,northwestern,2023-24
+3,3,17,2024-01-14,Northwestern,,Illinois,REG (Conf),L 52-93,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Rachel Mutombo,https://www.sports-reference.com/cbb/players/rachel-mutombo-1.html,northwestern,2023-24

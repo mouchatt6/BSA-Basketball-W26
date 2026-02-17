@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-07,Syracuse,,Stony Brook,REG (Non-Conf),W 79-56,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+2,2,2,2022-11-10,Syracuse,,Colgate,REG (Non-Conf),W 72-48,,10,0,2,.000,0,2,.000,0,0,,.000,0,0,,0,0,0,2,0,0,1,1,0,-1.4,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+3,3,3,2022-11-14,Syracuse,,Binghamton,REG (Non-Conf),W 92-59,,8,2,3,.667,0,1,.000,2,2,1.000,.667,0,1,.000,0,1,1,1,0,0,1,0,4,2.3,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+4,4,4,2022-11-17,Syracuse,,LIU,REG (Non-Conf),W 85-63,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+5,5,6,2022-11-25,Syracuse,,Bucknell,REG (Non-Conf),W 65-48,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+6,6,9,2022-12-08,Syracuse,,Coppin State,REG (Non-Conf),W 93-75,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+7,7,10,2022-12-11,Syracuse,,Wagner,REG (Non-Conf),W 83-53,,8,0,0,,0,0,,0,0,,,2,2,1.000,0,0,0,3,1,0,1,0,2,4.1,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+8,8,29,2023-02-23,Syracuse,@,Pittsburgh,REG (Conf),W 85-55,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,0,0,0,0,0,0.7,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+9,9,31,2023-03-15,Syracuse,,Kent State,WNIT,W 84-56,,4,1,1,1.000,0,0,,1,1,1.000,1.000,1,1,1.000,0,0,0,1,0,0,0,0,3,3.4,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23
+10,10,32,2023-03-20,Syracuse,@,Seton Hall,WNIT,W 72-54,,1,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Lexi McNabb,https://www.sports-reference.com/cbb/players/lexi-mcnabb-1.html,syracuse,2022-23

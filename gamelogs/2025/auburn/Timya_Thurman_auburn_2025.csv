@@ -1,0 +1,14 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,18,4,2024-11-20,Auburn,@,Oregon,REG (Non-Conf),L 68-70,,10,0,1,.000,0,0,0,1,.000,.000,1,2,.500,0,1,1,0,1,0,0,1,1,0.8,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+2,19,5,2024-11-22,Auburn,@,California,REG (Non-Conf),L 59-63,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+3,20,7,2024-11-29,Auburn,N,Pittsburgh,REG (Non-Conf),W 82-50,,5,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,0,1,1,0,0,0,0,0,4,3.7,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+4,21,10,2024-12-08,Auburn,,UAB,REG (Non-Conf),W 69-62,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+5,22,11,2024-12-18,Auburn,@,Louisiana,REG (Non-Conf),W 68-51,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+6,23,12,2024-12-21,Auburn,,Alabama State,REG (Non-Conf),W 83-40,,19,0,4,.000,0,0,0,4,.000,.000,2,2,1.000,2,2,4,1,1,1,1,2,2,1.8,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+7,24,14,2025-01-02,Auburn,,Ole Miss,REG (Conf),L 58-85,,5,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+8,25,17,2025-01-12,Auburn,@,Kentucky,REG (Conf),L 61-80,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+9,26,18,2025-01-16,Auburn,,Texas,REG (Conf),L 57-74,,4,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,1,0,2,0,0.2,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+10,27,20,2025-01-23,Auburn,@,Mississippi State,REG (Conf),L 56-96,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+11,28,21,2025-01-26,Auburn,,Florida,REG (Conf),W 74-51,,5,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+12,29,23,2025-02-06,Auburn,,Texas A&M,REG (Conf),W 65-52,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25
+13,30,25,2025-02-13,Auburn,@,Tennessee,REG (Conf),L 61-99,,1,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Timya Thurman,https://www.sports-reference.com/cbb/players/timya-thurman-1.html,auburn,2024-25

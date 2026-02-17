@@ -1,0 +1,14 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,11,1,2023-11-07,Tennessee,,Florida A&M,REG (Non-Conf),W 93-64,,8,1,4,.250,0,2,.000,1,2,.500,.250,0,0,,0,2,2,1,0,0,0,1,2,0.5,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+2,12,4,2023-11-19,Tennessee,,Troy,REG (Non-Conf),W 100-73,,17,3,6,.500,1,3,.333,2,3,.667,.583,0,0,,0,5,5,3,2,0,2,3,7,6.4,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+3,13,5,2023-11-23,Tennessee,N,Indiana,REG (Non-Conf),L 57-71,,6,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,1,0,0,0,0,1.7,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+4,14,6,2023-11-25,Tennessee,N,Oklahoma,REG (Non-Conf),W 76-73,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+5,15,8,2023-12-03,Tennessee,,Ohio State,REG (Non-Conf),L 58-78,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+6,16,11,2023-12-19,Tennessee,,Wofford,REG (Non-Conf),W 85-63,,6,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,1,2,0,-2.5,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+7,17,12,2023-12-31,Tennessee,@,Liberty,REG (Non-Conf),W 90-55,,9,1,1,1.000,1,1,1.000,0,0,,1.500,2,2,1.000,3,0,3,0,1,0,2,1,5,5.4,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+8,18,21,2024-02-04,Tennessee,,Missouri,REG (Conf),W 80-69,,2,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+9,19,25,2024-02-18,Tennessee,@,Vanderbilt,REG (Conf),W 86-61,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+10,20,27,2024-02-29,Tennessee,,Texas A&M,REG (Conf),W 75-66,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+11,21,29,2024-03-07,Tennessee,N,Kentucky,REG (Non-Conf),W 76-62,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+12,22,30,2024-03-08,Tennessee,N,Alabama,CTOURN,W 83-61,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24
+13,23,32,2024-03-23,Tennessee,N,Green Bay,ROUND-64,W 92-63,,4,0,2,.000,0,2,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Edie Darby,https://www.sports-reference.com/cbb/players/edie-darby-1.html,tennessee,2023-24

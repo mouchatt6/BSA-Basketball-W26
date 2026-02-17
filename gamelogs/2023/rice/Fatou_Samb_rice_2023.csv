@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,39,1,2022-11-10,Rice,,Stephen F. Austin,REG (Non-Conf),W 89-77,,7,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,0,0,0,0,3,0,-2.6,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+2,40,2,2022-11-13,Rice,,Abilene Christian,REG (Non-Conf),W 85-69,,6,0,1,.000,0,0,0,1,.000,.000,3,6,.500,1,0,1,0,0,0,0,0,3,1.8,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+3,41,3,2022-11-16,Rice,@,St. Mary's (CA),REG (Non-Conf),W 77-64,,4,1,1,1.000,0,0,1,1,1.000,1.000,2,2,1.000,0,1,1,0,1,0,2,2,4,2.2,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+4,42,4,2022-11-18,Rice,@,Pacific,REG (Non-Conf),W 89-79,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,2,2,0,0,0,0,0,0,-0.1,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+5,43,5,2022-11-23,Rice,@,Texas Southern,REG (Non-Conf),W 76-49,,5,1,2,.500,0,0,1,2,.500,.500,0,0,,0,1,1,0,0,0,2,1,2,-1.1,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+6,44,14,2023-01-11,Rice,@,Middle Tennessee,REG (Conf),L 56-85,,6,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+7,45,15,2023-01-14,Rice,@,UTEP,REG (Conf),W 73-62,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+8,46,22,2023-02-09,Rice,,Florida Atlantic,REG (Conf),W 85-64,,8,1,2,.500,0,0,1,2,.500,.500,0,0,,3,0,3,0,0,0,2,4,2,-0.5,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+9,47,27,2023-02-25,Rice,,Charlotte,REG (Conf),W 64-52,,3,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,1,0,2,0.7,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+10,48,28,2023-03-02,Rice,@,Florida Atlantic,REG (Conf),W 76-61,,3,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+11,49,29,2023-03-04,Rice,@,Florida International,REG (Conf),W 96-84,,5,0,0,,0,0,0,0,,,0,0,,1,1,2,0,0,0,0,0,0,1.0,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23
+12,50,30,2023-03-09,Rice,N,UTSA,CTOURN,L 54-62,,1,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.1,Fatou Samb,https://www.sports-reference.com/cbb/players/fatou-samb-1.html,rice,2022-23

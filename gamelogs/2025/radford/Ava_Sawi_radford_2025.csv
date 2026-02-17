@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Radford,@,Duke,REG (Non-Conf),L 36-89,,4,0,1,.000,0,0,,0,1,.000,.000,2,2,1.000,0,1,1,0,0,0,0,0,2,1.6,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+2,2,4,2024-11-13,Radford,@,Virginia,REG (Non-Conf),L 41-83,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,2,0,0,-2.0,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+3,3,7,2024-11-23,Radford,,Eastern Kentucky,REG (Non-Conf),L 40-87,,3,0,0,,0,0,,0,0,,,2,2,1.000,0,0,0,0,0,0,1,0,2,1.0,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+4,4,9,2024-12-08,Radford,@,Clemson,REG (Non-Conf),L 48-74,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+5,5,10,2024-12-13,Radford,@,East Tennessee State,REG (Non-Conf),L 45-68,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,0,0,0,1,0,0.3,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+6,6,11,2024-12-15,Radford,@,Virginia Tech,REG (Non-Conf),L 34-73,,4,0,3,.000,0,1,.000,0,2,.000,.000,0,0,,0,0,0,0,1,0,0,0,0,-1.1,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+7,7,12,2024-12-20,Radford,,UVA Wise,REG (Non-Conf),W 96-54,,4,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,1,0,2,0.7,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+8,8,13,2024-12-29,Radford,,Bluefield Univ.,REG (Non-Conf),W 102-58,,6,2,3,.667,0,1,.000,2,2,1.000,.667,0,0,,0,2,2,1,0,0,0,2,4,3.2,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+9,9,21,2025-01-29,Radford,,UNC Asheville,REG (Conf),W 63-47,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25
+10,10,26,2025-02-19,Radford,@,UNC Asheville,REG (Conf),W 63-39,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Ava Sawi,https://www.sports-reference.com/cbb/players/ava-sawi-1.html,radford,2024-25

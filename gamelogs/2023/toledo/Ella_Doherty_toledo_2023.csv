@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,11,18,2023-01-25,Toledo,,Miami (OH),REG (Conf),W 82-63,,5,0,4,.000,0,4,.000,0,0,.000,0,0,0,0,0,1,0,0,1,1,0,-3.5,Ella Doherty,https://www.sports-reference.com/cbb/players/ella-doherty-1.html,toledo,2022-23
+2,12,22,2023-02-08,Toledo,,Buffalo,REG (Conf),W 91-73,,3,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ella Doherty,https://www.sports-reference.com/cbb/players/ella-doherty-1.html,toledo,2022-23
+3,13,24,2023-02-15,Toledo,@,Western Michigan,REG (Conf),W 75-44,,2,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Ella Doherty,https://www.sports-reference.com/cbb/players/ella-doherty-1.html,toledo,2022-23
+4,14,25,2023-02-18,Toledo,,Eastern Michigan,REG (Conf),W 84-64,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ella Doherty,https://www.sports-reference.com/cbb/players/ella-doherty-1.html,toledo,2022-23
+5,15,34,2023-03-20,Toledo,@,Tennessee,ROUND-32,L 47-94,,3,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,0,0,0,0,1.0,Ella Doherty,https://www.sports-reference.com/cbb/players/ella-doherty-1.html,toledo,2022-23

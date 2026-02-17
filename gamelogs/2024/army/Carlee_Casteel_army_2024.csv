@@ -1,0 +1,12 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,6,2023-11-22,Army,,Connecticut Col.,REG (Non-Conf),W 59-34,,7,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,1,0,0,-1.7,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+2,2,10,2023-12-30,Army,,Five Towns,REG (Non-Conf),W 87-52,,10,3,5,.600,0,2,.000,3,3,1.000,.600,1,1,1.000,0,2,2,1,0,0,0,1,7,5.6,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+3,3,11,2024-01-03,Army,,Lafayette,REG (Conf),L 42-68,,8,1,4,.250,1,2,.500,0,2,.000,.375,1,2,.500,1,1,2,0,1,0,1,1,4,1.8,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+4,4,12,2024-01-06,Army,@,Holy Cross,REG (Conf),L 52-67,,3,0,1,.000,0,0,,0,1,.000,.000,1,2,.500,0,1,1,0,0,0,1,0,1,-0.8,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+5,5,15,2024-01-17,Army,@,Colgate,REG (Conf),W 52-49,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+6,6,16,2024-01-20,Army,@,Navy,REG (Conf),W 66-51,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+7,7,19,2024-01-31,Army,,Colgate,REG (Conf),W 55-52,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+8,8,20,2024-02-03,Army,@,Lafayette,REG (Conf),L 54-68,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+9,9,23,2024-02-17,Army,,Holy Cross,REG (Conf),W 58-43,,1,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+10,10,24,2024-02-21,Army,@,Lehigh,REG (Conf),L 60-77,,1,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24
+11,11,28,2024-03-06,Army,,Lehigh,REG (Conf),L 51-64,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,,0,0,0,0,0,0,0,0,3,2.7,Carlee Casteel,https://www.sports-reference.com/cbb/players/carlee-casteel-1.html,army,2023-24

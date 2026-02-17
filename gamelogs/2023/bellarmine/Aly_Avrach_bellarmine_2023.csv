@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,7,2022-12-01,Bellarmine,,Simmons (KY),REG (Non-Conf),W 68-47,,1,1,1,1.000,1,1,1.000,0,0,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Aly Avrach,https://www.sports-reference.com/cbb/players/aly-avrach-1.html,bellarmine,2022-23
+2,2,10,2022-12-12,Bellarmine,,Franklin,REG (Non-Conf),W 76-49,,10,2,4,.500,2,4,.500,0,0,.750,0,0,0,0,0,0,0,0,0,1,6,3.6,Aly Avrach,https://www.sports-reference.com/cbb/players/aly-avrach-1.html,bellarmine,2022-23
+3,3,13,2022-12-20,Bellarmine,,Murray State,REG (Non-Conf),L 59-74,,0,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Aly Avrach,https://www.sports-reference.com/cbb/players/aly-avrach-1.html,bellarmine,2022-23
+4,4,14,2023-01-02,Bellarmine,@,Jacksonville,REG (Conf),L 64-77,,1,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Aly Avrach,https://www.sports-reference.com/cbb/players/aly-avrach-1.html,bellarmine,2022-23
+5,5,27,2023-02-16,Bellarmine,,Central Arkansas,REG (Conf),W 62-35,,3,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Aly Avrach,https://www.sports-reference.com/cbb/players/aly-avrach-1.html,bellarmine,2022-23
+6,6,30,2023-02-25,Bellarmine,@,Queens (NC),REG (Conf),W 69-51,,3,0,0,,0,0,,0,0,,0,0,0,0,0,1,0,0,0,0,0,0.7,Aly Avrach,https://www.sports-reference.com/cbb/players/aly-avrach-1.html,bellarmine,2022-23

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,52,1,2024-11-04,Indiana State,,Western Kentucky,REG (Non-Conf),L 59-71,,4,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,-0.4,Leah Yarbrough,https://www.sports-reference.com/cbb/players/leah-yarbrough-1.html,indiana-state,2024-25
+2,53,2,2024-11-07,Indiana State,@,Iowa State,REG (Non-Conf),L 42-64,,9,0,0,0,0,0,0,0,0,1,3,4,0,0,0,1,1,0,0.2,Leah Yarbrough,https://www.sports-reference.com/cbb/players/leah-yarbrough-1.html,indiana-state,2024-25
+3,54,3,2024-11-12,Indiana State,@,Wright State,REG (Non-Conf),W 68-51,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,-0.8,Leah Yarbrough,https://www.sports-reference.com/cbb/players/leah-yarbrough-1.html,indiana-state,2024-25
+4,55,4,2024-11-15,Indiana State,,Austin Peay,REG (Non-Conf),L 56-74,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,0,-2.2,Leah Yarbrough,https://www.sports-reference.com/cbb/players/leah-yarbrough-1.html,indiana-state,2024-25
+5,56,5,2024-11-20,Indiana State,@,Butler,REG (Non-Conf),L 55-80,,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0.7,Leah Yarbrough,https://www.sports-reference.com/cbb/players/leah-yarbrough-1.html,indiana-state,2024-25

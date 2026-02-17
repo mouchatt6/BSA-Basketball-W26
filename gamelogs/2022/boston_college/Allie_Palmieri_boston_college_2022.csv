@@ -1,0 +1,3 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,8,1,2021-11-09,Boston College,,Harvard,REG (Non-Conf),W 86-60,,5,1,2,.500,0,0,,1,2,.500,.500,0,1,.000,0,1,1,1,0,0,0,1,2,1.2,Allie Palmieri,https://www.sports-reference.com/cbb/players/allie-palmieri-1.html,boston-college,2021-22
+2,9,2,2021-11-13,Boston College,,Holy Cross,REG (Non-Conf),W 75-50,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,,2,0,2,0,0,0,0,1,0,0.3,Allie Palmieri,https://www.sports-reference.com/cbb/players/allie-palmieri-1.html,boston-college,2021-22

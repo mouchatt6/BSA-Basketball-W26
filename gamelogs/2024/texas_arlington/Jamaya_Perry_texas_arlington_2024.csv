@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,7,2023-11-29,UT Arlington,@,Abilene Christian,REG (Conf),L 76-94,,2,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,1,0,-0.1,Jamaya Perry,https://www.sports-reference.com/cbb/players/jamaya-perry-1.html,texas-arlington,2023-24
+2,2,8,2023-12-02,UT Arlington,,Grand Canyon,REG (Conf),L 48-77,,3,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jamaya Perry,https://www.sports-reference.com/cbb/players/jamaya-perry-1.html,texas-arlington,2023-24
+3,3,9,2023-12-05,UT Arlington,@,Colorado,REG (Non-Conf),L 74-95,,3,0,2,.000,0,0,0,2,.000,.000,0,0,0,0,0,0,0,0,0,1,0,-1.8,Jamaya Perry,https://www.sports-reference.com/cbb/players/jamaya-perry-1.html,texas-arlington,2023-24

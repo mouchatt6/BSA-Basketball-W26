@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,13,3,2022-11-15,Florida A&M,,Georgia State,REG (Non-Conf),W 65-57,,6,0,2,.000,0,2,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,1,0,-2.8,Peryonna Sylvester,https://www.sports-reference.com/cbb/players/peryonna-sylvester-1.html,florida-am,2022-23
+2,14,4,2022-11-17,Florida A&M,@,Michigan State,REG (Non-Conf),L 44-109,,7,0,2,.000,0,0,,0,2,.000,.000,0,0,0,0,0,0,1,0,1,0,0,-1.4,Peryonna Sylvester,https://www.sports-reference.com/cbb/players/peryonna-sylvester-1.html,florida-am,2022-23
+3,15,27,2023-02-20,Florida A&M,@,Alabama A&M,REG (Conf),L 65-77,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Peryonna Sylvester,https://www.sports-reference.com/cbb/players/peryonna-sylvester-1.html,florida-am,2022-23

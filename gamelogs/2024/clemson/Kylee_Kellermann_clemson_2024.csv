@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Clemson,,Winthrop,REG (Non-Conf),W 71-41,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24
+2,2,2,2023-11-10,Clemson,,Charleston Southern,REG (Non-Conf),W 85-55,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24
+3,3,3,2023-11-12,Clemson,,Mercer,REG (Non-Conf),W 90-66,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24
+4,4,5,2023-11-19,Clemson,,Longwood,REG (Non-Conf),W 102-63,,3,0,2,.000,0,2,.000,0,0,.000,0,0,0,1,1,0,0,0,0,0,0,-1.1,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24
+5,5,8,2023-11-26,Clemson,N,Arkansas–Pine Bluff,REG (Non-Conf),W 92-66,,1,0,0,,0,0,,0,0,,0,0,0,1,1,0,0,0,0,0,0,0.3,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24
+6,6,13,2023-12-22,Clemson,,East Tennessee State,REG (Non-Conf),W 73-50,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24
+7,7,27,2024-02-22,Clemson,@,Notre Dame,REG (Conf),L 47-74,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Kylee Kellermann,https://www.sports-reference.com/cbb/players/kylee-kellermann-1.html,clemson,2023-24

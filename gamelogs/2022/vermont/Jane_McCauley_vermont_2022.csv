@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,25,1,2021-11-09,Vermont,,Merrimack,REG (Non-Conf),W 87-57,,4,0,1,.000,0,1,.000,0,0,.000,0,0,,0,0,0,1,0,0,0,0,0,0.0,Jane McCauley,https://www.sports-reference.com/cbb/players/jane-mccauley-1.html,vermont,2021-22
+2,26,3,2021-11-14,Vermont,@,Marist,REG (Non-Conf),L 50-67,,11,5,8,.625,5,8,.625,0,0,.938,1,2,.500,0,0,0,0,0,0,1,1,16,10.6,Jane McCauley,https://www.sports-reference.com/cbb/players/jane-mccauley-1.html,vermont,2021-22
+3,27,5,2021-11-27,Vermont,,Brown,REG (Non-Conf),W 79-46,,12,2,3,.667,2,3,.667,0,0,1.000,0,0,,0,0,0,1,1,0,1,0,6,5.4,Jane McCauley,https://www.sports-reference.com/cbb/players/jane-mccauley-1.html,vermont,2021-22
+4,28,6,2021-11-28,Vermont,,Bucknell,REG (Non-Conf),L 53-68,,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jane McCauley,https://www.sports-reference.com/cbb/players/jane-mccauley-1.html,vermont,2021-22

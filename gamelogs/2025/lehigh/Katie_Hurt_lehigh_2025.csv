@@ -1,0 +1,15 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,15,1,2024-11-04,Lehigh,,LIU,REG (Non-Conf),W 83-59,,3,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+2,16,5,2024-11-22,Lehigh,,Hofstra,REG (Non-Conf),W 80-61,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+3,17,7,2024-11-30,Lehigh,,Marist,REG (Non-Conf),W 56-39,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+4,18,8,2024-12-01,Lehigh,,Valparaiso,REG (Non-Conf),W 77-59,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+5,19,10,2024-12-08,Lehigh,@,Cornell,REG (Non-Conf),W 73-51,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+6,20,12,2024-12-29,Lehigh,,Misericordia,REG (Non-Conf),W 81-22,,15,3,6,.500,2,5,.400,1,1,1.000,.667,1,2,.500,0,4,4,0,1,0,1,1,9,6.4,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+7,21,16,2025-01-12,Lehigh,@,Army,REG (Conf),W 90-51,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+8,22,20,2025-01-25,Lehigh,,Lafayette,REG (Conf),W 73-51,,5,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,0,2,1.7,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+9,23,21,2025-01-29,Lehigh,@,Navy,REG (Conf),W 87-66,,2,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,1,1,0,0,0,0,0,0,-0.4,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+10,24,27,2025-02-22,Lehigh,@,Lafayette,REG (Conf),W 75-61,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+11,25,30,2025-03-05,Lehigh,@,Colgate,REG (Conf),L 59-78,,2,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+12,26,31,2025-03-10,Lehigh,,Boston University,CTOURN,W 62-44,,2,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+13,27,32,2025-03-13,Lehigh,,Holy Cross,CTOURN,W 65-44,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25
+14,28,34,2025-03-21,Lehigh,@,Duke,ROUND-64,L 25-86,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2024-25

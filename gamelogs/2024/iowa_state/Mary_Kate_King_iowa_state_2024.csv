@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,23,1,2023-11-06,Iowa State,,Butler,REG (Non-Conf),W 82-55,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mary Kate King,https://www.sports-reference.com/cbb/players/mary-kate-king-1.html,iowa-state,2023-24
+2,24,6,2023-11-29,Iowa State,@,St. Thomas,REG (Non-Conf),W 85-44,,4,1,1,1.000,1,1,1.000,0,0,1.500,0,0,0,0,0,1,1,0,1,0,3,3.4,Mary Kate King,https://www.sports-reference.com/cbb/players/mary-kate-king-1.html,iowa-state,2023-24
+3,25,7,2023-12-03,Iowa State,,UNC Wilmington,REG (Non-Conf),W 85-58,,4,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Mary Kate King,https://www.sports-reference.com/cbb/players/mary-kate-king-1.html,iowa-state,2023-24
+4,26,10,2023-12-17,Iowa State,,Troy,REG (Non-Conf),W 105-68,,3,0,0,,0,0,,0,0,,0,0,0,1,1,2,0,0,0,0,0,1.7,Mary Kate King,https://www.sports-reference.com/cbb/players/mary-kate-king-1.html,iowa-state,2023-24
+5,27,27,2024-02-24,Iowa State,,Brigham Young,REG (Conf),W 74-49,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mary Kate King,https://www.sports-reference.com/cbb/players/mary-kate-king-1.html,iowa-state,2023-24

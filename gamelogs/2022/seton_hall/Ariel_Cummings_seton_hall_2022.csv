@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,1,2021-11-09,Seton Hall,,Mount St. Mary's,REG (Non-Conf),W 81-68,*,9,1,2,.500,0,0,1,2,.500,.500,0,1,.000,1,1,2,0,0,0,3,4,2,-3.0,Ariel Cummings,https://www.sports-reference.com/cbb/players/ariel-cummings-1.html,seton-hall,2021-22
+2,11,2,2021-11-13,Seton Hall,,Fordham,REG (Non-Conf),L 63-82,,4,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,1,0,-0.1,Ariel Cummings,https://www.sports-reference.com/cbb/players/ariel-cummings-1.html,seton-hall,2021-22
+3,12,6,2021-12-03,Seton Hall,,Connecticut,REG (Conf),L 49-74,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Ariel Cummings,https://www.sports-reference.com/cbb/players/ariel-cummings-1.html,seton-hall,2021-22
+4,13,8,2021-12-11,Seton Hall,@,Princeton,REG (Non-Conf),W 70-60,,2,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Ariel Cummings,https://www.sports-reference.com/cbb/players/ariel-cummings-1.html,seton-hall,2021-22

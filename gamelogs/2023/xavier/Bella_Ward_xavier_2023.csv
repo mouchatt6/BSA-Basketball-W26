@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-07,Xavier,@,Miami (OH),REG (Non-Conf),W 87-68,,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,-0.7,Bella Ward,https://www.sports-reference.com/cbb/players/bella-ward-1.html,xavier,2022-23
+2,2,2,2022-11-10,Xavier,,Detroit Mercy,REG (Non-Conf),W 71-57,,2,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0.3,Bella Ward,https://www.sports-reference.com/cbb/players/bella-ward-1.html,xavier,2022-23
+3,3,3,2022-11-13,Xavier,,Saint Francis (PA),REG (Non-Conf),W 78-52,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Ward,https://www.sports-reference.com/cbb/players/bella-ward-1.html,xavier,2022-23
+4,4,4,2022-11-19,Xavier,,Old Dominion,REG (Non-Conf),W 65-49,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Bella Ward,https://www.sports-reference.com/cbb/players/bella-ward-1.html,xavier,2022-23
+5,5,7,2022-11-27,Xavier,@,SIU Edwardsville,REG (Non-Conf),W 73-65,,3,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,1.4,Bella Ward,https://www.sports-reference.com/cbb/players/bella-ward-1.html,xavier,2022-23

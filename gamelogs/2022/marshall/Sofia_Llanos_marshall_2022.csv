@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2021-11-09,Marshall,,Bluefield St.,REG (Non-Conf),W 108-45,,1,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Sofia Llanos,https://www.sports-reference.com/cbb/players/sofia-llanos-1.html,marshall,2021-22
+2,2,8,2021-12-15,Marshall,,Alderson-Broaddus,REG (Non-Conf),W 88-56,,4,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,0,1,0,0,0,0,0.6,Sofia Llanos,https://www.sports-reference.com/cbb/players/sofia-llanos-1.html,marshall,2021-22
+3,3,9,2021-12-20,Marshall,@,Oakland,REG (Non-Conf),W 79-58,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sofia Llanos,https://www.sports-reference.com/cbb/players/sofia-llanos-1.html,marshall,2021-22

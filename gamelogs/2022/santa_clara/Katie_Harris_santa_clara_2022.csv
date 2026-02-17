@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,6,6,2021-12-01,Santa Clara,,UC Merced,REG (Non-Conf),W 91-52,,3,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,2,0,0,0,1.4,Katie Harris,https://www.sports-reference.com/cbb/players/katie-harris-1.html,santa-clara,2021-22
+2,7,10,2021-12-20,Santa Clara,,Holy Names,REG (Non-Conf),W 88-30,,2,0,2,.000,0,0,0,2,.000,.000,0,0,1,0,1,0,0,0,1,1,0,-2.1,Katie Harris,https://www.sports-reference.com/cbb/players/katie-harris-1.html,santa-clara,2021-22
+3,8,29,2022-03-03,Santa Clara,,Pacific,CTOURN,W 93-69,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Katie Harris,https://www.sports-reference.com/cbb/players/katie-harris-1.html,santa-clara,2021-22

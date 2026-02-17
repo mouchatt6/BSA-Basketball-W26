@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2024-11-10,Northwestern,,Lehigh,REG (Non-Conf),L 68-85,,3,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Claire Keswick,https://www.sports-reference.com/cbb/players/claire-keswick-1.html,northwestern,2024-25
+2,2,11,2024-12-20,Northwestern,N,College of Charleston,REG (Non-Conf),L 62-68,,0,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Claire Keswick,https://www.sports-reference.com/cbb/players/claire-keswick-1.html,northwestern,2024-25
+3,3,18,2025-01-23,Northwestern,,Illinois,REG (Conf),L 60-85,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Claire Keswick,https://www.sports-reference.com/cbb/players/claire-keswick-1.html,northwestern,2024-25
+4,4,27,2025-03-02,Northwestern,,Nebraska,REG (Conf),L 77-98,,2,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Claire Keswick,https://www.sports-reference.com/cbb/players/claire-keswick-1.html,northwestern,2024-25

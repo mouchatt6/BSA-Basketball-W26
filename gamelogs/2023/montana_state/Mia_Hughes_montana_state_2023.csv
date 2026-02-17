@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,17,1,2022-11-07,Montana State,,Providence (MT),REG (Non-Conf),W 78-31,,7,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,0,0,0,1,1,0,0,1,4,4.7,Mia Hughes,https://www.sports-reference.com/cbb/players/mia-hughes-1.html,montana-state,2022-23
+2,18,3,2022-11-15,Montana State,,Arizona State,REG (Non-Conf),L 64-79,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Mia Hughes,https://www.sports-reference.com/cbb/players/mia-hughes-1.html,montana-state,2022-23
+3,19,7,2022-11-27,Montana State,@,North Texas,REG (Non-Conf),L 57-66,,4,0,0,,0,0,0,0,,,2,2,1.000,1,0,1,0,0,0,1,0,2,1.7,Mia Hughes,https://www.sports-reference.com/cbb/players/mia-hughes-1.html,montana-state,2022-23

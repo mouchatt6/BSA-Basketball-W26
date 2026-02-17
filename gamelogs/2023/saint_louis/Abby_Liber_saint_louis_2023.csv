@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2022-11-11,Saint Louis,,SIU Edwardsville,REG (Non-Conf),W 95-38,,4,1,2,.500,0,0,,1,2,.500,.500,0,0,0,0,0,0,1,0,1,0,2,1.0,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+2,2,7,2022-11-25,Saint Louis,N,Baylor,REG (Non-Conf),L 58-92,,4,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+3,3,9,2022-11-27,Saint Louis,N,Air Force,REG (Non-Conf),W 77-58,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+4,4,10,2022-11-30,Saint Louis,@,Missouri,REG (Non-Conf),L 52-82,,1,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+5,5,12,2022-12-05,Saint Louis,@,Ball State,REG (Non-Conf),L 51-85,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+6,6,18,2023-01-07,Saint Louis,@,Saint Joseph's,REG (Conf),L 47-71,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+7,7,31,2023-02-25,Saint Louis,@,Loyola Chicago,REG (Conf),W 73-55,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23
+8,8,35,2023-03-18,Saint Louis,@,Tennessee,ROUND-64,L 50-95,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Abby Liber,https://www.sports-reference.com/cbb/players/abby-liber-1.html,saint-louis,2022-23

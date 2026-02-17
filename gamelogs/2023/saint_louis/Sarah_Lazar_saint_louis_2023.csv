@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,20,2,2022-11-11,Saint Louis,,SIU Edwardsville,REG (Non-Conf),W 95-38,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,1,1,1,0,0,0,1,2,2.3,Sarah Lazar,https://www.sports-reference.com/cbb/players/sarah-lazar-1.html,saint-louis,2022-23
+2,21,7,2022-11-25,Saint Louis,N,Baylor,REG (Non-Conf),L 58-92,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sarah Lazar,https://www.sports-reference.com/cbb/players/sarah-lazar-1.html,saint-louis,2022-23
+3,22,9,2022-11-27,Saint Louis,N,Air Force,REG (Non-Conf),W 77-58,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sarah Lazar,https://www.sports-reference.com/cbb/players/sarah-lazar-1.html,saint-louis,2022-23
+4,23,12,2022-12-05,Saint Louis,@,Ball State,REG (Non-Conf),L 51-85,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sarah Lazar,https://www.sports-reference.com/cbb/players/sarah-lazar-1.html,saint-louis,2022-23

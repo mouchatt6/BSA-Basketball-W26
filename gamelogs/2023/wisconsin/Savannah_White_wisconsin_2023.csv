@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2022-11-20,Wisconsin,@,Illinois State,REG (Non-Conf),L 57-62,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Savannah White,https://www.sports-reference.com/cbb/players/savannah-white-1.html,wisconsin,2022-23
+2,2,6,2022-11-24,Wisconsin,N,Georgia,REG (Non-Conf),L 60-68,,8,0,2,.000,0,0,0,2,.000,.000,0,0,,1,1,2,0,0,0,1,1,0,-1.8,Savannah White,https://www.sports-reference.com/cbb/players/savannah-white-1.html,wisconsin,2022-23
+3,3,7,2022-11-25,Wisconsin,N,Seton Hall,REG (Non-Conf),L 72-83,,6,0,0,,0,0,0,0,,,1,2,.500,1,1,2,1,0,0,0,0,1,2.3,Savannah White,https://www.sports-reference.com/cbb/players/savannah-white-1.html,wisconsin,2022-23
+4,4,8,2022-11-26,Wisconsin,N,VCU,REG (Non-Conf),L 67-75,,9,0,2,.000,0,0,0,2,.000,.000,0,0,,1,1,2,1,0,0,0,1,0,-0.1,Savannah White,https://www.sports-reference.com/cbb/players/savannah-white-1.html,wisconsin,2022-23
+5,5,10,2022-12-04,Wisconsin,,Iowa,REG (Conf),L 71-102,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Savannah White,https://www.sports-reference.com/cbb/players/savannah-white-1.html,wisconsin,2022-23
+6,6,11,2022-12-07,Wisconsin,@,Nebraska,REG (Conf),L 54-82,,1,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Savannah White,https://www.sports-reference.com/cbb/players/savannah-white-1.html,wisconsin,2022-23

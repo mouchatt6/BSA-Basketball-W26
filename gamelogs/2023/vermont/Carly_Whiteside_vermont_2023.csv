@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,35,10,2022-12-08,Vermont,@,Saint Francis (PA),REG (Non-Conf),W 68-48,,2,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,2,0,-0.5,Carly Whiteside,https://www.sports-reference.com/cbb/players/carly-whiteside-1.html,vermont,2022-23
+2,36,25,2023-02-11,Vermont,@,UMass Lowell,REG (Conf),W 58-39,,1,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Carly Whiteside,https://www.sports-reference.com/cbb/players/carly-whiteside-1.html,vermont,2022-23
+3,37,27,2023-02-18,Vermont,,NJIT,REG (Conf),W 85-73,,1,0,0,,0,0,,0,0,,,0,2,.000,0,0,0,0,0,0,0,0,0,-0.8,Carly Whiteside,https://www.sports-reference.com/cbb/players/carly-whiteside-1.html,vermont,2022-23
+4,38,29,2023-02-25,Vermont,,Bryant,REG (Conf),W 64-41,*,4,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,1,1,0,0,0,0,0,2,2.0,Carly Whiteside,https://www.sports-reference.com/cbb/players/carly-whiteside-1.html,vermont,2022-23
+5,39,33,2023-03-18,Vermont,@,Connecticut,ROUND-64,L 52-95,,1,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Carly Whiteside,https://www.sports-reference.com/cbb/players/carly-whiteside-1.html,vermont,2022-23

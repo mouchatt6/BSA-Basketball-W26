@@ -1,0 +1,10 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,5,3,2022-11-19,Maine,,Yale,REG (Non-Conf),L 46-55,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+2,6,5,2022-11-25,Maine,N,Kansas,REG (Non-Conf),L 49-76,,9,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,1,0,1,0,0,-0.7,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+3,7,7,2022-11-28,Maine,@,Gonzaga,REG (Non-Conf),L 43-62,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,1,0,0,0,0,0,0.0,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+4,8,9,2022-12-04,Maine,@,Rhode Island,REG (Non-Conf),L 43-63,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+5,9,11,2022-12-11,Maine,,Army,REG (Non-Conf),W 88-60,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,1,1,0,0,1,0,0,0,0.3,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+6,10,12,2022-12-18,Maine,@,Harvard,REG (Non-Conf),L 56-84,,3,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+7,11,22,2023-02-01,Maine,,Bryant,REG (Conf),W 66-43,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+8,12,23,2023-02-04,Maine,@,UMBC,REG (Conf),L 57-74,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23
+9,13,28,2023-02-22,Maine,,New Hampshire,REG (Conf),W 80-67,,1,0,0,,0,0,,0,0,,,0,0,1,0,1,0,0,0,1,1,0,-0.7,Idan Shlush,https://www.sports-reference.com/cbb/players/idan-shlush-1.html,maine,2022-23

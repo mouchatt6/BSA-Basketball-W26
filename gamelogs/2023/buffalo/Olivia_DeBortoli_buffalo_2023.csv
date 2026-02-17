@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,14,2023-01-14,Buffalo,,Eastern Michigan,REG (Conf),W 78-59,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,2,0,-0.8,Olivia DeBortoli,https://www.sports-reference.com/cbb/players/olivia-debortoli-1.html,buffalo,2022-23
+2,2,21,2023-02-08,Buffalo,@,Toledo,REG (Conf),L 73-91,,1,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,1,1,0,0,0,0,0,2,2.0,Olivia DeBortoli,https://www.sports-reference.com/cbb/players/olivia-debortoli-1.html,buffalo,2022-23
+3,3,26,2023-02-25,Buffalo,@,Bowling Green,REG (Conf),W 84-66,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Olivia DeBortoli,https://www.sports-reference.com/cbb/players/olivia-debortoli-1.html,buffalo,2022-23
+4,4,27,2023-03-01,Buffalo,,Akron,REG (Conf),W 64-50,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Olivia DeBortoli,https://www.sports-reference.com/cbb/players/olivia-debortoli-1.html,buffalo,2022-23

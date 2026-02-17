@@ -1,0 +1,2 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,61,1,2021-11-09,Alcorn State,@,Marquette,REG (Non-Conf),L 35-96,*,23,0,2,.000,0,0,0,2,.000,.000,0,0,0,2,2,0,0,0,2,3,0,-4.0,Deja Mitchell,https://www.sports-reference.com/cbb/players/deja-mitchell-1.html,alcorn-state,2021-22

@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,21,2,2023-11-10,Manhattan,,George Washington,REG (Non-Conf),L 49-55,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2023-24
+2,22,4,2023-11-19,Manhattan,@,St. John's (NY),REG (Non-Conf),L 47-67,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2023-24
+3,23,29,2024-03-09,Manhattan,,Iona,REG (Conf),W 66-56,*,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,-0.7,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2023-24

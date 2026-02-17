@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,9,10,2022-12-07,NJIT,,Colgate,REG (Non-Conf),L 51-69,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,1,1,0,0,0,0,0,2,2.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+2,10,12,2022-12-17,NJIT,@,Wagner,REG (Non-Conf),L 54-68,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+3,11,14,2023-01-01,NJIT,@,UMass Lowell,REG (Conf),W 60-56,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,1,0,0,1,1,0,-0.7,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+4,12,15,2023-01-07,NJIT,,Maine,REG (Conf),L 63-69,,1,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+5,13,17,2023-01-14,NJIT,@,Albany (NY),REG (Conf),L 54-73,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,1,0,0,1,0,0,-1.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+6,14,19,2023-01-21,NJIT,,Vermont,REG (Conf),L 32-65,,5,0,0,,0,0,0,0,,,0,0,,0,2,2,0,0,2,1,0,0,1.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+7,15,22,2023-02-04,NJIT,,UMass Lowell,REG (Conf),W 68-50,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+8,16,23,2023-02-08,NJIT,,UMBC,REG (Conf),L 69-72,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,1,0,0,0,0,0,0.7,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+9,17,25,2023-02-15,NJIT,,Binghamton,REG (Conf),W 75-70,,5,0,0,,0,0,0,0,,,1,2,.500,1,1,2,0,0,0,1,0,1,0.6,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+10,18,26,2023-02-18,NJIT,@,Vermont,REG (Conf),L 73-85,,3,1,1,1.000,0,0,1,1,1.000,1.000,1,2,.500,0,2,2,0,0,0,1,2,3,1.1,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+11,19,27,2023-02-22,NJIT,@,Bryant,REG (Conf),L 62-65,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23
+12,20,29,2023-03-01,NJIT,@,UMBC,CTOURN,L 71-82,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lindsey Syrek,https://www.sports-reference.com/cbb/players/lindsey-syrek-1.html,njit,2022-23

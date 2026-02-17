@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,6,2022-11-25,Mississippi State,N,Georgetown,REG (Non-Conf),W 67-32,,3,0,0,0,0,0,0,1,2,.500,0,1,1,0,0,0,0,0,1,0.9,Mia Moore,https://www.sports-reference.com/cbb/players/mia-moore-1.html,mississippi-state,2022-23
+2,2,8,2022-11-29,Mississippi State,,Louisiana–Monroe,REG (Non-Conf),W 94-39,,5,0,0,0,0,0,0,2,2,1.000,0,0,0,0,0,0,2,1,2,-0.4,Mia Moore,https://www.sports-reference.com/cbb/players/mia-moore-1.html,mississippi-state,2022-23
+3,3,9,2022-12-04,Mississippi State,,Grambling State,REG (Non-Conf),W 73-47,,1,0,0,0,0,0,0,0,0,,0,1,1,0,0,0,0,0,0,0.3,Mia Moore,https://www.sports-reference.com/cbb/players/mia-moore-1.html,mississippi-state,2022-23
+4,4,19,2023-01-19,Mississippi State,,Auburn,REG (Conf),W 72-58,,2,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Mia Moore,https://www.sports-reference.com/cbb/players/mia-moore-1.html,mississippi-state,2022-23

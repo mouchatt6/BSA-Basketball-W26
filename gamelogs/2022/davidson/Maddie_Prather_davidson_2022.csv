@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,11,2021-12-20,Davidson,@,Western Carolina,REG (Non-Conf),W 68-46,,3,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Maddie Prather,https://www.sports-reference.com/cbb/players/maddie-prather-1.html,davidson,2021-22
+2,2,18,2022-01-26,Davidson,@,George Washington,REG (Conf),W 67-37,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Maddie Prather,https://www.sports-reference.com/cbb/players/maddie-prather-1.html,davidson,2021-22
+3,3,32,2022-03-19,Davidson,,Northeastern,WBI,W 90-65,,2,0,1,.000,0,1,.000,0,0,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Maddie Prather,https://www.sports-reference.com/cbb/players/maddie-prather-1.html,davidson,2021-22

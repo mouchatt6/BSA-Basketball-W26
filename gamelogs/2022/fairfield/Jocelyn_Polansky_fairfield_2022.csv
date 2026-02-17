@@ -1,0 +1,10 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,24,11,2021-12-30,Fairfield,,Iona,REG (Conf),W 69-52,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+2,25,14,2022-01-15,Fairfield,@,Canisius,REG (Conf),W 73-37,,7,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,1,1,0,2,0,0,0,0,0.9,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+3,26,15,2022-01-20,Fairfield,,Manhattan,REG (Conf),W 70-55,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+4,27,18,2022-01-27,Fairfield,@,Marist,REG (Conf),W 59-39,,3,0,0,,0,0,,0,0,,,0,0,1,0,1,0,0,0,1,0,0,-0.3,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+5,28,22,2022-02-10,Fairfield,@,Iona,REG (Conf),W 54-29,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+6,29,25,2022-02-24,Fairfield,,Monmouth,REG (Conf),W 75-52,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+7,30,28,2022-03-05,Fairfield,@,Saint Peter's,REG (Conf),W 56-43,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+8,31,30,2022-03-11,Fairfield,,Niagara,CTOURN,W 75-38,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,1,1,0,-0.7,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22
+9,32,32,2022-03-18,Fairfield,@,Texas,ROUND-64,L 52-70,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jocelyn Polansky,https://www.sports-reference.com/cbb/players/jocelyn-polansky-1.html,fairfield,2021-22

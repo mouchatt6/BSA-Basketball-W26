@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,60,1,2024-11-07,Loyola (MD),@,James Madison,REG (Non-Conf),L 54-85,,17,5,11,.455,3,8,.375,2,3,.667,.591,0,0,1,1,2,0,0,0,1,0,13,7.3,Kelly Ratigan,https://www.sports-reference.com/cbb/players/kelly-ratigan-1.html,loyola-md,2024-25
+2,61,2,2024-11-10,Loyola (MD),,UMBC,REG (Non-Conf),W 54-46,,14,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,1,0,0,1,0,2,1.4,Kelly Ratigan,https://www.sports-reference.com/cbb/players/kelly-ratigan-1.html,loyola-md,2024-25
+3,62,3,2024-11-13,Loyola (MD),,St. John's (NY),REG (Non-Conf),L 61-69,,14,1,4,.250,1,4,.250,0,0,,.375,0,0,0,0,0,0,0,0,0,2,3,-0.2,Kelly Ratigan,https://www.sports-reference.com/cbb/players/kelly-ratigan-1.html,loyola-md,2024-25

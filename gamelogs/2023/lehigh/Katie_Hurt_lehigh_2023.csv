@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2022-11-18,Lehigh,,Bloomsburg,REG (Non-Conf),W 97-54,,12,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,0,0,1,0,0,1,0,0,-1.7,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23
+2,2,12,2022-12-30,Lehigh,,Army,REG (Conf),W 90-68,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23
+3,3,14,2023-01-05,Lehigh,,Bucknell,REG (Conf),W 64-51,,1,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23
+4,4,15,2023-01-08,Lehigh,,Navy,REG (Conf),W 77-42,,3,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23
+5,5,21,2023-01-28,Lehigh,@,Boston University,REG (Conf),L 69-82,,1,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23
+6,6,22,2023-02-04,Lehigh,,Lafayette,REG (Conf),W 79-48,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23
+7,7,25,2023-02-15,Lehigh,@,Navy,REG (Conf),W 72-38,,3,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Katie Hurt,https://www.sports-reference.com/cbb/players/katie-hurt-1.html,lehigh,2022-23

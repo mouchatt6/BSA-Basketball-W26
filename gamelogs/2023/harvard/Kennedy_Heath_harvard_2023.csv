@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,7,8,2022-11-30,Harvard,,UMass Lowell,REG (Non-Conf),W 86-66,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,1,1,1,0,0,0,0,0,0.3,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23
+2,8,19,2023-01-28,Harvard,,Pennsylvania,REG (Conf),W 84-60,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23
+3,9,20,2023-02-03,Harvard,@,Yale,REG (Conf),W 67-54,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23
+4,10,21,2023-02-04,Harvard,@,Brown,REG (Conf),W 74-61,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23
+5,11,24,2023-02-18,Harvard,,Cornell,REG (Conf),W 86-59,,2,0,2,.000,0,2,.000,0,0,,.000,1,2,.500,0,0,0,0,0,0,0,0,1,-0.8,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23
+6,12,26,2023-03-04,Harvard,,Dartmouth,REG (Conf),W 64-40,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23
+7,13,29,2023-03-16,Harvard,,Towson,WNIT,W 103-63,,2,1,2,.500,0,1,.000,1,1,1.000,.500,0,0,,1,0,1,0,0,0,1,0,2,0.7,Kennedy Heath,https://www.sports-reference.com/cbb/players/kennedy-heath-1.html,harvard,2022-23

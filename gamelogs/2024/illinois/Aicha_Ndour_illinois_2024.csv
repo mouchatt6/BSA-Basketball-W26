@@ -1,0 +1,10 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,25,3,2023-11-15,Illinois,,Saint Peter's,REG (Non-Conf),W 103-33,,9,4,4,1.000,0,0,4,4,1.000,1.000,0,4,.000,2,0,2,0,1,0,0,0,8,7.6,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+2,26,4,2023-11-18,Illinois,N,Notre Dame,REG (Non-Conf),L 68-79,,11,0,0,,0,0,0,0,,,0,2,.000,0,4,4,0,0,0,0,4,0,-1.2,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+3,27,5,2023-11-26,Illinois,,Canisius,REG (Non-Conf),W 90-58,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,1,0,0,0,0.7,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+4,28,6,2023-11-29,Illinois,,Central Connecticut State,REG (Non-Conf),W 89-50,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,1,0,0,0,0.7,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+5,29,7,2023-12-06,Illinois,,Northern Kentucky,REG (Non-Conf),W 74-52,,3,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,1,0,1,0,0,0,0,0,4,4.1,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+6,30,8,2023-12-10,Illinois,,Michigan,REG (Conf),L 48-84,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+7,31,11,2023-12-21,Illinois,N,UTEP,REG (Non-Conf),W 81-71,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+8,32,15,2024-01-14,Illinois,@,Northwestern,REG (Conf),W 93-52,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,1,1,1,0,-0.7,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24
+9,33,26,2024-02-25,Illinois,@,Iowa,REG (Conf),L 85-101,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Aicha Ndour,https://www.sports-reference.com/cbb/players/aicha-ndour-1.html,illinois,2023-24

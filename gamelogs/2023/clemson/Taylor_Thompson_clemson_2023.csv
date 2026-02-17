@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-07,Clemson,,Gardner-Webb,REG (Non-Conf),W 81-54,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Taylor Thompson,https://www.sports-reference.com/cbb/players/taylor-thompson-3.html,clemson,2022-23
+2,2,8,2022-12-01,Clemson,@,Charleston Southern,REG (Non-Conf),W 84-31,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Taylor Thompson,https://www.sports-reference.com/cbb/players/taylor-thompson-3.html,clemson,2022-23
+3,3,9,2022-12-04,Clemson,@,Georgia State,REG (Non-Conf),W 85-58,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Taylor Thompson,https://www.sports-reference.com/cbb/players/taylor-thompson-3.html,clemson,2022-23

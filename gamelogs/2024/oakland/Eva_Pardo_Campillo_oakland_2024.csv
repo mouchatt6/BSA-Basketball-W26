@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,14,2,2023-11-08,Oakland,@,Michigan State,REG (Non-Conf),L 62-87,,3,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Eva Pardo-Campillo,https://www.sports-reference.com/cbb/players/eva-pardo-campillo-1.html,oakland,2023-24
+2,15,3,2023-11-14,Oakland,@,Michigan,REG (Non-Conf),L 39-80,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Eva Pardo-Campillo,https://www.sports-reference.com/cbb/players/eva-pardo-campillo-1.html,oakland,2023-24
+3,16,4,2023-11-17,Oakland,,Cleary,REG (Non-Conf),W 110-51,,10,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,1,1,1,1,0,1,1,0,-0.8,Eva Pardo-Campillo,https://www.sports-reference.com/cbb/players/eva-pardo-campillo-1.html,oakland,2023-24
+4,17,5,2023-11-25,Oakland,,Madonna,REG (Non-Conf),W 122-38,,13,2,3,.667,2,3,.667,0,0,,1.000,0,0,0,2,2,0,0,0,0,1,6,4.9,Eva Pardo-Campillo,https://www.sports-reference.com/cbb/players/eva-pardo-campillo-1.html,oakland,2023-24

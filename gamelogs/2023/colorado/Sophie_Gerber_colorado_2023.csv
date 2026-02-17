@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,8,1,2022-11-07,Colorado,,New Mexico State,REG (Non-Conf),W 85-55,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2022-23
+2,9,3,2022-11-15,Colorado,N,Louisiana,WNIT,W 73-43,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2022-23
+3,10,7,2022-11-27,Colorado,@,Chicago State,REG (Non-Conf),W 83-32,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2022-23
+4,11,8,2022-11-30,Colorado,,Western Michigan,REG (Non-Conf),W 75-37,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,0,1,0,1,0,0,0.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2022-23
+5,12,10,2022-12-07,Colorado,,Southern Utah,REG (Non-Conf),W 78-48,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,1,0,0.3,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2022-23
+6,13,12,2022-12-16,Colorado,,Alcorn State,REG (Non-Conf),W 82-47,,3,0,1,.000,0,0,,0,1,.000,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2022-23

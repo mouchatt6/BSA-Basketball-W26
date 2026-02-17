@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,32,3,2022-11-18,Hawaii,,Florida Gulf Coast,REG (Non-Conf),L 45-65,,5,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,0,0,0,1,0,0,-1.0,Meg Jefferson,https://www.sports-reference.com/cbb/players/meg-jefferson-1.html,hawaii,2022-23
+2,33,4,2022-11-20,Hawaii,,Lipscomb,REG (Non-Conf),L 69-73 (OT),,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Meg Jefferson,https://www.sports-reference.com/cbb/players/meg-jefferson-1.html,hawaii,2022-23
+3,34,5,2022-11-25,Hawaii,,Grambling State,REG (Non-Conf),W 63-47,,8,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,2,1,2,-0.7,Meg Jefferson,https://www.sports-reference.com/cbb/players/meg-jefferson-1.html,hawaii,2022-23
+4,35,6,2022-11-26,Hawaii,,Florida Gulf Coast,REG (Non-Conf),L 50-63,,3,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,1,1,0,-1.1,Meg Jefferson,https://www.sports-reference.com/cbb/players/meg-jefferson-1.html,hawaii,2022-23
+5,36,7,2022-11-27,Hawaii,,Stanford,REG (Non-Conf),L 39-68,,4,0,2,.000,0,0,0,2,.000,.000,0,0,1,0,1,0,0,0,1,1,0,-2.1,Meg Jefferson,https://www.sports-reference.com/cbb/players/meg-jefferson-1.html,hawaii,2022-23

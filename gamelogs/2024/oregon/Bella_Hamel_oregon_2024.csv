@@ -1,0 +1,18 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Oregon,,Northern Arizona,REG (Non-Conf),W 81-48,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+2,2,2,2023-11-08,Oregon,,Arkansas–Pine Bluff,REG (Non-Conf),W 86-60,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+3,3,4,2023-11-18,Oregon,,Santa Clara,REG (Non-Conf),L 50-89,,11,1,2,.500,1,1,1.000,0,1,.000,.750,0,0,0,4,4,0,0,0,1,0,3,2.2,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+4,4,5,2023-11-21,Oregon,@,Nevada,REG (Non-Conf),W 76-47,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+5,5,6,2023-11-30,Oregon,@,Portland,REG (Non-Conf),L 60-91,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+6,6,10,2023-12-11,Oregon,,Southern,REG (Non-Conf),W 67-37,,5,0,2,.000,0,2,.000,0,0,,.000,0,0,0,1,1,0,1,0,0,0,0,-0.1,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+7,7,15,2024-01-05,Oregon,@,UCLA,REG (Conf),L 49-75,,4,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,2,2,0,0,0,0,0,3,3.3,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+8,8,17,2024-01-12,Oregon,,Arizona State,REG (Conf),W 65-53,,3,0,1,.000,0,0,,0,1,.000,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+9,9,19,2024-01-19,Oregon,@,Stanford,REG (Conf),L 63-88,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+10,10,21,2024-01-26,Oregon,,Utah,REG (Conf),L 48-58,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+11,11,22,2024-01-28,Oregon,,Colorado,REG (Conf),L 48-61,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+12,12,24,2024-02-09,Oregon,@,Colorado,REG (Conf),L 57-90,,8,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,2,0,-0.5,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+13,13,25,2024-02-11,Oregon,@,Utah,REG (Conf),L 48-70,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+14,14,26,2024-02-16,Oregon,,Southern California,REG (Conf),L 51-88,,6,0,1,.000,0,0,,0,1,.000,.000,0,0,0,2,2,0,0,0,0,0,0,-0.1,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+15,15,27,2024-02-18,Oregon,,UCLA,REG (Conf),L 55-74,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+16,16,31,2024-03-02,Oregon,,Stanford,REG (Conf),L 56-76,,7,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24
+17,17,32,2024-03-06,Oregon,N,Colorado,CTOURN,L 30-79,,10,1,2,.500,1,2,.500,0,0,,.750,0,0,0,2,2,0,0,0,0,0,3,2.6,Bella Hamel,https://www.sports-reference.com/cbb/players/bella-hamel-1.html,oregon,2023-24

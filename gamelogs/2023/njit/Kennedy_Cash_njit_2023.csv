@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,58,3,2022-11-13,NJIT,@,Rutgers,REG (Non-Conf),L 71-87,,4,0,0,,0,0,,0,0,,,0,0,,1,0,1,1,0,0,0,0,0,1.4,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+2,59,7,2022-11-27,NJIT,@,Monmouth,REG (Non-Conf),L 62-70 (OT),,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+3,60,9,2022-12-03,NJIT,@,Norfolk State,REG (Non-Conf),L 64-71,,4,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+4,61,12,2022-12-17,NJIT,@,Wagner,REG (Non-Conf),L 54-68,,8,0,0,,0,0,,0,0,,,0,0,,0,1,1,1,1,0,1,3,0,-0.2,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+5,62,17,2023-01-14,NJIT,@,Albany (NY),REG (Conf),L 54-73,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+6,63,19,2023-01-21,NJIT,,Vermont,REG (Conf),L 32-65,,7,0,0,,0,0,,0,0,,,2,2,1.000,0,2,2,0,1,0,0,0,2,3.6,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+7,64,21,2023-02-01,NJIT,@,New Hampshire,REG (Conf),W 70-67,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+8,65,22,2023-02-04,NJIT,,UMass Lowell,REG (Conf),W 68-50,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+9,66,26,2023-02-18,NJIT,@,Vermont,REG (Conf),L 73-85,,2,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,0,2,1.7,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+10,67,27,2023-02-22,NJIT,@,Bryant,REG (Conf),L 62-65,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+11,68,28,2023-02-25,NJIT,,Albany (NY),REG (Conf),L 49-59,*,2,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23
+12,69,29,2023-03-01,NJIT,@,UMBC,CTOURN,L 71-82,,3,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,1,1,1,0,0,0,1,2,2.3,Kennedy Cash,https://www.sports-reference.com/cbb/players/kennedy-cash-1.html,njit,2022-23

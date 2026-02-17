@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2022-11-12,Bryant,,Emerson,REG (Non-Conf),W 111-27,,8,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,1,1,0,0,2,0,0.2,Nina Karlin,https://www.sports-reference.com/cbb/players/nina-karlin-1.html,bryant,2022-23
+2,2,7,2022-11-26,Bryant,N,Hartford,REG (Non-Conf),W 74-46,,4,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,2,0,-0.8,Nina Karlin,https://www.sports-reference.com/cbb/players/nina-karlin-1.html,bryant,2022-23
+3,3,12,2022-12-18,Bryant,,Mitchell,REG (Non-Conf),W 108-43,,5,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,0,0,0,0,2,0,-0.8,Nina Karlin,https://www.sports-reference.com/cbb/players/nina-karlin-1.html,bryant,2022-23
+4,4,22,2023-01-24,Bryant,,Hartford,REG (Non-Conf),W 75-52,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Nina Karlin,https://www.sports-reference.com/cbb/players/nina-karlin-1.html,bryant,2022-23

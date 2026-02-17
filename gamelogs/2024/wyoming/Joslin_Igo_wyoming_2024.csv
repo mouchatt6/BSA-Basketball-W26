@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2023-11-21,Wyoming,,Chadron St.,REG (Non-Conf),W 78-32,,6,1,1,1.000,1,1,1.000,0,0,1.500,0,0,0,0,0,1,0,0,0,0,3,3.4,Joslin Igo,https://www.sports-reference.com/cbb/players/joslin-igo-1.html,wyoming,2023-24
+2,2,14,2024-01-06,Wyoming,@,Air Force,REG (Conf),W 68-51,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Joslin Igo,https://www.sports-reference.com/cbb/players/joslin-igo-1.html,wyoming,2023-24
+3,3,22,2024-02-07,Wyoming,,Utah State,REG (Conf),W 62-47,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Joslin Igo,https://www.sports-reference.com/cbb/players/joslin-igo-1.html,wyoming,2023-24
+4,4,27,2024-02-28,Wyoming,@,San Jose State,REG (Conf),W 88-73,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Joslin Igo,https://www.sports-reference.com/cbb/players/joslin-igo-1.html,wyoming,2023-24
+5,5,31,2024-03-24,Wyoming,,UTSA,WNIT,W 80-64,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Joslin Igo,https://www.sports-reference.com/cbb/players/joslin-igo-1.html,wyoming,2023-24
+6,6,32,2024-03-29,Wyoming,,South Dakota,WNIT,W 84-52,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Joslin Igo,https://www.sports-reference.com/cbb/players/joslin-igo-1.html,wyoming,2023-24

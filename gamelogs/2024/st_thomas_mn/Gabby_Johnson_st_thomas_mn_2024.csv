@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,31,13,2023-12-16,St. Thomas,,Wis.-Stevens Point,REG (Non-Conf),W 82-49,,5,0,1,.000,0,0,0,1,.000,.000,0,0,0,4,4,1,0,0,0,1,0,0.8,Gabby Johnson,https://www.sports-reference.com/cbb/players/gabby-johnson-1.html,st-thomas-mn,2023-24
+2,32,14,2023-12-29,St. Thomas,,North Dakota,REG (Conf),W 95-76,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Gabby Johnson,https://www.sports-reference.com/cbb/players/gabby-johnson-1.html,st-thomas-mn,2023-24
+3,33,16,2024-01-03,St. Thomas,,Sacramento State,REG (Non-Conf),W 70-52,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Gabby Johnson,https://www.sports-reference.com/cbb/players/gabby-johnson-1.html,st-thomas-mn,2023-24
+4,34,28,2024-02-22,St. Thomas,,North Dakota State,REG (Conf),L 53-96,,1,0,0,,0,0,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Gabby Johnson,https://www.sports-reference.com/cbb/players/gabby-johnson-1.html,st-thomas-mn,2023-24

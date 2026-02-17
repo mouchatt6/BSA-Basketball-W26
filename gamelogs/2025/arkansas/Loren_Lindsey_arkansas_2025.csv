@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,11,2,2024-11-08,Arkansas,,Texas A&M–Commerce,REG (Non-Conf),W 84-65,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Loren Lindsey,https://www.sports-reference.com/cbb/players/loren-lindsey-1.html,arkansas,2024-25
+2,12,4,2024-11-14,Arkansas,,UT Arlington,REG (Non-Conf),W 93-65,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Loren Lindsey,https://www.sports-reference.com/cbb/players/loren-lindsey-1.html,arkansas,2024-25
+3,13,5,2024-11-17,Arkansas,@,UCLA,REG (Non-Conf),L 52-101,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,1,0,0.3,Loren Lindsey,https://www.sports-reference.com/cbb/players/loren-lindsey-1.html,arkansas,2024-25
+4,14,6,2024-11-21,Arkansas,,Oral Roberts,REG (Non-Conf),L 73-94,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Loren Lindsey,https://www.sports-reference.com/cbb/players/loren-lindsey-1.html,arkansas,2024-25
+5,15,11,2024-12-08,Arkansas,,Southeast Missouri State,REG (Non-Conf),W 84-45,,11,0,2,.000,0,2,.000,0,0,,.000,0,0,0,2,2,0,1,0,0,1,0,-0.2,Loren Lindsey,https://www.sports-reference.com/cbb/players/loren-lindsey-1.html,arkansas,2024-25

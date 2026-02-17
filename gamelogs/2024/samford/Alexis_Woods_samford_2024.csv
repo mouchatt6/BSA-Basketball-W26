@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,15,2024-01-05,Samford,,Cumberland (TN),REG (Non-Conf),W 74-50,,3,1,1,1.000,0,0,,1,1,1.000,1.000,1,1,1.000,0,1,1,0,0,0,0,0,3,3.0,Alexis Woods,https://www.sports-reference.com/cbb/players/alexis-woods-3.html,samford,2023-24
+2,2,17,2024-01-13,Samford,@,Chattanooga,REG (Conf),L 52-75,,4,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,0,2,1.7,Alexis Woods,https://www.sports-reference.com/cbb/players/alexis-woods-3.html,samford,2023-24
+3,3,18,2024-01-18,Samford,,Western Carolina,REG (Conf),W 48-47,,1,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,1,0,0,0,1.0,Alexis Woods,https://www.sports-reference.com/cbb/players/alexis-woods-3.html,samford,2023-24
+4,4,19,2024-01-20,Samford,,UNC Greensboro,REG (Conf),W 62-53,,3,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Alexis Woods,https://www.sports-reference.com/cbb/players/alexis-woods-3.html,samford,2023-24

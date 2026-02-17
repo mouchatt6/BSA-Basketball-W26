@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Kennesaw State,@,Vanderbilt,REG (Non-Conf),L 51-98,,3,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,3,0,0.5,Tania Allen,https://www.sports-reference.com/cbb/players/tania-allen-1.html,kennesaw-state,2023-24
+2,2,7,2023-12-02,Kennesaw State,,Coastal Georgia,REG (Non-Conf),W 82-25,,3,0,0,0,0,0,0,0,0,1,1,2,0,0,0,1,2,0,-0.8,Tania Allen,https://www.sports-reference.com/cbb/players/tania-allen-1.html,kennesaw-state,2023-24
+3,3,29,2024-03-02,Kennesaw State,@,Queens (NC),REG (Conf),W 81-50,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Tania Allen,https://www.sports-reference.com/cbb/players/tania-allen-1.html,kennesaw-state,2023-24

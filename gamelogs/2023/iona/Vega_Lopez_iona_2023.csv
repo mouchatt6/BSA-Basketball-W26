@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2022-11-20,Iona,@,Sacred Heart,REG (Non-Conf),W 65-56,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Vega Lopez,https://www.sports-reference.com/cbb/players/vega-lopez-1.html,iona,2022-23
+2,2,6,2022-11-30,Iona,,Hofstra,REG (Non-Conf),W 62-46,,2,0,2,.000,0,0,0,2,.000,.000,0,0,1,0,1,0,0,0,0,0,0,-0.7,Vega Lopez,https://www.sports-reference.com/cbb/players/vega-lopez-1.html,iona,2022-23
+3,3,8,2022-12-08,Iona,@,St. John's (NY),REG (Non-Conf),L 51-77,,12,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,1,1,2,0,0,2,1,2,1.0,Vega Lopez,https://www.sports-reference.com/cbb/players/vega-lopez-1.html,iona,2022-23

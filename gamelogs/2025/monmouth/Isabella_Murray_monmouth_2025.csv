@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,4,3,2024-11-12,Monmouth,@,George Mason,REG (Non-Conf),L 66-89,,6,1,2,.500,0,0,1,2,.500,.500,0,0,0,0,0,0,1,0,2,0,2,0.0,Isabella Murray,https://www.sports-reference.com/cbb/players/isabella-murray-1.html,monmouth,2024-25
+2,5,5,2024-11-17,Monmouth,@,Penn State,REG (Non-Conf),L 55-100,,6,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Isabella Murray,https://www.sports-reference.com/cbb/players/isabella-murray-1.html,monmouth,2024-25
+3,6,8,2024-12-01,Monmouth,,Lafayette,REG (Non-Conf),W 60-54,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Isabella Murray,https://www.sports-reference.com/cbb/players/isabella-murray-1.html,monmouth,2024-25
+4,7,9,2024-12-05,Monmouth,,Rider,REG (Non-Conf),W 52-36,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Isabella Murray,https://www.sports-reference.com/cbb/players/isabella-murray-1.html,monmouth,2024-25
+5,8,19,2025-01-26,Monmouth,,Northeastern,REG (Conf),W 69-46,,5,0,0,,0,0,0,0,,,0,0,0,0,0,2,0,0,0,0,0,1.4,Isabella Murray,https://www.sports-reference.com/cbb/players/isabella-murray-1.html,monmouth,2024-25
+6,9,28,2025-03-06,Monmouth,,Towson,REG (Conf),W 82-56,,2,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Isabella Murray,https://www.sports-reference.com/cbb/players/isabella-murray-1.html,monmouth,2024-25

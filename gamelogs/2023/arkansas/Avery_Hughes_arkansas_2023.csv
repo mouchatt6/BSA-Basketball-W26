@@ -1,0 +1,15 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,36,4,2022-11-17,Arkansas,,Kent State,REG (Non-Conf),W 80-59,,3,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,1,0,0,1,0,0,-1.7,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+2,37,5,2022-11-20,Arkansas,@,Little Rock,REG (Non-Conf),W 93-49,,5,0,1,.000,0,0,0,1,.000,.000,2,2,1.000,0,0,0,0,0,0,0,2,2,0.5,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+3,38,8,2022-11-26,Arkansas,N,Kansas State,REG (Non-Conf),W 69-53,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+4,39,9,2022-12-01,Arkansas,,Troy,REG (Non-Conf),W 87-70,,3,1,1,1.000,0,0,1,1,1.000,1.000,2,2,1.000,0,0,0,0,0,0,0,0,4,3.7,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+5,40,10,2022-12-04,Arkansas,,Oral Roberts,REG (Non-Conf),W 92-58,,4,0,0,,0,0,0,0,,,1,2,.500,0,0,0,0,0,0,1,0,1,-0.4,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+6,41,16,2022-12-29,Arkansas,,Louisiana State,REG (Conf),L 45-69,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+7,42,17,2023-01-01,Arkansas,@,Kentucky,REG (Conf),W 71-50,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+8,43,18,2023-01-05,Arkansas,,Florida,REG (Conf),W 102-74,,3,0,0,,0,0,0,0,,,2,4,.500,0,0,0,0,0,0,0,0,2,1.2,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+9,44,25,2023-02-05,Arkansas,@,Auburn,REG (Conf),W 54-51,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+10,45,27,2023-02-12,Arkansas,,Missouri,REG (Conf),W 61-33,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+11,46,28,2023-02-16,Arkansas,,Tennessee,REG (Conf),L 67-87,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+12,47,31,2023-02-26,Arkansas,,Texas A&M,REG (Conf),W 78-65,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+13,48,34,2023-03-16,Arkansas,,Louisiana Tech,WNIT,W 69-47,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23
+14,49,35,2023-03-20,Arkansas,,Stephen F. Austin,WNIT,W 60-37,,2,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Avery Hughes,https://www.sports-reference.com/cbb/players/avery-hughes-1.html,arkansas,2022-23

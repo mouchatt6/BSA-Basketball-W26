@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,28,8,2023-12-03,William & Mary,@,Navy,REG (Non-Conf),W 81-53,,4,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ruthie Montella,https://www.sports-reference.com/cbb/players/ruthie-montella-1.html,william-mary,2023-24
+2,29,10,2023-12-17,William & Mary,,Longwood,REG (Non-Conf),W 86-49,,5,0,0,,0,0,,0,0,,0,0,0,0,0,2,0,0,0,0,0,1.4,Ruthie Montella,https://www.sports-reference.com/cbb/players/ruthie-montella-1.html,william-mary,2023-24
+3,30,11,2023-12-21,William & Mary,@,Virginia Tech,REG (Non-Conf),L 43-76,,2,0,0,,0,0,,0,0,,0,0,0,1,1,0,0,0,0,0,0,0.3,Ruthie Montella,https://www.sports-reference.com/cbb/players/ruthie-montella-1.html,william-mary,2023-24
+4,31,26,2024-03-01,William & Mary,@,UNC Wilmington,REG (Conf),W 68-50,,8,0,2,.000,0,2,.000,0,0,.000,0,0,0,0,0,1,0,0,1,2,0,-2.5,Ruthie Montella,https://www.sports-reference.com/cbb/players/ruthie-montella-1.html,william-mary,2023-24
+5,32,29,2024-03-09,William & Mary,,Stony Brook,REG (Conf),L 68-74,*,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ruthie Montella,https://www.sports-reference.com/cbb/players/ruthie-montella-1.html,william-mary,2023-24

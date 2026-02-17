@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,53,1,2024-11-05,Pittsburgh,,Canisius,REG (Non-Conf),W 78-36,*,21,4,9,.444,1,2,.500,3,7,.429,.500,1,2,.500,0,2,2,1,0,0,2,3,10,3.0,Amiya Jenkins,https://www.sports-reference.com/cbb/players/amiya-jenkins-1.html,pittsburgh,2024-25
+2,54,2,2024-11-09,Pittsburgh,,Bucknell,REG (Non-Conf),W 64-61,*,30,8,19,.421,2,4,.500,6,15,.400,.474,1,2,.500,1,5,6,0,0,0,4,1,19,6.3,Amiya Jenkins,https://www.sports-reference.com/cbb/players/amiya-jenkins-1.html,pittsburgh,2024-25
+3,55,3,2024-11-12,Pittsburgh,@,West Virginia,REG (Non-Conf),L 54-82,*,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Amiya Jenkins,https://www.sports-reference.com/cbb/players/amiya-jenkins-1.html,pittsburgh,2024-25

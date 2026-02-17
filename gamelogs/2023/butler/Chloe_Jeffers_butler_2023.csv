@@ -1,0 +1,12 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-09,Butler,,Chicago State,REG (Non-Conf),W 84-57,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+2,2,4,2022-11-21,Butler,,Tennessee State,REG (Non-Conf),W 72-55,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+3,3,5,2022-11-25,Butler,N,Sacred Heart,REG (Non-Conf),W 64-39,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+4,4,6,2022-11-26,Butler,N,Binghamton,REG (Non-Conf),W 78-51,,1,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+5,5,11,2022-12-18,Butler,@,Marquette,REG (Conf),L 46-67,,7,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,1,1,0,0,0,0,1,0,-1.5,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+6,6,12,2022-12-21,Butler,@,Indiana,REG (Non-Conf),L 50-67,,9,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,1,0,0,0,0,0,0.0,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+7,7,13,2022-12-28,Butler,@,Xavier,REG (Conf),W 79-65,,9,3,5,.600,2,3,.667,1,2,.500,.800,0,0,0,2,2,0,0,0,0,1,8,5.9,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+8,8,14,2022-12-31,Butler,@,Seton Hall,REG (Conf),L 45-79,,4,0,2,.000,0,1,.000,0,1,.000,.000,0,0,1,0,1,0,0,0,0,2,0,-1.5,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+9,9,15,2023-01-03,Butler,,Connecticut,REG (Conf),L 47-80,,6,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,2,0,0,-1.7,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+10,10,27,2023-02-21,Butler,,Xavier,REG (Conf),W 60-43,,1,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23
+11,11,29,2023-02-27,Butler,@,Creighton,REG (Conf),L 46-74,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Chloe Jeffers,https://www.sports-reference.com/cbb/players/chloe-jeffers-1.html,butler,2022-23

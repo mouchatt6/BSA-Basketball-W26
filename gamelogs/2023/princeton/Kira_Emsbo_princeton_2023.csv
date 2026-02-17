@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,26,1,2022-11-07,Princeton,,Temple,REG (Non-Conf),W 67-49,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+2,27,6,2022-11-27,Princeton,@,Texas,REG (Non-Conf),L 50-74,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,1,0,3,0,-1.2,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+3,28,15,2023-01-07,Princeton,,Cornell,REG (Conf),W 70-48,,4,0,2,.000,0,0,0,2,.000,.000,1,2,.500,0,0,0,0,0,0,0,0,1,-0.8,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+4,29,16,2023-01-12,Princeton,,Hartford,REG (Non-Conf),W 84-37,,8,0,2,.000,0,0,0,2,.000,.000,0,0,,1,0,1,2,0,2,0,1,0,1.7,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+5,30,17,2023-01-14,Princeton,,Brown,REG (Conf),W 67-54,,3,0,2,.000,0,0,0,2,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-1.4,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+6,31,20,2023-01-28,Princeton,,Yale,REG (Conf),W 79-30,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+7,32,23,2023-02-11,Princeton,,Dartmouth,REG (Conf),W 64-47,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,1,1,0,0,0,1,0,0,-1.4,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+8,33,24,2023-02-17,Princeton,@,Brown,REG (Conf),W 80-37,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,0,0,0,0,3,0,0,2,3.8,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+9,34,25,2023-02-18,Princeton,@,Yale,REG (Conf),W 68-42,,1,0,0,,0,0,0,0,,,2,2,1.000,0,1,1,0,0,0,0,0,2,2.3,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+10,35,26,2023-02-24,Princeton,,Harvard,REG (Conf),W 51-47,*,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+11,36,27,2023-03-03,Princeton,@,Pennsylvania,REG (Conf),W 71-52,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23
+12,37,28,2023-03-10,Princeton,N,Pennsylvania,CTOURN,W 60-47,,1,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Kira Emsbo,https://www.sports-reference.com/cbb/players/kira-emsbo-1.html,princeton,2022-23

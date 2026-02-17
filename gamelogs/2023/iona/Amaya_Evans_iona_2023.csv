@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-10,Iona,,Wagner,REG (Non-Conf),W 87-62,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+2,2,4,2022-11-20,Iona,@,Sacred Heart,REG (Non-Conf),W 65-56,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+3,3,6,2022-11-30,Iona,,Hofstra,REG (Non-Conf),W 62-46,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+4,4,12,2022-12-31,Iona,@,Marist,REG (Conf),W 76-55,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,3,0,-1.2,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+5,5,13,2023-01-02,Iona,,Niagara,REG (Conf),W 63-53,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+6,6,14,2023-01-05,Iona,@,Rider,REG (Conf),W 68-44,,5,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+7,7,15,2023-01-12,Iona,,Mount St. Mary's,REG (Conf),W 63-44,,6,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,1,0,1,0,0,-0.7,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+8,8,17,2023-01-19,Iona,,Rider,REG (Conf),W 90-62,,5,0,0,,0,0,0,0,,,0,0,,0,0,0,1,0,0,1,1,0,-0.7,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+9,9,19,2023-01-26,Iona,,Saint Peter's,REG (Conf),W 65-37,,12,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,0,2,2,3,0,0,0,1,4,5.7,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+10,10,22,2023-02-04,Iona,@,Canisius,REG (Conf),W 68-58,,1,0,0,,0,0,0,0,,,1,2,.500,0,0,0,0,0,0,1,1,1,-0.8,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+11,11,24,2023-02-16,Iona,,Siena,REG (Conf),W 91-64,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,1,2,1.3,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23
+12,12,25,2023-02-18,Iona,@,Mount St. Mary's,REG (Conf),W 50-37,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Amaya Evans,https://www.sports-reference.com/cbb/players/amaya-evans-1.html,iona,2022-23

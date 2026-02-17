@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,11,2022-01-09,Delaware,@,College of Charleston,REG (Conf),W 86-84 (OT),,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,1,0,0.6,Mia Yanogacio,https://www.sports-reference.com/cbb/players/mia-yanogacio-1.html,delaware,2021-22
+2,2,12,2022-01-14,Delaware,,Hofstra,REG (Conf),W 73-38,,8,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,0,0,0,0,0,0,2,2,0,-4.2,Mia Yanogacio,https://www.sports-reference.com/cbb/players/mia-yanogacio-1.html,delaware,2021-22
+3,3,13,2022-01-16,Delaware,,Northeastern,REG (Conf),W 79-60,,1,0,0,,0,0,,0,0,,,0,2,.000,0,0,0,0,0,0,0,0,0,-0.8,Mia Yanogacio,https://www.sports-reference.com/cbb/players/mia-yanogacio-1.html,delaware,2021-22
+4,4,16,2022-01-26,Delaware,@,UNC Wilmington,REG (Conf),W 78-69,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,1,1,0,-2.1,Mia Yanogacio,https://www.sports-reference.com/cbb/players/mia-yanogacio-1.html,delaware,2021-22

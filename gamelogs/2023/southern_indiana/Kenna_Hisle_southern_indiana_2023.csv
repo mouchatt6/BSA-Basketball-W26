@@ -1,0 +1,3 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-07,Southern Indiana,,Oakland City,REG (Non-Conf),W 87-39,,11,0,1,.000,0,1,.000,0,0,.000,0,0,0,2,2,0,0,0,4,1,0,-4.5,Kenna Hisle,https://www.sports-reference.com/cbb/players/kenna-hisle-1.html,southern-indiana,2022-23
+2,2,5,2022-11-23,Southern Indiana,,Bethel (IN),REG (Non-Conf),W 85-52,,5,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,2,0,0,-2.0,Kenna Hisle,https://www.sports-reference.com/cbb/players/kenna-hisle-1.html,southern-indiana,2022-23

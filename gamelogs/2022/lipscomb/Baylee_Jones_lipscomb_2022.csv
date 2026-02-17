@@ -1,0 +1,10 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2021-11-09,Lipscomb,@,Brigham Young,REG (Non-Conf),L 58-81,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+2,2,2,2021-11-10,Lipscomb,@,Utah,REG (Non-Conf),L 56-105,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+3,3,3,2021-11-16,Lipscomb,,Shorter,REG (Non-Conf),W 73-50,,1,0,0,,0,0,,0,0,,,0,0,0,2,2,0,0,0,0,0,0,0.6,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+4,4,5,2021-11-28,Lipscomb,,Life,REG (Non-Conf),W 72-59,,4,0,2,.000,0,2,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,0,0,-2.4,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+5,5,8,2021-12-08,Lipscomb,,LaGrange,REG (Non-Conf),W 77-45,,10,1,5,.200,0,2,.000,1,3,.333,.200,0,0,0,0,0,0,1,0,0,2,2,-0.9,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+6,6,9,2021-12-12,Lipscomb,,Tennessee Wesleyan,REG (Non-Conf),W 86-44,,6,2,3,.667,0,1,.000,2,2,1.000,.667,0,0,0,0,0,0,0,0,0,0,4,2.7,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+7,7,17,2022-01-19,Lipscomb,@,Eastern Kentucky,REG (Conf),L 41-77,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+8,8,24,2022-02-12,Lipscomb,,Eastern Kentucky,REG (Conf),L 69-82,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22
+9,9,30,2022-03-02,Lipscomb,,North Florida,CTOURN,L 42-60,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Baylee Jones,https://www.sports-reference.com/cbb/players/baylee-jones-1.html,lipscomb,2021-22

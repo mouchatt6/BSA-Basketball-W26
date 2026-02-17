@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Campbell,,Mount Olive,REG (Non-Conf),W 72-29,,8,0,0,,0,0,0,0,,,4,4,1.000,3,1,4,1,0,0,2,2,4,4.3,Mikayla Taborn,https://www.sports-reference.com/cbb/players/mikayla-taborn-1.html,campbell,2024-25
+2,2,3,2024-11-14,Campbell,,High Point,REG (Non-Conf),W 60-47,,3,0,1,.000,0,0,0,1,.000,.000,2,2,1.000,0,0,0,0,0,0,1,1,2,-0.1,Mikayla Taborn,https://www.sports-reference.com/cbb/players/mikayla-taborn-1.html,campbell,2024-25
+3,3,5,2024-11-22,Campbell,@,Miami (FL),REG (Non-Conf),L 66-71,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Mikayla Taborn,https://www.sports-reference.com/cbb/players/mikayla-taborn-1.html,campbell,2024-25
+4,4,6,2024-11-26,Campbell,N,Furman,REG (Non-Conf),W 82-72,,4,0,0,,0,0,0,0,,,0,2,.000,0,0,0,0,0,0,2,0,0,-2.8,Mikayla Taborn,https://www.sports-reference.com/cbb/players/mikayla-taborn-1.html,campbell,2024-25
+5,5,8,2024-11-28,Campbell,@,Georgia State,REG (Non-Conf),L 43-58,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Mikayla Taborn,https://www.sports-reference.com/cbb/players/mikayla-taborn-1.html,campbell,2024-25
+6,6,15,2025-01-12,Campbell,,Hampton,REG (Conf),W 72-42,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,3,0,-2.2,Mikayla Taborn,https://www.sports-reference.com/cbb/players/mikayla-taborn-1.html,campbell,2024-25

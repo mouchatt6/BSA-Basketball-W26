@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2022-11-18,Lehigh,,Bloomsburg,REG (Non-Conf),W 97-54,,4,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,-1.1,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2022-23
+2,2,12,2022-12-30,Lehigh,,Army,REG (Conf),W 90-68,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2022-23
+3,3,15,2023-01-08,Lehigh,,Navy,REG (Conf),W 77-42,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2022-23
+4,4,22,2023-02-04,Lehigh,,Lafayette,REG (Conf),W 79-48,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2022-23
+5,5,25,2023-02-15,Lehigh,@,Navy,REG (Conf),W 72-38,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Kamara St. Paul,https://www.sports-reference.com/cbb/players/kamara-st.-paul-1.html,lehigh,2022-23

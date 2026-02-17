@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,7,2024-12-01,Marshall,,Salem Int'l,REG (Non-Conf),W 98-41,,7,2,7,.286,2,7,.286,0,0,,.429,0,0,0,1,1,2,1,0,0,1,6,4.2,Jayda Allie,https://www.sports-reference.com/cbb/players/jayda-allie-1.html,marshall,2024-25
+2,2,11,2024-12-21,Marshall,,Davis & Elkins,REG (Non-Conf),W 77-38,,12,0,2,.000,0,2,.000,0,0,,.000,0,0,0,1,1,1,0,0,0,0,0,-0.4,Jayda Allie,https://www.sports-reference.com/cbb/players/jayda-allie-1.html,marshall,2024-25
+3,3,16,2025-01-11,Marshall,@,Old Dominion,REG (Conf),L 75-80,,1,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Jayda Allie,https://www.sports-reference.com/cbb/players/jayda-allie-1.html,marshall,2024-25
+4,4,21,2025-01-29,Marshall,@,Coastal Carolina,REG (Conf),L 64-76,,1,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Jayda Allie,https://www.sports-reference.com/cbb/players/jayda-allie-1.html,marshall,2024-25
+5,5,27,2025-02-19,Marshall,@,Appalachian State,REG (Conf),W 76-58,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Jayda Allie,https://www.sports-reference.com/cbb/players/jayda-allie-1.html,marshall,2024-25
+6,6,28,2025-02-22,Marshall,@,Georgia State,REG (Conf),W 70-59,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Jayda Allie,https://www.sports-reference.com/cbb/players/jayda-allie-1.html,marshall,2024-25

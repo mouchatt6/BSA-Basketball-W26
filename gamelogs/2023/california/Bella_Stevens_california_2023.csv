@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-07,California,,Cal State Northridge,REG (Non-Conf),W 86-56,,3,0,1,.000,0,1,.000,0,0,.000,0,0,0,2,2,2,0,0,0,1,0,0.9,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23
+2,2,2,2022-11-12,California,N,Notre Dame,REG (Non-Conf),L 79-90,,0,0,0,,0,0,,0,0,,0,0,0,0,0,1,0,0,0,0,0,0.7,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23
+3,3,5,2022-11-25,California,@,Loyola Marymount,REG (Non-Conf),W 68-49,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23
+4,4,6,2022-11-26,California,N,Montana,REG (Non-Conf),W 65-44,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23
+5,5,9,2022-12-10,California,,Pacific,REG (Non-Conf),W 83-66,,1,0,0,,0,0,,0,0,,0,0,0,1,1,0,0,0,0,0,0,0.3,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23
+6,6,10,2022-12-16,California,,UC San Diego,REG (Non-Conf),W 75-61,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23
+7,7,11,2022-12-18,California,,Florida A&M,REG (Non-Conf),W 88-58,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Bella Stevens,https://www.sports-reference.com/cbb/players/bella-stevens-1.html,california,2022-23

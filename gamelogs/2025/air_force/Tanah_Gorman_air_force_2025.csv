@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Air Force,,Regis (CO),REG (Non-Conf),W 94-64,,5,0,0,,0,0,0,0,,,0,0,1,0,1,0,1,0,4,0,0,-2.3,Tanah Gorman,https://www.sports-reference.com/cbb/players/tanah-gorman-1.html,air-force,2024-25
+2,2,5,2024-11-19,Air Force,,UC-Colo. Springs,REG (Non-Conf),W 71-52,,3,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Tanah Gorman,https://www.sports-reference.com/cbb/players/tanah-gorman-1.html,air-force,2024-25
+3,3,10,2024-12-07,Air Force,,Seattle,REG (Non-Conf),W 82-44,,3,0,1,.000,0,0,0,1,.000,.000,0,0,1,2,3,0,0,0,0,0,0,0.6,Tanah Gorman,https://www.sports-reference.com/cbb/players/tanah-gorman-1.html,air-force,2024-25
+4,4,12,2024-12-20,Air Force,@,Portland State,REG (Non-Conf),W 69-40,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Tanah Gorman,https://www.sports-reference.com/cbb/players/tanah-gorman-1.html,air-force,2024-25
+5,5,21,2025-01-29,Air Force,,Utah State,REG (Conf),W 78-66,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Tanah Gorman,https://www.sports-reference.com/cbb/players/tanah-gorman-1.html,air-force,2024-25
+6,6,23,2025-02-05,Air Force,,San Jose State,REG (Conf),W 78-54,,1,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Tanah Gorman,https://www.sports-reference.com/cbb/players/tanah-gorman-1.html,air-force,2024-25

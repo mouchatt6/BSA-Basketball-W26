@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,73,1,2023-11-06,Bradley,@,Kansas City,REG (Non-Conf),L 66-73,*,15,1,4,.250,0,0,1,4,.250,.250,0,0,,0,1,1,0,1,1,3,5,2,-3.4,Daija Powell,https://www.sports-reference.com/cbb/players/daija-powell-1.html,bradley,2023-24
+2,74,2,2023-11-12,Bradley,,Central Michigan,REG (Non-Conf),W 65-62,*,28,2,3,.667,0,0,2,3,.667,.667,1,2,.500,1,2,3,0,0,2,2,3,5,2.8,Daija Powell,https://www.sports-reference.com/cbb/players/daija-powell-1.html,bradley,2023-24
+3,75,3,2023-11-16,Bradley,,Loyola Chicago,REG (Non-Conf),L 62-67 (OT),*,18,3,6,.500,0,0,3,6,.500,.500,1,1,1.000,2,2,4,2,0,1,0,4,7,6.5,Daija Powell,https://www.sports-reference.com/cbb/players/daija-powell-1.html,bradley,2023-24

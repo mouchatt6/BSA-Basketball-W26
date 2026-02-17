@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,62,1,2023-11-06,Montana,,Gonzaga,REG (Non-Conf),L 70-83,,15,0,2,.000,0,0,0,2,.000,.000,0,0,2,1,3,1,2,1,0,3,0,2.5,Imogen Greenslade,https://www.sports-reference.com/cbb/players/imogen-greenslade-1.html,montana,2023-24
+2,63,2,2023-11-14,Montana,,Washington State,REG (Non-Conf),L 49-61,,6,0,0,,0,0,0,0,,,0,0,0,3,3,0,0,0,2,2,0,-1.9,Imogen Greenslade,https://www.sports-reference.com/cbb/players/imogen-greenslade-1.html,montana,2023-24
+3,64,3,2023-11-20,Montana,@,Grand Canyon,REG (Non-Conf),W 76-71,,10,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,4,4,0,0,0,1,2,2,1.1,Imogen Greenslade,https://www.sports-reference.com/cbb/players/imogen-greenslade-1.html,montana,2023-24

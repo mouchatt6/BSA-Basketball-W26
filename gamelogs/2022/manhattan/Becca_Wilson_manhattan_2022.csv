@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,9,5,2021-11-24,Manhattan,@,LIU,REG (Non-Conf),W 61-52,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+2,10,10,2021-12-19,Manhattan,@,Niagara,REG (Conf),L 70-73,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+3,11,11,2021-12-21,Manhattan,@,Canisius,REG (Conf),W 85-63,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+4,12,12,2022-01-06,Manhattan,,Rider,REG (Conf),W 63-58,,19,2,5,.400,0,0,2,5,.400,.400,0,0,5,2,7,0,1,1,1,1,4,5.7,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+5,13,16,2022-01-20,Manhattan,@,Fairfield,REG (Conf),L 55-70,,13,0,2,.000,0,0,0,2,.000,.000,0,0,0,2,2,0,0,0,1,2,0,-2.6,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+6,14,17,2022-01-22,Manhattan,@,Quinnipiac,REG (Conf),L 65-72,,4,0,0,,0,0,0,0,,,0,0,1,0,1,0,0,0,0,1,0,0.3,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+7,15,18,2022-01-25,Manhattan,@,Saint Peter's,REG (Conf),W 66-56,,1,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+8,16,19,2022-01-27,Manhattan,@,Iona,REG (Conf),W 71-69,,5,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+9,17,20,2022-01-30,Manhattan,,Monmouth,REG (Conf),W 73-57,,6,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,0,1,0,0,2,0,-0.2,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+10,18,25,2022-02-17,Manhattan,,Canisius,REG (Conf),W 86-62,,4,0,3,.000,0,0,0,3,.000,.000,0,0,1,1,2,0,0,1,0,0,0,-0.4,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+11,19,28,2022-03-02,Manhattan,,Quinnipiac,REG (Conf),W 73-69 (OT),,3,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,1,1,0,-1.1,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22
+12,20,31,2022-03-11,Manhattan,@,Quinnipiac,CTOURN,W 72-59,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Becca Wilson,https://www.sports-reference.com/cbb/players/becca-wilson-1.html,manhattan,2021-22

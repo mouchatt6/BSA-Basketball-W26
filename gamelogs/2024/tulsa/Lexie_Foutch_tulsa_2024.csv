@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,27,2,2023-11-10,Tulsa,,New Orleans,REG (Non-Conf),W 86-61,,3,2,3,.667,0,1,.000,2,2,1.000,.667,0,1,.000,1,0,1,0,0,0,0,3,4,1.8,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+2,28,3,2023-11-12,Tulsa,,Northwestern State,REG (Non-Conf),W 65-53,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+3,29,7,2023-11-26,Tulsa,N,Mississippi State,REG (Non-Conf),L 58-102,,6,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,1,1,0,0,0,0,1,0,-0.8,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+4,30,8,2023-12-01,Tulsa,@,TCU,REG (Non-Conf),L 50-82,,8,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,0,0,0,0,0,0.7,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+5,31,11,2023-12-15,Tulsa,,Texas Southern,REG (Non-Conf),W 82-45,,5,0,0,,0,0,,0,0,,,0,0,,1,2,3,0,0,1,1,0,0,1.0,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+6,32,17,2024-01-10,Tulsa,@,South Florida,REG (Conf),L 52-68,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+7,33,19,2024-01-20,Tulsa,,Wichita State,REG (Conf),W 93-70,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24
+8,34,30,2024-03-02,Tulsa,,SMU,REG (Conf),W 91-73,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Lexie Foutch,https://www.sports-reference.com/cbb/players/lexie-foutch-1.html,tulsa,2023-24

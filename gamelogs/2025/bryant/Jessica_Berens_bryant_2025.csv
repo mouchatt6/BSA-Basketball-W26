@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,21,2,2024-11-08,Bryant,,Bridgewater St.,REG (Non-Conf),W 80-57,,3,1,1,1.000,0,0,1,1,1.000,1.000,0,0,1,0,1,0,0,1,0,0,2,3.1,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25
+2,22,5,2024-11-16,Bryant,@,Seton Hall,REG (Non-Conf),L 39-55,,1,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25
+3,23,11,2024-12-15,Bryant,@,Boston College,REG (Non-Conf),L 46-94,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25
+4,24,16,2025-01-11,Bryant,@,Vermont,REG (Conf),L 43-74,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25
+5,25,18,2025-01-18,Bryant,@,UMass Lowell,REG (Conf),W 64-43,,1,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25
+6,26,28,2025-02-27,Bryant,,UMass Lowell,REG (Conf),W 64-52,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25
+7,27,31,2025-03-10,Bryant,@,Vermont,CTOURN,L 45-62,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Jessica Berens,https://www.sports-reference.com/cbb/players/jessica-berens-1.html,bryant,2024-25

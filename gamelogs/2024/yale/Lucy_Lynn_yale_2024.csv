@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,3,2023-11-14,Yale,@,Boston University,REG (Non-Conf),L 53-60,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+2,2,4,2023-11-17,Yale,@,Lehigh,REG (Non-Conf),L 75-90,,3,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,1,0,-0.1,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+3,3,7,2023-11-28,Yale,,Marist,REG (Non-Conf),W 61-45,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,1,0,0.3,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+4,4,13,2023-12-30,Yale,,Quinnipiac,REG (Non-Conf),W 72-48,,10,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,1,1,0,0,0,0,1,2,1.6,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+5,5,19,2024-02-02,Yale,@,Princeton,REG (Conf),L 59-79,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+6,6,23,2024-02-17,Yale,,Princeton,REG (Conf),L 25-70,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+7,7,24,2024-02-24,Yale,@,Dartmouth,REG (Conf),W 78-42,,5,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,1,0,0,1,1,0,-1.4,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24
+8,8,27,2024-03-09,Yale,@,Brown,REG (Conf),L 57-76,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,1,3,2.3,Lucy Lynn,https://www.sports-reference.com/cbb/players/lucy-lynn-1.html,yale,2023-24

@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,10,2024-12-11,Rutgers,,FDU,REG (Non-Conf),W 83-58,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Deja Young,https://www.sports-reference.com/cbb/players/deja-young-1.html,rutgers,2024-25
+2,2,11,2024-12-15,Rutgers,,Wagner,REG (Non-Conf),W 86-48,,3,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Deja Young,https://www.sports-reference.com/cbb/players/deja-young-1.html,rutgers,2024-25
+3,3,16,2025-01-08,Rutgers,@,Minnesota,REG (Conf),L 50-76,,16,0,1,.000,0,0,,0,1,.000,.000,0,0,1,1,2,1,0,0,0,2,0,0.2,Deja Young,https://www.sports-reference.com/cbb/players/deja-young-1.html,rutgers,2024-25
+4,4,28,2025-02-23,Rutgers,@,Oregon,REG (Conf),L 58-77,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Deja Young,https://www.sports-reference.com/cbb/players/deja-young-1.html,rutgers,2024-25
+5,5,31,2025-03-23,Rutgers,,Army,WNIT,W 71-60,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Deja Young,https://www.sports-reference.com/cbb/players/deja-young-1.html,rutgers,2024-25
+6,6,32,2025-03-27,Rutgers,,College of Charleston,WNIT,W 89-67,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Deja Young,https://www.sports-reference.com/cbb/players/deja-young-1.html,rutgers,2024-25

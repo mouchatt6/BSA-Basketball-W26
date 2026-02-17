@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,4,2,2021-11-11,Georgia Tech,,Kennesaw State,REG (Non-Conf),W 72-45,,2,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Anisa Clark,https://www.sports-reference.com/cbb/players/anisa-clark-1.html,georgia-tech,2021-22
+2,5,11,2021-12-19,Georgia Tech,,Wake Forest,REG (Conf),W 62-45,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Anisa Clark,https://www.sports-reference.com/cbb/players/anisa-clark-1.html,georgia-tech,2021-22
+3,6,12,2021-12-21,Georgia Tech,,Boston University,REG (Non-Conf),W 78-49,,2,0,2,.000,0,2,.000,0,0,.000,0,0,0,0,0,0,0,0,0,0,0,-1.4,Anisa Clark,https://www.sports-reference.com/cbb/players/anisa-clark-1.html,georgia-tech,2021-22

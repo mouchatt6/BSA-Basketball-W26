@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,10,2023-12-12,Towson,@,Maryland,REG (Non-Conf),L 51-99,,3,0,2,.000,0,0,,0,2,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-1.4,Caydence Hadley,https://www.sports-reference.com/cbb/players/caydence-hadley-1.html,towson,2023-24
+2,2,16,2024-01-19,Towson,,Hampton,REG (Conf),W 83-53,,5,0,3,.000,0,3,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,1,0,-2.5,Caydence Hadley,https://www.sports-reference.com/cbb/players/caydence-hadley-1.html,towson,2023-24
+3,3,27,2024-03-03,Towson,@,UNC Wilmington,REG (Conf),W 78-56,,4,2,4,.500,0,1,.000,2,3,.667,.500,0,0,1,0,1,0,0,0,0,0,4,2.7,Caydence Hadley,https://www.sports-reference.com/cbb/players/caydence-hadley-1.html,towson,2023-24
+4,4,30,2024-03-14,Towson,N,Northeastern,CTOURN,W 78-69,,6,0,3,.000,0,3,.000,0,0,,.000,0,0,1,0,1,0,0,0,2,0,0,-3.4,Caydence Hadley,https://www.sports-reference.com/cbb/players/caydence-hadley-1.html,towson,2023-24

@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2023-11-16,Columbia,,Towson,REG (Non-Conf),W 80-57,,2,1,1,1.000,0,0,,1,1,1.000,1.000,1,1,1.000,0,0,0,0,0,0,0,0,3,2.7,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+2,2,7,2023-11-25,Columbia,,Northeastern,REG (Non-Conf),W 88-45,,5,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+3,3,8,2023-11-29,Columbia,,Providence,REG (Non-Conf),W 77-52,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+4,4,11,2023-12-10,Columbia,,Wagner,REG (Non-Conf),W 79-50,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,1,0,0,1,1,0,-0.7,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+5,5,13,2023-12-31,Columbia,@,Pacific,REG (Non-Conf),W 93-75,,2,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,1,0,1,0,0,0,0,0,2,2.4,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+6,6,15,2024-01-13,Columbia,,Cornell,REG (Conf),W 82-53,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+7,7,20,2024-02-03,Columbia,,Dartmouth,REG (Conf),W 71-52,,8,1,2,.500,0,1,.000,1,1,1.000,.500,0,0,,0,2,2,0,2,0,0,2,2,2.8,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+8,8,22,2024-02-16,Columbia,@,Dartmouth,REG (Conf),W 80-56,,4,0,1,.000,0,0,,0,1,.000,.000,2,2,1.000,0,2,2,0,0,0,0,0,2,1.9,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+9,9,26,2024-03-02,Columbia,@,Yale,REG (Conf),W 76-50,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24
+10,10,27,2024-03-09,Columbia,@,Cornell,REG (Conf),W 82-46,,3,0,0,,0,0,,0,0,,,1,2,.500,0,2,2,0,0,0,0,0,1,1.2,Blau Tor,https://www.sports-reference.com/cbb/players/blau-tor-1.html,columbia,2023-24

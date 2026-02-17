@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-07,Furman,,UNC Asheville,REG (Non-Conf),W 71-61,,1,0,0,,0,0,0,0,,,0,0,1,0,1,0,0,0,0,0,0,0.7,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+2,2,2,2023-11-11,Furman,@,Georgia Tech,REG (Non-Conf),L 56-91,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,1,0,1,0,0,0.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+3,3,5,2023-11-20,Furman,,S Wesleyan,REG (Non-Conf),W 96-62,,8,0,0,,0,0,0,0,,,0,0,1,2,3,0,1,1,1,1,0,1.6,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+4,4,6,2023-11-23,Furman,N,Appalachian State,REG (Non-Conf),L 63-68,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,2,0,-0.8,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+5,5,10,2023-12-06,Furman,,Bob Jones,REG (Non-Conf),W 124-44,,10,2,4,.500,0,0,2,4,.500,.500,0,0,1,0,1,0,0,1,1,2,4,1.6,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+6,6,12,2023-12-14,Furman,,Elon,REG (Non-Conf),W 73-47,,3,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,1,0,0,0,0,0,0.3,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+7,7,14,2023-12-21,Furman,,South Carolina State,REG (Non-Conf),W 67-43,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,1,0,0,0,0,1.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+8,8,16,2024-01-07,Furman,,Converse,REG (Non-Conf),W 93-40,,3,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+9,9,17,2024-01-11,Furman,@,Western Carolina,REG (Conf),W 84-69,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24
+10,10,31,2024-03-07,Furman,N,UNC Greensboro,CTOURN,L 44-64,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jayda Pinder,https://www.sports-reference.com/cbb/players/jayda-pinder-1.html,furman,2023-24

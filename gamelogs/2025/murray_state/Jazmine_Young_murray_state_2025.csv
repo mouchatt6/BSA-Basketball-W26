@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,17,2025-01-24,Murray State,,Indiana State,REG (Conf),W 97-71,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Jazmine Young,https://www.sports-reference.com/cbb/players/jazmine-young-2.html,murray-state,2024-25
+2,2,18,2025-01-26,Murray State,,Evansville,REG (Conf),W 104-66,,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.7,Jazmine Young,https://www.sports-reference.com/cbb/players/jazmine-young-2.html,murray-state,2024-25
+3,3,27,2025-03-01,Murray State,,Southern Illinois,REG (Conf),W 87-64,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Jazmine Young,https://www.sports-reference.com/cbb/players/jazmine-young-2.html,murray-state,2024-25

@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,14,2021-12-22,Massachusetts,@,Hartford,REG (Non-Conf),W 86-40,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,1,0,0,0,2,2.7,Damoni Tucker,https://www.sports-reference.com/cbb/players/damoni-tucker-1.html,massachusetts,2021-22
+2,2,19,2022-01-22,Massachusetts,@,George Washington,REG (Conf),W 68-41,,1,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Damoni Tucker,https://www.sports-reference.com/cbb/players/damoni-tucker-1.html,massachusetts,2021-22
+3,3,21,2022-01-29,Massachusetts,@,Saint Joseph's,REG (Conf),W 74-48,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Damoni Tucker,https://www.sports-reference.com/cbb/players/damoni-tucker-1.html,massachusetts,2021-22

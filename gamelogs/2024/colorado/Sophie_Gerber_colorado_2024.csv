@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,14,2,2023-11-08,Colorado,,Le Moyne,REG (Non-Conf),W 97-38,,3,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+2,15,6,2023-11-24,Colorado,N,Kentucky,REG (Non-Conf),W 96-53,,2,0,0,,0,0,,0,0,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+3,16,9,2023-12-02,Colorado,@,Air Force,REG (Non-Conf),W 74-58,,3,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+4,17,17,2024-01-19,Colorado,,UCLA,REG (Conf),L 68-76,,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+5,18,22,2024-02-04,Colorado,@,Washington,REG (Conf),W 80-57,,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+6,19,23,2024-02-09,Colorado,,Oregon,REG (Conf),W 90-57,,2,0,1,.000,0,1,.000,0,0,.000,0,0,,0,1,1,0,0,0,0,0,0,-0.4,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+7,20,29,2024-03-02,Colorado,,Washington State,REG (Conf),L 63-72,,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+8,21,30,2024-03-06,Colorado,N,Oregon,CTOURN,W 79-30,,2,0,0,,0,0,,0,0,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+9,22,32,2024-03-22,Colorado,N,Drake,ROUND-64,W 86-72,,1,0,0,,0,0,,0,0,,0,0,,0,1,1,0,0,0,1,0,0,-0.7,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24
+10,23,34,2024-03-30,Colorado,N,Iowa,ROUND-16,L 68-89,,2,0,1,.000,0,1,.000,0,0,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Sophie Gerber,https://www.sports-reference.com/cbb/players/sophie-gerber-1.html,colorado,2023-24

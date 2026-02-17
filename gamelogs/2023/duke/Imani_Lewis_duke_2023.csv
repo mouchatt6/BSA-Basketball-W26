@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,100,2,2022-11-10,Duke,,Charleston Southern,REG (Non-Conf),W 111-50,,8,4,5,.800,0,0,4,5,.800,.800,0,0,,1,1,2,1,0,1,0,0,8,8.5,Imani Lewis,https://www.sports-reference.com/cbb/players/imani-lewis-2.html,duke,2022-23
+2,101,9,2022-12-04,Duke,@,Richmond,REG (Non-Conf),W 100-49,,7,0,1,.000,0,0,0,1,.000,.000,1,2,.500,1,2,3,1,1,0,1,1,1,1.5,Imani Lewis,https://www.sports-reference.com/cbb/players/imani-lewis-2.html,duke,2022-23
+3,102,10,2022-12-08,Duke,,Austin Peay,REG (Non-Conf),W 74-31,,5,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,2,0,0,-1.7,Imani Lewis,https://www.sports-reference.com/cbb/players/imani-lewis-2.html,duke,2022-23
+4,103,24,2023-02-09,Duke,@,Boston College,REG (Conf),W 68-27,,4,1,3,.333,0,0,1,3,.333,.333,1,3,.333,0,1,1,0,0,0,0,0,3,0.8,Imani Lewis,https://www.sports-reference.com/cbb/players/imani-lewis-2.html,duke,2022-23
+5,104,32,2023-03-18,Duke,,Iona,ROUND-64,W 89-49,,2,1,1,1.000,0,0,1,1,1.000,1.000,0,2,.000,0,2,2,1,2,0,0,0,2,4.2,Imani Lewis,https://www.sports-reference.com/cbb/players/imani-lewis-2.html,duke,2022-23

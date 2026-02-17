@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Louisiana,,Spring Hill,REG (Non-Conf),W 75-45,,9,0,2,.000,0,1,.000,0,1,.000,.000,1,2,.500,1,0,1,0,0,0,0,1,1,-0.5,Dacia Jones,https://www.sports-reference.com/cbb/players/dacia-jones-1.html,louisiana-lafayette,2023-24
+2,2,8,2023-12-10,Louisiana,@,Louisiana State,REG (Non-Conf),L 53-83,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Dacia Jones,https://www.sports-reference.com/cbb/players/dacia-jones-1.html,louisiana-lafayette,2023-24
+3,3,11,2023-12-19,Louisiana,,LSU Shreveport,REG (Non-Conf),W 64-46,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Dacia Jones,https://www.sports-reference.com/cbb/players/dacia-jones-1.html,louisiana-lafayette,2023-24

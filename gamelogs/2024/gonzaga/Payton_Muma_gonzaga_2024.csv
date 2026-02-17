@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,31,3,2023-11-12,Gonzaga,,Toledo,REG (Non-Conf),W 91-70,,4,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,1,0,0,0,0,2,2.7,Payton Muma,https://www.sports-reference.com/cbb/players/payton-muma-1.html,gonzaga,2023-24
+2,32,4,2023-11-15,Gonzaga,,North Florida,REG (Non-Conf),W 83-55,,7,0,2,.000,0,0,0,2,.000,.000,0,0,,0,1,1,2,2,0,0,0,0,2.3,Payton Muma,https://www.sports-reference.com/cbb/players/payton-muma-1.html,gonzaga,2023-24
+3,33,5,2023-11-18,Gonzaga,,Wyoming,REG (Non-Conf),W 80-64,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Payton Muma,https://www.sports-reference.com/cbb/players/payton-muma-1.html,gonzaga,2023-24

@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2021-11-09,Stony Brook,,Delaware State,REG (Non-Conf),W 87-46,,5,0,2,.000,0,0,0,2,.000,.000,0,0,0,1,1,0,0,0,0,0,0,-1.1,Zaniyyah Ross-Barnes,https://www.sports-reference.com/cbb/players/zaniyyah-ross-barnes-1.html,stony-brook,2021-22
+2,2,2,2021-11-12,Stony Brook,@,Longwood,REG (Non-Conf),W 82-63,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Zaniyyah Ross-Barnes,https://www.sports-reference.com/cbb/players/zaniyyah-ross-barnes-1.html,stony-brook,2021-22
+3,3,8,2021-12-02,Stony Brook,@,Fordham,REG (Non-Conf),L 59-71,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Zaniyyah Ross-Barnes,https://www.sports-reference.com/cbb/players/zaniyyah-ross-barnes-1.html,stony-brook,2021-22
+4,4,24,2022-02-14,Stony Brook,@,UMBC,REG (Conf),W 64-48,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Zaniyyah Ross-Barnes,https://www.sports-reference.com/cbb/players/zaniyyah-ross-barnes-1.html,stony-brook,2021-22

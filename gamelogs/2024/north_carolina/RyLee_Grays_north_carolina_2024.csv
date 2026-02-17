@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-08,North Carolina,,Gardner-Webb,REG (Non-Conf),W 102-49,,5,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,RyLee Grays,https://www.sports-reference.com/cbb/players/rylee-grays-1.html,north-carolina,2023-24
+2,2,3,2023-11-15,North Carolina,,Hampton,REG (Non-Conf),W 62-32,,5,0,1,.000,0,0,0,1,.000,.000,2,2,1.000,2,0,2,0,0,1,0,0,2,3.4,RyLee Grays,https://www.sports-reference.com/cbb/players/rylee-grays-1.html,north-carolina,2023-24
+3,3,4,2023-11-18,North Carolina,,Elon,REG (Non-Conf),W 68-39,,2,0,0,,0,0,0,0,,,1,2,.500,1,1,2,0,1,0,0,0,1,2.6,RyLee Grays,https://www.sports-reference.com/cbb/players/rylee-grays-1.html,north-carolina,2023-24
+4,4,11,2023-12-15,North Carolina,,Western Carolina,REG (Non-Conf),W 96-36,,7,2,2,1.000,0,0,2,2,1.000,1.000,0,0,,1,0,1,0,0,0,1,1,4,2.7,RyLee Grays,https://www.sports-reference.com/cbb/players/rylee-grays-1.html,north-carolina,2023-24
+5,5,24,2024-02-11,North Carolina,@,Duke,REG (Conf),L 60-68 (OT),,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,RyLee Grays,https://www.sports-reference.com/cbb/players/rylee-grays-1.html,north-carolina,2023-24

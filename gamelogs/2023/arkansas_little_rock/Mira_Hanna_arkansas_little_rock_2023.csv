@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,3,2022-11-20,Little Rock,,Arkansas,REG (Non-Conf),L 49-93,,3,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Mira Hanna,https://www.sports-reference.com/cbb/players/mira-hanna-1.html,arkansas-little-rock,2022-23
+2,2,5,2022-11-30,Little Rock,@,Auburn,REG (Non-Conf),L 48-70,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mira Hanna,https://www.sports-reference.com/cbb/players/mira-hanna-1.html,arkansas-little-rock,2022-23
+3,3,14,2023-01-04,Little Rock,,Lindenwood,REG (Conf),W 62-38,,4,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Mira Hanna,https://www.sports-reference.com/cbb/players/mira-hanna-1.html,arkansas-little-rock,2022-23
+4,4,23,2023-02-04,Little Rock,,SIU Edwardsville,REG (Conf),W 76-59,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Mira Hanna,https://www.sports-reference.com/cbb/players/mira-hanna-1.html,arkansas-little-rock,2022-23
+5,5,29,2023-02-25,Little Rock,@,Lindenwood,REG (Conf),W 64-50,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mira Hanna,https://www.sports-reference.com/cbb/players/mira-hanna-1.html,arkansas-little-rock,2022-23

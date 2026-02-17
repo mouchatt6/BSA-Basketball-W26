@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2024-11-20,Ohio,,Ohio State,REG (Non-Conf),L 42-106,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+2,2,6,2024-12-03,Ohio,,Ohio Christian,REG (Non-Conf),W 97-37,,11,1,5,.200,1,4,.250,0,1,.000,.300,0,0,0,2,2,1,0,0,0,0,3,1.2,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+3,3,8,2024-12-15,Ohio,@,Saint Louis,REG (Non-Conf),L 52-96,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+4,4,9,2024-12-22,Ohio,@,Illinois–Chicago,REG (Non-Conf),L 45-91,,4,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+5,5,10,2024-12-28,Ohio,@,Georgia,REG (Non-Conf),L 50-83,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+6,6,20,2025-02-01,Ohio,@,Miami (OH),REG (Conf),L 34-72,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+7,7,21,2025-02-05,Ohio,@,Central Michigan,REG (Conf),L 48-75,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25
+8,8,26,2025-02-26,Ohio,@,Bowling Green,REG (Conf),L 61-91,,3,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,0,0,0,0,0,1,0,0,-2.4,Madison Lim,https://www.sports-reference.com/cbb/players/madison-lim-1.html,ohio,2024-25

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2023-11-24,Vermont,N,North Carolina,REG (Non-Conf),L 51-54,,1,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,1,1,0,-1.1,Zenia Palaska,https://www.sports-reference.com/cbb/players/zenia-palaska-1.html,vermont,2023-24
+2,2,8,2023-11-30,Vermont,,Dartmouth,REG (Non-Conf),W 58-32,,4,0,1,.000,0,0,0,1,.000,.000,0,0,0,2,2,0,0,1,0,0,0,0.6,Zenia Palaska,https://www.sports-reference.com/cbb/players/zenia-palaska-1.html,vermont,2023-24
+3,3,10,2023-12-06,Vermont,@,Army,REG (Non-Conf),W 62-42,,2,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,0,0,0,0,1,0,-0.4,Zenia Palaska,https://www.sports-reference.com/cbb/players/zenia-palaska-1.html,vermont,2023-24
+4,4,24,2024-02-08,Vermont,,NJIT,REG (Conf),W 76-51,,2,0,0,,0,0,0,0,,,0,0,1,1,2,0,0,0,0,0,0,1.0,Zenia Palaska,https://www.sports-reference.com/cbb/players/zenia-palaska-1.html,vermont,2023-24
+5,5,25,2024-02-10,Vermont,,UMBC,REG (Conf),W 69-45,,2,0,2,.000,0,0,0,2,.000,.000,0,0,0,0,0,0,0,0,0,1,0,-1.8,Zenia Palaska,https://www.sports-reference.com/cbb/players/zenia-palaska-1.html,vermont,2023-24

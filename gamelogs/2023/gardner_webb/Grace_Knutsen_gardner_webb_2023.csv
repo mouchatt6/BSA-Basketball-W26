@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,28,1,2022-11-07,Gardner-Webb,@,Clemson,REG (Non-Conf),L 54-81,,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0.7,Grace Knutsen,https://www.sports-reference.com/cbb/players/grace-knutsen-1.html,gardner-webb,2022-23
+2,29,3,2022-11-15,Gardner-Webb,@,Furman,REG (Non-Conf),W 90-57,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Grace Knutsen,https://www.sports-reference.com/cbb/players/grace-knutsen-1.html,gardner-webb,2022-23
+3,30,30,2023-02-25,Gardner-Webb,,USC Upstate,REG (Conf),W 83-59,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Grace Knutsen,https://www.sports-reference.com/cbb/players/grace-knutsen-1.html,gardner-webb,2022-23

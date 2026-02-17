@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,4,2023-11-22,Marist,N,Lehigh,REG (Non-Conf),L 64-82,,1,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Samantha Chadwick,https://www.sports-reference.com/cbb/players/samantha-chadwick-1.html,marist,2023-24
+2,11,21,2024-02-08,Marist,@,Fairfield,REG (Conf),L 49-76,,1,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Samantha Chadwick,https://www.sports-reference.com/cbb/players/samantha-chadwick-1.html,marist,2023-24
+3,12,24,2024-02-17,Marist,@,Niagara,REG (Conf),L 64-90,,1,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Samantha Chadwick,https://www.sports-reference.com/cbb/players/samantha-chadwick-1.html,marist,2023-24
+4,13,25,2024-02-22,Marist,,Mount St. Mary's,REG (Conf),L 57-72,,1,0,0,0,0,0,0,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Samantha Chadwick,https://www.sports-reference.com/cbb/players/samantha-chadwick-1.html,marist,2023-24
+5,14,31,2024-03-12,Marist,N,Mount St. Mary's,CTOURN,L 47-60,,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0.0,Samantha Chadwick,https://www.sports-reference.com/cbb/players/samantha-chadwick-1.html,marist,2023-24

@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,98,13,2023-01-08,Hampton,@,Towson,REG (Conf),L 47-86,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,1,1,0,0,0,0,1,2,1.6,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23
+2,99,17,2023-01-22,Hampton,,North Carolina A&T,REG (Conf),L 70-75 (OT),,5,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23
+3,100,18,2023-01-27,Hampton,@,Monmouth,REG (Conf),L 56-69,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23
+4,101,23,2023-02-17,Hampton,@,UNC Wilmington,REG (Conf),W 63-53,,9,1,2,.500,0,0,1,2,.500,.500,3,6,.500,3,0,3,0,0,0,0,0,5,4.9,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23
+5,102,24,2023-02-19,Hampton,,Towson,REG (Conf),W 72-61,,3,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,1,0,0,-0.7,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23
+6,103,28,2023-03-04,Hampton,,Delaware,REG (Conf),W 77-72,,4,0,1,.000,0,0,0,1,.000,.000,0,0,,1,0,1,0,0,1,0,1,0,0.3,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23
+7,104,30,2023-03-10,Hampton,@,Towson,CTOURN,L 65-87,,3,0,2,.000,0,0,0,2,.000,.000,0,0,,1,1,2,0,1,0,1,2,0,-1.2,Jasmine Forte,https://www.sports-reference.com/cbb/players/jasmine-forte-1.html,hampton,2022-23

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,18,2,2024-11-07,Sacred Heart,@,Boston College,REG (Non-Conf),L 58-102,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Montana Nicks,https://www.sports-reference.com/cbb/players/montana-nicks-1.html,sacred-heart,2024-25
+2,19,7,2024-12-05,Sacred Heart,,Morgan State,REG (Non-Conf),W 79-57,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Montana Nicks,https://www.sports-reference.com/cbb/players/montana-nicks-1.html,sacred-heart,2024-25
+3,20,9,2024-12-14,Sacred Heart,,Post,REG (Non-Conf),W 63-46,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Montana Nicks,https://www.sports-reference.com/cbb/players/montana-nicks-1.html,sacred-heart,2024-25
+4,21,14,2025-01-11,Sacred Heart,,Mount St. Mary's,REG (Conf),L 51-75,,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0.7,Montana Nicks,https://www.sports-reference.com/cbb/players/montana-nicks-1.html,sacred-heart,2024-25
+5,22,18,2025-01-25,Sacred Heart,,Niagara,REG (Conf),W 86-43,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Montana Nicks,https://www.sports-reference.com/cbb/players/montana-nicks-1.html,sacred-heart,2024-25

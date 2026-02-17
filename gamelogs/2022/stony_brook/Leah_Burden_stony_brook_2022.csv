@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,1,2021-11-09,Stony Brook,,Delaware State,REG (Non-Conf),W 87-46,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Leah Burden,https://www.sports-reference.com/cbb/players/leah-burden-1.html,stony-brook,2021-22
+2,11,2,2021-11-12,Stony Brook,@,Longwood,REG (Non-Conf),W 82-63,,0,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Leah Burden,https://www.sports-reference.com/cbb/players/leah-burden-1.html,stony-brook,2021-22
+3,12,3,2021-11-14,Stony Brook,,St. John's (NY),REG (Non-Conf),W 72-60,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Leah Burden,https://www.sports-reference.com/cbb/players/leah-burden-1.html,stony-brook,2021-22
+4,13,16,2022-01-19,Stony Brook,,Binghamton,REG (Conf),W 69-44,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Leah Burden,https://www.sports-reference.com/cbb/players/leah-burden-1.html,stony-brook,2021-22
+5,14,19,2022-01-28,Stony Brook,,New Hampshire,REG (Conf),W 73-60,,1,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Leah Burden,https://www.sports-reference.com/cbb/players/leah-burden-1.html,stony-brook,2021-22

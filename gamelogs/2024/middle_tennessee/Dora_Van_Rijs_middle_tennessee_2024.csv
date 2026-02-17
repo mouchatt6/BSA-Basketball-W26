@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2023-11-09,Middle Tennessee,,Florida A&M,REG (Non-Conf),W 93-48,,3,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,1,0,0.2,Dora Van Rijs,https://www.sports-reference.com/cbb/players/dora-van-rijs-1.html,middle-tennessee,2023-24
+2,2,13,2023-12-20,Middle Tennessee,,Northern Kentucky,REG (Non-Conf),W 83-42,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Dora Van Rijs,https://www.sports-reference.com/cbb/players/dora-van-rijs-1.html,middle-tennessee,2023-24
+3,3,16,2024-01-13,Middle Tennessee,@,Sam Houston State,REG (Conf),W 87-55,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Dora Van Rijs,https://www.sports-reference.com/cbb/players/dora-van-rijs-1.html,middle-tennessee,2023-24
+4,4,18,2024-01-20,Middle Tennessee,,New Mexico State,REG (Conf),W 85-48,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.4,Dora Van Rijs,https://www.sports-reference.com/cbb/players/dora-van-rijs-1.html,middle-tennessee,2023-24

@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,26,7,2023-11-28,Wichita State,,Southeastern Louisiana,REG (Non-Conf),L 36-64,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Carla Budane,https://www.sports-reference.com/cbb/players/carla-budane-1.html,wichita-state,2023-24
+2,27,13,2023-12-30,Wichita State,,Tulane,REG (Conf),W 63-60,,3,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,1,0,2,0.7,Carla Budane,https://www.sports-reference.com/cbb/players/carla-budane-1.html,wichita-state,2023-24
+3,28,16,2024-01-09,Wichita State,,Temple,REG (Conf),L 49-72,,4,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,1,0,1,0,0,-0.7,Carla Budane,https://www.sports-reference.com/cbb/players/carla-budane-1.html,wichita-state,2023-24
+4,29,27,2024-02-24,Wichita State,@,Charlotte,REG (Conf),L 48-74,,6,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,0,0,0,0,0,0,-0.4,Carla Budane,https://www.sports-reference.com/cbb/players/carla-budane-1.html,wichita-state,2023-24

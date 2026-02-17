@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2022-11-21,Vermont,,Army,REG (Non-Conf),W 60-37,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Keira Hanson,https://www.sports-reference.com/cbb/players/keira-hanson-1.html,vermont,2022-23
+2,2,6,2022-11-26,Vermont,,Stonehill,REG (Non-Conf),W 70-48,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Keira Hanson,https://www.sports-reference.com/cbb/players/keira-hanson-1.html,vermont,2022-23
+3,3,10,2022-12-08,Vermont,@,Saint Francis (PA),REG (Non-Conf),W 68-48,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Keira Hanson,https://www.sports-reference.com/cbb/players/keira-hanson-1.html,vermont,2022-23
+4,4,20,2023-01-21,Vermont,@,NJIT,REG (Conf),W 65-32,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Keira Hanson,https://www.sports-reference.com/cbb/players/keira-hanson-1.html,vermont,2022-23
+5,5,27,2023-02-18,Vermont,,NJIT,REG (Conf),W 85-73,,1,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Keira Hanson,https://www.sports-reference.com/cbb/players/keira-hanson-1.html,vermont,2022-23
+6,6,33,2023-03-18,Vermont,@,Connecticut,ROUND-64,L 52-95,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Keira Hanson,https://www.sports-reference.com/cbb/players/keira-hanson-1.html,vermont,2022-23

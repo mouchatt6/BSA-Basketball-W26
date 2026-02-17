@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,8,2021-12-02,Missouri,,SIU Edwardsville,REG (Non-Conf),W 79-46,,7,2,2,1.000,0,0,2,2,1.000,1.000,0,2,.000,0,4,4,0,0,0,0,3,4,2.6,Skylah Travis,https://www.sports-reference.com/cbb/players/skylah-travis-1.html,missouri,2021-22
+2,2,9,2021-12-04,Missouri,@,Baylor,REG (Non-Conf),L 68-70,,1,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Skylah Travis,https://www.sports-reference.com/cbb/players/skylah-travis-1.html,missouri,2021-22
+3,3,22,2022-01-30,Missouri,@,Alabama,REG (Conf),W 77-61,,1,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,0,1,1,0,0,0,0,0,2,2.0,Skylah Travis,https://www.sports-reference.com/cbb/players/skylah-travis-1.html,missouri,2021-22
+4,4,26,2022-02-17,Missouri,@,Georgia,REG (Conf),L 49-74,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Skylah Travis,https://www.sports-reference.com/cbb/players/skylah-travis-1.html,missouri,2021-22

@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,9,12,2024-12-11,Furman,@,UNC Asheville,REG (Non-Conf),W 68-50,,8,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,1,1,0,0,0,0,2,0,-1.2,Asa Snyder,https://www.sports-reference.com/cbb/players/asa-snyder-1.html,furman,2024-25
+2,10,14,2024-12-19,Furman,@,Washington,REG (Non-Conf),L 43-71,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,1,0,1,0,0,0,0,0,0,0.0,Asa Snyder,https://www.sports-reference.com/cbb/players/asa-snyder-1.html,furman,2024-25
+3,11,16,2025-01-01,Furman,,S Wesleyan,REG (Non-Conf),W 107-51,,11,3,3,1.000,3,3,1.000,0,0,,1.500,2,2,1.000,0,2,2,1,2,0,1,1,11,12.0,Asa Snyder,https://www.sports-reference.com/cbb/players/asa-snyder-1.html,furman,2024-25
+4,12,20,2025-01-23,Furman,@,Samford,REG (Conf),L 62-77,,13,0,3,.000,0,2,.000,0,1,.000,.000,0,0,,0,0,0,0,1,0,0,2,0,-1.9,Asa Snyder,https://www.sports-reference.com/cbb/players/asa-snyder-1.html,furman,2024-25

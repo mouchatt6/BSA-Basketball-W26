@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,7,2023-11-25,Maryland,N,Massachusetts,REG (Non-Conf),W 92-63,,2,1,2,.500,0,0,,1,2,.500,.500,0,0,0,0,0,0,0,0,0,0,2,1.0,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24
+2,2,8,2023-11-29,Maryland,,Niagara,REG (Non-Conf),W 114-44,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24
+3,3,11,2023-12-12,Maryland,,Towson,REG (Non-Conf),W 99-51,,4,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,1,0,0,0,0,0,0.0,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24
+4,4,12,2023-12-20,Maryland,,James Madison,REG (Non-Conf),W 78-55,,2,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24
+5,5,20,2024-01-28,Maryland,@,Penn State,REG (Conf),L 76-112,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24
+6,6,25,2024-02-18,Maryland,,Penn State,REG (Conf),W 77-62,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24
+7,7,28,2024-02-29,Maryland,,Wisconsin,REG (Conf),W 79-63,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mary Sareen,https://www.sports-reference.com/cbb/players/mary-sareen-1.html,maryland,2023-24

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2024-11-13,Drexel,,La Salle,REG (Non-Conf),W 73-40,,5,1,4,.250,1,1,1.000,0,3,.000,.375,2,2,1.000,2,0,2,0,0,0,0,0,5,4.0,Emilee Jones,https://www.sports-reference.com/cbb/players/emilee-jones-1.html,drexel,2024-25
+2,2,8,2024-12-15,Drexel,@,Florida State,REG (Non-Conf),L 51-101,,6,0,2,.000,0,1,.000,0,1,.000,.000,0,0,,1,0,1,0,0,0,0,0,0,-0.7,Emilee Jones,https://www.sports-reference.com/cbb/players/emilee-jones-1.html,drexel,2024-25
+3,3,10,2024-12-29,Drexel,,Lebanon Valley,REG (Non-Conf),W 71-30,,10,0,2,.000,0,0,,0,2,.000,.000,0,0,,0,1,1,1,0,1,0,2,0,-0.5,Emilee Jones,https://www.sports-reference.com/cbb/players/emilee-jones-1.html,drexel,2024-25
+4,4,17,2025-01-26,Drexel,,Elon,REG (Conf),W 64-37,,2,0,0,,0,0,,0,0,,,1,2,.500,0,0,0,0,0,0,0,1,1,0.2,Emilee Jones,https://www.sports-reference.com/cbb/players/emilee-jones-1.html,drexel,2024-25
+5,5,30,2025-03-15,Drexel,N,William & Mary,CTOURN,L 54-76,,1,0,0,,0,0,,0,0,,,2,2,1.000,0,0,0,0,0,0,0,0,2,2.0,Emilee Jones,https://www.sports-reference.com/cbb/players/emilee-jones-1.html,drexel,2024-25

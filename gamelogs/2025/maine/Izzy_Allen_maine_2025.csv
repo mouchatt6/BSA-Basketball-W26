@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,11,2024-12-21,Maine,,Bates,REG (Non-Conf),W 96-39,,7,0,1,.000,0,1,.000,0,0,,.000,0,0,0,2,2,1,0,0,0,1,0,0.2,Izzy Allen,https://www.sports-reference.com/cbb/players/izzy-allen-1.html,maine,2024-25
+2,2,15,2025-01-04,Maine,,Bryant,REG (Conf),W 87-64,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Izzy Allen,https://www.sports-reference.com/cbb/players/izzy-allen-1.html,maine,2024-25
+3,3,20,2025-01-23,Maine,,UMass Lowell,REG (Conf),W 74-44,,4,1,2,.500,0,1,.000,1,1,1.000,.500,0,0,1,1,2,0,0,0,1,0,2,1.0,Izzy Allen,https://www.sports-reference.com/cbb/players/izzy-allen-1.html,maine,2024-25
+4,4,30,2025-03-06,Maine,,NJIT,CTOURN,W 65-51,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Izzy Allen,https://www.sports-reference.com/cbb/players/izzy-allen-1.html,maine,2024-25

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2024-11-26,Iona,,Wagner,REG (Non-Conf),W 70-51,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Taliya Heron,https://www.sports-reference.com/cbb/players/taliya-heron-1.html,iona,2024-25
+2,2,7,2024-11-30,Iona,N,UMBC,REG (Non-Conf),L 40-62,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Taliya Heron,https://www.sports-reference.com/cbb/players/taliya-heron-1.html,iona,2024-25
+3,3,18,2025-01-23,Iona,,Rider,REG (Conf),W 84-53,,5,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,1,1,0,0,2,0,0.9,Taliya Heron,https://www.sports-reference.com/cbb/players/taliya-heron-1.html,iona,2024-25
+4,4,27,2025-02-22,Iona,@,Merrimack,REG (Conf),L 36-81,,5,0,1,.000,0,0,0,1,.000,.000,0,0,1,1,2,0,0,0,0,2,0,-0.5,Taliya Heron,https://www.sports-reference.com/cbb/players/taliya-heron-1.html,iona,2024-25
+5,5,32,2025-03-12,Iona,N,Quinnipiac,CTOURN,L 51-79,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Taliya Heron,https://www.sports-reference.com/cbb/players/taliya-heron-1.html,iona,2024-25

@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,22,10,2023-12-30,Army,,Five Towns,REG (Non-Conf),W 87-52,,8,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,2,2,0,0,0,0,0,2,2.3,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24
+2,23,11,2024-01-03,Army,,Lafayette,REG (Conf),L 42-68,,8,0,1,.000,0,0,,0,1,.000,.000,0,0,1,0,1,0,1,0,1,0,0,0.0,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24
+3,24,12,2024-01-06,Army,@,Holy Cross,REG (Conf),L 52-67,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,1,0,1,0,0,0,0,0,0,0.0,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24
+4,25,13,2024-01-10,Army,@,Loyola (MD),REG (Conf),W 55-45,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24
+5,26,14,2024-01-14,Army,,American,REG (Conf),L 69-75,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24
+6,27,23,2024-02-17,Army,,Holy Cross,REG (Conf),W 58-43,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24
+7,28,25,2024-02-24,Army,,Bucknell,REG (Conf),L 63-65,,5,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,1,1,0,-1.1,Linden Madison,https://www.sports-reference.com/cbb/players/linden-madison-1.html,army,2023-24

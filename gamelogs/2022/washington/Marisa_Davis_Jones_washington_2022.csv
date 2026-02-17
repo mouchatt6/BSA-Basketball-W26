@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2021-11-14,Washington,,Northern Arizona,REG (Non-Conf),W 72-65,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Marisa Davis-Jones,https://www.sports-reference.com/cbb/players/marisa-davis-jones-1.html,washington,2021-22
+2,2,6,2021-12-10,Washington,@,Seattle,REG (Non-Conf),W 77-59,,1,1,2,.500,0,0,1,2,.500,.500,2,2,1.000,2,0,2,0,0,0,0,0,4,4.4,Marisa Davis-Jones,https://www.sports-reference.com/cbb/players/marisa-davis-jones-1.html,washington,2021-22
+3,3,8,2021-12-20,Washington,,Nevada,REG (Non-Conf),W 58-42,,5,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Marisa Davis-Jones,https://www.sports-reference.com/cbb/players/marisa-davis-jones-1.html,washington,2021-22
+4,4,16,2022-02-06,Washington,@,Colorado,REG (Conf),L 43-66,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Marisa Davis-Jones,https://www.sports-reference.com/cbb/players/marisa-davis-jones-1.html,washington,2021-22

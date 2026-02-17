@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2021-11-16,Ball State,@,Butler,REG (Non-Conf),W 70-56,,2,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Cameron Grant,https://www.sports-reference.com/cbb/players/cameron-grant-1.html,ball-state,2021-22
+2,2,6,2021-12-02,Ball State,,Purdue Fort Wayne,REG (Non-Conf),W 86-58,,3,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Cameron Grant,https://www.sports-reference.com/cbb/players/cameron-grant-1.html,ball-state,2021-22
+3,3,9,2021-12-11,Ball State,,Utah State,REG (Non-Conf),W 81-55,,3,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Cameron Grant,https://www.sports-reference.com/cbb/players/cameron-grant-1.html,ball-state,2021-22

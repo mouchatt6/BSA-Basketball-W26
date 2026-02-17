@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,37,11,2024-12-13,Rice,,Texas Southern,REG (Non-Conf),W 89-62,,2,1,1,1.000,0,0,,1,1,1.000,1.000,2,2,1.000,1,1,2,0,0,0,0,0,4,4.7,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+2,38,12,2024-12-18,Rice,@,Georgia Tech,REG (Non-Conf),L 57-88,,6,0,3,.000,0,0,,0,3,.000,.000,2,2,1.000,0,1,1,1,0,0,0,0,2,0.9,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+3,39,14,2025-01-01,Rice,@,Tulane,REG (Conf),W 72-64,,6,0,0,,0,0,,0,0,,,1,2,.500,0,0,0,0,0,0,1,1,1,-0.8,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+4,40,18,2025-01-18,Rice,,East Carolina,REG (Conf),W 65-56,,1,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+5,41,20,2025-01-25,Rice,@,Charlotte,REG (Conf),W 84-60,,3,0,0,,0,0,,0,0,,,1,2,.500,0,0,0,2,0,0,0,0,1,2.0,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+6,42,21,2025-01-29,Rice,,Tulsa,REG (Conf),W 64-45,,10,1,2,.500,0,0,,1,2,.500,.500,0,0,,0,2,2,1,0,0,0,1,2,1.9,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+7,43,30,2025-03-04,Rice,,North Texas,REG (Conf),L 56-68,,25,3,13,.231,0,4,.000,3,9,.333,.231,0,2,.000,1,4,5,1,0,0,2,1,6,-2.5,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25
+8,44,31,2025-03-09,Rice,N,UAB,CTOURN,W 76-63,,2,0,1,.000,0,1,.000,0,0,,.000,1,2,.500,1,0,1,0,0,0,0,0,1,0.6,Kennedy Clifton,https://www.sports-reference.com/cbb/players/kennedy-clifton-1.html,rice,2024-25

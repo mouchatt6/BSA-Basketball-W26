@@ -1,0 +1,12 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,1,2024-11-07,Belmont,@,Kansas State,REG (Non-Conf),L 56-82,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+2,11,2,2024-11-09,Belmont,@,Wichita State,REG (Non-Conf),W 75-55,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+3,12,19,2025-01-24,Belmont,,Evansville,REG (Conf),W 90-65,,2,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,1,0,0,1,1,0,-1.4,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+4,13,20,2025-01-26,Belmont,,Indiana State,REG (Conf),W 88-58,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,1,0,0,0,0.7,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+5,14,22,2025-02-07,Belmont,@,Valparaiso,REG (Conf),W 69-41,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+6,15,28,2025-02-27,Belmont,,Southern Illinois,REG (Conf),W 73-43,,3,1,2,.500,0,1,.000,1,1,1.000,.500,0,0,0,0,0,0,0,0,0,0,2,1.0,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+7,16,30,2025-03-06,Belmont,@,Indiana State,REG (Conf),W 90-69,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+8,17,31,2025-03-08,Belmont,@,Evansville,REG (Conf),W 75-48,,2,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,2,0,-2.5,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+9,18,32,2025-03-14,Belmont,N,Northern Iowa,CTOURN,W 64-46,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+10,19,34,2025-03-16,Belmont,N,Murray State,CTOURN,L 62-83,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25
+11,20,37,2025-03-27,Belmont,@,James Madison,WBIT,W 90-45,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Liz Suder,https://www.sports-reference.com/cbb/players/liz-suder-1.html,belmont,2024-25

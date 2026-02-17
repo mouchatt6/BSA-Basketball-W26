@@ -1,0 +1,22 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,13,3,2022-11-19,Drake,,Nebraska,REG (Non-Conf),W 80-62,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+2,14,4,2022-11-25,Drake,N,Massachusetts,REG (Non-Conf),L 83-100 (OT),,1,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+3,15,5,2022-11-27,Drake,N,Howard,REG (Non-Conf),W 97-60,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,1,1,0,0,0,0,1.7,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+4,16,6,2022-12-01,Drake,,Lindenwood,REG (Non-Conf),W 87-60,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+5,17,7,2022-12-06,Drake,@,South Dakota,REG (Non-Conf),W 83-54,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+6,18,11,2023-01-01,Drake,@,Bradley,REG (Conf),W 87-58,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+7,19,12,2023-01-06,Drake,,Belmont,REG (Conf),W 94-63,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+8,20,13,2023-01-08,Drake,,Murray State,REG (Conf),W 80-67,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+9,21,15,2023-01-14,Drake,@,Indiana State,REG (Conf),W 86-65,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+10,22,16,2023-01-19,Drake,,Illinois–Chicago,REG (Conf),W 63-51,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+11,23,17,2023-01-21,Drake,,Valparaiso,REG (Conf),W 84-51,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+12,24,18,2023-01-26,Drake,@,Southern Illinois,REG (Conf),W 87-73,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+13,25,21,2023-02-04,Drake,,Evansville,REG (Conf),W 87-48,,3,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,1,2,1.3,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+14,26,22,2023-02-10,Drake,@,Valparaiso,REG (Conf),W 71-54,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+15,27,24,2023-02-16,Drake,,Bradley,REG (Conf),W 81-49,,3,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+16,28,25,2023-02-18,Drake,,Illinois State,REG (Conf),W 83-67,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+17,29,26,2023-02-23,Drake,@,Murray State,REG (Conf),W 97-71,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+18,30,28,2023-03-02,Drake,,Missouri State,REG (Conf),W 83-63,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,2,1,0,0,0,0,2.4,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+19,31,29,2023-03-04,Drake,,Southern Illinois,REG (Conf),W 91-68,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+20,32,31,2023-03-11,Drake,N,Illinois State,CTOURN,W 74-54,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23
+21,33,32,2023-03-12,Drake,N,Belmont,CTOURN,W 89-71,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Hannah Nilges,https://www.sports-reference.com/cbb/players/hannah-nilges-1.html,drake,2022-23

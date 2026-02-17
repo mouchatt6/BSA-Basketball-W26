@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,11,1,2024-11-04,NJIT,@,Saint Francis (PA),REG (Non-Conf),W 80-60,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,1,0,0,-1.7,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+2,12,3,2024-11-10,NJIT,@,Rutgers,REG (Non-Conf),L 84-94,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+3,13,4,2024-11-13,NJIT,,Sacred Heart,REG (Non-Conf),W 73-52,,1,1,1,1.000,0,0,,1,1,1.000,1.000,0,1,.000,0,0,0,0,0,0,0,0,2,1.3,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+4,14,12,2024-12-12,NJIT,@,Wagner,REG (Non-Conf),L 60-62,,6,1,1,1.000,0,0,,1,1,1.000,1.000,0,2,.000,2,0,2,0,0,0,0,1,2,1.9,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+5,15,13,2024-12-30,NJIT,@,LIU,REG (Non-Conf),W 89-60,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+6,16,15,2025-01-09,NJIT,@,UMBC,REG (Conf),W 83-55,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+7,17,18,2025-01-18,NJIT,@,New Hampshire,REG (Conf),L 48-70,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+8,18,19,2025-01-23,NJIT,,Vermont,REG (Conf),L 38-60,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+9,19,27,2025-02-22,NJIT,,UMBC,REG (Conf),W 83-65,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25
+10,20,28,2025-02-27,NJIT,@,Vermont,REG (Conf),L 43-75,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Angelina Banas,https://www.sports-reference.com/cbb/players/angelina-banas-1.html,njit,2024-25

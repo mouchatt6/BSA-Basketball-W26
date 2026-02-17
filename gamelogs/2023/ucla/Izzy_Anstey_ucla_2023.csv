@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,28,16,2023-01-08,UCLA,,Southern California,REG (Conf),W 61-60,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,1,1,0,-2.1,Izzy Anstey,https://www.sports-reference.com/cbb/players/izzy-anstey-1.html,ucla,2022-23
+2,29,17,2023-01-13,UCLA,,Stanford,REG (Conf),L 59-72,,1,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Izzy Anstey,https://www.sports-reference.com/cbb/players/izzy-anstey-1.html,ucla,2022-23
+3,30,18,2023-01-15,UCLA,,California,REG (Conf),W 87-70,,5,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,1,0,0,0,1,0,0.3,Izzy Anstey,https://www.sports-reference.com/cbb/players/izzy-anstey-1.html,ucla,2022-23
+4,31,19,2023-01-20,UCLA,@,Washington,REG (Conf),W 51-47,,3,0,0,,0,0,0,0,,,0,0,1,0,1,0,0,0,1,1,0,-0.7,Izzy Anstey,https://www.sports-reference.com/cbb/players/izzy-anstey-1.html,ucla,2022-23
+5,32,20,2023-01-22,UCLA,@,Washington State,REG (Conf),W 73-66,,4,1,1,1.000,0,0,1,1,1.000,1.000,0,0,1,1,2,1,0,1,0,2,2,3.3,Izzy Anstey,https://www.sports-reference.com/cbb/players/izzy-anstey-1.html,ucla,2022-23
+6,33,21,2023-01-27,UCLA,@,Colorado,REG (Conf),L 70-73 (OT),,3,1,2,.500,0,0,1,2,.500,.500,0,0,0,0,0,0,0,0,0,2,2,0.2,Izzy Anstey,https://www.sports-reference.com/cbb/players/izzy-anstey-1.html,ucla,2022-23

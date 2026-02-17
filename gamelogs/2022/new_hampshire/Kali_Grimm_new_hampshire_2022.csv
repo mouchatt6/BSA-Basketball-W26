@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,53,1,2021-11-09,New Hampshire,@,Iowa,REG (Non-Conf),L 50-93,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kali Grimm,https://www.sports-reference.com/cbb/players/kali-grimm-1.html,new-hampshire,2021-22
+2,54,4,2021-11-21,New Hampshire,,Fisher College,REG (Non-Conf),W 72-23,,13,1,2,.500,0,1,.000,1,1,1.000,.500,0,0,,0,3,3,0,0,0,0,0,2,1.9,Kali Grimm,https://www.sports-reference.com/cbb/players/kali-grimm-1.html,new-hampshire,2021-22
+3,55,5,2021-11-23,New Hampshire,,Siena,REG (Non-Conf),W 59-45,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kali Grimm,https://www.sports-reference.com/cbb/players/kali-grimm-1.html,new-hampshire,2021-22
+4,56,12,2022-01-05,New Hampshire,,Vermont,REG (Conf),L 37-60,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kali Grimm,https://www.sports-reference.com/cbb/players/kali-grimm-1.html,new-hampshire,2021-22
+5,57,14,2022-01-13,New Hampshire,@,Maine,REG (Conf),L 51-77,,1,1,1,1.000,0,0,,1,1,1.000,1.000,0,1,.000,1,0,1,0,0,0,0,0,2,2.0,Kali Grimm,https://www.sports-reference.com/cbb/players/kali-grimm-1.html,new-hampshire,2021-22
+6,58,25,2022-02-19,New Hampshire,,Albany (NY),REG (Conf),L 46-55,*,3,0,0,,0,0,,0,0,,,0,0,,1,1,2,1,0,0,1,0,0,0.7,Kali Grimm,https://www.sports-reference.com/cbb/players/kali-grimm-1.html,new-hampshire,2021-22

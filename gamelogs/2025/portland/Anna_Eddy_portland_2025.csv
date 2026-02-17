@@ -1,0 +1,17 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,4,2,2024-11-12,Portland,,Corban,REG (Non-Conf),W 108-41,,9,3,4,.750,3,3,1.000,0,1,.000,1.125,0,0,,1,1,2,0,1,0,0,0,9,9.4,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+2,5,4,2024-11-19,Portland,,Seattle,REG (Non-Conf),W 78-55,,4,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,1,0,0,-1.7,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+3,6,5,2024-11-23,Portland,,California Baptist,REG (Non-Conf),W 85-66,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+4,7,9,2024-12-06,Portland,,Princeton,REG (Non-Conf),W 74-55,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+5,8,10,2024-12-08,Portland,,UTEP,REG (Non-Conf),W 83-67,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+6,9,11,2024-12-13,Portland,,Portland State,REG (Non-Conf),W 71-46,,3,0,3,.000,0,2,.000,0,1,.000,.000,0,0,,1,0,1,1,0,0,0,1,0,-1.1,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+7,10,12,2024-12-19,Portland,@,Loyola Marymount,REG (Conf),W 83-48,,5,1,1,1.000,1,1,1.000,0,0,,1.500,1,2,.500,0,0,0,0,0,0,0,1,4,2.9,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+8,11,14,2024-12-28,Portland,@,Santa Clara,REG (Conf),W 81-54,,6,0,0,,0,0,,0,0,,,0,0,,0,2,2,0,0,0,0,0,0,0.6,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+9,12,17,2025-01-04,Portland,,Loyola Marymount,REG (Conf),W 80-61,,3,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,2,0,0,-2.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+10,13,20,2025-01-18,Portland,@,Oregon State,REG (Conf),W 86-61,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+11,14,21,2025-01-23,Portland,@,Washington State,REG (Conf),W 83-65,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+12,15,23,2025-02-01,Portland,,Pepperdine,REG (Conf),W 76-52,,5,0,2,.000,0,2,.000,0,0,,.000,0,0,,0,0,0,0,0,0,1,1,0,-2.8,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+13,16,28,2025-02-20,Portland,,San Diego,REG (Conf),W 81-65,,4,1,2,.500,1,1,1.000,0,1,.000,.750,0,0,,0,0,0,1,0,0,1,0,3,1.7,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+14,17,32,2025-03-10,Portland,N,Washington State,CTOURN,W 72-57,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+15,18,33,2025-03-11,Portland,N,Oregon State,CTOURN,L 46-59,,0,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25
+16,19,36,2025-03-27,Portland,@,Villanova,WBIT,L 61-71,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Anna Eddy,https://www.sports-reference.com/cbb/players/anna-eddy-1.html,portland,2024-25

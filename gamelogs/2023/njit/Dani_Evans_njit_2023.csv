@@ -1,0 +1,13 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,41,1,2022-11-07,NJIT,@,Rider,REG (Non-Conf),W 68-60,,15,0,5,.000,0,3,.000,0,2,.000,.000,0,0,0,5,5,1,0,0,2,1,0,-3.7,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+2,42,2,2022-11-11,NJIT,,Lafayette,REG (Non-Conf),L 58-62,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+3,43,3,2022-11-13,NJIT,@,Rutgers,REG (Non-Conf),L 71-87,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+4,44,8,2022-11-30,NJIT,,Fairleigh Dickinson,REG (Non-Conf),L 52-67,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+5,45,9,2022-12-03,NJIT,@,Norfolk State,REG (Non-Conf),L 64-71,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+6,46,10,2022-12-07,NJIT,,Colgate,REG (Non-Conf),L 51-69,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+7,47,12,2022-12-17,NJIT,@,Wagner,REG (Non-Conf),L 54-68,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+8,48,19,2023-01-21,NJIT,,Vermont,REG (Conf),L 32-65,,4,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,1,1,0,0,0,0,1,0,-1.5,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+9,49,22,2023-02-04,NJIT,,UMass Lowell,REG (Conf),W 68-50,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+10,50,26,2023-02-18,NJIT,@,Vermont,REG (Conf),L 73-85,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,1,0,0,0,0,3,3.4,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+11,51,28,2023-02-25,NJIT,,Albany (NY),REG (Conf),L 49-59,*,5,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-1.4,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23
+12,52,29,2023-03-01,NJIT,@,UMBC,CTOURN,L 71-82,,2,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,0,0,0,0,0,0,0,0,3,2.7,Dani Evans,https://www.sports-reference.com/cbb/players/dani-evans-1.html,njit,2022-23

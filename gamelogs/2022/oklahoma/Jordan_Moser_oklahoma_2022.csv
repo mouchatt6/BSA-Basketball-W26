@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,6,5,2021-11-21,Oklahoma,,Buffalo,REG (Non-Conf),W 93-72,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Jordan Moser,https://www.sports-reference.com/cbb/players/jordan-moser-1.html,oklahoma,2021-22
+2,7,8,2021-12-04,Oklahoma,,Mississippi State,REG (Non-Conf),W 94-63,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Moser,https://www.sports-reference.com/cbb/players/jordan-moser-1.html,oklahoma,2021-22
+3,8,9,2021-12-07,Oklahoma,,Eastern Michigan,REG (Non-Conf),W 94-58,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Moser,https://www.sports-reference.com/cbb/players/jordan-moser-1.html,oklahoma,2021-22
+4,9,12,2021-12-29,Oklahoma,,Wichita State,REG (Non-Conf),W 89-67,,2,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Jordan Moser,https://www.sports-reference.com/cbb/players/jordan-moser-1.html,oklahoma,2021-22
+5,10,20,2022-01-26,Oklahoma,,Oklahoma State,REG (Conf),W 84-58,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Moser,https://www.sports-reference.com/cbb/players/jordan-moser-1.html,oklahoma,2021-22
+6,11,27,2022-02-23,Oklahoma,@,TCU,REG (Conf),W 92-57,,1,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Jordan Moser,https://www.sports-reference.com/cbb/players/jordan-moser-1.html,oklahoma,2021-22

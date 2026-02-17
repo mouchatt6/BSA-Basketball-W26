@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2022-11-25,Maine,N,Kansas,REG (Non-Conf),L 49-76,,2,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23
+2,2,9,2022-12-04,Maine,@,Rhode Island,REG (Non-Conf),L 43-63,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,1,0,-1.4,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23
+3,3,11,2022-12-11,Maine,,Army,REG (Non-Conf),W 88-60,,3,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23
+4,4,12,2022-12-18,Maine,@,Harvard,REG (Non-Conf),L 56-84,,4,1,2,.500,1,2,.500,0,0,,.750,0,0,0,0,0,1,0,0,0,1,3,2.3,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23
+5,5,22,2023-02-01,Maine,,Bryant,REG (Conf),W 66-43,,2,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,1,0,0,0,1,2,2.0,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23
+6,6,23,2023-02-04,Maine,@,UMBC,REG (Conf),L 57-74,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23
+7,7,28,2023-02-22,Maine,,New Hampshire,REG (Conf),W 80-67,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Anna Soler,https://www.sports-reference.com/cbb/players/anna-soler-1.html,maine,2022-23

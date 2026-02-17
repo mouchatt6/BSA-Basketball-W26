@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,5,1,2022-11-07,Jacksonville,,Johnson (FL),REG (Non-Conf),W 109-23,,9,0,1,.000,0,0,0,1,.000,.000,0,0,0,4,4,0,0,0,0,1,0,0.1,Ashley Sneed,https://www.sports-reference.com/cbb/players/ashley-sneed-2.html,jacksonville,2022-23
+2,6,5,2022-11-23,Jacksonville,,Warner,REG (Non-Conf),W 73-55,,5,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,3,2,0,-3.8,Ashley Sneed,https://www.sports-reference.com/cbb/players/ashley-sneed-2.html,jacksonville,2022-23
+3,7,24,2023-02-09,Jacksonville,@,Lipscomb,REG (Conf),L 52-61,,14,0,0,,0,0,0,0,,,0,0,1,1,2,0,0,0,1,1,0,-0.4,Ashley Sneed,https://www.sports-reference.com/cbb/players/ashley-sneed-2.html,jacksonville,2022-23
+4,8,25,2023-02-11,Jacksonville,@,Austin Peay,REG (Conf),W 55-52,,4,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ashley Sneed,https://www.sports-reference.com/cbb/players/ashley-sneed-2.html,jacksonville,2022-23
+5,9,26,2023-02-16,Jacksonville,,Kennesaw State,REG (Conf),L 47-54,,1,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Ashley Sneed,https://www.sports-reference.com/cbb/players/ashley-sneed-2.html,jacksonville,2022-23
+6,10,30,2023-03-01,Jacksonville,,North Alabama,REG (Conf),L 54-65,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ashley Sneed,https://www.sports-reference.com/cbb/players/ashley-sneed-2.html,jacksonville,2022-23

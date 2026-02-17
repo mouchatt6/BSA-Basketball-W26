@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,14,3,2023-11-15,Illinois,,Saint Peter's,REG (Non-Conf),W 103-33,,4,0,0,,0,0,0,0,,,0,0,,0,1,1,1,0,0,0,0,0,1.0,Samantha Dewey,https://www.sports-reference.com/cbb/players/samantha-dewey-1.html,illinois,2023-24
+2,15,7,2023-12-06,Illinois,,Northern Kentucky,REG (Non-Conf),W 74-52,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,1,1,0,0,0,0,0,0,-0.4,Samantha Dewey,https://www.sports-reference.com/cbb/players/samantha-dewey-1.html,illinois,2023-24
+3,16,15,2024-01-14,Illinois,@,Northwestern,REG (Conf),W 93-52,,4,2,2,1.000,0,0,2,2,1.000,1.000,2,2,1.000,0,0,0,0,0,0,0,1,6,5.0,Samantha Dewey,https://www.sports-reference.com/cbb/players/samantha-dewey-1.html,illinois,2023-24
+4,17,16,2024-01-17,Illinois,,Rutgers,REG (Conf),W 96-68,,2,0,1,.000,0,0,0,1,.000,.000,0,0,,1,0,1,0,0,0,0,1,0,-0.4,Samantha Dewey,https://www.sports-reference.com/cbb/players/samantha-dewey-1.html,illinois,2023-24

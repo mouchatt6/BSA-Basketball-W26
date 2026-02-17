@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,8,2,2021-11-14,Ole Miss,,Mississippi Valley State,REG (Non-Conf),W 94-44,,4,0,0,,0,0,,0,0,,0,0,1,1,2,0,0,0,1,1,0,-0.4,Jordan Berry,https://www.sports-reference.com/cbb/players/jordan-berry-2.html,mississippi,2021-22
+2,9,3,2021-11-16,Ole Miss,,Lamar,REG (Non-Conf),W 71-37,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Berry,https://www.sports-reference.com/cbb/players/jordan-berry-2.html,mississippi,2021-22
+3,10,8,2021-12-01,Ole Miss,,New Orleans,REG (Non-Conf),W 92-47,,5,0,2,.000,0,2,.000,0,0,.000,0,0,0,1,1,0,0,0,0,0,0,-1.1,Jordan Berry,https://www.sports-reference.com/cbb/players/jordan-berry-2.html,mississippi,2021-22
+4,11,11,2021-12-17,Ole Miss,,Samford,REG (Non-Conf),W 73-48,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Berry,https://www.sports-reference.com/cbb/players/jordan-berry-2.html,mississippi,2021-22
+5,12,18,2022-01-20,Ole Miss,@,Texas A&M,REG (Conf),W 80-63,,0,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Berry,https://www.sports-reference.com/cbb/players/jordan-berry-2.html,mississippi,2021-22
+6,13,26,2022-02-20,Ole Miss,@,Vanderbilt,REG (Conf),W 57-47,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Jordan Berry,https://www.sports-reference.com/cbb/players/jordan-berry-2.html,mississippi,2021-22

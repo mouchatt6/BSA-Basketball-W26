@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Boston University,,Northeastern,REG (Non-Conf),W 60-48,,4,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,-0.7,Brooke Baisley,https://www.sports-reference.com/cbb/players/brooke-baisley-1.html,boston-university,2024-25
+2,2,2,2024-11-07,Boston University,@,Connecticut,REG (Non-Conf),L 32-86,,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0.3,Brooke Baisley,https://www.sports-reference.com/cbb/players/brooke-baisley-1.html,boston-university,2024-25
+3,3,10,2024-12-21,Boston University,@,Harvard,REG (Non-Conf),L 26-86,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Brooke Baisley,https://www.sports-reference.com/cbb/players/brooke-baisley-1.html,boston-university,2024-25
+4,4,11,2024-12-29,Boston University,@,Yale,REG (Non-Conf),W 77-56,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Brooke Baisley,https://www.sports-reference.com/cbb/players/brooke-baisley-1.html,boston-university,2024-25

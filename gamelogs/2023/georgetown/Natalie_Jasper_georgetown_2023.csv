@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,14,1,2022-11-07,Georgetown,,Salem Int'l,REG (Non-Conf),W 77-46,,12,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,1,2,0,0,3,0,0.8,Natalie Jasper,https://www.sports-reference.com/cbb/players/natalie-jasper-1.html,georgetown,2022-23
+2,15,3,2022-11-16,Georgetown,@,Coppin State,REG (Non-Conf),W 50-35,,5,0,0,,0,0,0,0,,,0,0,0,0,0,1,0,0,1,2,0,-1.1,Natalie Jasper,https://www.sports-reference.com/cbb/players/natalie-jasper-1.html,georgetown,2022-23
+3,16,5,2022-11-25,Georgetown,N,Mississippi State,REG (Non-Conf),L 32-67,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Natalie Jasper,https://www.sports-reference.com/cbb/players/natalie-jasper-1.html,georgetown,2022-23

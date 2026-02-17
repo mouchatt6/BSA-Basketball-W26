@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-06,Cal Poly,,UC Merced,REG (Non-Conf),W 72-40,,2,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,1,0,0,0,0,0,0.0,Sadie Cohen,https://www.sports-reference.com/cbb/players/sadie-cohen-1.html,cal-poly,2024-25
+2,2,5,2024-11-19,Cal Poly,,Life Pacific,REG (Non-Conf),W 82-36,,5,0,0,,0,0,,0,0,,0,0,1,0,1,0,0,0,0,1,0,0.3,Sadie Cohen,https://www.sports-reference.com/cbb/players/sadie-cohen-1.html,cal-poly,2024-25
+3,3,24,2025-02-15,Cal Poly,,Cal State Northridge,REG (Conf),W 75-34,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sadie Cohen,https://www.sports-reference.com/cbb/players/sadie-cohen-1.html,cal-poly,2024-25

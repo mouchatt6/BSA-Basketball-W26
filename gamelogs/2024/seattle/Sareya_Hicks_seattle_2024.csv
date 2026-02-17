@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2023-11-11,Seattle,@,UC Irvine,REG (Non-Conf),L 43-74,,3,0,1,.000,0,1,.000,0,0,.000,0,0,0,0,0,0,1,0,1,0,0,-0.7,Sareya Hicks,https://www.sports-reference.com/cbb/players/sareya-hicks-1.html,seattle,2023-24
+2,2,3,2023-11-14,Seattle,,Portland,REG (Non-Conf),L 61-89,,3,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sareya Hicks,https://www.sports-reference.com/cbb/players/sareya-hicks-1.html,seattle,2023-24
+3,3,8,2023-12-02,Seattle,@,Southern Utah,REG (Conf),L 56-83,,3,0,0,,0,0,,0,0,,0,0,1,0,1,0,0,0,1,0,0,-0.3,Sareya Hicks,https://www.sports-reference.com/cbb/players/sareya-hicks-1.html,seattle,2023-24
+4,4,11,2023-12-31,Seattle,@,Arizona,REG (Non-Conf),L 52-89,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0.0,Sareya Hicks,https://www.sports-reference.com/cbb/players/sareya-hicks-1.html,seattle,2023-24

@@ -1,0 +1,23 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,24,1,2023-11-08,Navy,,Susquehanna,REG (Non-Conf),W 78-37,,7,1,1,1.000,0,0,1,1,1.000,1.000,0,0,,2,0,2,0,1,0,2,4,2,0.5,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+2,25,2,2023-11-10,Navy,@,Penn State,REG (Non-Conf),L 44-107,,11,2,3,.667,0,0,2,3,.667,.667,0,1,.000,0,2,2,1,1,2,0,5,4,4.0,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+3,26,3,2023-11-15,Navy,,Mount St. Mary's,REG (Non-Conf),L 59-67 (OT),,10,0,0,,0,0,0,0,,,0,0,,1,2,3,0,2,0,0,1,0,2.9,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+4,27,4,2023-11-21,Navy,,Binghamton,REG (Non-Conf),W 66-59,,18,2,2,1.000,0,0,2,2,1.000,1.000,0,2,.000,1,2,3,0,0,0,0,1,4,3.5,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+5,28,5,2023-11-25,Navy,,Quinnipiac,REG (Non-Conf),W 75-62,,23,4,4,1.000,0,0,4,4,1.000,1.000,2,2,1.000,4,3,7,0,0,0,2,4,10,8.9,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+6,29,6,2023-11-26,Navy,,Abilene Christian,REG (Non-Conf),L 62-87,,14,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,2,0,-0.5,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+7,30,7,2023-11-30,Navy,@,Wagner,REG (Non-Conf),L 67-69,,15,3,3,1.000,0,0,3,3,1.000,1.000,0,0,,2,1,3,3,0,0,1,4,6,6.3,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+8,31,8,2023-12-03,Navy,,William & Mary,REG (Non-Conf),L 53-81,*,11,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,1,0,-0.1,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+9,32,14,2024-01-10,Navy,,Holy Cross,REG (Conf),L 54-69,,13,2,2,1.000,0,0,2,2,1.000,1.000,1,1,1.000,2,3,5,0,0,0,2,0,5,4.7,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+10,33,15,2024-01-13,Navy,,Lafayette,REG (Conf),W 56-47,,21,1,3,.333,0,0,1,3,.333,.333,0,0,,0,4,4,1,0,1,1,2,2,1.1,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+11,34,16,2024-01-17,Navy,@,Lehigh,REG (Conf),L 65-81,,24,0,2,.000,0,0,0,2,.000,.000,2,2,1.000,3,6,9,0,0,0,2,2,2,1.7,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+12,35,17,2024-01-20,Navy,,Army,REG (Conf),L 51-66,,14,0,2,.000,0,0,0,2,.000,.000,1,2,.500,1,2,3,0,1,2,3,0,1,-0.1,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+13,36,22,2024-02-10,Navy,@,Army,REG (Conf),L 58-70,,4,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,1,1,0,-1.1,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+14,37,23,2024-02-14,Navy,@,American,REG (Conf),W 69-55,,12,1,3,.333,0,0,1,3,.333,.333,1,2,.500,0,0,0,0,0,0,0,2,3,0.1,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+15,38,24,2024-02-17,Navy,,Boston University,REG (Conf),L 60-69,,14,0,2,.000,0,0,0,2,.000,.000,0,2,.000,4,0,4,2,0,0,1,3,0,-0.2,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+16,39,25,2024-02-21,Navy,,Loyola (MD),REG (Conf),W 53-51,,2,0,0,,0,0,0,0,,,2,2,1.000,0,0,0,0,0,0,0,1,2,1.6,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+17,40,26,2024-02-24,Navy,@,Holy Cross,REG (Conf),L 63-71,,4,0,0,,0,0,0,0,,,0,0,,0,0,0,0,1,0,0,1,0,0.6,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+18,41,27,2024-02-28,Navy,@,Lafayette,REG (Conf),W 58-49,,10,1,2,.500,0,0,1,2,.500,.500,0,0,,2,1,3,1,2,0,0,2,2,4.6,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+19,42,28,2024-03-02,Navy,,American,REG (Conf),W 73-57,,15,1,1,1.000,0,0,1,1,1.000,1.000,0,2,.000,2,2,4,0,1,0,1,0,2,2.9,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+20,43,29,2024-03-06,Navy,@,Bucknell,REG (Conf),W 55-49,,12,0,0,,0,0,0,0,,,0,0,,2,4,6,0,2,0,0,1,0,4.2,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+21,44,30,2024-03-09,Navy,,Lafayette,CTOURN,W 67-45,,11,2,3,.667,0,0,2,3,.667,.667,0,0,,3,1,4,0,0,2,0,0,4,6.5,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24
+22,45,31,2024-03-11,Navy,@,Colgate,CTOURN,L 64-69,,8,1,3,.333,0,0,1,3,.333,.333,0,0,,1,3,4,0,0,0,1,3,2,-0.3,Gia Pissott,https://www.sports-reference.com/cbb/players/gia-pissott-1.html,navy,2023-24

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-04,Saint Louis,@,South Dakota,REG (Non-Conf),W 85-83 (OT),,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,1,1,0,-1.4,Rita Nazario,https://www.sports-reference.com/cbb/players/rita-nazario-1.html,saint-louis,2024-25
+2,2,2,2024-11-07,Saint Louis,@,Drake,REG (Non-Conf),L 70-95,,1,0,1,.000,0,1,.000,0,0,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.1,Rita Nazario,https://www.sports-reference.com/cbb/players/rita-nazario-1.html,saint-louis,2024-25
+3,3,5,2024-11-20,Saint Louis,@,Missouri,REG (Non-Conf),L 59-112,,3,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Rita Nazario,https://www.sports-reference.com/cbb/players/rita-nazario-1.html,saint-louis,2024-25
+4,4,11,2024-12-15,Saint Louis,,Ohio,REG (Non-Conf),W 96-52,,3,0,0,,0,0,,0,0,,2,3,.667,0,0,0,0,0,0,1,1,2,0.2,Rita Nazario,https://www.sports-reference.com/cbb/players/rita-nazario-1.html,saint-louis,2024-25
+5,5,16,2025-01-05,Saint Louis,,Davidson,REG (Conf),L 53-94,,6,0,2,.000,0,2,.000,0,0,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.8,Rita Nazario,https://www.sports-reference.com/cbb/players/rita-nazario-1.html,saint-louis,2024-25

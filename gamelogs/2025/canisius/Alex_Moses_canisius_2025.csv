@@ -1,0 +1,29 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2024-11-05,Canisius,@,Pittsburgh,REG (Non-Conf),L 36-78,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+2,2,2,2024-11-07,Canisius,@,Penn State,REG (Non-Conf),L 57-89,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,1,0,0,-1.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+3,3,5,2024-11-22,Canisius,,Buffalo,REG (Non-Conf),L 50-62,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+4,4,6,2024-11-25,Canisius,,Binghamton,REG (Non-Conf),L 58-68,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+5,5,8,2024-12-07,Canisius,@,Akron,REG (Non-Conf),L 43-82,,5,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,1,0,0,-0.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+6,6,9,2024-12-15,Canisius,@,Duquesne,REG (Non-Conf),L 66-90,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,1,0,0,-1.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+7,7,10,2024-12-19,Canisius,@,Merrimack,REG (Conf),L 47-62,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+8,8,11,2024-12-21,Canisius,@,Siena,REG (Conf),L 61-67,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+9,9,12,2024-12-29,Canisius,,Colgate,REG (Non-Conf),L 47-66,,13,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,1,1,0,1,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+10,10,13,2025-01-04,Canisius,,Sacred Heart,REG (Conf),L 63-70,,5,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+11,11,14,2025-01-09,Canisius,@,Rider,REG (Conf),W 63-43,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+12,12,15,2025-01-11,Canisius,@,Saint Peter's,REG (Conf),L 55-61,,4,1,1,1.000,1,1,1.000,0,0,,1.500,0,0,,0,0,0,1,0,0,0,0,3,3.4,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+13,13,16,2025-01-16,Canisius,,Iona,REG (Conf),W 66-63,,3,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+14,14,17,2025-01-18,Canisius,,Fairfield,REG (Conf),L 51-97,,9,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,2,0,0,-1.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+15,15,18,2025-01-23,Canisius,@,Sacred Heart,REG (Conf),W 67-53,,7,0,0,,0,0,,0,0,,,0,0,,0,2,2,0,0,0,0,0,0,0.6,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+16,16,19,2025-01-25,Canisius,@,Marist,REG (Conf),L 48-67,,5,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+17,17,20,2025-01-30,Canisius,@,Niagara,REG (Conf),W 70-53,,8,0,1,.000,0,1,.000,0,0,,.000,1,2,.500,0,1,1,1,0,0,0,0,1,0.9,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+18,18,21,2025-02-06,Canisius,,Quinnipiac,REG (Conf),L 41-56,,2,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+19,19,22,2025-02-08,Canisius,,Merrimack,REG (Conf),W 68-62,,6,0,1,.000,0,0,,0,1,.000,.000,0,0,,1,0,1,0,0,0,1,0,0,-1.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+20,20,23,2025-02-11,Canisius,,Niagara,REG (Conf),W 48-46,,4,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,1,0,1,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+21,21,24,2025-02-15,Canisius,@,Mount St. Mary's,REG (Conf),L 59-72,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+22,22,25,2025-02-20,Canisius,,Marist,REG (Conf),L 62-69 (OT),,6,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+23,23,26,2025-02-22,Canisius,,Siena,REG (Conf),L 58-72,,10,0,0,,0,0,,0,0,,,0,0,,0,1,1,0,1,0,1,1,0,-0.1,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+24,24,27,2025-02-27,Canisius,@,Manhattan,REG (Conf),L 35-71,,14,0,2,.000,0,2,.000,0,0,,.000,0,0,,0,1,1,1,0,0,1,1,0,-1.8,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+25,25,28,2025-03-01,Canisius,@,Iona,REG (Conf),W 53-48,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+26,26,29,2025-03-06,Canisius,,Rider,REG (Conf),W 77-61,,6,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,2,0,-0.8,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+27,27,30,2025-03-08,Canisius,,Saint Peter's,REG (Conf),W 50-47,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25
+28,28,31,2025-03-11,Canisius,N,Manhattan,CTOURN,L 42-52,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Alex Moses,https://www.sports-reference.com/cbb/players/alex-moses-1.html,canisius,2024-25

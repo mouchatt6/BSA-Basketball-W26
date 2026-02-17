@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2023-11-06,Arizona State,,UTSA,REG (Non-Conf),W 70-55,,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Hanna Miller,https://www.sports-reference.com/cbb/players/hanna-miller-1.html,arizona-state,2023-24
+2,2,5,2023-11-19,Arizona State,,Idaho State,REG (Non-Conf),W 72-40,,2,1,1,1.000,1,1,1.000,0,0,1.500,1,2,.500,0,0,0,0,0,0,0,0,4,3.3,Hanna Miller,https://www.sports-reference.com/cbb/players/hanna-miller-1.html,arizona-state,2023-24
+3,3,7,2023-11-24,Arizona State,N,South Florida,REG (Non-Conf),W 66-49,,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Hanna Miller,https://www.sports-reference.com/cbb/players/hanna-miller-1.html,arizona-state,2023-24

@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,1,2021-11-09,Manhattan,,St. Francis Brooklyn,REG (Non-Conf),W 74-66,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+2,11,2,2021-11-13,Manhattan,,Army,REG (Non-Conf),W 75-55,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+3,12,3,2021-11-19,Manhattan,,Florida Gulf Coast,REG (Non-Conf),L 57-88,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+4,13,5,2021-11-24,Manhattan,@,LIU,REG (Non-Conf),W 61-52,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+5,14,7,2021-12-01,Manhattan,@,Wagner,REG (Non-Conf),L 50-54,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+6,15,9,2021-12-11,Manhattan,@,Dartmouth,REG (Non-Conf),W 56-44,,6,0,1,.000,0,0,0,1,.000,.000,0,0,1,0,1,0,0,0,0,2,0,-0.8,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+7,16,10,2021-12-19,Manhattan,@,Niagara,REG (Conf),L 70-73,,4,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,3,0,0,-2.7,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22
+8,17,11,2021-12-21,Manhattan,@,Canisius,REG (Conf),W 85-63,,2,0,2,.000,0,0,0,2,.000,.000,0,0,1,0,1,2,0,0,1,0,0,-0.3,Nia Bailey,https://www.sports-reference.com/cbb/players/nia-bailey-1.html,manhattan,2021-22

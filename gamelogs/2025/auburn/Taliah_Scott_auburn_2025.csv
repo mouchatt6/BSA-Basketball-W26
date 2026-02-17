@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,21,3,2024-11-14,Auburn,,Little Rock,REG (Non-Conf),W 82-48,*,33,9,18,.500,8,14,.571,1,4,.250,.722,0,0,,1,8,9,2,3,0,7,3,26,16.3,Taliah Scott,https://www.sports-reference.com/cbb/players/taliah-scott-1.html,auburn,2024-25
+2,22,4,2024-11-20,Auburn,@,Oregon,REG (Non-Conf),L 68-70,*,35,9,22,.409,7,14,.500,2,8,.250,.568,3,3,1.000,0,4,4,2,3,1,2,4,28,18.9,Taliah Scott,https://www.sports-reference.com/cbb/players/taliah-scott-1.html,auburn,2024-25
+3,23,5,2024-11-22,Auburn,@,California,REG (Non-Conf),L 59-63,*,19,3,9,.333,1,4,.250,2,5,.400,.389,0,0,,1,2,3,2,0,0,5,1,7,-0.8,Taliah Scott,https://www.sports-reference.com/cbb/players/taliah-scott-1.html,auburn,2024-25

@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,11,1,2022-11-07,Notre Dame,,Northern Illinois,REG (Non-Conf),W 88-48,,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Trinity Cha,https://www.sports-reference.com/cbb/players/trinity-cha-1.html,notre-dame,2022-23
+2,12,4,2022-11-20,Notre Dame,,Ball State,REG (Non-Conf),W 95-60,,1,0,1,.000,0,1,.000,0,0,.000,0,0,,0,0,0,0,0,0,0,1,0,-1.1,Trinity Cha,https://www.sports-reference.com/cbb/players/trinity-cha-1.html,notre-dame,2022-23
+3,13,6,2022-11-26,Notre Dame,N,Arizona State,REG (Non-Conf),W 85-65,,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Trinity Cha,https://www.sports-reference.com/cbb/players/trinity-cha-1.html,notre-dame,2022-23
+4,14,10,2022-12-10,Notre Dame,,Merrimack,REG (Non-Conf),W 108-44,,2,0,0,,0,0,,0,0,,1,2,.500,0,0,0,0,1,0,1,0,1,0.6,Trinity Cha,https://www.sports-reference.com/cbb/players/trinity-cha-1.html,notre-dame,2022-23
+5,15,12,2022-12-21,Notre Dame,,Western Michigan,REG (Non-Conf),W 85-57,,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Trinity Cha,https://www.sports-reference.com/cbb/players/trinity-cha-1.html,notre-dame,2022-23

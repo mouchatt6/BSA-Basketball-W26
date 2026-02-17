@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,19,2023-01-28,Harvard,,Pennsylvania,REG (Conf),W 84-60,,1,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Katie Lebuhn,https://www.sports-reference.com/cbb/players/katie-lebuhn-1.html,harvard,2022-23
+2,2,20,2023-02-03,Harvard,@,Yale,REG (Conf),W 67-54,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Katie Lebuhn,https://www.sports-reference.com/cbb/players/katie-lebuhn-1.html,harvard,2022-23
+3,3,21,2023-02-04,Harvard,@,Brown,REG (Conf),W 74-61,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Katie Lebuhn,https://www.sports-reference.com/cbb/players/katie-lebuhn-1.html,harvard,2022-23
+4,4,24,2023-02-18,Harvard,,Cornell,REG (Conf),W 86-59,,2,0,0,,0,0,0,0,,,0,0,1,0,1,0,0,0,1,1,0,-0.7,Katie Lebuhn,https://www.sports-reference.com/cbb/players/katie-lebuhn-1.html,harvard,2022-23
+5,5,26,2023-03-04,Harvard,,Dartmouth,REG (Conf),W 64-40,,1,0,0,,0,0,0,0,,,0,0,2,0,2,0,0,0,1,0,0,0.4,Katie Lebuhn,https://www.sports-reference.com/cbb/players/katie-lebuhn-1.html,harvard,2022-23
+6,6,29,2023-03-16,Harvard,,Towson,WNIT,W 103-63,,2,0,2,.000,0,0,0,2,.000,.000,0,0,1,0,1,0,0,0,0,2,0,-1.5,Katie Lebuhn,https://www.sports-reference.com/cbb/players/katie-lebuhn-1.html,harvard,2022-23

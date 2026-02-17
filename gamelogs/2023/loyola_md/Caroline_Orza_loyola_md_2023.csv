@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,10,2022-12-07,Loyola (MD),@,Pittsburgh,REG (Non-Conf),L 42-78,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Caroline Orza,https://www.sports-reference.com/cbb/players/caroline-orza-1.html,loyola-md,2022-23
+2,2,21,2023-01-28,Loyola (MD),@,Bucknell,REG (Conf),L 37-73,,5,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Caroline Orza,https://www.sports-reference.com/cbb/players/caroline-orza-1.html,loyola-md,2022-23
+3,3,22,2023-02-04,Loyola (MD),@,Boston University,REG (Conf),L 57-100,,6,0,2,.000,0,1,.000,0,1,.000,.000,0,0,0,0,0,0,0,0,1,0,0,-2.4,Caroline Orza,https://www.sports-reference.com/cbb/players/caroline-orza-1.html,loyola-md,2022-23
+4,4,26,2023-02-19,Loyola (MD),,Navy,REG (Conf),W 74-50,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Caroline Orza,https://www.sports-reference.com/cbb/players/caroline-orza-1.html,loyola-md,2022-23
+5,5,31,2023-03-06,Loyola (MD),@,Boston University,CTOURN,L 52-66,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Caroline Orza,https://www.sports-reference.com/cbb/players/caroline-orza-1.html,loyola-md,2022-23

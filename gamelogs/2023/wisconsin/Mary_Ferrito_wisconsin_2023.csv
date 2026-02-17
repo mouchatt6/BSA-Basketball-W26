@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,4,2022-11-16,Wisconsin,,Bradley,REG (Non-Conf),W 103-49,,5,0,0,,0,0,,0,0,,,0,0,0,2,2,0,0,0,0,0,0,0.6,Mary Ferrito,https://www.sports-reference.com/cbb/players/mary-ferrito-1.html,wisconsin,2022-23
+2,2,7,2022-11-25,Wisconsin,N,Seton Hall,REG (Non-Conf),L 72-83,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Mary Ferrito,https://www.sports-reference.com/cbb/players/mary-ferrito-1.html,wisconsin,2022-23
+3,3,8,2022-11-26,Wisconsin,N,VCU,REG (Non-Conf),L 67-75,,0,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,2,0,-0.8,Mary Ferrito,https://www.sports-reference.com/cbb/players/mary-ferrito-1.html,wisconsin,2022-23
+4,4,27,2023-02-15,Wisconsin,@,Iowa,REG (Conf),L 61-91,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Mary Ferrito,https://www.sports-reference.com/cbb/players/mary-ferrito-1.html,wisconsin,2022-23
+5,5,28,2023-02-20,Wisconsin,,Rutgers,REG (Conf),W 88-62,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Mary Ferrito,https://www.sports-reference.com/cbb/players/mary-ferrito-1.html,wisconsin,2022-23

@@ -1,0 +1,2 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2023-11-21,Robert Morris,,Penn St. Beaver,REG (Non-Conf),W 89-39,,5,0,2,.000,0,2,.000,0,0,.000,0,0,0,0,0,0,1,0,0,0,0,-0.4,Hattie McGraw,https://www.sports-reference.com/cbb/players/hattie-mcgraw-1.html,robert-morris,2023-24

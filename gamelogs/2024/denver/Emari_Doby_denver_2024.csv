@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2023-11-10,Denver,@,North Alabama,REG (Non-Conf),W 67-51,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24
+2,2,5,2023-11-25,Denver,,South Alabama,REG (Non-Conf),L 53-62,,5,0,1,.000,0,1,.000,0,0,,.000,0,3,.000,0,1,1,0,0,0,0,0,0,-1.6,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24
+3,3,6,2023-11-30,Denver,@,Loyola Marymount,REG (Non-Conf),L 61-79,,2,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24
+4,4,8,2023-12-09,Denver,,Stetson,REG (Non-Conf),W 74-52,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24
+5,5,9,2023-12-14,Denver,@,Texas State,REG (Non-Conf),L 46-72,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24
+6,6,10,2023-12-19,Denver,,Colo. Christian,REG (Non-Conf),W 81-59,,3,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,,0,0,0,0,0,0,0,0,2,1.7,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24
+7,7,13,2023-12-31,Denver,@,Oral Roberts,REG (Conf),L 64-95,,4,0,1,.000,0,1,.000,0,0,,.000,0,0,,0,0,0,1,0,0,0,0,0,0.0,Emari Doby,https://www.sports-reference.com/cbb/players/emari-doby-1.html,denver,2023-24

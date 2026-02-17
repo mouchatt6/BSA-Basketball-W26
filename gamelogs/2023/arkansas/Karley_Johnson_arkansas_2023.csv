@@ -1,0 +1,11 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,2,2022-11-11,Arkansas,,Central Arkansas,REG (Non-Conf),W 72-34,,3,0,0,,0,0,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+2,2,4,2022-11-17,Arkansas,,Kent State,REG (Non-Conf),W 80-59,,3,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+3,3,5,2022-11-20,Arkansas,@,Little Rock,REG (Non-Conf),W 93-49,,6,0,0,,0,0,0,0,,,1,2,.500,0,0,0,1,1,0,0,0,1,2.3,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+4,4,8,2022-11-26,Arkansas,N,Kansas State,REG (Non-Conf),W 69-53,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+5,5,9,2022-12-01,Arkansas,,Troy,REG (Non-Conf),W 87-70,,6,0,0,,0,0,0,0,,,0,0,,1,0,1,0,0,0,0,0,0,0.7,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+6,6,10,2022-12-04,Arkansas,,Oral Roberts,REG (Non-Conf),W 92-58,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+7,7,18,2023-01-05,Arkansas,,Florida,REG (Conf),W 102-74,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+8,8,27,2023-02-12,Arkansas,,Missouri,REG (Conf),W 61-33,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+9,9,34,2023-03-16,Arkansas,,Louisiana Tech,WNIT,W 69-47,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23
+10,10,35,2023-03-20,Arkansas,,Stephen F. Austin,WNIT,W 60-37,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,1,0,0,0,0,1.0,Karley Johnson,https://www.sports-reference.com/cbb/players/karley-johnson-1.html,arkansas,2022-23

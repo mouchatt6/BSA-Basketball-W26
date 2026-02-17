@@ -1,0 +1,6 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,10,9,2022-12-15,Radford,@,Queens (NC),REG (Non-Conf),W 73-57,,3,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,1,1,0,-1.1,Makaila Brown,https://www.sports-reference.com/cbb/players/makaila-brown-1.html,radford,2022-23
+2,11,10,2022-12-18,Radford,@,Furman,REG (Non-Conf),L 67-75 (OT),,1,0,0,,0,0,0,0,,,1,2,.500,0,1,1,0,0,0,0,0,1,0.9,Makaila Brown,https://www.sports-reference.com/cbb/players/makaila-brown-1.html,radford,2022-23
+3,12,11,2022-12-20,Radford,@,Clemson,REG (Non-Conf),L 38-81,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,1,0,0,1,0,-0.1,Makaila Brown,https://www.sports-reference.com/cbb/players/makaila-brown-1.html,radford,2022-23
+4,13,16,2023-01-11,Radford,,Winthrop,REG (Conf),W 74-45,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,1,0,-0.4,Makaila Brown,https://www.sports-reference.com/cbb/players/makaila-brown-1.html,radford,2022-23
+5,14,25,2023-02-11,Radford,,Charleston Southern,REG (Conf),W 84-52,,1,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Makaila Brown,https://www.sports-reference.com/cbb/players/makaila-brown-1.html,radford,2022-23

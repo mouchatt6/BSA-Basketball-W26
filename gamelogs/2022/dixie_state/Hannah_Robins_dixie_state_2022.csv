@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,25,1,2021-11-09,Dixie State,,Life Pacific,REG (Non-Conf),W 107-57,,9,1,2,.500,0,1,.000,1,1,1.000,.500,0,0,1,2,3,0,0,0,0,2,2,1.5,Hannah Robins,https://www.sports-reference.com/cbb/players/hannah-robins-1.html,dixie-state,2021-22
+2,26,2,2021-11-12,Dixie State,@,Portland State,REG (Non-Conf),L 52-80,,4,0,0,,0,0,,0,0,,,0,0,0,1,1,0,0,0,1,2,0,-1.5,Hannah Robins,https://www.sports-reference.com/cbb/players/hannah-robins-1.html,dixie-state,2021-22
+3,27,3,2021-11-14,Dixie State,@,Oregon,REG (Non-Conf),L 35-84,,4,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Hannah Robins,https://www.sports-reference.com/cbb/players/hannah-robins-1.html,dixie-state,2021-22

@@ -1,0 +1,10 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,16,4,2022-11-21,Oakland,@,Illinois,REG (Non-Conf),L 55-84,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+2,17,7,2022-12-02,Oakland,@,Cleveland State,REG (Conf),L 54-77,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+3,18,12,2022-12-29,Oakland,@,Green Bay,REG (Conf),L 42-64,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+4,19,13,2022-12-31,Oakland,@,Milwaukee,REG (Conf),L 49-65,,2,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+5,20,19,2023-01-22,Oakland,@,IUPUI,REG (Conf),L 69-85,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+6,21,23,2023-02-05,Oakland,,Green Bay,REG (Conf),L 50-70,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+7,22,24,2023-02-09,Oakland,@,Youngstown State,REG (Conf),L 62-85,,3,0,0,,0,0,0,0,,,0,0,0,0,0,1,0,0,0,0,0,0.7,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+8,23,25,2023-02-11,Oakland,@,Robert Morris,REG (Conf),L 43-74,,2,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23
+9,24,26,2023-02-18,Oakland,,IUPUI,REG (Conf),L 73-87,,1,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Prunelle Mungo,https://www.sports-reference.com/cbb/players/prunelle-mungo-1.html,oakland,2022-23

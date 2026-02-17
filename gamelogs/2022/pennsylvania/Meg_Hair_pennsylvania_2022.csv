@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,20,19,2022-02-04,Pennsylvania,,Columbia,REG (Conf),L 57-66,,1,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Meg Hair,https://www.sports-reference.com/cbb/players/meg-hair-1.html,pennsylvania,2021-22
+2,21,25,2022-02-26,Pennsylvania,,Dartmouth,REG (Conf),W 79-54,*,9,1,2,.500,1,2,.500,0,0,.750,0,0,1,0,1,2,0,0,0,0,3,4.1,Meg Hair,https://www.sports-reference.com/cbb/players/meg-hair-1.html,pennsylvania,2021-22
+3,22,26,2022-03-04,Pennsylvania,@,Princeton,REG (Conf),L 43-69,,2,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Meg Hair,https://www.sports-reference.com/cbb/players/meg-hair-1.html,pennsylvania,2021-22

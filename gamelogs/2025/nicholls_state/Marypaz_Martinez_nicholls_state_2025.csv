@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg3,fg3a,fg2,fg2a,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,6,2024-11-29,Nicholls State,N,Evansville,REG (Non-Conf),W 63-50,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1.0,Marypaz Martinez,https://www.sports-reference.com/cbb/players/marypaz-martinez-1.html,nicholls-state,2024-25
+2,2,8,2024-12-04,Nicholls State,,Dillard,REG (Non-Conf),W 63-47,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,-2.0,Marypaz Martinez,https://www.sports-reference.com/cbb/players/marypaz-martinez-1.html,nicholls-state,2024-25
+3,3,20,2025-01-30,Nicholls State,,Houston Christian,REG (Conf),W 76-51,,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0.3,Marypaz Martinez,https://www.sports-reference.com/cbb/players/marypaz-martinez-1.html,nicholls-state,2024-25
+4,4,26,2025-02-20,Nicholls State,,Texas A&M–Corpus Christi,REG (Conf),L 44-59,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,Marypaz Martinez,https://www.sports-reference.com/cbb/players/marypaz-martinez-1.html,nicholls-state,2024-25

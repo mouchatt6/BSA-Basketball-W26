@@ -1,0 +1,8 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,25,1,2022-11-07,Hampton,,Mid-Atl Christian,REG (Non-Conf),W 110-26,,10,4,8,.500,1,2,.500,3,6,.500,.563,0,0,2,2,4,0,1,1,0,1,9,8.3,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23
+2,26,7,2022-12-07,Hampton,@,Saint Peter's,REG (Non-Conf),W 66-57,,5,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23
+3,27,8,2022-12-10,Hampton,@,Rutgers,REG (Non-Conf),L 68-76,,1,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,0,1,0,-1.1,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23
+4,28,13,2023-01-08,Hampton,@,Towson,REG (Conf),L 47-86,,9,0,2,.000,0,0,,0,2,.000,.000,0,0,0,2,2,1,1,0,0,0,0,0.9,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23
+5,29,18,2023-01-27,Hampton,@,Monmouth,REG (Conf),L 56-69,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23
+6,30,19,2023-01-29,Hampton,@,Hofstra,REG (Conf),W 74-55,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23
+7,31,26,2023-02-26,Hampton,@,Northeastern,REG (Conf),L 46-79,,5,1,2,.500,0,0,,1,2,.500,.500,0,0,0,1,1,0,1,0,0,0,2,2.3,Heaven Accimeus,https://www.sports-reference.com/cbb/players/heaven-accimeus-1.html,hampton,2022-23

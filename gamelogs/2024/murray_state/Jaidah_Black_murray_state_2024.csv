@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,60,2,2023-11-14,Murray State,,Cumberland (TN),REG (Non-Conf),W 121-63,,11,5,5,1.000,0,0,5,5,1.000,1.000,0,0,0,1,1,0,0,2,0,1,10,9.8,Jaidah Black,https://www.sports-reference.com/cbb/players/jaidah-black-1.html,murray-state,2023-24
+2,61,3,2023-11-17,Murray State,@,Indiana,REG (Non-Conf),L 79-112,,6,0,1,.000,0,0,0,1,.000,.000,0,0,0,1,1,0,0,0,0,2,0,-1.2,Jaidah Black,https://www.sports-reference.com/cbb/players/jaidah-black-1.html,murray-state,2023-24
+3,62,8,2023-12-14,Murray State,,Little Rock,REG (Non-Conf),W 98-79,,6,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,1,0,-0.4,Jaidah Black,https://www.sports-reference.com/cbb/players/jaidah-black-1.html,murray-state,2023-24

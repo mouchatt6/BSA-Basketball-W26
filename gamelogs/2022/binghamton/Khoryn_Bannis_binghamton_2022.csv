@@ -1,0 +1,5 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,19,1,2021-11-09,Binghamton,,Siena,REG (Non-Conf),W 59-55,,4,0,2,.000,0,0,0,2,.000,.000,0,0,0,1,1,0,0,0,1,0,0,-2.1,Khoryn Bannis,https://www.sports-reference.com/cbb/players/khoryn-bannis-1.html,binghamton,2021-22
+2,20,2,2021-11-13,Binghamton,,Canisius,REG (Non-Conf),W 73-56,,4,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Khoryn Bannis,https://www.sports-reference.com/cbb/players/khoryn-bannis-1.html,binghamton,2021-22
+3,21,3,2021-11-17,Binghamton,,Cornell,REG (Non-Conf),L 57-67,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Khoryn Bannis,https://www.sports-reference.com/cbb/players/khoryn-bannis-1.html,binghamton,2021-22
+4,22,5,2021-11-23,Binghamton,,Mansfield,REG (Non-Conf),W 104-45,,2,0,0,,0,0,0,0,,,0,0,0,1,1,0,0,0,0,0,0,0.3,Khoryn Bannis,https://www.sports-reference.com/cbb/players/khoryn-bannis-1.html,binghamton,2021-22

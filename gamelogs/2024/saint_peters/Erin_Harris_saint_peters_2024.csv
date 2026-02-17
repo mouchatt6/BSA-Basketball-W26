@@ -1,0 +1,4 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,54,1,2023-11-06,Saint Peter's,@,Massachusetts,REG (Non-Conf),L 44-56,,0,0,0,,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Erin Harris,https://www.sports-reference.com/cbb/players/erin-harris-1.html,saint-peters,2023-24
+2,55,3,2023-11-15,Saint Peter's,@,Illinois,REG (Non-Conf),L 33-103,,3,0,1,.000,0,0,0,1,.000,.000,0,0,0,0,0,0,0,0,0,0,0,-0.7,Erin Harris,https://www.sports-reference.com/cbb/players/erin-harris-1.html,saint-peters,2023-24
+3,56,5,2023-11-28,Saint Peter's,@,Fordham,REG (Non-Conf),L 46-80,,3,1,1,1.000,0,0,1,1,1.000,1.000,0,0,0,0,0,1,0,0,0,0,2,2.4,Erin Harris,https://www.sports-reference.com/cbb/players/erin-harris-1.html,saint-peters,2023-24

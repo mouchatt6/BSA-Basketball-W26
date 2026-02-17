@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,1,2022-11-10,Iona,,Wagner,REG (Non-Conf),W 87-62,,4,0,1,.000,0,0,,0,1,.000,.000,0,0,0,0,0,0,0,0,2,1,0,-3.1,Ale Civera,https://www.sports-reference.com/cbb/players/ale-civera-1.html,iona,2022-23
+2,2,4,2022-11-20,Iona,@,Sacred Heart,REG (Non-Conf),W 65-56,,1,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ale Civera,https://www.sports-reference.com/cbb/players/ale-civera-1.html,iona,2022-23
+3,3,15,2023-01-12,Iona,,Mount St. Mary's,REG (Conf),W 63-44,,3,0,1,.000,0,0,,0,1,.000,.000,0,0,1,0,1,0,0,0,1,0,0,-1.0,Ale Civera,https://www.sports-reference.com/cbb/players/ale-civera-1.html,iona,2022-23
+4,4,17,2023-01-19,Iona,,Rider,REG (Conf),W 90-62,,2,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Ale Civera,https://www.sports-reference.com/cbb/players/ale-civera-1.html,iona,2022-23
+5,5,19,2023-01-26,Iona,,Saint Peter's,REG (Conf),W 65-37,,6,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,1,0,-2.1,Ale Civera,https://www.sports-reference.com/cbb/players/ale-civera-1.html,iona,2022-23
+6,6,27,2023-02-25,Iona,,Canisius,REG (Conf),W 67-43,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ale Civera,https://www.sports-reference.com/cbb/players/ale-civera-1.html,iona,2022-23

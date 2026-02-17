@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,1,5,2023-11-13,Le Moyne,@,Southern California,REG (Non-Conf),L 42-93,,1,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,0,0,-0.7,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+2,2,9,2023-12-05,Le Moyne,@,VCU,REG (Non-Conf),L 32-55,,4,1,2,.500,0,0,1,2,.500,.500,0,0,,0,0,0,0,0,0,0,0,2,1.0,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+3,3,12,2023-12-21,Le Moyne,@,Rhode Island,REG (Non-Conf),L 53-97,,2,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+4,4,16,2024-01-13,Le Moyne,@,Merrimack,REG (Conf),W 74-59,,1,0,0,,0,0,0,0,,,0,0,,0,0,0,0,0,0,1,0,0,-1.0,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+5,5,20,2024-01-25,Le Moyne,,Merrimack,REG (Conf),W 64-57,,3,0,0,,0,0,0,0,,,1,2,.500,0,1,1,0,1,0,1,1,1,0.5,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+6,6,22,2024-02-01,Le Moyne,,Wagner,REG (Conf),W 56-45,,3,0,1,.000,0,0,0,1,.000,.000,0,0,,0,0,0,0,0,0,0,2,0,-1.5,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+7,7,31,2024-03-02,Le Moyne,,Saint Francis (PA),REG (Conf),W 56-24,,7,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24
+8,8,32,2024-03-11,Le Moyne,,Stonehill,CTOURN,W 79-59,,1,0,0,,0,0,0,0,,,0,0,,0,1,1,0,0,0,0,0,0,0.3,Kaitlyn Walker,https://www.sports-reference.com/cbb/players/kaitlyn-walker-1.html,le-moyne,2023-24

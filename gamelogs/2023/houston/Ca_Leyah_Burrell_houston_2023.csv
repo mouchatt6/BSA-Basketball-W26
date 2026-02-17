@@ -1,0 +1,7 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,16,9,2022-12-07,Houston,,UMBC,REG (Non-Conf),W 67-43,,6,0,1,.000,0,1,.000,0,0,,.000,0,0,0,0,0,0,0,0,1,0,0,-1.7,Ca'Leyah Burrell,https://www.sports-reference.com/cbb/players/caleyah-burrell-1.html,houston,2022-23
+2,17,12,2022-12-19,Houston,,UTSA,REG (Non-Conf),W 93-89 (OT),,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ca'Leyah Burrell,https://www.sports-reference.com/cbb/players/caleyah-burrell-1.html,houston,2022-23
+3,18,14,2022-12-30,Houston,,SMU,REG (Conf),W 60-44,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0.0,Ca'Leyah Burrell,https://www.sports-reference.com/cbb/players/caleyah-burrell-1.html,houston,2022-23
+4,19,16,2023-01-10,Houston,,UCF,REG (Conf),W 80-42,,6,0,4,.000,0,2,.000,0,2,.000,.000,0,0,0,0,0,0,0,0,0,1,0,-3.2,Ca'Leyah Burrell,https://www.sports-reference.com/cbb/players/caleyah-burrell-1.html,houston,2022-23
+5,20,29,2023-03-01,Houston,,Wichita State,REG (Conf),W 62-55,*,3,1,1,1.000,0,0,,1,1,1.000,1.000,0,0,0,0,0,0,0,0,0,0,2,1.7,Ca'Leyah Burrell,https://www.sports-reference.com/cbb/players/caleyah-burrell-1.html,houston,2022-23
+6,21,30,2023-03-07,Houston,N,SMU,CTOURN,W 52-33,,2,0,0,,0,0,,0,0,,,0,0,0,0,0,0,0,0,1,0,0,-1.0,Ca'Leyah Burrell,https://www.sports-reference.com/cbb/players/caleyah-burrell-1.html,houston,2022-23

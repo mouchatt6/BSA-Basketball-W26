@@ -1,0 +1,9 @@
+ranker,player_game_num_career,team_game_num_season,date,team_name_abbr,game_location,opp_name_abbr,game_type,game_result,is_starter,mp,fg,fga,fg_pct,fg3,fg3a,fg3_pct,fg2,fg2a,fg2_pct,efg_pct,ft,fta,ft_pct,orb,drb,trb,ast,stl,blk,tov,pf,pts,game_score,player_name,player_sr_link,school,season
+1,21,3,2024-11-16,Tulane,,Grambling State,REG (Non-Conf),W 89-65,,8,0,3,.000,0,2,.000,0,1,.000,.000,1,2,.500,0,0,0,1,1,0,0,1,1,-0.2,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+2,22,5,2024-11-24,Tulane,,Jackson State,REG (Non-Conf),W 77-37,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+3,23,9,2024-12-15,Tulane,,Mercer,REG (Non-Conf),W 73-46,,6,0,1,.000,0,0,,0,1,.000,.000,0,0,,0,0,0,1,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+4,24,14,2025-01-04,Tulane,@,Charlotte,REG (Conf),W 79-58,,2,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+5,25,20,2025-01-29,Tulane,,Florida Atlantic,REG (Conf),W 68-52,,1,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+6,26,21,2025-02-01,Tulane,,UAB,REG (Conf),W 72-55,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+7,27,26,2025-02-22,Tulane,,Wichita State,REG (Conf),W 68-64,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
+8,28,29,2025-03-09,Tulane,N,Wichita State,CTOURN,W 69-63,,0,0,0,,0,0,,0,0,,,0,0,,0,0,0,0,0,0,0,0,0,0.0,Jaylee Womack,https://www.sports-reference.com/cbb/players/jaylee-womack-1.html,tulane,2024-25
