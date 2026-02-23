@@ -1,0 +1,480 @@
+---
+title: "Top 100 Recruit Analysis"
+author: "BSA Basketball Group 25-26"
+date: "`r format(Sys.Date(), '%m/%d/%y')`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+library(tidyverse)
+load("rankings_pos.rda")
+load("advanced_all.rda")
+load("stats_joined.rda")
+source("Top_100_Recruit_Helper_Functions.R")
+
+```
+
+## Conference & Position Distribution
+
+# Conference Distribution of Top 100 Recruits
+
+```{r}
+all_17_25 <- filter_subset(
+  stats_joined,
+  class_min = 2017,
+  class_max = 2025
+)
+
+conf_distribution_all <- all_17_25 %>%
+  filter(!is.na(conference)) %>%
+  count(conference, name = "n_recruits") %>%
+  mutate(percentage = 100 * n_recruits / sum(n_recruits))
+
+ggplot(conf_distribution_all,
+       aes(x = reorder(conference, percentage),
+           y = percentage,
+           fill = conference)) +
+  geom_col(width = 0.7) +
+  coord_flip() +
+  scale_fill_manual(values = conf_colors) +
+  labs(
+    title = "Conference Distribution of Top 100 Recruits (Freshmen 2017–2025)",
+    x = "Conference",
+    y = "Percentage of Recruits (%)"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none") +
+  geom_text(aes(label = paste0(round(percentage, 2), "%")),
+            hjust = -0.1, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+```
+
+# % of positions that go to each Power 4 conference
+
+```{r}
+power4 <- c("SEC","Big Ten","ACC","Big 12")
+
+pos_conf_share <- stats_joined %>%
+  filter(conference %in% power4,
+         !is.na(pos_group)) %>%
+  distinct(CLASS, RK, player_clean, conference, pos_group) %>%
+  group_by(conference, pos_group) %>%
+  summarise(n = n(), .groups = "drop_last") %>%
+  mutate(pct = 100 * n / sum(n)) %>%
+  ungroup()
+
+ggplot(pos_conf_share,
+       aes(x = pos_group, y = pct, fill = conference)) +
+  geom_col(position = "dodge", width = 0.7) +
+  scale_fill_manual(values = conf_colors) +
+  labs(
+    title = "Share of Top-100 Recruits by Position within Power 4 Conferences",
+    x = "Position Group (G, W, F, P, C)",
+    y = "Percentage of Recruits in Conference (%)",
+    fill = "Conference"
+  ) +
+  theme_minimal(base_size = 12)
+
+```
+
+% of each tier that goes to the Big Ten
+
+```{r}
+bigten_tier_share <- rankings_pos %>%
+  filter(!is.na(tier)) %>%
+  mutate(is_bigten = conference == "Big Ten") %>%
+  group_by(tier) %>%
+  summarise(
+    total = n(),
+    bigten = sum(is_bigten),
+    pct_bigten = 100 * bigten / total,
+    .groups = "drop"
+  ) %>%
+  mutate(tier = factor(tier, levels = c("1-25","26-50","51-75","76-100")))
+
+ggplot(bigten_tier_share,
+       aes(x = tier, y = pct_bigten)) +
+  geom_col(fill = "#0088CE", width = 0.7) +
+  labs(
+    title = "Share of Top-100 Recruits in the Big Ten by Tier",
+    x = "Recruiting Tier",
+    y = "Percentage of Players in Big Ten (%)"
+  ) +
+  theme_minimal(base_size = 12) +
+  geom_text(aes(label = paste0(round(pct_bigten, 1), "%")),
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+
+```
+
+## Impact Analysis
+
+# Average Freshman Usage Rate by Position
+
+```{r}
+freshmen_for_usage <- filter_subset(
+  stats_joined,
+  class_min = 2017,
+  class_max = 2025
+)
+
+usage_by_pos <- freshmen_for_usage %>%
+  filter(!is.na(usg_pct), !is.na(pos_group)) %>%
+  group_by(pos_group) %>%
+  summarise(
+    n_players   = n(),
+    avg_usg     = mean(as.numeric(usg_pct), na.rm = TRUE),
+    median_usg  = median(as.numeric(usg_pct), na.rm = TRUE),
+    .groups     = "drop"
+  )
+
+ggplot(usage_by_pos,
+       aes(x = pos_group, y = avg_usg, fill = pos_group)) +
+  geom_col(width = 0.7) +
+  labs(
+    title = "Average Freshman Usage Rate by Position (2017–2025)",
+    x = "Position Group",
+    y = "Average Usage Rate (%)"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none") +
+  geom_text(aes(label = paste0(round(avg_usg, 1), "%")),
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+```
+
+
+# % of each tier playing 25+ minutes per game
+
+```{r}
+mpg25_by_tier <- stats_joined %>%
+  filter(!is.na(tier), !is.na(games), !is.na(mp)) %>%
+  mutate(
+    mpg = as.numeric(mp) / as.numeric(games),
+    big_minute = mpg >= 25
+  ) %>%
+  group_by(tier) %>%
+  summarise(
+    total = n(),
+    big_minute_n = sum(big_minute, na.rm = TRUE),
+    pct_big_minute = 100 * big_minute_n / total,
+    .groups = "drop"
+  ) %>%
+  mutate(tier = factor(tier, levels = c("1-25","26-50","51-75","76-100")))
+
+ggplot(mpg25_by_tier,
+       aes(x = tier, y = pct_big_minute)) +
+  geom_col(fill = "#a62c2a", width = 0.7) +
+  labs(
+    title = "Freshmen Playing 25+ MPG by Tier",
+    x = "Recruiting Tier",
+    y = "Players with 25+ MPG (%)"
+  ) +
+  theme_minimal(base_size = 12) +
+  geom_text(aes(label = paste0(round(pct_big_minute, 1), "%")),
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+
+```
+
+# % of each tier starting 50% of games
+
+```{r}
+starts50_by_tier <- stats_joined %>%
+  filter(!is.na(tier), !is.na(games), !is.na(games_started)) %>%
+  mutate(
+    start_pct = as.numeric(games_started) / as.numeric(games),
+    starter50 = start_pct >= 0.5
+  ) %>%
+  group_by(tier) %>%
+  summarise(
+    total        = n(),
+    starter50_n  = sum(starter50, na.rm = TRUE),
+    pct_starter50 = 100 * starter50_n / total,
+    .groups = "drop"
+  ) %>%
+  mutate(tier = factor(tier, levels = c("1-25","26-50","51-75","76-100")))
+
+ggplot(starts50_by_tier,
+       aes(x = tier, y = pct_starter50)) +
+  geom_col(fill = "#4c9f50", width = 0.7) +
+  labs(
+    title = "Freshmen Starting > 50% of Games by Tier",
+    x = "Recruiting Tier",
+    y = "Players Starting > 50% of Games (%)"
+  ) +
+  theme_minimal(base_size = 12) +
+  geom_text(aes(label = paste0(round(pct_starter50, 1), "%")),
+            vjust = -0.5, size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+
+
+```
+
+## UCLA vs. Big10 Recruiting
+
+# Number of Top-100 Recruits per Big10 School
+
+```{r}
+bigten_schools <- rankings_pos %>%
+  filter(conference == "Big Ten") %>%
+  distinct(COLLEGE) %>%
+  pull(COLLEGE)
+
+bigten_counts <- rankings_pos %>%
+  filter(COLLEGE %in% bigten_schools) %>%
+  count(COLLEGE, name = "n_recruits")
+
+bigten_counts <- bigten_counts %>%
+  mutate(is_ucla = if_else(COLLEGE == "UCLA", "UCLA", "Other Big Ten"))
+
+ggplot(bigten_counts,
+       aes(x = n_recruits,
+           y = reorder(COLLEGE, n_recruits),
+           fill = is_ucla)) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = c("UCLA" = "#2774AE", "Other Big Ten" = "grey70")) +
+  labs(
+    title = "Top-100 Recruits per Big Ten School (2016–2024)",
+    x = "Number of Top-100 Recruits",
+    y = "Big Ten School",
+    fill = ""
+  ) +
+  theme_minimal(base_size = 12)
+
+```
+
+# % of Recruits Who Transferred 
+
+```{r}
+player_level <- history %>%
+  filter(conference == "Big Ten") %>%
+  group_by(COLLEGE, player_clean) %>%
+  summarise(
+    transferred = any(transferred, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+bigten_transfer_rate <- player_level %>%
+  group_by(COLLEGE) %>%
+  summarise(
+    total_recruits  = n(),                    
+    transferred_n   = sum(transferred),
+    pct_transferred = 100 * transferred_n / total_recruits,
+    .groups = "drop"
+  ) %>%
+  mutate(is_ucla = if_else(COLLEGE == "UCLA", "UCLA", "Other Big Ten"))
+
+ggplot(bigten_transfer_rate,
+       aes(x = pct_transferred,
+           y = reorder(COLLEGE, pct_transferred),
+           fill = is_ucla)) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = c("UCLA" = "#2774AE", "Other Big Ten" = "grey70")) +
+  labs(
+    title = "Transfer Rate of Top-100 Recruits by Big Ten School",
+    x = "Recruits Who Ever Transferred (%)",
+    y = "Big Ten School",
+    fill = ""
+  ) +
+  theme_minimal(base_size = 12) +
+  geom_text(aes(label = paste0(round(pct_transferred, 1), "%")),
+            hjust = -0.1, size = 3.5) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.15)))
+
+
+```
+
+# Average Freshman Usage Rate of Recruits by School
+
+```{r}
+bigten_freshman_usage <- stats_joined %>%
+  filter(conference == "Big Ten",
+         !is.na(usg_pct)) %>%
+  group_by(COLLEGE) %>%
+  summarise(
+    avg_usg = mean(as.numeric(usg_pct), na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  mutate(is_ucla = if_else(COLLEGE == "UCLA", "UCLA", "Other Big Ten"))
+
+ggplot(bigten_freshman_usage,
+       aes(x = avg_usg,
+           y = reorder(COLLEGE, avg_usg),
+           fill = is_ucla)) +
+  geom_col(width = 0.7) +
+  scale_fill_manual(values = c("UCLA" = "#2774AE", "Other Big Ten" = "grey70")) +
+  labs(
+    title = "Big Ten Average Freshman Usage Rate of Top-100 Recruits",
+    x = "Average Usage Rate (%)",
+    y = "Big Ten School",
+    fill = ""
+  ) +
+  theme_minimal(base_size = 12) +
+  geom_text(aes(label = paste0(round(avg_usg, 1), "%")),
+            hjust = -0.1, size = 3.5) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.15)))
+
+```
+
+## Transfer Patterns
+
+# % Who Transfer by Tier
+
+```{r}
+transfer_timing <- history %>%
+  filter(transferred) %>%
+  group_by(player_clean, CLASS, RK, tier) %>%
+  summarise(
+    first_year = min(season_start, na.rm = TRUE),
+    second_school_year = min(season_start[school_clean != first(school_clean)], na.rm = TRUE),
+    years_until_transfer = second_school_year - first_year,
+    .groups = "drop"
+  ) %>%
+  mutate(
+    transfer_bucket = case_when(
+      years_until_transfer <= 1 ~ "1 year",
+      years_until_transfer == 2 ~ "2 years",
+      years_until_transfer >= 3 ~ "3+ years",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(transfer_bucket), !is.na(tier))
+
+transfer_by_tier_time <- transfer_timing %>%
+  group_by(tier, transfer_bucket) %>%
+  summarise(
+    n_players = n(),
+    .groups = "drop_last"
+  ) %>%
+  group_by(tier) %>%
+  mutate(pct = 100 * n_players / sum(n_players)) %>%
+  ungroup() %>%
+  mutate(
+    tier = factor(tier, levels = c("1-25","26-50","51-75","76-100")),
+    transfer_bucket = factor(transfer_bucket, levels = c("1 year","2 years","3+ years"))
+  )
+
+ggplot(transfer_by_tier_time,
+       aes(x = tier, y = pct, fill = transfer_bucket)) +
+  geom_col(position = "dodge", width = 0.7) +
+  labs(
+    title = "When Do Top-100 Recruits Transfer?",
+    x = "Recruiting Tier",
+    y = "Transferred Players by Timing (%)",
+    fill = "Years Until Transfer"
+  ) +
+  theme_minimal(base_size = 12)
+
+```
+
+# Destination Conference Distribution
+
+```{r}
+school_conf_lookup <- rankings_pos %>%
+  mutate(
+    school_clean = str_to_lower(str_replace_all(COLLEGE, " ", "-")),
+    school_clean = str_replace_all(school_clean, "[^a-z0-9-]", "")
+  ) %>%
+  distinct(school_clean, conference_dest = conference)
+
+transfer_dest <- history %>%
+  filter(transferred) %>%
+  group_by(player_clean) %>%
+  arrange(season_start, .by_group = TRUE) %>%
+  mutate(first_school = first(school_clean)) %>%
+  filter(school_clean != first_school) %>%
+  slice_min(season_start, with_ties = FALSE) %>%
+  ungroup() %>%
+  left_join(school_conf_lookup, by = "school_clean") %>%
+  mutate(conf_dest = replace_na(conference_dest, "Other"))
+
+dest_counts <- transfer_dest %>%
+  count(conf_dest, name = "n_players")
+
+ggplot(dest_counts,
+       aes(x = reorder(conf_dest, n_players),
+           y = n_players,
+           fill = conf_dest)) +
+  geom_col(width = 0.7) +
+  coord_flip() +
+  scale_fill_manual(values = conf_colors) +
+  labs(
+    title = "Destination Conference of Transferring Top-100 Recruits",
+    x = "Destination Conference",
+    y = "Number of Players"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "none")
+
+```
+
+# Usage Rate Pre vs. Post-Transfer by Position Group
+
+```{r}
+transfer_seasons <- history %>%
+  filter(transferred) %>%
+  left_join(
+    advanced_all %>%
+      select(player_clean, school_clean, season_start, usg_pct, pos_group),
+    by = c("player_clean", "school_clean", "season_start")
+  )
+
+transfer_pre_post <- transfer_seasons %>%
+  group_by(player_clean) %>%
+  arrange(season_start, .by_group = TRUE) %>%
+  mutate(first_school = first(school_clean)) %>%
+  summarise(
+    pos_group = first(na.omit(pos_group)),
+    pre_usg   = mean(as.numeric(usg_pct)[school_clean == first_school], na.rm = TRUE),
+    post_usg  = mean(as.numeric(usg_pct)[school_clean != first_school], na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  filter(!is.na(pre_usg), !is.na(post_usg), !is.na(pos_group))
+
+usage_prepost_by_pos <- transfer_pre_post %>%
+  group_by(pos_group) %>%
+  summarise(
+    avg_pre_usg  = mean(pre_usg, na.rm = TRUE),
+    avg_post_usg = mean(post_usg, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_longer(
+    cols = c(avg_pre_usg, avg_post_usg),
+    names_to = "period",
+    values_to = "avg_usg"
+  ) %>%
+  mutate(
+    period = recode(period,
+                    "avg_pre_usg"  = "Before Transfer",
+                    "avg_post_usg" = "After Transfer"),
+    period = factor(period, levels = c("Before Transfer", "After Transfer"))
+  )
+
+ggplot(usage_prepost_by_pos,
+       aes(x = pos_group, y = avg_usg, fill = period)) +
+  geom_col(position = "dodge", width = 0.7) +
+  scale_fill_manual(values = c(
+    "Before Transfer" = "#a62c2a",
+    "After Transfer"  = "#4c9f50"    
+  )) +
+  geom_text(aes(label = paste0(round(avg_usg, 1), "%")),
+            position = position_dodge(width = 0.7),
+            vjust = -0.5, size = 3.5) +
+  labs(
+    title = "Usage Rate Before vs. After Transfer by Position",
+    x = "Position Group",
+    y = "Average Usage Rate (%)",
+    fill = ""
+  ) +
+  theme_minimal(base_size = 12) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.15)))
+
+```
+

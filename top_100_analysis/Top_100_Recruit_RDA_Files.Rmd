@@ -1,0 +1,193 @@
+---
+title: "Top 100 Recruit RDA Files"
+author: "BSA Basketball Group 25-26"
+date: "`r format(Sys.Date(), '%m/%d/%y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## ONLY NEED TO RUN THIS FILE ONCE
+
+# The Rankings
+# Reads the ESPN Top 100 recruiting rankings (class of 2016-2024), cleans 
+# the data, and adds tier, conference, and school file labels
+
+```{r}
+library(tidyverse)
+
+# Read the rankings data
+rankings_raw <- read_csv(
+  "2016_to_2024_class_rankings.csv",
+  col_names = c("CLASS", "RK", "NAME", "RATING",
+                "COLLEGE", "POS", "HT", "HS"),
+  show_col_types = FALSE
+)
+
+# Standardize basic fields
+rankings_base <- rankings_raw %>%
+  mutate(
+    CLASS        = as.integer(CLASS),
+    RK           = as.integer(RK),
+    player_clean = str_to_lower(str_trim(NAME))
+  )
+
+# Assign each recruit to a ranking tier (1-25, 26-50, 51-75, 76-100)
+rankings_tier <- rankings_base %>%
+  mutate(
+    tier = case_when(
+      RK >= 1  & RK <= 25  ~ "1-25",
+      RK >= 26 & RK <= 50  ~ "26-50",
+      RK >= 51 & RK <= 75  ~ "51-75",
+      RK >= 76 & RK <= 100 ~ "76-100",
+      TRUE                 ~ NA_character_
+    )
+  )
+
+# Some ESPN school names don't match Sports Reference's file naming
+# This is a manual lookup table
+# "ESPN college name" = "Sports reference file prefix"
+school_mapping_custom <- c(
+  "UConn"          = "connecticut",
+  "USC"            = "southern-california",
+  "Ole Miss"       = "mississippi",
+  "Texas A&M"      = "texas-am",
+  "NC State"       = "north-carolina-state",
+  "St. John's"     = "st-johns-ny"
+)
+
+# Apply the manual mapping
+# Then auto-generate the file prefix
+rankings_school <- rankings_tier %>%
+  mutate(
+    school_file = school_mapping_custom[COLLEGE],
+    school_file = if_else(
+      is.na(school_file),
+      str_to_lower(str_replace_all(COLLEGE, " ", "-")),
+      school_file
+    ),
+    school_file = str_replace_all(school_file, "[^a-z0-9-]", "")
+  )
+
+# Assign each school to a conference (Power 4 or Other)
+rankings_conf <- rankings_school %>%
+  mutate(
+    conference = case_when(
+      COLLEGE %in% c("Alabama","Arkansas","Auburn","Florida","Georgia",
+                     "Kentucky","LSU","Mississippi State","Ole Miss","Missouri",
+                     "South Carolina","Tennessee","Texas","Texas A&M",
+                     "Vanderbilt","Oklahoma") ~ "SEC",
+      COLLEGE %in% c("Illinois","Indiana","Iowa","Maryland","Michigan",
+                     "Michigan State","Minnesota","Nebraska","Northwestern",
+                     "Ohio State","Penn State","Purdue","Rutgers","UCLA",
+                     "USC","Oregon","Washington","Wisconsin") ~ "Big Ten",
+      COLLEGE %in% c("Boston College","Clemson","Duke","Florida State",
+                     "Georgia Tech","Louisville","Miami","NC State",
+                     "North Carolina","Notre Dame","Pittsburgh","Syracuse",
+                     "Virginia","Virginia Tech","Wake Forest",
+                     "California","Stanford","SMU") ~ "ACC",
+      COLLEGE %in% c("Arizona","Arizona State","Baylor","BYU","Cincinnati",
+                     "Colorado","Houston","Iowa State","Kansas","Kansas State",
+                     "Oklahoma State","TCU","Texas Tech","UCF","Utah",
+                     "West Virginia") ~ "Big 12",
+      TRUE ~ "Other"
+    )
+  )
+
+rankings_pos <- rankings_conf
+
+# Cleaned recruiting rankings with tiers + conferences
+save(rankings_pos, file = "rankings_pos.rda")
+
+```
+
+# Advanced Stats
+# Reads all Sports Reference advanced stat CSVs for every school
+# across all seasons (2017-2025), and stacks them into one table
+# Also maps position labels (G, W, F, P, C)
+
+```{r}
+library(stringr)
+library(purrr)
+
+# Root folder that contains subfolders for each year
+# Each subfolder is named: YYYY_advanced_data
+adv_root <- "C:/Users/joshu/OneDrive/Documents/UCLA/Clubs/BSA/Freshman Recruiting" # Change file path
+
+years <- 2017:2025
+
+# Loop over each year, final all CSV files, read them all
+advanced_all <- map_df(years, function(y) {
+  folder <- file.path(adv_root, paste0(y, "_advanced_data"))
+  files  <- list.files(folder, pattern = "_wbb_advanced_\\d{4}\\.csv$",
+                       full.names = TRUE)
+
+  map_df(files, function(f) {
+    read_csv(f, show_col_types = FALSE) %>%
+      mutate(source_file = basename(f))
+  })
+}) %>%
+  mutate(
+    player_clean = str_to_lower(str_trim(player_name)),
+    school_clean = str_to_lower(str_trim(school)),
+    season_start = as.integer(substr(season, 1, 4))
+  )
+
+# Map Sports Reference raw position labels to 5 position groups
+# G = Guard, W = Wing (G-F or F-G), F = Forward, P = Post (F-C or C-F)
+advanced_all <- advanced_all %>%
+  mutate(
+    pos_raw = str_to_upper(str_trim(pos)),
+    pos_group = case_when(
+      str_detect(pos_raw, "G-F") ~ "W",
+      str_detect(pos_raw, "F-G") ~ "W",
+      str_detect(pos_raw, "F-C") ~ "P",
+      str_detect(pos_raw, "C-F") ~ "P",
+      str_detect(pos_raw, "G")   ~ "G",
+      str_detect(pos_raw, "F")   ~ "F",
+      str_detect(pos_raw, "C")   ~ "C",
+      TRUE                       ~ NA_character_
+    )
+  )
+
+# All school advanced stats, 2017–2025
+save(advanced_all, file = "advanced_all.rda")
+
+```
+
+# Linked Tables
+# Join rankings to each player's freshman season stats
+
+```{r}
+load("rankings_pos.rda")
+load("advanced_all.rda")
+
+# Find each player's first season in the advanced data
+freshman_season <- advanced_all %>%
+  group_by(player_clean) %>%
+  summarise(freshman_season_start = min(season_start, na.rm = TRUE),
+            .groups = "drop")
+
+# Filter advanced_all to only each player's freshman season rows
+advanced_freshman <- advanced_all %>%
+  inner_join(freshman_season,
+             by = c("player_clean", "season_start" = "freshman_season_start"))
+
+# Join the rankings to freshman-year stats
+# Match on player name and school
+stats_joined <- rankings_pos %>%
+  select(CLASS, RK, NAME, COLLEGE, conference,
+         tier, player_clean, school_file) %>%
+  left_join(
+    advanced_freshman,
+    by = c("player_clean",
+           "school_file" = "school_clean")
+  )
+
+# Rankings joined to each player's freshman-year stats
+save(stats_joined, file = "stats_joined.rda")
+
+```
+
