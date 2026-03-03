@@ -1,5 +1,5 @@
 import type { TransferPlayer } from '@/app/data/transferData';
-import { Award, TrendingUp } from 'lucide-react';
+import { Award, TrendingUp, ExternalLink, ArrowRight } from 'lucide-react';
 
 interface PlayerCardProps {
   player: TransferPlayer;
@@ -35,9 +35,6 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
             <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded">
               {player.position}
             </span>
-            <span>{player.height}</span>
-            <span>•</span>
-            <span>{player.year}</span>
           </div>
         </div>
         <span
@@ -53,6 +50,21 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
         <Award className="w-4 h-4 inline mr-1" />
         {player.previousSchool}
       </div>
+
+      {player.transferInfo && (
+        <div className="text-sm mb-3 space-y-1">
+          <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded text-xs">
+            {player.transferInfo.classYear}
+          </span>
+          <div className="flex items-center gap-1.5 text-sm">
+            <span>{player.transferInfo.previousTeam}</span>
+            <ArrowRight className="w-3.5 h-3.5 text-muted-foreground" />
+            <span className={player.transferInfo.newTeam ? 'font-medium' : 'text-muted-foreground italic'}>
+              {player.transferInfo.newTeam ?? 'TBD'}
+            </span>
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-4 gap-3 pt-3 border-t border-border">
         <div className="text-center">
@@ -91,6 +103,21 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
           <div className="text-sm">{player.stats.minutesPerGame.toFixed(1)}</div>
         </div>
       </div>
+
+      {player.playerLink && (
+        <div className="mt-3 pt-3 border-t border-border">
+          <a
+            href={player.playerLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline"
+          >
+            <ExternalLink className="w-3.5 h-3.5" />
+            View Profile
+          </a>
+        </div>
+      )}
 
       {isSelected && (
         <div className="mt-3 pt-3 border-t border-primary/20">

@@ -2,10 +2,10 @@ import { Filter, X } from 'lucide-react';
 
 export interface FilterState {
   position: string[];
-  year: string[];
   availability: string[];
   ppgMin: number;
   ppgMax: number;
+  transferOnly: boolean;
 }
 
 interface FilterPanelProps {
@@ -15,11 +15,10 @@ interface FilterPanelProps {
 
 export function FilterPanel({ filters, onFilterChange }: FilterPanelProps) {
   const positions = ['PG', 'SG', 'SF', 'PF', 'C'];
-  const years = ['Freshman', 'Sophomore', 'Junior', 'Senior', 'Graduate'];
   const availabilities = ['Available', 'Considering', 'Committed'];
 
   const toggleArrayFilter = (
-    key: 'position' | 'year' | 'availability',
+    key: 'position' | 'availability',
     value: string
   ) => {
     const current = filters[key];
@@ -32,19 +31,19 @@ export function FilterPanel({ filters, onFilterChange }: FilterPanelProps) {
   const resetFilters = () => {
     onFilterChange({
       position: [],
-      year: [],
       availability: [],
       ppgMin: 0,
       ppgMax: 30,
+      transferOnly: false,
     });
   };
 
   const hasActiveFilters =
     filters.position.length > 0 ||
-    filters.year.length > 0 ||
     filters.availability.length > 0 ||
     filters.ppgMin > 0 ||
-    filters.ppgMax < 30;
+    filters.ppgMax < 30 ||
+    filters.transferOnly;
 
   return (
     <div className="bg-white border border-border rounded-lg p-6 shadow-sm">
@@ -65,6 +64,22 @@ export function FilterPanel({ filters, onFilterChange }: FilterPanelProps) {
       </div>
 
       <div className="space-y-5">
+        <div className="flex items-center justify-between">
+          <label className="text-sm">Transfer Players Only</label>
+          <button
+            onClick={() => onFilterChange({ ...filters, transferOnly: !filters.transferOnly })}
+            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
+              filters.transferOnly ? 'bg-primary' : 'bg-gray-300'
+            }`}
+          >
+            <span
+              className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                filters.transferOnly ? 'translate-x-6' : 'translate-x-1'
+              }`}
+            />
+          </button>
+        </div>
+
         <div>
           <label className="block text-sm mb-2">Position</label>
           <div className="flex flex-wrap gap-2">
@@ -79,25 +94,6 @@ export function FilterPanel({ filters, onFilterChange }: FilterPanelProps) {
                 }`}
               >
                 {pos}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <label className="block text-sm mb-2">Year</label>
-          <div className="flex flex-wrap gap-2">
-            {years.map((yr) => (
-              <button
-                key={yr}
-                onClick={() => toggleArrayFilter('year', yr)}
-                className={`px-3 py-1.5 rounded-md text-sm transition-colors ${
-                  filters.year.includes(yr)
-                    ? 'bg-primary text-primary-foreground'
-                    : 'bg-muted hover:bg-muted/80'
-                }`}
-              >
-                {yr}
               </button>
             ))}
           </div>

@@ -7,6 +7,7 @@ export interface GoldPlayerPerGame {
   player_key?: number;
   team_season_key?: number;
   player_sr_link?: string;
+  player_name?: string;
   class?: string;
   pos?: string;
   games?: number;
@@ -41,6 +42,14 @@ export interface GoldPlayerPerGame {
 export type Position = 'PG' | 'SG' | 'SF' | 'PF' | 'C';
 export type Year = 'Freshman' | 'Sophomore' | 'Junior' | 'Senior' | 'Graduate';
 export type Availability = 'Available' | 'Committed' | 'Considering';
+export type TransferStatus = 'Committed' | 'Entered';
+
+export interface On3TransferInfo {
+  classYear: Year;
+  previousTeam: string;
+  newTeam: string | null;
+  status: TransferStatus;
+}
 
 export interface TransferPlayer {
   id: string;
@@ -62,6 +71,8 @@ export interface TransferPlayer {
     gamesPlayed: number;
   };
   availability: Availability;
+  playerLink?: string;
+  transferInfo?: On3TransferInfo;
 }
 
 export function goldToTransferPlayer(
@@ -91,5 +102,17 @@ export function goldToTransferPlayer(
       gamesPlayed: row.games ?? 0,
     },
     availability: overrides?.availability ?? 'Available',
+    playerLink: row.player_sr_link,
   };
+}
+
+export function mapClassRank(raw: string): Year {
+  const normalized = raw.replace(/^RedShirt\s+/i, '').trim();
+  switch (normalized.toLowerCase()) {
+    case 'freshman': return 'Freshman';
+    case 'sophomore': return 'Sophomore';
+    case 'junior': return 'Junior';
+    case 'senior': return 'Senior';
+    default: return 'Junior';
+  }
 }

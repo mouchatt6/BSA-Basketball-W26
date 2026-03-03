@@ -1,46 +1,137 @@
 /**
  * Transfer dashboard data layer.
- * Uses mock data so the dashboard runs out of the box.
- * Super tables: ../data/player_tables/batch2_supers/super_pergame.csv, super_totals.csv
- * (created by ../player-tables-scraper.ipynb)
+ * Parses real CSV data from Sports Reference via Vite's ?raw import.
  */
 
-import type { GoldPlayerPerGame, TransferPlayer } from './schema';
-import { goldToTransferPlayer } from './schema';
+import type { GoldPlayerPerGame, TransferPlayer, TransferStatus } from './schema';
+import { goldToTransferPlayer, mapClassRank } from './schema';
 
 export type { TransferPlayer } from './schema';
 
-const YEARS = ['Freshman', 'Sophomore', 'Junior', 'Senior', 'Graduate'] as const;
-const SCHOOLS = ['Stanford', 'USC', 'Oregon', 'Arizona', 'Colorado', 'Washington', 'Cal', 'Arizona State', 'Utah', 'Oregon State', 'UCLA', 'Washington State'];
-const AVAILABILITY = ['Available', 'Considering', 'Committed'] as const;
+import csvRaw from './sr_data_2025.csv?raw';
+import on3Raw from './on3_wbb_transfers_2025.csv?raw';
 
-function mockGoldRows(): GoldPlayerPerGame[] {
-  return [
-    { player_key: 1, team_season_key: 1, pos: 'PG', team_name_abbr: 'Stanford', pts_per_g: 16.5, trb_per_g: 3.2, ast_per_g: 5.8, stl_per_g: 2.1, blk_per_g: 0.3, fg_pct: 0.445, fg3_pct: 0.382, ft_pct: 0.843, mp_per_g: 32.4, games: 28 },
-    { player_key: 2, team_season_key: 2, pos: 'SG', team_name_abbr: 'USC', pts_per_g: 18.7, trb_per_g: 4.1, ast_per_g: 2.9, stl_per_g: 1.5, blk_per_g: 0.4, fg_pct: 0.468, fg3_pct: 0.413, ft_pct: 0.886, mp_per_g: 34.2, games: 30 },
-    { player_key: 3, team_season_key: 3, pos: 'SF', team_name_abbr: 'Oregon', pts_per_g: 14.3, trb_per_g: 5.6, ast_per_g: 2.4, stl_per_g: 1.8, blk_per_g: 0.7, fg_pct: 0.482, fg3_pct: 0.356, ft_pct: 0.765, mp_per_g: 28.9, games: 29 },
-    { player_key: 4, team_season_key: 4, pos: 'PF', team_name_abbr: 'Arizona', pts_per_g: 12.8, trb_per_g: 8.4, ast_per_g: 1.6, stl_per_g: 1.2, blk_per_g: 1.5, fg_pct: 0.521, fg3_pct: 0.284, ft_pct: 0.723, mp_per_g: 26.7, games: 31 },
-    { player_key: 5, team_season_key: 5, pos: 'C', team_name_abbr: 'Colorado', pts_per_g: 11.2, trb_per_g: 9.8, ast_per_g: 1.1, stl_per_g: 0.8, blk_per_g: 2.3, fg_pct: 0.546, fg3_pct: 0, ft_pct: 0.689, mp_per_g: 24.3, games: 27 },
-    { player_key: 6, team_season_key: 6, pos: 'PG', team_name_abbr: 'Washington', pts_per_g: 13.9, trb_per_g: 2.8, ast_per_g: 6.4, stl_per_g: 2.5, blk_per_g: 0.2, fg_pct: 0.423, fg3_pct: 0.368, ft_pct: 0.817, mp_per_g: 30.1, games: 28 },
-    { player_key: 7, team_season_key: 7, pos: 'SG', team_name_abbr: 'Cal', pts_per_g: 15.6, trb_per_g: 3.5, ast_per_g: 3.2, stl_per_g: 1.7, blk_per_g: 0.5, fg_pct: 0.452, fg3_pct: 0.395, ft_pct: 0.862, mp_per_g: 31.5, games: 30 },
-    { player_key: 8, team_season_key: 8, pos: 'SF', team_name_abbr: 'Arizona State', pts_per_g: 10.4, trb_per_g: 4.9, ast_per_g: 2.1, stl_per_g: 1.4, blk_per_g: 0.6, fg_pct: 0.478, fg3_pct: 0.332, ft_pct: 0.741, mp_per_g: 23.6, games: 29 },
-    { player_key: 9, team_season_key: 9, pos: 'PF', team_name_abbr: 'Utah', pts_per_g: 14.1, trb_per_g: 7.6, ast_per_g: 1.8, stl_per_g: 1.0, blk_per_g: 1.8, fg_pct: 0.513, fg3_pct: 0.315, ft_pct: 0.708, mp_per_g: 27.8, games: 30 },
-    { player_key: 10, team_season_key: 10, pos: 'C', team_name_abbr: 'Oregon State', pts_per_g: 9.8, trb_per_g: 8.9, ast_per_g: 0.9, stl_per_g: 0.7, blk_per_g: 2.1, fg_pct: 0.532, fg3_pct: 0, ft_pct: 0.654, mp_per_g: 22.4, games: 26 },
-  ];
+function parseCSV(raw: string): Record<string, string>[] {
+  const lines = raw.trim().split('\n');
+  if (lines.length === 0) return [];
+  const headers = lines[0].split(',');
+  return lines.slice(1).filter(line => line.trim() !== '').map(line => {
+    const values = line.split(',');
+    const record: Record<string, string> = {};
+    headers.forEach((header, i) => {
+      record[header.trim()] = (values[i] ?? '').trim();
+    });
+    return record;
+  });
 }
 
-const NAMES = ['Jordan Williams', 'Taylor Martinez', 'Morgan Davis', 'Alex Thompson', 'Sam Johnson', 'Riley Parker', 'Casey Anderson', 'Jamie Brooks', 'Drew Miller', 'Avery Lee'];
-const HEIGHTS = ["5'9\"", "6'1\"", "6'2\"", "6'3\"", "6'5\"", "5'8\"", "6'0\"", "6'1\"", "6'4\"", "6'4\""];
+function num(val: string | undefined): number {
+  const n = parseFloat(val ?? '');
+  return isNaN(n) ? 0 : n;
+}
+
+interface On3TransferRecord {
+  name: string;
+  classRank: string;
+  previousTeam: string;
+  newTeam: string;
+  status: string;
+  date: string;
+}
+
+function parseOn3Transfers(): Map<string, On3TransferRecord> {
+  const rows = parseCSV(on3Raw);
+  const byName = new Map<string, On3TransferRecord>();
+
+  for (const r of rows) {
+    const key = (r['Name'] || '').toLowerCase().trim();
+    if (!key) continue;
+
+    const record: On3TransferRecord = {
+      name: r['Name'] || '',
+      classRank: r['Class Rank'] || '',
+      previousTeam: r['Previous Team'] || '',
+      newTeam: r['New Team'] || '',
+      status: r['Status'] || '',
+      date: r['Date'] || '',
+    };
+
+    const existing = byName.get(key);
+    if (!existing || record.date > existing.date) {
+      byName.set(key, record);
+    }
+  }
+
+  // Remove withdrawn players
+  for (const [key, record] of byName) {
+    if (record.status === 'Withdrawn') {
+      byName.delete(key);
+    }
+  }
+
+  return byName;
+}
+
+function stripMascot(fullTeamName: string): string {
+  if (!fullTeamName) return '';
+  const parts = fullTeamName.trim().split(/\s+/);
+  if (parts.length <= 1) return fullTeamName;
+  const knownTwoWordMascots = ['tar heels', 'fighting irish', 'scarlet knights',
+    'golden eagles', 'mean green', 'red storm', 'blue devils',
+    'yellow jackets', 'horned frogs', 'nittany lions', 'lady vols',
+    'red raiders', 'golden gophers', 'banana slugs'];
+  const lower = fullTeamName.toLowerCase();
+  for (const mascot of knownTwoWordMascots) {
+    if (lower.endsWith(mascot)) {
+      return fullTeamName.slice(0, lower.lastIndexOf(mascot)).trim();
+    }
+  }
+  return parts.slice(0, -1).join(' ');
+}
 
 export function getTransferPlayers(): TransferPlayer[] {
-  const rows = mockGoldRows();
-  return rows.map((row, i) =>
-    goldToTransferPlayer(row, i, {
-      name: NAMES[i] ?? `Player ${row.player_key}`,
-      previousSchool: row.team_name_abbr ?? SCHOOLS[i % SCHOOLS.length],
-      year: YEARS[i % YEARS.length],
-      height: HEIGHTS[i % HEIGHTS.length],
-      availability: AVAILABILITY[i % AVAILABILITY.length],
-    })
-  );
+  const on3Map = parseOn3Transfers();
+  const rows = parseCSV(csvRaw);
+  return rows.map((r, i) => {
+    const gold: GoldPlayerPerGame = {
+      player_sr_link: r.player_sr_link,
+      player_name: r.player_name,
+      team_name_abbr: r.school,
+      pos: r.pos,
+      games: num(r.games),
+      games_started: num(r.games_started),
+      mp_per_g: num(r.mp_per_g),
+      fg_pct: num(r.fg_pct),
+      fg3_pct: num(r.fg3_pct),
+      ft_pct: num(r.ft_pct),
+      pts_per_g: num(r.pts_per_g),
+      trb_per_g: num(r.trb_per_g),
+      ast_per_g: num(r.ast_per_g),
+      stl_per_g: num(r.stl_per_g),
+      blk_per_g: num(r.blk_per_g),
+    };
+    const player: TransferPlayer = {
+      ...goldToTransferPlayer(gold, i, {
+        name: r.player_name || `Player ${i}`,
+        previousSchool: r.school || 'Unknown',
+        year: 'Junior',
+        height: '—',
+        availability: 'Available',
+      }),
+    };
+
+    // Cross-reference with ON3 transfer data
+    const on3 = on3Map.get(player.name.toLowerCase().trim());
+    if (on3) {
+      player.transferInfo = {
+        classYear: mapClassRank(on3.classRank),
+        previousTeam: on3.previousTeam,
+        newTeam: on3.status === 'Committed' ? stripMascot(on3.newTeam) : null,
+        status: on3.status as TransferStatus,
+      };
+      player.availability = on3.status === 'Committed' ? 'Committed' : 'Available';
+    }
+
+    return player;
+  });
 }
