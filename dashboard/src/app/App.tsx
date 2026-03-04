@@ -8,8 +8,9 @@ import { ShootingPercentageChart } from './components/ShootingPercentageChart';
 import { StatsScatterChart } from './components/StatsScatterChart';
 import { PositionDistributionChart } from './components/PositionDistributionChart';
 import { DefensiveStatsChart } from './components/DefensiveStatsChart';
+import { PlayerComparisonModal } from './components/PlayerComparisonModal';
 import { getTransferPlayers, type TransferPlayer } from './data/transferData';
-import { BarChart3, Search } from 'lucide-react';
+import { BarChart3, GitCompare, Search } from 'lucide-react';
 
 export default function App() {
   const players = useMemo(() => getTransferPlayers(), []);
@@ -24,6 +25,7 @@ export default function App() {
 
   const [selectedPlayers, setSelectedPlayers] = useState<TransferPlayer[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const [showComparisonModal, setShowComparisonModal] = useState(false);
 
   const filteredPlayers = useMemo(() => {
     const query = searchQuery.toLowerCase();
@@ -69,9 +71,18 @@ export default function App() {
             <div className="bg-white border border-border rounded-lg p-6 shadow-sm mb-6">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-primary">Transfer Players</h2>
-                <div className="text-sm text-muted-foreground">
+                <div className="flex items-center gap-3">
+                  {selectedPlayers.length >= 2 && (
+                    <button
+                      onClick={() => setShowComparisonModal(true)}
+                      className="flex items-center gap-2 px-4 py-2 bg-accent text-accent-foreground hover:bg-accent/90 rounded-lg transition-colors shadow-sm border-2 border-primary"
+                    >
+                      <GitCompare className="w-5 h-5" />
+                      <span>Compare Players ({selectedPlayers.length})</span>
+                    </button>
+                  )}
                   {selectedPlayers.length > 0 && (
-                    <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full">
+                    <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm">
                       {selectedPlayers.length} selected
                     </span>
                   )}
@@ -143,6 +154,13 @@ export default function App() {
           <p className="mt-1">Data: Sports Reference 2024-25 season</p>
         </div>
       </div>
+
+      {showComparisonModal && (
+        <PlayerComparisonModal
+          players={selectedPlayers}
+          onClose={() => setShowComparisonModal(false)}
+        />
+      )}
     </div>
   );
 }
