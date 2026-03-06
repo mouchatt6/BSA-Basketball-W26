@@ -1,5 +1,5 @@
 import type { TransferPlayer } from '@/app/data/transferData';
-import { TrendingUp, Target, Activity, Award } from 'lucide-react';
+import { Goal, BrickWall, Forward, Award } from 'lucide-react';
 
 interface StatsOverviewProps {
   players: TransferPlayer[];
@@ -36,9 +36,9 @@ export function StatsOverview({ players }: StatsOverviewProps) {
   ).toFixed(1);
 
   const stats = [
-    { label: 'Avg PPG', value: avgPPG, icon: TrendingUp, color: 'bg-blue-50 text-blue-600' },
-    { label: 'Avg RPG', value: avgRPG, icon: Activity, color: 'bg-yellow-50 text-yellow-600' },
-    { label: 'Avg APG', value: avgAPG, icon: Target, color: 'bg-green-50 text-green-600' },
+    { label: 'Avg PPG', value: avgPPG, icon: Goal, color: 'bg-blue-50 text-blue-600' },
+    { label: 'Avg RPG', value: avgRPG, icon: BrickWall, color: 'bg-yellow-50 text-yellow-600' },
+    { label: 'Avg APG', value: avgAPG, icon: Forward, color: 'bg-green-50 text-green-600' },
     { label: 'Avg FG%', value: `${avgFG}%`, icon: Award, color: 'bg-purple-50 text-purple-600' },
   ];
 

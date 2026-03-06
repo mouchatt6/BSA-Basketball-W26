@@ -35,6 +35,9 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
             <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded">
               {player.position}
             </span>
+            <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded">
+              {player.year}
+            </span>
           </div>
         </div>
         <span
@@ -101,6 +104,21 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
         <div className="text-center">
           <div className="text-xs text-muted-foreground mb-1">MPG</div>
           <div className="text-sm">{player.stats.minutesPerGame.toFixed(1)}</div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-3 gap-3 mt-3 pt-3 border-t border-border">
+        <div className="text-center">
+          <div className="text-xs text-muted-foreground mb-1">TS%</div>
+          <div className="text-sm">{player.stats.tsPercentage > 0 ? `${player.stats.tsPercentage.toFixed(1)}%` : 'N/A'}</div>
+        </div>
+        <div className="text-center">
+          <div className="text-xs text-muted-foreground mb-1">OBPM</div>
+          <div className="text-sm">{player.stats.obpm !== 0 ? player.stats.obpm.toFixed(1) : 'N/A'}</div>
+        </div>
+        <div className="text-center">
+          <div className="text-xs text-muted-foreground mb-1">DBPM</div>
+          <div className="text-sm">{player.stats.dbpm !== 0 ? player.stats.dbpm.toFixed(1) : 'N/A'}</div>
         </div>
       </div>
 

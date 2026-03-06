@@ -1,0 +1,16 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/raven-preston-1.html,Raven Preston,elon,2024-25,G,30,30,928,18.2,.441,.264,.308,356,8.8,22.2,15.2,12.0,3.4,1.6,17.4,26.1,0.7,2.0,2.7,.118,-0.2,0.1,-0.1
+https://www.sports-reference.com/cbb/players/iycez-adams-1.html,Iycez Adams,elon,2024-25,F,30,30,897,16.1,.485,.000,.210,239,7.8,15.2,11.4,9.3,2.0,4.4,16.6,16.2,1.1,1.5,2.6,.116,-0.7,0.8,0.1
+https://www.sports-reference.com/cbb/players/jayda-angel-1.html,Jayda Angel,elon,2024-25,G,30,0,742,14.1,.410,.271,.222,278,4.2,13.7,8.7,13.3,3.7,0.7,15.6,27.9,0.1,1.3,1.4,.075,-1.9,0.0,-1.9
+https://www.sports-reference.com/cbb/players/laila-anderson-1.html,Laila Anderson,elon,2024-25,G,30,29,720,9.8,.427,.397,.196,197,3.2,6.3,4.7,10.3,2.3,0.1,15.2,19.3,0.4,0.8,1.1,.064,-3.2,-0.7,-3.9
+https://www.sports-reference.com/cbb/players/maraja-pass-1.html,Maraja Pass,elon,2024-25,G,30,30,650,10.9,.433,.230,.405,156,3.2,8.8,5.8,26.8,3.3,0.6,27.5,15.3,0.2,0.9,1.1,.069,-4.2,0.5,-3.7
+https://www.sports-reference.com/cbb/players/kamryn-doty-1.html,Kamryn Doty,elon,2024-25,G,30,9,482,8.8,.458,.670,.330,117,1.7,6.6,4.0,12.2,2.6,0.4,20.8,16.7,0.2,0.6,0.8,.064,-4.0,-0.2,-4.2
+https://www.sports-reference.com/cbb/players/ruby-willard-1.html,Ruby Willard,elon,2024-25,G,29,1,327,1.6,.275,.341,.068,32,5.1,8.4,6.6,7.1,2.1,0.0,28.4,9.3,-0.4,0.4,0.0,-0.001,-7.2,0.4,-6.8
+https://www.sports-reference.com/cbb/players/ava-leroux-1.html,Ava Leroux,elon,2024-25,C,21,14,317,9.8,.504,.000,.329,88,5.9,9.0,7.3,10.2,1.8,3.0,29.4,19.6,-0.1,0.4,0.3,.043,-5.8,-0.3,-6.1
+https://www.sports-reference.com/cbb/players/hannah-dereje-1.html,Hannah Dereje,elon,2024-25,F-C,28,7,283,15.9,.520,.011,.290,101,10.2,13.7,11.9,5.4,1.6,4.4,22.7,23.2,0.3,0.4,0.7,.102,-2.7,-0.1,-2.8
+https://www.sports-reference.com/cbb/players/regina-walton-1.html,Regina Walton,elon,2024-25,G,27,0,224,6.3,.407,.382,.176,35,1.8,5.1,3.4,16.9,1.8,0.5,26.1,10.7,0.0,0.2,0.2,.033,-4.5,-0.3,-4.7
+https://www.sports-reference.com/cbb/players/alyssa-ervin-1.html,Alyssa Ervin,elon,2024-25,G,22,0,202,9.6,.372,.289,.276,63,7.7,6.8,7.2,11.8,3.1,3.1,19.6,25.4,-0.2,0.3,0.0,.009,-3.8,-0.7,-4.5
+https://www.sports-reference.com/cbb/players/kierra-morrow-1.html,Kierra Morrow,elon,2024-25,G,14,0,81,12.4,.646,.125,2.375,21,7.6,22.5,14.7,2.5,2.8,0.0,41.3,17.2,0.0,0.2,0.2,.077,-2.2,0.6,-1.6
+https://www.sports-reference.com/cbb/players/ashlee-shaw-1.html,Ashlee Shaw,elon,2024-25,G,13,0,73,16.3,.427,.520,.360,25,9.9,21.8,15.6,9.3,1.6,1.4,12.0,21.9,0.1,0.1,0.2,.126,-3.5,-0.7,-4.3
+https://www.sports-reference.com/cbb/players/samira-khalil-1.html,Samira Khalil,elon,2024-25,G,11,0,66,4.5,.408,.813,.313,16,3.1,8.6,5.7,15.4,0.9,0.0,27.6,18.5,0.0,0.1,0.0,.004,-9.7,-5.1,-14.9
+https://www.sports-reference.com/cbb/players/aly-wadkovsky-1.html,Aly Wadkovsky,elon,2024-25,C,10,0,33,-4.4,.000,.000,.000,1,12.5,0.0,6.6,0.0,1.7,3.2,33.3,8.7,-0.1,0.0,-0.1,-0.074,-9.4,0.0,-9.4
