@@ -39,7 +39,7 @@ export interface GoldPlayerPerGame {
   year_id?: string;
 }
 
-export type Position = 'PG' | 'SG' | 'SF' | 'PF' | 'C';
+export type Position = 'G' | 'F' | 'C';
 export type Year = 'Freshman' | 'Sophomore' | 'Junior' | 'Senior' | 'Graduate';
 export type Availability = 'Available' | 'Committed' | 'Considering';
 export type TransferStatus = 'Committed' | 'Entered';
@@ -69,6 +69,9 @@ export interface TransferPlayer {
     ftPercentage: number;
     minutesPerGame: number;
     gamesPlayed: number;
+    tsPercentage: number;
+    obpm: number;
+    dbpm: number;
   };
   availability: Availability;
   playerLink?: string;
@@ -80,8 +83,10 @@ export function goldToTransferPlayer(
   index: number,
   overrides?: Partial<Pick<TransferPlayer, 'name' | 'previousSchool' | 'year' | 'height' | 'availability'>>
 ): TransferPlayer {
-  const pos = (row.pos as Position) || 'G';
-  const position = ['PG', 'SG', 'SF', 'PF', 'C'].includes(pos) ? pos : 'SG';
+  const rawPos = (row.pos ?? '').toUpperCase();
+  const position: Position =
+    rawPos === 'C' || rawPos === 'F-C' || rawPos === 'C-F' ? 'C' :
+    rawPos === 'F' || rawPos === 'G-F' || rawPos === 'F-G' ? 'F' : 'G';
   return {
     id: `gold-${row.player_key ?? index}-${index}`,
     name: overrides?.name ?? `Player ${row.player_key ?? index}`,
@@ -100,6 +105,9 @@ export function goldToTransferPlayer(
       ftPercentage: (row.ft_pct ?? 0) * 100,
       minutesPerGame: row.mp_per_g ?? 0,
       gamesPlayed: row.games ?? 0,
+      tsPercentage: 0,
+      obpm: 0,
+      dbpm: 0,
     },
     availability: overrides?.availability ?? 'Available',
     playerLink: row.player_sr_link,
@@ -113,6 +121,7 @@ export function mapClassRank(raw: string): Year {
     case 'sophomore': return 'Sophomore';
     case 'junior': return 'Junior';
     case 'senior': return 'Senior';
+    case 'graduate': return 'Graduate';
     default: return 'Junior';
   }
 }

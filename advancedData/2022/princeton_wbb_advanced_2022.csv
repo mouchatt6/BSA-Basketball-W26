@@ -1,0 +1,15 @@
+player_sr_link,player_name,school,season,pos,games,games_started,mp,per,ts_pct,fg3a_per_fga_pct,fta_per_fga_pct,pprod,orb_pct,drb_pct,trb_pct,ast_pct,stl_pct,blk_pct,tov_pct,usg_pct,ows,dws,ws,ws_per_40,obpm,dbpm,bpm
+https://www.sports-reference.com/cbb/players/ellie-mitchell-1.html,Ellie Mitchell,princeton,2021-22,F,30,30,936,17.2,.432,.005,.333,230,15.0,27.3,21.0,8.7,4.4,1.0,20.0,14.2,1.2,3.3,4.5,.191,1.1,5.2,6.3
+https://www.sports-reference.com/cbb/players/julia-cunningham-1.html,Julia Cunningham,princeton,2021-22,G,30,30,927,20.4,.485,.372,.179,382,6.9,15.4,11.1,12.7,2.8,2.8,14.0,25.5,2.6,2.5,5.1,.222,3.5,3.8,7.2
+https://www.sports-reference.com/cbb/players/grace-stone-1.html,Grace Stone,princeton,2021-22,G,30,30,887,15.4,.466,.267,.212,285,4.2,11.4,7.7,15.8,3.0,2.0,15.2,19.7,1.8,2.3,4.1,.184,0.4,4.6,5.0
+https://www.sports-reference.com/cbb/players/kaitlyn-chen-1.html,Kaitlyn Chen,princeton,2021-22,G,30,21,886,16.6,.510,.146,.330,327,3.6,8.9,6.2,21.8,2.1,0.3,19.5,21.4,2.3,1.9,4.2,.188,0.8,2.8,3.6
+https://www.sports-reference.com/cbb/players/abby-meyers-1.html,Abby Meyers,princeton,2021-22,G,30,30,877,31.0,.558,.405,.202,476,6.9,18.7,12.6,13.4,2.7,2.0,9.7,30.1,4.8,2.4,7.2,.330,9.9,4.1,14.1
+https://www.sports-reference.com/cbb/players/maggie-connolly-1.html,Maggie Connolly,princeton,2021-22,G,30,9,598,10.5,.515,.581,.174,107,1.0,8.5,4.7,15.0,2.7,0.2,23.1,10.0,0.8,1.3,2.1,.141,-0.8,4.6,3.8
+https://www.sports-reference.com/cbb/players/chet-nweke-1.html,Chet Nweke,princeton,2021-22,G,30,0,326,10.6,.435,.101,.420,75,8.3,10.8,9.5,5.6,1.2,2.2,14.5,14.6,0.4,0.7,1.1,.131,-1.2,2.3,1.1
+https://www.sports-reference.com/cbb/players/maddie-plank-1.html,Maddie Plank,princeton,2021-22,G,24,0,172,17.7,.608,.667,.119,48,3.6,9.8,6.6,8.9,3.0,1.4,13.6,14.7,0.5,0.4,0.9,.219,1.9,4.2,6.1
+https://www.sports-reference.com/cbb/players/paige-morton-1.html,Paige Morton,princeton,2021-22,F,20,0,127,8.4,.386,.000,.382,34,14.6,19.4,16.9,1.5,2.3,0.9,23.0,20.3,0.0,0.3,0.3,.096,-5.5,0.9,-4.6
+https://www.sports-reference.com/cbb/players/parker-hill-1.html,Parker Hill,princeton,2021-22,F,18,0,79,18.4,.462,.000,.174,24,7.8,19.7,13.6,15.0,2.9,5.9,13.8,18.0,0.2,0.2,0.4,.209,-0.6,5.5,5.0
+https://www.sports-reference.com/cbb/players/lexi-weger-1.html,Lexi Weger,princeton,2021-22,G-F,13,0,60,12.8,.470,.600,.133,15,10.3,19.5,14.8,6.2,1.0,7.8,23.9,17.2,0.0,0.2,0.2,.134,-1.3,2.5,1.2
+https://www.sports-reference.com/cbb/players/katie-thiers-1.html,Katie Thiers,princeton,2021-22,F,14,0,56,20.3,.690,.000,1.100,20,8.8,16.2,12.4,6.8,0.0,0.0,11.6,15.2,0.3,0.1,0.4,.281,0.2,1.4,1.6
+https://www.sports-reference.com/cbb/players/amelia-osgood-1.html,Amelia Osgood,princeton,2021-22,G,14,0,54,6.8,.503,.857,.286,9,6.9,12.0,9.4,6.2,3.2,0.0,38.6,11.8,0.0,0.1,0.1,.101,-4.8,3.0,-1.8
+https://www.sports-reference.com/cbb/players/adaora-nwokeji-1.html,Adaora Nwokeji,princeton,2021-22,G,10,0,33,9.7,.316,.125,.188,14,15.0,3.9,9.6,23.6,3.5,0.0,18.7,32.0,0.0,0.1,0.1,.070,-4.9,0.7,-4.2

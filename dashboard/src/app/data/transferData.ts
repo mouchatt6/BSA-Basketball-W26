@@ -9,7 +9,9 @@ import { goldToTransferPlayer, mapClassRank } from './schema';
 export type { TransferPlayer } from './schema';
 
 import csvRaw from './sr_data_2025.csv?raw';
+import advancedRaw from './sr_advanced_2025.csv?raw';
 import on3Raw from './on3_wbb_transfers_2025.csv?raw';
+import classYearRaw from './sr_class_years_2025.csv?raw';
 
 function parseCSV(raw: string): Record<string, string>[] {
   const lines = raw.trim().split('\n');
@@ -89,8 +91,36 @@ function stripMascot(fullTeamName: string): string {
   return parts.slice(0, -1).join(' ');
 }
 
+function parseClassYears(): Map<string, string> {
+  const rows = parseCSV(classYearRaw);
+  const byLink = new Map<string, string>();
+  for (const r of rows) {
+    const link = (r['player_sr_link'] || '').trim();
+    const cls = (r['class'] || '').trim();
+    if (link && cls) byLink.set(link, cls);
+  }
+  return byLink;
+}
+
+function parseAdvancedStats(): Map<string, { tsPercentage: number; obpm: number; dbpm: number }> {
+  const rows = parseCSV(advancedRaw);
+  const byLink = new Map<string, { tsPercentage: number; obpm: number; dbpm: number }>();
+  for (const r of rows) {
+    const link = (r['player_sr_link'] || '').trim();
+    if (!link) continue;
+    byLink.set(link, {
+      tsPercentage: num(r['ts_pct']) * 100,
+      obpm: num(r['obpm']),
+      dbpm: num(r['dbpm']),
+    });
+  }
+  return byLink;
+}
+
 export function getTransferPlayers(): TransferPlayer[] {
   const on3Map = parseOn3Transfers();
+  const advancedMap = parseAdvancedStats();
+  const classYearMap = parseClassYears();
   const rows = parseCSV(csvRaw);
   return rows.map((r, i) => {
     const gold: GoldPlayerPerGame = {
@@ -110,15 +140,27 @@ export function getTransferPlayers(): TransferPlayer[] {
       stl_per_g: num(r.stl_per_g),
       blk_per_g: num(r.blk_per_g),
     };
+    // Class year priority: SR roster data > default
+    const srClass = classYearMap.get(r.player_sr_link || '');
+    const classYear = srClass ? mapClassRank(srClass) : 'Junior';
+
     const player: TransferPlayer = {
       ...goldToTransferPlayer(gold, i, {
         name: r.player_name || `Player ${i}`,
         previousSchool: r.school || 'Unknown',
-        year: 'Junior',
+        year: classYear,
         height: '—',
         availability: 'Available',
       }),
     };
+
+    // Cross-reference with advanced stats
+    const advanced = advancedMap.get(r.player_sr_link || '');
+    if (advanced) {
+      player.stats.tsPercentage = advanced.tsPercentage;
+      player.stats.obpm = advanced.obpm;
+      player.stats.dbpm = advanced.dbpm;
+    }
 
     // Cross-reference with ON3 transfer data
     const on3 = on3Map.get(player.name.toLowerCase().trim());
