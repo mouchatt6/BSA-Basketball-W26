@@ -9,8 +9,9 @@ import { ShootingPercentageChart } from './components/ShootingPercentageChart';
 import { StatsScatterChart } from './components/StatsScatterChart';
 import { PositionDistributionChart } from './components/PositionDistributionChart';
 import { DefensiveStatsChart } from './components/DefensiveStatsChart';
+import { PlayerComparisonModal } from './components/PlayerComparisonModal';
 import { getTransferPlayers, type TransferPlayer } from './data/transferData';
-import { BarChart3, Search } from 'lucide-react';
+import { BarChart3, GitCompare, Search } from 'lucide-react';
 
 export default function App() {
   const players = useMemo(() => getTransferPlayers(), []);
@@ -89,7 +90,7 @@ export default function App() {
                 <h2 className="text-primary">All Players</h2>
                 <div className="text-sm text-muted-foreground">
                   {selectedPlayers.length > 0 && (
-                    <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full">
+                    <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm">
                       {selectedPlayers.length} selected
                     </span>
                   )}
@@ -165,6 +166,13 @@ export default function App() {
           <p className="mt-1">Data: Sports Reference 2024-25 season</p>
         </div>
       </div>
+
+      {showComparisonModal && (
+        <PlayerComparisonModal
+          players={selectedPlayers}
+          onClose={() => setShowComparisonModal(false)}
+        />
+      )}
     </div>
   );
 }
