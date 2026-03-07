@@ -55,7 +55,7 @@ export default function App() {
     });
   }, [filteredPlayers, sort]);
 
-  const MAX_DISPLAY = 50;
+  const MAX_DISPLAY = 20;
   const cappedPlayers = sortedPlayers.slice(0, MAX_DISPLAY);
 
   const handlePlayerClick = (player: TransferPlayer) => {
