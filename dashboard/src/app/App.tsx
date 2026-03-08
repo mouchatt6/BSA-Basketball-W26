@@ -30,6 +30,7 @@ export default function App() {
   const [selectedPlayers, setSelectedPlayers] = useState<TransferPlayer[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [sort, setSort] = useState<SortState>({ field: null, direction: 'desc' });
+  const [showComparisonModal, setShowComparisonModal] = useState(false);
 
   const filteredPlayers = useMemo(() => {
     const query = searchQuery.toLowerCase();
@@ -88,11 +89,20 @@ export default function App() {
             <div className="bg-white border border-border rounded-lg p-6 shadow-sm mb-6">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-primary">All Players</h2>
-                <div className="text-sm text-muted-foreground">
+                <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   {selectedPlayers.length > 0 && (
                     <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm">
                       {selectedPlayers.length} selected
                     </span>
+                  )}
+                  {selectedPlayers.length >= 2 && (
+                    <button
+                      onClick={() => setShowComparisonModal(true)}
+                      className="flex items-center gap-1 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm hover:opacity-90 transition-opacity"
+                    >
+                      <GitCompare className="w-3.5 h-3.5" />
+                      Compare
+                    </button>
                   )}
                 </div>
               </div>
@@ -162,7 +172,7 @@ export default function App() {
         </div>
 
         <div className="mt-8 text-center text-sm text-muted-foreground border-t border-border pt-6">
-          <p>WBB Transfer Portal Dashboard</p>
+          <p>Bruin Sports Analaytics WBB Stats & Recruiting Dashboard</p>
           <p className="mt-1">Data: Sports Reference 2024-25 season</p>
         </div>
       </div>

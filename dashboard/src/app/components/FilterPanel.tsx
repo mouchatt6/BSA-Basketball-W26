@@ -33,7 +33,7 @@ export function FilterPanel({ filters, onFilterChange, teams }: FilterPanelProps
   };
   const positions = ['G', 'F', 'C'];
   const availabilities = ['Available', 'Considering', 'Committed'];
-  const classYears = ['Freshman', 'Sophomore', 'Junior', 'Senior', 'Graduate'];
+  const classYears = ['Freshman', 'Sophomore', 'Junior', 'Senior'];
 
   const toggleArrayFilter = (
     key: 'position' | 'availability' | 'classYear',
