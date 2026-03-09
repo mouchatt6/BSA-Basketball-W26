@@ -19,11 +19,11 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<
   if (active && payload && payload.length) {
     const p = payload[0].payload;
     return (
-      <div className="bg-white border border-border rounded-lg p-3 shadow-lg">
-        <p className="font-medium text-primary">{p.name}</p>
-        <p className="text-sm">PPG: {p.ppg}</p>
-        <p className="text-sm">Efficiency: {p.efficiency}%</p>
-        <p className="text-sm">MPG: {p.minutesPerGame}</p>
+      <div className="bg-card-elevated border border-border rounded-xl p-3 shadow-xl">
+        <p className="font-semibold text-primary text-sm">{p.name}</p>
+        <p className="text-xs text-muted-foreground mt-1">PPG: <span className="text-foreground">{p.ppg}</span></p>
+        <p className="text-xs text-muted-foreground">Efficiency: <span className="text-foreground">{p.efficiency}%</span></p>
+        <p className="text-xs text-muted-foreground">MPG: <span className="text-foreground">{p.minutesPerGame}</span></p>
       </div>
     );
   }
@@ -46,21 +46,21 @@ export function StatsScatterChart({ players }: StatsScatterChartProps) {
   });
 
   return (
-    <div className="bg-white border border-border rounded-lg p-6 shadow-sm">
-      <h3 className="text-primary mb-4">PPG vs Shooting Efficiency</h3>
-      <p className="text-sm text-muted-foreground mb-4">Bubble size represents minutes per game</p>
+    <div className="bg-card border border-border rounded-xl p-6">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground mb-1">PPG vs Shooting Efficiency</h3>
+      <p className="text-xs text-muted-foreground mb-4">Bubble size represents minutes per game</p>
       {data.length === 0 ? (
-        <div className="h-[300px] flex items-center justify-center text-muted-foreground">No data</div>
+        <div className="h-[300px] flex items-center justify-center text-muted-foreground text-sm">No data</div>
       ) : (
         <ResponsiveContainer width="100%" height={300}>
           <ScatterChart>
-            <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-            <XAxis type="number" dataKey="ppg" name="Points Per Game" tick={{ fontSize: 12 }} label={{ value: 'Points Per Game', position: 'bottom', fontSize: 12 }} />
-            <YAxis type="number" dataKey="efficiency" name="Efficiency" tick={{ fontSize: 12 }} label={{ value: 'Shooting Efficiency %', angle: -90, position: 'insideLeft', fontSize: 12 }} />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+            <XAxis type="number" dataKey="ppg" name="Points Per Game" tick={{ fontSize: 11, fill: '#8a9bb5' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} tickLine={false} label={{ value: 'Points Per Game', position: 'bottom', fontSize: 11, fill: '#8a9bb5' }} />
+            <YAxis type="number" dataKey="efficiency" name="Efficiency" tick={{ fontSize: 11, fill: '#8a9bb5' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} tickLine={false} label={{ value: 'Shooting Efficiency %', angle: -90, position: 'insideLeft', fontSize: 11, fill: '#8a9bb5' }} />
             <ZAxis type="number" dataKey="minutesPerGame" range={[50, 400]} />
             <Tooltip content={<CustomTooltip />} />
-            <Legend />
-            <Scatter name="Players" data={data} fill="#2D68C4" fillOpacity={0.6} />
+            <Legend wrapperStyle={{ fontSize: 11, color: '#8a9bb5' }} />
+            <Scatter name="Players" data={data} fill="#FFD100" fillOpacity={0.7} />
           </ScatterChart>
         </ResponsiveContainer>
       )}

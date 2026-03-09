@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import type { TransferPlayer } from '@/app/data/transferData';
 import { Award, TrendingUp, ExternalLink, ArrowRight } from 'lucide-react';
 
@@ -7,41 +8,43 @@ interface PlayerCardProps {
   isSelected: boolean;
 }
 
-export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
-  const getAvailabilityColor = (availability: string) => {
+export const PlayerCard = memo(function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
+  const getAvailabilityStyle = (availability: string) => {
     switch (availability) {
       case 'Available':
-        return 'bg-green-100 text-green-700 border-green-300';
+        return 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30';
       case 'Considering':
-        return 'bg-yellow-100 text-yellow-700 border-yellow-300';
+        return 'bg-amber-500/15 text-amber-400 border-amber-500/30';
       case 'Committed':
-        return 'bg-red-100 text-red-700 border-red-300';
+        return 'bg-rose-500/15 text-rose-400 border-rose-500/30';
       default:
-        return 'bg-gray-100 text-gray-700 border-gray-300';
+        return 'bg-card-elevated text-muted-foreground border-border';
     }
   };
 
   return (
     <div
       onClick={() => onClick(player)}
-      className={`bg-white border-2 rounded-lg p-4 cursor-pointer transition-all hover:shadow-lg ${
-        isSelected ? 'border-primary shadow-md' : 'border-border'
+      className={`bg-card border rounded-xl p-4 cursor-pointer transition-all hover:bg-card-elevated ${
+        isSelected
+          ? 'border-primary/50 shadow-[0_0_15px_rgba(255,209,0,0.1)]'
+          : 'border-border hover:border-border-highlight'
       }`}
     >
       <div className="flex justify-between items-start mb-3">
         <div>
-          <h3 className="text-lg text-primary mb-1">{player.name}</h3>
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded">
+          <h3 className="text-base font-semibold text-foreground mb-1">{player.name}</h3>
+          <div className="flex items-center gap-1.5 text-xs">
+            <span className="bg-primary/15 text-primary px-2 py-0.5 rounded-md font-medium">
               {player.position}
             </span>
-            <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded">
+            <span className="bg-card-elevated text-muted-foreground px-2 py-0.5 rounded-md">
               {player.year}
             </span>
           </div>
         </div>
         <span
-          className={`px-2 py-1 text-xs rounded border ${getAvailabilityColor(
+          className={`px-2 py-0.5 text-[10px] uppercase tracking-wider font-medium rounded-md border ${getAvailabilityStyle(
             player.availability
           )}`}
         >
@@ -49,20 +52,20 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
         </span>
       </div>
 
-      <div className="text-sm text-muted-foreground mb-3">
-        <Award className="w-4 h-4 inline mr-1" />
-        {player.previousSchool}
+      <div className="text-sm text-muted-foreground mb-3 flex items-center gap-1.5">
+        <Award className="w-3.5 h-3.5 text-primary/60" />
+        <span>{player.previousSchool}</span>
       </div>
 
       {player.transferInfo && (
         <div className="text-sm mb-3 space-y-1">
-          <span className="bg-accent text-accent-foreground px-2 py-0.5 rounded text-xs">
+          <span className="bg-primary/10 text-primary px-2 py-0.5 rounded-md text-[10px] uppercase tracking-wider font-medium">
             {player.transferInfo.classYear}
           </span>
-          <div className="flex items-center gap-1.5 text-sm">
+          <div className="flex items-center gap-1.5 text-sm text-foreground">
             <span>{player.transferInfo.previousTeam}</span>
-            <ArrowRight className="w-3.5 h-3.5 text-muted-foreground" />
-            <span className={player.transferInfo.newTeam ? 'font-medium' : 'text-muted-foreground italic'}>
+            <ArrowRight className="w-3.5 h-3.5 text-primary/50" />
+            <span className={player.transferInfo.newTeam ? 'font-medium text-primary' : 'text-muted-foreground italic'}>
               {player.transferInfo.newTeam ?? 'TBD'}
             </span>
           </div>
@@ -71,75 +74,75 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
 
       <div className="grid grid-cols-4 gap-3 pt-3 border-t border-border">
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">PPG</div>
-          <div className="text-primary">{player.stats.ppg}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">PPG</div>
+          <div className="text-sm font-semibold text-primary">{player.stats.ppg}</div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">RPG</div>
-          <div className="text-primary">{player.stats.rpg}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">RPG</div>
+          <div className="text-sm font-semibold text-foreground">{player.stats.rpg}</div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">APG</div>
-          <div className="text-primary">{player.stats.apg}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">APG</div>
+          <div className="text-sm font-semibold text-foreground">{player.stats.apg}</div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">FG%</div>
-          <div className="text-primary">{player.stats.fgPercentage.toFixed(1)}%</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">FG%</div>
+          <div className="text-sm font-semibold text-foreground">{player.stats.fgPercentage.toFixed(1)}%</div>
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-3 mt-3 pt-3 border-t border-border">
+      <div className="grid grid-cols-3 gap-3 mt-2 pt-2 border-t border-border">
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">3PT%</div>
-          <div className="text-sm">
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">3PT%</div>
+          <div className="text-xs text-foreground">
             {player.stats.threePointPercentage > 0
               ? `${player.stats.threePointPercentage.toFixed(1)}%`
               : 'N/A'}
           </div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">FT%</div>
-          <div className="text-sm">{player.stats.ftPercentage.toFixed(1)}%</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">FT%</div>
+          <div className="text-xs text-foreground">{player.stats.ftPercentage.toFixed(1)}%</div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">MPG</div>
-          <div className="text-sm">{player.stats.minutesPerGame.toFixed(1)}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">MPG</div>
+          <div className="text-xs text-foreground">{player.stats.minutesPerGame.toFixed(1)}</div>
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-3 mt-3 pt-3 border-t border-border">
+      <div className="grid grid-cols-3 gap-3 mt-2 pt-2 border-t border-border">
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">TS%</div>
-          <div className="text-sm">{player.stats.tsPercentage > 0 ? `${player.stats.tsPercentage.toFixed(1)}%` : 'N/A'}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">TS%</div>
+          <div className="text-xs text-foreground">{player.stats.tsPercentage > 0 ? `${player.stats.tsPercentage.toFixed(1)}%` : 'N/A'}</div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">OBPM</div>
-          <div className="text-sm">{player.stats.obpm !== 0 ? player.stats.obpm.toFixed(1) : 'N/A'}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">OBPM</div>
+          <div className="text-xs text-foreground">{player.stats.obpm !== 0 ? player.stats.obpm.toFixed(1) : 'N/A'}</div>
         </div>
         <div className="text-center">
-          <div className="text-xs text-muted-foreground mb-1">DBPM</div>
-          <div className="text-sm">{player.stats.dbpm !== 0 ? player.stats.dbpm.toFixed(1) : 'N/A'}</div>
+          <div className="text-[10px] text-muted-foreground uppercase tracking-wider mb-0.5">DBPM</div>
+          <div className="text-xs text-foreground">{player.stats.dbpm !== 0 ? player.stats.dbpm.toFixed(1) : 'N/A'}</div>
         </div>
       </div>
 
       {player.playerLink && (
-        <div className="mt-3 pt-3 border-t border-border">
+        <div className="mt-3 pt-2 border-t border-border">
           <a
             href={player.playerLink}
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
-            className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline"
+            className="inline-flex items-center gap-1.5 text-xs text-primary hover:text-primary/80 transition-colors"
           >
-            <ExternalLink className="w-3.5 h-3.5" />
+            <ExternalLink className="w-3 h-3" />
             View Profile
           </a>
         </div>
       )}
 
       {isSelected && (
-        <div className="mt-3 pt-3 border-t border-primary/20">
-          <div className="flex items-center gap-1 text-xs text-primary">
+        <div className="mt-2 pt-2 border-t border-primary/20">
+          <div className="flex items-center gap-1 text-[10px] uppercase tracking-wider text-primary font-medium">
             <TrendingUp className="w-3 h-3" />
             Selected for comparison
           </div>
@@ -147,4 +150,4 @@ export function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
       )}
     </div>
   );
-}
+});

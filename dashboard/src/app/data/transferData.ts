@@ -5,6 +5,7 @@
 
 import type { GoldPlayerPerGame, TransferPlayer, TransferStatus } from './schema';
 import { goldToTransferPlayer, mapClassRank } from './schema';
+import { getConference } from './conferences';
 
 export type { TransferPlayer } from './schema';
 
@@ -153,6 +154,9 @@ export function getTransferPlayers(): TransferPlayer[] {
         availability: 'Available',
       }),
     };
+
+    // Set conference from school slug
+    player.conference = getConference(r.school || '');
 
     // Cross-reference with advanced stats
     const advanced = advancedMap.get(r.player_sr_link || '');

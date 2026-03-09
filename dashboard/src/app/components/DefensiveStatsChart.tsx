@@ -25,21 +25,21 @@ export function DefensiveStatsChart({ players }: DefensiveStatsChartProps) {
   }));
 
   return (
-    <div className="bg-white border border-border rounded-lg p-6 shadow-sm">
-      <h3 className="text-primary mb-4">Defensive Impact Analysis</h3>
+    <div className="bg-card border border-border rounded-xl p-6">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground mb-4">Defensive Impact Analysis</h3>
       {data.length === 0 ? (
-        <div className="h-[300px] flex items-center justify-center text-muted-foreground">No data</div>
+        <div className="h-[300px] flex items-center justify-center text-muted-foreground text-sm">No data</div>
       ) : (
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={data}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-            <XAxis dataKey="name" tick={{ fontSize: 12 }} />
-            <YAxis tick={{ fontSize: 12 }} />
-            <Tooltip contentStyle={{ backgroundColor: '#fff', border: '1px solid #e5e7eb', borderRadius: '8px' }} />
-            <Legend />
-            <Line type="monotone" dataKey="Steals" stroke="#2D68C4" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
-            <Line type="monotone" dataKey="Blocks" stroke="#FFD100" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
-            <Line type="monotone" dataKey="Def Rating" stroke="#005587" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+            <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#8a9bb5' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} tickLine={false} />
+            <YAxis tick={{ fontSize: 11, fill: '#8a9bb5' }} axisLine={{ stroke: 'rgba(255,255,255,0.08)' }} tickLine={false} />
+            <Tooltip contentStyle={{ backgroundColor: '#1c2d3f', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '10px', color: '#e8edf2' }} />
+            <Legend wrapperStyle={{ fontSize: 11, color: '#8a9bb5' }} />
+            <Line type="monotone" dataKey="Steals" stroke="#FFD100" strokeWidth={2} dot={{ r: 4, fill: '#FFD100' }} activeDot={{ r: 6 }} />
+            <Line type="monotone" dataKey="Blocks" stroke="#3b82f6" strokeWidth={2} dot={{ r: 4, fill: '#3b82f6' }} activeDot={{ r: 6 }} />
+            <Line type="monotone" dataKey="Def Rating" stroke="#8BB8E8" strokeWidth={2} dot={{ r: 4, fill: '#8BB8E8' }} activeDot={{ r: 6 }} />
           </LineChart>
         </ResponsiveContainer>
       )}

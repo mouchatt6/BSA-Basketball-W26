@@ -1,31 +1,58 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: oklch(0.145 0 0);
-  --card: #ffffff;
-  --card-foreground: oklch(0.145 0 0);
-  --primary: #2D68C4;
-  --primary-foreground: oklch(1 0 0);
-  --secondary: #FFD100;
-  --secondary-foreground: #030213;
-  --muted: #ececf0;
-  --muted-foreground: #717182;
+  --background: #0f1923;
+  --foreground: #e8edf2;
+  --card: #162231;
+  --card-foreground: #e8edf2;
+  --card-elevated: #1c2d3f;
+  --primary: #FFD100;
+  --primary-foreground: #0f1923;
+  --secondary: #3b82f6;
+  --secondary-foreground: #ffffff;
+  --muted: #1c2d3f;
+  --muted-foreground: #8a9bb5;
   --accent: #FFD100;
-  --accent-foreground: #030213;
-  --border: rgba(0, 0, 0, 0.1);
-  --ring: #2D68C4;
-  --radius: 0.625rem;
+  --accent-foreground: #0f1923;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-highlight: rgba(255, 209, 0, 0.2);
+  --ring: #FFD100;
+  --radius: 0.75rem;
+  --shadow-glow: 0 0 20px rgba(255, 209, 0, 0.05);
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --header-gradient-from: #0a1219;
+  --header-gradient-via: #0f1923;
+  --header-gradient-to: #0a1219;
+  --header-glow: radial-gradient(ellipse at top right, rgba(255, 209, 0, 0.08) 0%, transparent 60%);
+  --selection-foreground: #ffffff;
+  color-scheme: dark;
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --border: oklch(0.269 0 0);
+:root[data-theme='light'] {
+  --background: #f6f8fc;
+  --foreground: #102132;
+  --card: #ffffff;
+  --card-foreground: #102132;
+  --card-elevated: #eef3fa;
+  --primary: #d4a900;
+  --primary-foreground: #102132;
+  --secondary: #1d4ed8;
+  --secondary-foreground: #ffffff;
+  --muted: #e4ebf5;
+  --muted-foreground: #58708d;
+  --accent: #d4a900;
+  --accent-foreground: #102132;
+  --border: rgba(16, 33, 50, 0.14);
+  --border-highlight: rgba(212, 169, 0, 0.32);
+  --ring: #d4a900;
+  --shadow-glow: 0 0 20px rgba(212, 169, 0, 0.08);
+  --header-gradient-from: #e8eff9;
+  --header-gradient-via: #f6f8fc;
+  --header-gradient-to: #e8eff9;
+  --header-glow: radial-gradient(ellipse at top right, rgba(212, 169, 0, 0.16) 0%, transparent 60%);
+  --selection-foreground: #102132;
+  color-scheme: light;
 }
 
 @theme inline {
@@ -33,6 +60,8 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
@@ -40,5 +69,7 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
+  --color-card-elevated: var(--card-elevated);
+  --color-border-highlight: var(--border-highlight);
   --radius-lg: var(--radius);
 }

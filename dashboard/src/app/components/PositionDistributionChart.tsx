@@ -19,10 +19,10 @@ function CustomTooltip({
     const percentage = total ? ((value / total) * 100).toFixed(1) : '0';
     const name = payload[0].name ?? '';
     return (
-      <div className="bg-white border border-border rounded-lg p-3 shadow-lg">
-        <p className="font-medium text-primary">{name}</p>
-        <p className="text-sm">Players: {value}</p>
-        <p className="text-sm">Percentage: {percentage}%</p>
+      <div className="bg-card-elevated border border-border rounded-xl p-3 shadow-xl">
+        <p className="font-semibold text-primary text-sm">{name}</p>
+        <p className="text-xs text-muted-foreground mt-1">Players: <span className="text-foreground">{value}</span></p>
+        <p className="text-xs text-muted-foreground">Percentage: <span className="text-foreground">{percentage}%</span></p>
       </div>
     );
   }
@@ -40,13 +40,13 @@ export function PositionDistributionChart({ players }: PositionDistributionChart
     value: count,
   }));
 
-  const COLORS = ['#2D68C4', '#FFD100', '#8BB8E8', '#005587', '#FFC72C'];
+  const COLORS = ['#FFD100', '#3b82f6', '#8BB8E8', '#005587', '#FFC72C'];
 
   return (
-    <div className="bg-white border border-border rounded-lg p-6 shadow-sm">
-      <h3 className="text-primary mb-4">Position Distribution</h3>
+    <div className="bg-card border border-border rounded-xl p-6">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground mb-4">Position Distribution</h3>
       {data.length === 0 ? (
-        <div className="h-[300px] flex items-center justify-center text-muted-foreground">No data</div>
+        <div className="h-[300px] flex items-center justify-center text-muted-foreground text-sm">No data</div>
       ) : (
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
@@ -65,7 +65,7 @@ export function PositionDistributionChart({ players }: PositionDistributionChart
               ))}
             </Pie>
             <Tooltip content={<CustomTooltip total={players.length} />} />
-            <Legend />
+            <Legend wrapperStyle={{ fontSize: 11, color: '#8a9bb5' }} />
           </PieChart>
         </ResponsiveContainer>
       )}
