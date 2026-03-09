@@ -56,6 +56,7 @@ export interface TransferPlayer {
   name: string;
   position: Position;
   previousSchool: string;
+  conference: string;
   year: Year;
   height: string;
   stats: {
@@ -92,6 +93,7 @@ export function goldToTransferPlayer(
     name: overrides?.name ?? `Player ${row.player_key ?? index}`,
     position,
     previousSchool: overrides?.previousSchool ?? row.team_name_abbr ?? 'Unknown',
+    conference: '',
     year: overrides?.year ?? 'Junior',
     height: overrides?.height ?? '—',
     stats: {

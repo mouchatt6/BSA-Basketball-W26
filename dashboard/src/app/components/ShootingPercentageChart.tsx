@@ -50,20 +50,20 @@ export function ShootingPercentageChart({ players }: ShootingPercentageChartProp
     },
   ];
 
-  const colors = ['#2D68C4', '#FFD100', '#005587'];
+  const colors = ['#FFD100', '#3b82f6', '#8BB8E8'];
 
   return (
-    <div className="bg-white border border-border rounded-lg p-6 shadow-sm">
-      <h3 className="text-primary mb-4">Player Performance Radar</h3>
+    <div className="bg-card border border-border rounded-xl p-6">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground mb-4">Player Performance Radar</h3>
       {selectedPlayers.length === 0 ? (
-        <div className="h-[300px] flex items-center justify-center text-muted-foreground">Select players to compare</div>
+        <div className="h-[300px] flex items-center justify-center text-muted-foreground text-sm">Select players to compare</div>
       ) : (
         <ResponsiveContainer width="100%" height={300}>
           <RadarChart data={data}>
-            <PolarGrid stroke="#e5e7eb" />
-            <PolarAngleAxis dataKey="metric" tick={{ fontSize: 12 }} />
-            <PolarRadiusAxis angle={90} domain={[0, 100]} tick={{ fontSize: 10 }} />
-            <Tooltip contentStyle={{ backgroundColor: '#fff', border: '1px solid #e5e7eb', borderRadius: '8px' }} />
+            <PolarGrid stroke="rgba(255,255,255,0.08)" />
+            <PolarAngleAxis dataKey="metric" tick={{ fontSize: 11, fill: '#8a9bb5' }} />
+            <PolarRadiusAxis angle={90} domain={[0, 100]} tick={{ fontSize: 10, fill: '#8a9bb5' }} />
+            <Tooltip contentStyle={{ backgroundColor: '#1c2d3f', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '10px', color: '#e8edf2' }} />
             {selectedPlayers.map((player, index) => (
               <Radar
                 key={player.id}
@@ -71,10 +71,10 @@ export function ShootingPercentageChart({ players }: ShootingPercentageChartProp
                 dataKey={player.name.split(' ')[1] || player.name}
                 stroke={colors[index]}
                 fill={colors[index]}
-                fillOpacity={0.3}
+                fillOpacity={0.2}
               />
             ))}
-            <Legend />
+            <Legend wrapperStyle={{ fontSize: 11, color: '#8a9bb5' }} />
           </RadarChart>
         </ResponsiveContainer>
       )}

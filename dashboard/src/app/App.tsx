@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback, useRef, useEffect, memo } from 'react';
 import { Header } from './components/Header';
 import { FilterPanel, type FilterState } from './components/FilterPanel';
 import { SortPanel, type SortState } from './components/SortPanel';
@@ -11,7 +11,70 @@ import { PositionDistributionChart } from './components/PositionDistributionChar
 import { DefensiveStatsChart } from './components/DefensiveStatsChart';
 import { PlayerComparisonModal } from './components/PlayerComparisonModal';
 import { getTransferPlayers, type TransferPlayer } from './data/transferData';
+import { ALL_CONFERENCES } from './data/conferences';
 import { BarChart3, GitCompare, Search } from 'lucide-react';
+
+type Theme = 'dark' | 'light';
+const THEME_STORAGE_KEY = 'bsa-dashboard-theme';
+
+// Memoized chart section to avoid re-renders when only player list changes
+const ChartSection = memo(function ChartSection({
+  displayPlayers,
+  filteredPlayers,
+  selectedCount,
+}: {
+  displayPlayers: TransferPlayer[];
+  filteredPlayers: TransferPlayer[];
+  selectedCount: number;
+}) {
+  // Cap chart data to top 30 by PPG for readability and performance
+  const chartPlayers = useMemo(() => {
+    if (displayPlayers.length <= 30) return displayPlayers;
+    return [...displayPlayers].sort((a, b) => b.stats.ppg - a.stats.ppg).slice(0, 30);
+  }, [displayPlayers]);
+
+  return (
+    <>
+      <div className="mb-6">
+        <div className="flex items-center gap-3 mb-2">
+          <div className="w-1 h-6 bg-primary rounded-full" />
+          <h2 className="text-xl font-bold text-foreground">Analytics Dashboard</h2>
+        </div>
+        <p className="text-xs text-muted-foreground ml-4">
+          {selectedCount > 0
+            ? `Viewing analytics for selected players (${selectedCount})`
+            : `Viewing top ${chartPlayers.length} of ${displayPlayers.length} filtered players (by PPG)`}
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        <PointsComparisonChart players={chartPlayers} />
+        <StatsScatterChart players={chartPlayers} />
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        <ShootingPercentageChart players={chartPlayers} />
+        <PositionDistributionChart players={filteredPlayers} />
+      </div>
+
+      <div className="grid grid-cols-1 gap-6">
+        <DefensiveStatsChart players={chartPlayers} />
+      </div>
+    </>
+  );
+});
+
+function useDebouncedValue<T>(value: T, delay: number): T {
+  const [debounced, setDebounced] = useState(value);
+  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+
+  useEffect(() => {
+    timerRef.current = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(timerRef.current);
+  }, [value, delay]);
+
+  return debounced;
+}
 
 export default function App() {
   const players = useMemo(() => getTransferPlayers(), []);
@@ -22,18 +85,32 @@ export default function App() {
     availability: [],
     classYear: [],
     team: [],
+    conference: [],
     ppgMin: 0,
     ppgMax: 30,
+    minGames: 0,
+    minMPG: 0,
     transferOnly: false,
   });
 
   const [selectedPlayers, setSelectedPlayers] = useState<TransferPlayer[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
+  const debouncedSearch = useDebouncedValue(searchQuery, 200);
   const [sort, setSort] = useState<SortState>({ field: null, direction: 'desc' });
   const [showComparisonModal, setShowComparisonModal] = useState(false);
+  const [displayLimit, setDisplayLimit] = useState(10);
+  const [theme, setTheme] = useState<Theme>(() => {
+    const storedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
+    return storedTheme === 'light' ? 'light' : 'dark';
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+  }, [theme]);
 
   const filteredPlayers = useMemo(() => {
-    const query = searchQuery.toLowerCase();
+    const query = debouncedSearch.toLowerCase();
     return players.filter((player) => {
       if (filters.transferOnly && !player.transferInfo) return false;
       if (query && !player.name.toLowerCase().includes(query) && !player.previousSchool.toLowerCase().includes(query)) return false;
@@ -41,10 +118,13 @@ export default function App() {
       if (filters.availability.length > 0 && !filters.availability.includes(player.availability)) return false;
       if (filters.classYear.length > 0 && !filters.classYear.includes(player.year)) return false;
       if (filters.team.length > 0 && !filters.team.includes(player.previousSchool)) return false;
+      if (filters.conference.length > 0 && !filters.conference.includes(player.conference)) return false;
       if (player.stats.ppg < filters.ppgMin || player.stats.ppg > filters.ppgMax) return false;
+      if (player.stats.gamesPlayed < filters.minGames) return false;
+      if (player.stats.minutesPerGame < filters.minMPG) return false;
       return true;
     });
-  }, [players, filters, searchQuery]);
+  }, [players, filters, debouncedSearch]);
 
   const sortedPlayers = useMemo(() => {
     if (!sort.field) return filteredPlayers;
@@ -57,23 +137,30 @@ export default function App() {
     });
   }, [filteredPlayers, sort]);
 
-  const MAX_DISPLAY = 20;
-  const cappedPlayers = sortedPlayers.slice(0, MAX_DISPLAY);
+  const cappedPlayers = sortedPlayers.slice(0, displayLimit);
 
-  const handlePlayerClick = (player: TransferPlayer) => {
+  const selectedIds = useMemo(() => new Set(selectedPlayers.map((p) => p.id)), [selectedPlayers]);
+
+  const handlePlayerClick = useCallback((player: TransferPlayer) => {
     setSelectedPlayers((prev) => {
       const isSelected = prev.some((p) => p.id === player.id);
       if (isSelected) return prev.filter((p) => p.id !== player.id);
       if (prev.length >= 3) return [...prev.slice(1), player];
       return [...prev, player];
     });
-  };
+  }, []);
 
-  const displayPlayers = selectedPlayers.length > 0 ? selectedPlayers : filteredPlayers;
+  const displayPlayers = useMemo(
+    () => (selectedPlayers.length > 0 ? selectedPlayers : filteredPlayers),
+    [selectedPlayers, filteredPlayers]
+  );
+  const handleThemeToggle = useCallback(() => {
+    setTheme((previousTheme) => (previousTheme === 'dark' ? 'light' : 'dark'));
+  }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header playerCount={filteredPlayers.length} />
+    <div className="min-h-screen bg-background text-foreground">
+      <Header playerCount={filteredPlayers.length} theme={theme} onThemeToggle={handleThemeToggle} />
 
       <div className="max-w-7xl mx-auto px-6 py-8">
         <div className="mb-8">
@@ -82,23 +169,23 @@ export default function App() {
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-8">
           <div className="lg:col-span-1">
-            <FilterPanel filters={filters} onFilterChange={setFilters} teams={allTeams} />
+            <FilterPanel filters={filters} onFilterChange={setFilters} teams={allTeams} conferences={ALL_CONFERENCES} />
           </div>
 
           <div className="lg:col-span-3">
-            <div className="bg-white border border-border rounded-lg p-6 shadow-sm mb-6">
+            <div className="bg-card border border-border rounded-xl p-6 mb-6">
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-primary">All Players</h2>
+                <h2 className="text-lg font-semibold text-foreground">All Players</h2>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
                   {selectedPlayers.length > 0 && (
-                    <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm">
+                    <span className="bg-primary/15 text-primary px-3 py-1 rounded-lg text-xs font-medium border border-primary/20">
                       {selectedPlayers.length} selected
                     </span>
                   )}
                   {selectedPlayers.length >= 2 && (
                     <button
                       onClick={() => setShowComparisonModal(true)}
-                      className="flex items-center gap-1 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm hover:opacity-90 transition-opacity"
+                      className="flex items-center gap-1.5 bg-primary text-primary-foreground px-3 py-1 rounded-lg text-xs font-medium hover:bg-primary/90 transition-colors shadow-[0_0_10px_rgba(255,209,0,0.2)]"
                     >
                       <GitCompare className="w-3.5 h-3.5" />
                       Compare
@@ -106,7 +193,7 @@ export default function App() {
                   )}
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground mb-4">
+              <p className="text-xs text-muted-foreground mb-4">
                 Click on players to select them for comparison in the charts below (max 3)
               </p>
               <div className="relative mb-4">
@@ -116,13 +203,27 @@ export default function App() {
                   placeholder="Search by player name or school..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 border border-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
+                  className="w-full pl-10 pr-4 py-2.5 bg-card-elevated border border-border rounded-lg text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary/40 focus:border-primary/40"
                 />
               </div>
-              {sortedPlayers.length > MAX_DISPLAY && (
-                <p className="text-sm text-muted-foreground mb-4">
-                  Showing {MAX_DISPLAY} of {sortedPlayers.length} results
-                </p>
+              {sortedPlayers.length > displayLimit && (
+                <div className="flex items-center gap-2 text-xs text-muted-foreground mb-4">
+                  <span>Showing</span>
+                  <input
+                    type="number"
+                    min={1}
+                    max={sortedPlayers.length}
+                    value={displayLimit}
+                    onChange={(e) => {
+                      const nextValue = Number(e.target.value);
+                      if (Number.isNaN(nextValue)) return;
+                      const clampedValue = Math.max(1, Math.min(sortedPlayers.length, Math.floor(nextValue)));
+                      setDisplayLimit(clampedValue);
+                    }}
+                    className="w-20 px-2 py-1 bg-card-elevated border border-border rounded text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary/40 focus:border-primary/40"
+                  />
+                  <span>of {sortedPlayers.length} results</span>
+                </div>
               )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {cappedPlayers.map((player) => (
@@ -130,13 +231,13 @@ export default function App() {
                     key={player.id}
                     player={player}
                     onClick={handlePlayerClick}
-                    isSelected={selectedPlayers.some((p) => p.id === player.id)}
+                    isSelected={selectedIds.has(player.id)}
                   />
                 ))}
               </div>
               {filteredPlayers.length === 0 && (
                 <div className="text-center py-12 text-muted-foreground">
-                  <BarChart3 className="w-12 h-12 mx-auto mb-3 opacity-50" />
+                  <BarChart3 className="w-12 h-12 mx-auto mb-3 opacity-30" />
                   <p>No players match the current filters</p>
                 </div>
               )}
@@ -148,32 +249,15 @@ export default function App() {
           </div>
         </div>
 
-        <div className="mb-6">
-          <h2 className="text-primary mb-4">Analytics Dashboard</h2>
-          <p className="text-sm text-muted-foreground mb-6">
-            {selectedPlayers.length > 0
-              ? `Viewing analytics for selected players (${selectedPlayers.length})`
-              : 'Viewing analytics for all filtered players'}
-          </p>
-        </div>
+        <ChartSection
+          displayPlayers={displayPlayers}
+          filteredPlayers={filteredPlayers}
+          selectedCount={selectedPlayers.length}
+        />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <PointsComparisonChart players={displayPlayers} />
-          <StatsScatterChart players={displayPlayers} />
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <ShootingPercentageChart players={displayPlayers} />
-          <PositionDistributionChart players={filteredPlayers} />
-        </div>
-
-        <div className="grid grid-cols-1 gap-6">
-          <DefensiveStatsChart players={displayPlayers} />
-        </div>
-
-        <div className="mt-8 text-center text-sm text-muted-foreground border-t border-border pt-6">
-          <p>Bruin Sports Analaytics WBB Stats & Recruiting Dashboard</p>
-          <p className="mt-1">Data: Sports Reference 2024-25 season</p>
+        <div className="mt-10 text-center text-xs text-muted-foreground border-t border-border pt-6">
+          <p className="uppercase tracking-wider">Bruin Sports Analytics WBB Stats & Recruiting Dashboard</p>
+          <p className="mt-1 opacity-60">Data: Sports Reference 2024-25 season</p>
         </div>
       </div>
 

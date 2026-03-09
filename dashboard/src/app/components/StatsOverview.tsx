@@ -12,10 +12,10 @@ export function StatsOverview({ players }: StatsOverviewProps) {
         {['Avg PPG', 'Avg RPG', 'Avg APG', 'Avg FG%'].map((label) => (
           <div
             key={label}
-            className="bg-white border border-border rounded-lg p-5 shadow-sm"
+            className="bg-card border border-border rounded-xl p-5"
           >
             <p className="text-sm text-muted-foreground mb-1">{label}</p>
-            <p className="text-2xl text-primary">—</p>
+            <p className="text-2xl font-bold text-foreground">—</p>
           </div>
         ))}
       </div>
@@ -36,10 +36,10 @@ export function StatsOverview({ players }: StatsOverviewProps) {
   ).toFixed(1);
 
   const stats = [
-    { label: 'Avg PPG', value: avgPPG, icon: Goal, color: 'bg-blue-50 text-blue-600' },
-    { label: 'Avg RPG', value: avgRPG, icon: BrickWall, color: 'bg-yellow-50 text-yellow-600' },
-    { label: 'Avg APG', value: avgAPG, icon: Forward, color: 'bg-green-50 text-green-600' },
-    { label: 'Avg FG%', value: `${avgFG}%`, icon: Award, color: 'bg-purple-50 text-purple-600' },
+    { label: 'Avg PPG', value: avgPPG, icon: Goal, accent: 'from-yellow-500/20 to-transparent', iconColor: 'text-yellow-400' },
+    { label: 'Avg RPG', value: avgRPG, icon: BrickWall, accent: 'from-blue-500/20 to-transparent', iconColor: 'text-blue-400' },
+    { label: 'Avg APG', value: avgAPG, icon: Forward, accent: 'from-emerald-500/20 to-transparent', iconColor: 'text-emerald-400' },
+    { label: 'Avg FG%', value: `${avgFG}%`, icon: Award, accent: 'from-purple-500/20 to-transparent', iconColor: 'text-purple-400' },
   ];
 
   return (
@@ -49,15 +49,16 @@ export function StatsOverview({ players }: StatsOverviewProps) {
         return (
           <div
             key={stat.label}
-            className="bg-white border border-border rounded-lg p-5 shadow-sm"
+            className="relative overflow-hidden bg-card border border-border rounded-xl p-5 hover:border-border-highlight transition-colors"
           >
-            <div className="flex items-center justify-between">
+            <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl ${stat.accent} rounded-bl-full`} />
+            <div className="relative flex items-center justify-between">
               <div>
-                <p className="text-sm text-muted-foreground mb-1">{stat.label}</p>
-                <p className="text-2xl text-primary">{stat.value}</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-wider mb-2">{stat.label}</p>
+                <p className="text-3xl font-bold text-foreground">{stat.value}</p>
               </div>
-              <div className={`p-3 rounded-lg ${stat.color}`}>
-                <Icon className="w-6 h-6" />
+              <div className={`p-3 rounded-xl bg-card-elevated ${stat.iconColor}`}>
+                <Icon className="w-5 h-5" />
               </div>
             </div>
           </div>
