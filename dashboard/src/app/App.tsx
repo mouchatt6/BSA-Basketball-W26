@@ -10,8 +10,9 @@ import { StatsScatterChart } from './components/StatsScatterChart';
 import { PositionDistributionChart } from './components/PositionDistributionChart';
 import { DefensiveStatsChart } from './components/DefensiveStatsChart';
 import { PlayerComparisonModal } from './components/PlayerComparisonModal';
-import { getTransferPlayers, type TransferPlayer } from './data/transferData';
+import type { TransferPlayer } from './data/transferData';
 import { ALL_CONFERENCES } from './data/conferences';
+import { YearDataProvider, useYearData } from './data/YearDataContext';
 import { BarChart3, GitCompare, Search } from 'lucide-react';
 
 type Theme = 'dark' | 'light';
@@ -76,22 +77,25 @@ function useDebouncedValue<T>(value: T, delay: number): T {
   return debounced;
 }
 
-export default function App() {
-  const players = useMemo(() => getTransferPlayers(), []);
+const DEFAULT_FILTERS: FilterState = {
+  position: [],
+  availability: [],
+  classYear: [],
+  team: [],
+  conference: [],
+  ppgMin: 0,
+  ppgMax: 30,
+  minGames: 0,
+  minMPG: 0,
+  transferOnly: false,
+};
+
+function AppInner() {
+  const [activeYear, setActiveYear] = useState(2025);
+  const { players, isLoading: yearLoading } = useYearData(activeYear);
   const allTeams = useMemo(() => [...new Set(players.map((p) => p.previousSchool))].sort(), [players]);
 
-  const [filters, setFilters] = useState<FilterState>({
-    position: [],
-    availability: [],
-    classYear: [],
-    team: [],
-    conference: [],
-    ppgMin: 0,
-    ppgMax: 30,
-    minGames: 0,
-    minMPG: 0,
-    transferOnly: false,
-  });
+  const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
 
   const [selectedPlayers, setSelectedPlayers] = useState<TransferPlayer[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
@@ -109,6 +113,14 @@ export default function App() {
     window.localStorage.setItem(THEME_STORAGE_KEY, theme);
   }, [theme]);
 
+  const handleYearChange = useCallback((year: number) => {
+    setActiveYear(year);
+    setFilters(DEFAULT_FILTERS);
+    setDisplayLimit(10);
+    setSelectedPlayers([]);
+    setSearchQuery('');
+  }, []);
+
   const filteredPlayers = useMemo(() => {
     const query = debouncedSearch.toLowerCase();
     return players.filter((player) => {
@@ -116,7 +128,7 @@ export default function App() {
       if (query && !player.name.toLowerCase().includes(query) && !player.previousSchool.toLowerCase().includes(query)) return false;
       if (filters.position.length > 0 && !filters.position.includes(player.position)) return false;
       if (filters.availability.length > 0 && !filters.availability.includes(player.availability)) return false;
-      if (filters.classYear.length > 0 && !filters.classYear.includes(player.year)) return false;
+      if (filters.classYear.length > 0 && (player.year === null || !filters.classYear.includes(player.year))) return false;
       if (filters.team.length > 0 && !filters.team.includes(player.previousSchool)) return false;
       if (filters.conference.length > 0 && !filters.conference.includes(player.conference)) return false;
       if (player.stats.ppg < filters.ppgMin || player.stats.ppg > filters.ppgMax) return false;
@@ -169,7 +181,14 @@ export default function App() {
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-8">
           <div className="lg:col-span-1">
-            <FilterPanel filters={filters} onFilterChange={setFilters} teams={allTeams} conferences={ALL_CONFERENCES} />
+            <FilterPanel
+              filters={filters}
+              onFilterChange={setFilters}
+              teams={allTeams}
+              conferences={ALL_CONFERENCES}
+              activeYear={activeYear}
+              onYearChange={handleYearChange}
+            />
           </div>
 
           <div className="lg:col-span-3">
@@ -225,21 +244,30 @@ export default function App() {
                   <span>of {sortedPlayers.length} results</span>
                 </div>
               )}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {cappedPlayers.map((player) => (
-                  <PlayerCard
-                    key={player.id}
-                    player={player}
-                    onClick={handlePlayerClick}
-                    isSelected={selectedIds.has(player.id)}
-                  />
-                ))}
-              </div>
-              {filteredPlayers.length === 0 && (
-                <div className="text-center py-12 text-muted-foreground">
-                  <BarChart3 className="w-12 h-12 mx-auto mb-3 opacity-30" />
-                  <p>No players match the current filters</p>
+              {yearLoading ? (
+                <div className="flex items-center justify-center py-16 text-muted-foreground">
+                  <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin mr-3" />
+                  Loading {activeYear} season...
                 </div>
+              ) : (
+                <>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {cappedPlayers.map((player) => (
+                      <PlayerCard
+                        key={player.id}
+                        player={player}
+                        onClick={handlePlayerClick}
+                        isSelected={selectedIds.has(player.id)}
+                      />
+                    ))}
+                  </div>
+                  {filteredPlayers.length === 0 && (
+                    <div className="text-center py-12 text-muted-foreground">
+                      <BarChart3 className="w-12 h-12 mx-auto mb-3 opacity-30" />
+                      <p>No players match the current filters</p>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </div>
@@ -257,7 +285,7 @@ export default function App() {
 
         <div className="mt-10 text-center text-xs text-muted-foreground border-t border-border pt-6">
           <p className="uppercase tracking-wider">Bruin Sports Analytics WBB Stats & Recruiting Dashboard</p>
-          <p className="mt-1 opacity-60">Data: Sports Reference 2024-25 season</p>
+          <p className="mt-1 opacity-60">Data: Sports Reference {activeYear - 1}-{String(activeYear).slice(2)} season</p>
         </div>
       </div>
 
@@ -268,5 +296,13 @@ export default function App() {
         />
       )}
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <YearDataProvider>
+      <AppInner />
+    </YearDataProvider>
   );
 }
