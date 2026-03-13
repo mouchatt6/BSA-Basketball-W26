@@ -92,7 +92,7 @@ const DEFAULT_FILTERS: FilterState = {
 
 function AppInner() {
   const [activeYear, setActiveYear] = useState(2025);
-  const { players, isLoading: yearLoading } = useYearData(activeYear);
+  const { players, isLoading: yearLoading, error: yearError } = useYearData(activeYear);
   const allTeams = useMemo(() => [...new Set(players.map((p) => p.previousSchool))].sort(), [players]);
 
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
@@ -119,6 +119,8 @@ function AppInner() {
     setDisplayLimit(10);
     setSelectedPlayers([]);
     setSearchQuery('');
+    setSort({ field: null, direction: 'desc' });
+    setShowComparisonModal(false);
   }, []);
 
   const filteredPlayers = useMemo(() => {
@@ -244,7 +246,11 @@ function AppInner() {
                   <span>of {sortedPlayers.length} results</span>
                 </div>
               )}
-              {yearLoading ? (
+              {yearError ? (
+                <div className="text-center py-12 text-muted-foreground">
+                  <p>Failed to load {activeYear} season data</p>
+                </div>
+              ) : yearLoading ? (
                 <div className="flex items-center justify-center py-16 text-muted-foreground">
                   <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin mr-3" />
                   Loading {activeYear} season...
