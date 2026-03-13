@@ -1,14 +1,15 @@
 import { memo } from 'react';
 import type { TransferPlayer } from '@/app/data/transferData';
-import { Award, TrendingUp, ExternalLink, ArrowRight } from 'lucide-react';
+import { Award, TrendingUp, ExternalLink, ArrowRight, History } from 'lucide-react';
 
 interface PlayerCardProps {
   player: TransferPlayer;
   onClick: (player: TransferPlayer) => void;
   isSelected: boolean;
+  onCareerClick: (player: TransferPlayer) => void;
 }
 
-export const PlayerCard = memo(function PlayerCard({ player, onClick, isSelected }: PlayerCardProps) {
+export const PlayerCard = memo(function PlayerCard({ player, onClick, isSelected, onCareerClick }: PlayerCardProps) {
   const getAvailabilityStyle = (availability: string) => {
     switch (availability) {
       case 'Available':
@@ -39,7 +40,7 @@ export const PlayerCard = memo(function PlayerCard({ player, onClick, isSelected
               {player.position}
             </span>
             <span className="bg-card-elevated text-muted-foreground px-2 py-0.5 rounded-md">
-              {player.year}
+              {player.year ?? '—'}
             </span>
           </div>
         </div>
@@ -126,7 +127,7 @@ export const PlayerCard = memo(function PlayerCard({ player, onClick, isSelected
       </div>
 
       {player.playerLink && (
-        <div className="mt-3 pt-2 border-t border-border">
+        <div className="mt-3 pt-2 border-t border-border flex items-center gap-4">
           <a
             href={player.playerLink}
             target="_blank"
@@ -137,6 +138,13 @@ export const PlayerCard = memo(function PlayerCard({ player, onClick, isSelected
             <ExternalLink className="w-3 h-3" />
             View Profile
           </a>
+          <button
+            onClick={(e) => { e.stopPropagation(); onCareerClick(player); }}
+            className="inline-flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+          >
+            <History className="w-3 h-3" />
+            Career
+          </button>
         </div>
       )}
 

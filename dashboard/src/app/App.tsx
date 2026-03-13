@@ -10,6 +10,7 @@ import { StatsScatterChart } from './components/StatsScatterChart';
 import { PositionDistributionChart } from './components/PositionDistributionChart';
 import { DefensiveStatsChart } from './components/DefensiveStatsChart';
 import { PlayerComparisonModal } from './components/PlayerComparisonModal';
+import { CareerModal } from './components/CareerModal';
 import type { TransferPlayer } from './data/transferData';
 import { ALL_CONFERENCES } from './data/conferences';
 import { YearDataProvider, useYearData } from './data/YearDataContext';
@@ -155,6 +156,8 @@ function AppInner() {
 
   const selectedIds = useMemo(() => new Set(selectedPlayers.map((p) => p.id)), [selectedPlayers]);
 
+  const [careerPlayer, setCareerPlayer] = useState<TransferPlayer | null>(null);
+
   const handlePlayerClick = useCallback((player: TransferPlayer) => {
     setSelectedPlayers((prev) => {
       const isSelected = prev.some((p) => p.id === player.id);
@@ -162,6 +165,10 @@ function AppInner() {
       if (prev.length >= 3) return [...prev.slice(1), player];
       return [...prev, player];
     });
+  }, []);
+
+  const handleCareerClick = useCallback((player: TransferPlayer) => {
+    setCareerPlayer(player);
   }, []);
 
   const displayPlayers = useMemo(
@@ -264,6 +271,7 @@ function AppInner() {
                         player={player}
                         onClick={handlePlayerClick}
                         isSelected={selectedIds.has(player.id)}
+                        onCareerClick={handleCareerClick}
                       />
                     ))}
                   </div>
@@ -299,6 +307,12 @@ function AppInner() {
         <PlayerComparisonModal
           players={selectedPlayers}
           onClose={() => setShowComparisonModal(false)}
+        />
+      )}
+      {careerPlayer && (
+        <CareerModal
+          player={careerPlayer}
+          onClose={() => setCareerPlayer(null)}
         />
       )}
     </div>
