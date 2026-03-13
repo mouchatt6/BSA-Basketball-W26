@@ -139,28 +139,13 @@ async function fetchText(path: string): Promise<string> {
   return res.text();
 }
 
-export async function fetchYearData(year: number): Promise<TransferPlayer[]> {
-  // Fetch basic + advanced CSVs in parallel (always)
-  const [basicRaw, advancedRaw] = await Promise.all([
-    fetchText(`/data/sr_data_${year}.csv`),
-    fetchText(`/data/sr_advanced_${year}.csv`),
-  ]);
-
-  // For 2025 only: also fetch ON3 and class year data
-  let on3Map = new Map<string, On3TransferRecord>();
-  let classYearMap = new Map<string, string>();
-  if (year === 2025) {
-    const [on3Raw, classYearRaw] = await Promise.all([
-      fetchText('/data/on3_wbb_transfers_2025.csv'),
-      fetchText('/data/sr_class_years_2025.csv'),
-    ]);
-    on3Map = parseOn3Transfers(on3Raw);
-    classYearMap = parseClassYears(classYearRaw);
-  }
-
-  const advancedMap = parseAdvancedStats(advancedRaw);
-  const rows = parseCSV(basicRaw);
-
+function buildPlayers(
+  rows: Record<string, string>[],
+  advancedMap: Map<string, { tsPercentage: number; obpm: number; dbpm: number }>,
+  on3Map: Map<string, On3TransferRecord>,
+  classYearMap: Map<string, string>,
+  year: number
+): TransferPlayer[] {
   return rows.map((r, i) => {
     const gold: GoldPlayerPerGame = {
       player_sr_link: r.player_sr_link,
@@ -180,9 +165,6 @@ export async function fetchYearData(year: number): Promise<TransferPlayer[]> {
       blk_per_g: num(r.blk_per_g),
     };
 
-    // Class year: SR roster data (2025 only) or null.
-    // For 2025 players not found in classYearMap, classYear is null — intentional.
-    // The old 'Junior' fallback is removed; unknown class year is null.
     const srClass = classYearMap.get(r.player_sr_link || '');
     const classYear = srClass ? mapClassRank(srClass) : null;
 
@@ -220,4 +202,34 @@ export async function fetchYearData(year: number): Promise<TransferPlayer[]> {
 
     return player;
   });
+}
+
+export async function fetchYearData(year: number): Promise<TransferPlayer[]> {
+  let on3Map = new Map<string, On3TransferRecord>();
+  let classYearMap = new Map<string, string>();
+
+  if (year === 2025) {
+    // Fetch all 4 CSVs in parallel for 2025
+    const [basicRaw, advancedRaw, on3Raw, classYearRaw] = await Promise.all([
+      fetchText(`/data/sr_data_${year}.csv`),
+      fetchText(`/data/sr_advanced_${year}.csv`),
+      fetchText('/data/on3_wbb_transfers_2025.csv'),
+      fetchText('/data/sr_class_years_2025.csv'),
+    ]);
+    on3Map = parseOn3Transfers(on3Raw);
+    classYearMap = parseClassYears(classYearRaw);
+
+    const advancedMap = parseAdvancedStats(advancedRaw);
+    const rows = parseCSV(basicRaw);
+    return buildPlayers(rows, advancedMap, on3Map, classYearMap, year);
+  } else {
+    // Non-2025: only basic + advanced
+    const [basicRaw, advancedRaw] = await Promise.all([
+      fetchText(`/data/sr_data_${year}.csv`),
+      fetchText(`/data/sr_advanced_${year}.csv`),
+    ]);
+    const advancedMap = parseAdvancedStats(advancedRaw);
+    const rows = parseCSV(basicRaw);
+    return buildPlayers(rows, advancedMap, on3Map, classYearMap, year);
+  }
 }
