@@ -13,6 +13,8 @@ interface CareerSeason {
   year: number;
   season: string;
   school: string;
+  position: string;
+  cls: string;
   gp: number;
   ppg: number;
   rpg: number;
@@ -102,6 +104,8 @@ export function CareerModal({ player, onClose }: CareerModalProps) {
         year,
         season: `${year - 1}-${String(year).slice(2)}`,
         school: found.previousSchool,
+        position: found.position ?? '',
+        cls: found.year ?? '',
         gp: found.stats.gamesPlayed,
         ppg: found.stats.ppg,
         rpg: found.stats.rpg,
@@ -249,7 +253,7 @@ export function CareerModal({ player, onClose }: CareerModalProps) {
                 <table className="w-full text-xs">
                   <thead>
                     <tr className="border-b border-border">
-                      {['Season', 'School', 'GP', 'PPG', 'RPG', 'APG', 'FG%', '3P%', 'FT%', 'MPG', 'TS%', 'OBPM', 'DBPM'].map(col => (
+                      {['Season', 'School', 'Pos', 'Class', 'GP', 'PPG', 'RPG', 'APG', 'FG%', '3P%', 'FT%', 'MPG', 'TS%', 'OBPM', 'DBPM'].map(col => (
                         <th key={col} className="pb-2 pr-3 text-left text-[10px] uppercase tracking-wider text-muted-foreground font-medium">
                           {col}
                         </th>
@@ -261,6 +265,8 @@ export function CareerModal({ player, onClose }: CareerModalProps) {
                       <tr key={s.year} className="border-b border-border/50 hover:bg-card-elevated transition-colors">
                         <td className="py-2 pr-3 font-medium text-foreground">{s.season}</td>
                         <td className="py-2 pr-3 text-muted-foreground">{s.school}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.position || '—'}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.cls || '—'}</td>
                         <td className="py-2 pr-3 text-foreground">{s.gp}</td>
                         <td className="py-2 pr-3 text-primary font-semibold">{s.ppg.toFixed(2)}</td>
                         <td className="py-2 pr-3 text-foreground">{s.rpg.toFixed(2)}</td>

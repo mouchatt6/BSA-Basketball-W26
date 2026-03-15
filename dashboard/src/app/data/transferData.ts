@@ -204,9 +204,18 @@ function buildPlayers(
   });
 }
 
+async function fetchTextOptional(path: string): Promise<string | null> {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) return null;
+    return res.text();
+  } catch {
+    return null;
+  }
+}
+
 export async function fetchYearData(year: number): Promise<TransferPlayer[]> {
   let on3Map = new Map<string, On3TransferRecord>();
-  let classYearMap = new Map<string, string>();
 
   if (year === 2025) {
     // Fetch all 4 CSVs in parallel for 2025
@@ -214,20 +223,21 @@ export async function fetchYearData(year: number): Promise<TransferPlayer[]> {
       fetchText(`/data/sr_data_${year}.csv`),
       fetchText(`/data/sr_advanced_${year}.csv`),
       fetchText('/data/on3_wbb_transfers_2025.csv'),
-      fetchText('/data/sr_class_years_2025.csv'),
+      fetchTextOptional(`/data/sr_class_years_${year}.csv`),
     ]);
     on3Map = parseOn3Transfers(on3Raw);
-    classYearMap = parseClassYears(classYearRaw);
-
+    const classYearMap = classYearRaw ? parseClassYears(classYearRaw) : new Map<string, string>();
     const advancedMap = parseAdvancedStats(advancedRaw);
     const rows = parseCSV(basicRaw);
     return buildPlayers(rows, advancedMap, on3Map, classYearMap, year);
   } else {
-    // Non-2025: only basic + advanced
-    const [basicRaw, advancedRaw] = await Promise.all([
+    // Non-2025: basic + advanced + class years (if scraped)
+    const [basicRaw, advancedRaw, classYearRaw] = await Promise.all([
       fetchText(`/data/sr_data_${year}.csv`),
       fetchText(`/data/sr_advanced_${year}.csv`),
+      fetchTextOptional(`/data/sr_class_years_${year}.csv`),
     ]);
+    const classYearMap = classYearRaw ? parseClassYears(classYearRaw) : new Map<string, string>();
     const advancedMap = parseAdvancedStats(advancedRaw);
     const rows = parseCSV(basicRaw);
     return buildPlayers(rows, advancedMap, on3Map, classYearMap, year);
