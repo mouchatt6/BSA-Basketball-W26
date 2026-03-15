@@ -3,6 +3,7 @@ import { X, TrendingUp, Loader2, AlertCircle, RotateCcw } from 'lucide-react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { useYearDataContext } from '../data/YearDataContext';
 import type { TransferPlayer } from '../data/transferData';
+import { SimilarPlayersSection } from './SimilarPlayersSection';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -261,22 +262,27 @@ export function CareerModal({ player, onClose }: CareerModalProps) {
                         <td className="py-2 pr-3 font-medium text-foreground">{s.season}</td>
                         <td className="py-2 pr-3 text-muted-foreground">{s.school}</td>
                         <td className="py-2 pr-3 text-foreground">{s.gp}</td>
-                        <td className="py-2 pr-3 text-primary font-semibold">{s.ppg.toFixed(1)}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.rpg.toFixed(1)}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.apg.toFixed(1)}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.fgPct > 0 ? `${s.fgPct.toFixed(1)}%` : '—'}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.threePct > 0 ? `${s.threePct.toFixed(1)}%` : '—'}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.ftPct > 0 ? `${s.ftPct.toFixed(1)}%` : '—'}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.mpg.toFixed(1)}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.tsPct > 0 ? `${s.tsPct.toFixed(1)}%` : '—'}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.obpm !== 0 ? s.obpm.toFixed(1) : '—'}</td>
-                        <td className="py-2 pr-3 text-foreground">{s.dbpm !== 0 ? s.dbpm.toFixed(1) : '—'}</td>
+                        <td className="py-2 pr-3 text-primary font-semibold">{s.ppg.toFixed(2)}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.rpg.toFixed(2)}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.apg.toFixed(2)}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.fgPct > 0 ? `${s.fgPct.toFixed(2)}%` : '—'}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.threePct > 0 ? `${s.threePct.toFixed(2)}%` : '—'}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.ftPct > 0 ? `${s.ftPct.toFixed(2)}%` : '—'}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.mpg.toFixed(2)}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.tsPct > 0 ? `${s.tsPct.toFixed(2)}%` : '—'}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.obpm !== 0 ? s.obpm.toFixed(2) : '—'}</td>
+                        <td className="py-2 pr-3 text-foreground">{s.dbpm !== 0 ? s.dbpm.toFixed(2) : '—'}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
             </>
+          )}
+
+          {/* Similar career trajectories */}
+          {player.playerLink && (
+            <SimilarPlayersSection playerLink={player.playerLink} />
           )}
         </div>
       </div>
