@@ -14,6 +14,7 @@ import { CareerModal } from './components/CareerModal';
 import type { TransferPlayer } from './data/transferData';
 import { ALL_CONFERENCES } from './data/conferences';
 import { YearDataProvider, useYearData } from './data/YearDataContext';
+import { SimilarityProvider } from './data/SimilarityContext';
 import { BarChart3, GitCompare, Search } from 'lucide-react';
 
 type Theme = 'dark' | 'light';
@@ -322,7 +323,9 @@ function AppInner() {
 export default function App() {
   return (
     <YearDataProvider>
-      <AppInner />
+      <SimilarityProvider>
+        <AppInner />
+      </SimilarityProvider>
     </YearDataProvider>
   );
 }
