@@ -13,9 +13,11 @@ import { PlayerComparisonModal } from './components/PlayerComparisonModal';
 import { CareerModal } from './components/CareerModal';
 import type { TransferPlayer } from './data/transferData';
 import { ALL_CONFERENCES } from './data/conferences';
-import { YearDataProvider, useYearData } from './data/YearDataContext';
+import { YearDataProvider, useYearData, useYearDataContext } from './data/YearDataContext';
 import { SimilarityProvider } from './data/SimilarityContext';
-import { BarChart3, GitCompare, Search } from 'lucide-react';
+import { BarChart3, GitCompare, Search, Globe } from 'lucide-react';
+
+const ALL_YEARS = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026];
 
 type Theme = 'dark' | 'light';
 const THEME_STORAGE_KEY = 'bsa-dashboard-theme';
@@ -97,11 +99,31 @@ function AppInner() {
   const { players, isLoading: yearLoading, error: yearError } = useYearData(activeYear);
   const allTeams = useMemo(() => [...new Set(players.map((p) => p.previousSchool))].sort(), [players]);
 
+
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
 
   const [selectedPlayers, setSelectedPlayers] = useState<TransferPlayer[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const debouncedSearch = useDebouncedValue(searchQuery, 200);
+  const [allYearsMode, setAllYearsMode] = useState(false);
+  const { cache, loadYear, loadingYears } = useYearDataContext();
+  useEffect(() => {
+    if (allYearsMode) ALL_YEARS.forEach(loadYear);
+  }, [allYearsMode, loadYear]);
+  const allYearsLoading = allYearsMode && ALL_YEARS.some(y => loadingYears.has(y));
+  const allYearsResults = useMemo<TransferPlayer[]>(() => {
+    if (!allYearsMode) return [];
+    const query = debouncedSearch.trim();
+    if (!query) return [];
+    const byLink = new Map<string, TransferPlayer>();
+    for (const year of [...ALL_YEARS].reverse()) {
+      for (const p of cache.get(year) ?? []) {
+        if (!p.name.toLowerCase().includes(query) && !p.previousSchool.toLowerCase().includes(query)) continue;
+        if (!byLink.has(p.playerLink ?? p.id)) byLink.set(p.playerLink ?? p.id, p);
+      }
+    }
+    return [...byLink.values()].sort((a, b) => a.name.localeCompare(b.name));
+  }, [allYearsMode, debouncedSearch, cache]);
   const [sort, setSort] = useState<SortState>({ field: null, direction: 'desc' });
   const [showComparisonModal, setShowComparisonModal] = useState(false);
   const [displayLimit, setDisplayLimit] = useState(10);
@@ -222,20 +244,36 @@ function AppInner() {
                   )}
                 </div>
               </div>
-              <p className="text-xs text-muted-foreground mb-4">
-                Click on players to select them for comparison in the charts below (max 3)
-              </p>
-              <div className="relative mb-4">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-                <input
-                  type="text"
-                  placeholder="Search by player name or school..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2.5 bg-card-elevated border border-border rounded-lg text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary/40 focus:border-primary/40"
-                />
+              {!allYearsMode && (
+                <p className="text-xs text-muted-foreground mb-4">
+                  Click on players to select them for comparison in the charts below (max 3)
+                </p>
+              )}
+              <div className="flex gap-2 mb-4">
+                <div className="relative flex-1">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+                  <input
+                    type="text"
+                    placeholder={allYearsMode ? 'Search all years by player name or school...' : 'Search by player name or school...'}
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full pl-10 pr-4 py-2.5 bg-card-elevated border border-border rounded-lg text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary/40 focus:border-primary/40"
+                  />
+                </div>
+                <button
+                  onClick={() => { setAllYearsMode(m => !m); setSearchQuery(''); }}
+                  title={allYearsMode ? 'Switch to current year only' : 'Search across all years (2017–2026)'}
+                  className={`flex-shrink-0 flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-medium border transition-colors ${
+                    allYearsMode
+                      ? 'bg-primary text-primary-foreground border-primary/50'
+                      : 'bg-card-elevated text-muted-foreground border-border hover:text-foreground'
+                  }`}
+                >
+                  <Globe className="w-3.5 h-3.5" />
+                  All years
+                </button>
               </div>
-              {sortedPlayers.length > displayLimit && (
+              {!allYearsMode && sortedPlayers.length > displayLimit && (
                 <div className="flex items-center gap-2 text-xs text-muted-foreground mb-4">
                   <span>Showing</span>
                   <input
@@ -254,7 +292,31 @@ function AppInner() {
                   <span>of {sortedPlayers.length} results</span>
                 </div>
               )}
-              {yearError ? (
+              {allYearsMode ? (
+                allYearsLoading && allYearsResults.length === 0 ? (
+                  <div className="flex items-center justify-center py-16 text-muted-foreground">
+                    <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin mr-3" />
+                    Loading all seasons...
+                  </div>
+                ) : allYearsResults.length === 0 ? (
+                  <div className="text-center py-12 text-muted-foreground">
+                    <Search className="w-12 h-12 mx-auto mb-3 opacity-30" />
+                    <p>{debouncedSearch.trim() ? 'No players found across all years' : 'Type a name or school to search all years'}</p>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {allYearsResults.map((player) => (
+                      <PlayerCard
+                        key={player.id}
+                        player={player}
+                        onClick={handlePlayerClick}
+                        isSelected={selectedIds.has(player.id)}
+                        onCareerClick={handleCareerClick}
+                      />
+                    ))}
+                  </div>
+                )
+              ) : yearError ? (
                 <div className="text-center py-12 text-muted-foreground">
                   <p>Failed to load {activeYear} season data</p>
                 </div>
