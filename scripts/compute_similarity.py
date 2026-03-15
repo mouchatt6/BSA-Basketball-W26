@@ -26,7 +26,12 @@ from sklearn.preprocessing import StandardScaler
 
 def dtw_distance(s1: np.ndarray, s2: np.ndarray) -> float:
     """DTW distance for multidimensional sequences using per-step Euclidean cost.
-    Matches dtaidistance.dtw_ndim semantics: cost[i,j] = L2(s1[i], s2[j]) + min(neighbors).
+
+    Equivalent to dtaidistance.dtw_ndim.distance_fast semantics:
+      cost[i,j] = L2(s1[i], s2[j]) + min(neighbors)
+
+    Note: dtaidistance is listed in requirements.txt but its C extension is not
+    compiled on this system, so we implement the same algorithm in pure numpy.
     """
     n, m = len(s1), len(s2)
     # Pairwise Euclidean distances (per-step cost, not squared)
