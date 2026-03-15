@@ -25,37 +25,19 @@ from sklearn.preprocessing import StandardScaler
 
 
 def dtw_distance(s1: np.ndarray, s2: np.ndarray) -> float:
-    """Fast DTW distance for short multidimensional sequences using numpy."""
+    """DTW distance for multidimensional sequences using per-step Euclidean cost.
+    Matches dtaidistance.dtw_ndim semantics: cost[i,j] = L2(s1[i], s2[j]) + min(neighbors).
+    """
     n, m = len(s1), len(s2)
-    # Cost matrix
+    # Pairwise Euclidean distances (per-step cost, not squared)
+    diff = s1[:, np.newaxis, :] - s2[np.newaxis, :, :]  # (n, m, d)
+    dist = np.sqrt(np.sum(diff * diff, axis=2))  # (n, m) — L2 per step
     cost = np.full((n + 1, m + 1), np.inf)
     cost[0, 0] = 0.0
-    # Pairwise squared Euclidean distances
-    diff = s1[:, np.newaxis, :] - s2[np.newaxis, :, :]  # (n, m, d)
-    dist = np.sum(diff * diff, axis=2)  # (n, m)
     for i in range(1, n + 1):
         for j in range(1, m + 1):
             cost[i, j] = dist[i - 1, j - 1] + min(cost[i - 1, j], cost[i, j - 1], cost[i - 1, j - 1])
-    return math.sqrt(cost[n, m])
-
-
-def _compute_top10_for_player(args):
-    """Worker function for multiprocessing: compute top-10 matches for one player."""
-    idx_a, seq_a, all_seqs, all_links, scale = args
-    scored = []
-    for idx_b in range(len(all_seqs)):
-        if idx_a == idx_b:
-            continue
-        d = dtw_distance(seq_a, all_seqs[idx_b])
-        score = 100.0 * math.exp(-d / scale)
-        # Use a min-heap of size 10 to avoid sorting all N items
-        if len(scored) < 10:
-            heapq.heappush(scored, (score, idx_b))
-        elif score > scored[0][0]:
-            heapq.heapreplace(scored, (score, idx_b))
-    # Return sorted descending
-    top10 = sorted(scored, key=lambda x: -x[0])
-    return idx_a, [(s, all_links[i]) for s, i in top10]
+    return cost[n, m]
 
 
 def _compute_batch(args):
@@ -288,7 +270,7 @@ def compute_similarities(player_sequences, player_names, player_schools, player_
 
         # --- Compute scale (median pairwise DTW distance) ---
         rng = random.Random(42)
-        sample_links = links if n <= 500 else rng.sample(links, 500)
+        sample_links = links if n <= 3200 else rng.sample(links, 2000)
 
         print(f"    Computing scale from {len(sample_links)} players...")
         sample_seqs = [scaled[l] for l in sample_links]
