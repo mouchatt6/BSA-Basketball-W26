@@ -32,8 +32,18 @@ function PlayerCard({ match }: { match: SimilarPlayer }) {
     <div className="flex items-center gap-4 py-3 border-b border-border/50 last:border-0">
       {/* Left: info */}
       <div className="flex-1 min-w-0">
-        <p className="font-semibold text-foreground text-sm truncate">{match.player_name}</p>
-        <p className="text-xs text-muted-foreground truncate">{match.school} · {match.year_start}–{match.year_end}</p>
+        <a
+          href={match.player_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-foreground text-sm truncate hover:text-primary transition-colors"
+        >
+          {match.player_name}
+        </a>
+        <p className="text-xs text-muted-foreground truncate">
+          <span className="inline-flex items-center px-1 py-0.5 rounded text-[10px] font-medium bg-card-elevated border border-border mr-1.5">{match.position}</span>
+          {match.school} · {match.year_start}–{match.year_end}
+        </p>
         {finalSeason && (
           <div className="flex gap-2 mt-1">
             {[
